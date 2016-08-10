@@ -1,0 +1,5 @@
+# Policy: Support redirects for at least one year.
+
+# Example:
+# # Added 2015-03-14
+# REDIRECT 301 /project                                           /index.html
