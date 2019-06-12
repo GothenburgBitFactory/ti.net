@@ -8,10 +8,11 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Done yet?</title>
+    <title>Timewarrior - Help</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
 
     <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,13 +21,12 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="alternate" type="application/rss+xml" href="/feed.rss" title="Taskwarrior RSS feed">
   </head>
 
   <body>
     <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" alt="Timewarrior brand" style="width:24px; height:24px;"> TIMEWARRIOR</a>
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" alt="Taskwarrior brand" style="width:24px; height:24px;"> TIMEWARRIOR</a>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -37,151 +37,57 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/docs/">Docs</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="banner" style="background-color:#54b1db;">
-      <div class="container" style="color:#black; padding-top:32px;">
-        <h1 style="color:black; margin-top:0px">Welcome To Timewarrior</h1>
-        <p class="lead">
-          Timewarrior is Free and Open Source Software that tracks time from the command line.
-        </p>
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-        <p>
-          <img src="/images/swatch.png" style="height:80px;" alt="Timewarrior samples.">
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Getting Help</h3>
+            <p>
+              There are three source of help for Timewarrior:
+              <ul>
+                <li>Man page: <code>$ man timew</code></li>
+                <li>The <code>help</code> command: <code>$ timew help</code></li>
+                <li>Online help that you are reading now</li>
+              </ul>
+            </p>
+
+            <p>
+              The recommendation is that you go to the
+              <a href="/docs">Online Documentation</a> and read
+              all of it. This will give you the most thorough
+              explanation of what Timewarrior does.
+            </p>
+
+            <p>
+              The online documentation will likely always be more complete
+              and correct, and will be updated between releases.
+            </p>
+
+            <p>
+              When you become more familiar with Timewarrior, you will probably
+              refer to the man page or built-in help, which is a more concise
+              reference.
+            </p>
+          </div>
+
           <br />
           <br />
-        </p>
-
+        </div>
       </div>
     </div>
 
-    <div class="banner" style="background-color:white;">
-      <div class="container" style="color:black; padding-top:12px;">
-        <h3 style="color:black; margin-top:0px">Downloads</h3>
-        <p class="lead">
-          <a href="https://taskwarrior.org/download/timew-1.1.1.tar.gz">timew-1.1.1.tar.gz</a>
-          <br />
-          <small>SHA256: 1f7d9a62e55fc5a3126433654ccb1fd7d2d135f06f05697f871897c9db77ccc9</small>
-        </p>
-        <p>
-          Timewarrior 1.1.1 released 2018-02-03. </br>
-          Binary packages for Arch Linux and Debian are available <a href="docs/download.html">here</a>. </br>
-          Otherwise check with your distribution.
-        </p>
-      </div>
-    </div>
-
-    <div class="banner" style="background-color:#f1f0e7;">
-      <div class="container" style="color:black; padding-top:12px;">
-        <h3 style="color:black; margin-top:0px">Support</h3>
-        <table class="table">
-          <tr>
-            <td>
-              <p id="qanda" class="text-large"><strong>Q &amp; A</strong></p>
-            </td>
-            <td>
-              Your questions have been compiled into a <a href="https://taskwarrior.org/support/faq.html">multi-product FAQ</a>.
-              Take a look here - there is a good chance your question is already answered.
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <p id="irc" class="text-large"><strong>IRC</strong></p>
-            </td>
-            <td>
-              <p>
-                There is an active and well-attended #taskwarrior channel on freenode.
-
-                It is logged here:
-                <a href="https://botbot.me/freenode/taskwarrior/">https://botbot.me/freenode/taskwarrior</a>.
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <p id="doc" class="text-large"><strong>Documentation</strong></p>
-            </td>
-            <td>
-              <p>
-                There is
-                <a href="docs/">full online documentation</a>
-                to help you learn about all the features and usage.
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <p id="email" class="text-large"><strong>Email</strong></p>
-            </td>
-            <td>
-              <p>
-                You can ask for help at
-                <a href="mailto:support@gothenburgbitfactory.org">support@gothenburgbitfactory.org</a>.
-                We request that you first look around at the
-                <a href="docs/">full online documentation</a>,
-                and perhaps answer your own question.
-                Remember, there is only a small group of volunteers reading these.
-              </p>
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <p id="bug" class="text-large"><strong>Issue Tracking</strong></p>
-            </td>
-            <td>
-              <p>
-                Use our
-                <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">issue tracker</a>
-                on github to see if your problem is reported, fixed, or needs to be
-                reported.
-                Perhaps you have a clarifying example?
-                Insight into a reported problem?
-                Want to request a feature or improvement?
-              </p>
-            </td>
-          </tr>
-
-        </table>
-      </div>
-    </div>
-
-    <div class="banner" style="background-color:white;">
-      <div class="container" style="color:black; padding-top:12px;">
-        <h3 style="color:black; margin-top:0px">Tools</h3>
-        <p>
-          The Timewarrior distribution contains the essential core components.
-          Community-provided extensions will be available here soon.
-        </p>
-<!--
-        <table class="table table-striped">
-          <tr>
-            <td>
-            </td>
-          </tr>
-        </table>
--->
-      </div>
-    </div>
-
-    <div class="banner" style="background-color:#f1f0e7;">
-      <div class="container" style="color:black; padding-top:12px;">
-        <h3 style="color:black; margin-top:0px">Join Us</h3>
-        <p>
-          Timewarrior is supported by volunteers.
-
-          We are an inclusive community and we welcome your feedback.
-          We work together to make the software better.
-          Everything else is out of scope.
-          Please <a href="mailto:support@gothenburgbitfactory.org">report any abuse</a>.
-        </p>
+    <!-- Occupy some vertical space -->
+    <div class="container">
+      <div class="col-md-3 main">
       </div>
     </div>
 
@@ -202,7 +108,7 @@
             <br />
             <a href="http://status.gothenburgbitfactory.org">System status</a>
             <br />
-            <a href="http://statuspage.gothenburgbitfactory.org">Operations Information</a>
+            <a href="https://statuspage.gothenburgbitfactory.org">Operations Information</a>
           </p>
         </div>
         <div class="col-md-2">
@@ -227,6 +133,8 @@
           <div class="text-muted">
             Donate
             <br />
+
+            <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="lc" value="en_US">
               <input type="hidden" name="cmd" value="_s-xclick">
@@ -238,7 +146,7 @@
         </div>
         <div class="col-md-2">
           <p class="text-muted">
-            Copyright &copy; 2018 <a href="https://gothenburgbitfactory.org">Gothenburg Bit Factory</a>
+            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
           </p>
         </div>
       </div>
