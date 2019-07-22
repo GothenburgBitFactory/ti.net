@@ -47,36 +47,36 @@
         <div class="col-md-10 main">
             <div class="row">
 <h2>NAME</h2>
-<p>timew-config - Timewarrior configuration file an override options</p>
+<p>timew-config - Timewarrior configuration file and override options</p>
 <h2>SYNOPSIS</h2>
 <pre><code><strong>timew rc.</strong><em>&lt;name&gt;</em><strong>=</strong><em>&lt;value&gt; &lt;command&gt;</em></code></pre>
 <h2>DESCRIPTION</h2>
-<p>Timewarrior stores its configuration in the user's home directory in <em>~/.timewarrior/timewarrior.cfg.</em> This file contains a mix of rules and configuration settings. Note that the TIMEWARRIORDB environment variable can be set to override this location. The values 'true', '1', 'y', 'yes' and 'on' are all equivalent and enable a setting. Any other value means disable the setting. Default values may be overridden by timewarrior.cfg values, which may in turn be overridden on the command line using: <strong>rc.</strong><em>&lt;name&gt;</em><strong>=</strong><em>&lt;value&gt;</em></p>
+<p>Timewarrior stores its configuration in the user's home directory in <code>~/.timewarrior/timewarrior.cfg.</code> This file contains a mix of rules and configuration settings. Note that the <code>TIMEWARRIORDB</code> environment variable can be set to override this location. The values <code>true</code>, <code>1</code>, <code>y</code>, <code>yes</code> and <code>on</code> are all equivalent and enable a setting. Any other value means disable the setting. Default values may be overridden by timewarrior.cfg values, which may in turn be overridden on the command line using: <code>rc.&lt;name&gt;=&lt;value&gt;</code></p>
 <p>For example, to turn off verbose mode:</p>
 <pre><code>rc.verbose=0</code></pre>
-<p>Note that hints can also do this (:quiet).</p>
+<p>Note that hints can also do this (<code>:quiet</code>).</p>
 <h2>CONFIGURATION</h2>
-<dl>
-<dt><strong>confirmation</strong></dt>
-<dd><p>Determines whether harmful operations require interactive confirmation.<br />
-May be overridden by the ':yes' hint.<br />
-Default value is 'yes'.</p>
-</dd>
-<dt><strong>verbose</strong></dt>
-<dd><p>Determines whether Timewarrior generates feedback.<br />
-May be overridden by the ':quiet' hint.<br />
-Default value is 'yes'.</p>
-</dd>
-<dt><strong>debug</strong></dt>
-<dd><p>Determines whether diagnostic debugging information is shown.<br />
+<ul>
+<li><strong>confirmation</strong>
+<p>Determines whether harmful operations require interactive confirmation.<br />
+May be overridden by the <code>:yes</code> hint.<br />
+Default value is <code>yes</code>.</p>
+</li>
+<li><strong>verbose</strong>
+<p>Determines whether Timewarrior generates feedback.<br />
+May be overridden by the <code>:quiet</code> hint.<br />
+Default value is <code>yes</code>.</p>
+</li>
+<li><strong>debug</strong>
+<p>Determines whether diagnostic debugging information is shown.<br />
 Useful for troubleshooting, but not for general use.<br />
-Default value is 'off'.</p>
-</dd>
-<dt><strong>debug.indicator</strong></dt>
-<dd><p>The debug output prefix string.<br />
-Default value is '&gt;&gt;'.</p>
-</dd>
-</dl>
+Default value is <code>off</code>.</p>
+</li>
+<li><strong>debug.indicator</strong>
+<p>The debug output prefix string.<br />
+Default value is <code>&gt;&gt;</code>.</p>
+</li>
+</ul>
             </div>
             <br />
             <br />
