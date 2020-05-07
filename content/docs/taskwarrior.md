@@ -6,23 +6,32 @@ viewport: 'width=device-width, initial-scale=1'
 
 ### Taskwarrior
 
-Taskwarrior and Timewarrior are related, and work together using an `on-modify` hook script installed for Taskwarrior.
+Taskwarrior and Timewarrior are related, and work together using an `on-modify` hook script for Taskwarrior supplied by Timewarrior.
 
-The hook script is installed with Timewarrior.
-Simply copy it to the Taskwarrior hooks directory, and make it executable:
+Simply copy it to the Taskwarrior hooks directory and make it executable:
 
-    $ cp ext/on-modify.timewarrior ~/.task/hooks/
+    $ cp /usr/local/share/doc/timew/ext/on-modify.timewarrior ~/.task/hooks/
     $ chmod +x ~/.task/hooks/on-modify.timewarrior
 
-Once the hook is installed, run the Taskwarrior command:
+Depending on your system and installation method, you might need to adjust the path you copy from.
 
-    $ task diagnostics
-    ...
+Then run the Taskwarrior command `task diagnostics` to check whether it was installed correctly.
+It should mention `on-modify.timewarrior` in the Hooks > Active section:
 
-This command will show whether the hook script is installed and recognized.
-You should see something like this:
-
-![](/images/hook1.png)
+    Hooks
+         System: Enabled
+       Location: /home/user/.task/hooks
+         Active: on-modify.timewarrior (executable)
 
 Whenever you `start` a task in Taskwarrior, the hook script will start time tracking in Timewarrior.
+The hook captures the description, project and tags of the task and passes them to Timewarrior as tags.
+It triggers for any command that modifies the `start` property of a task.
+It also picks up any modifications the aforementioned properties on the tracked task and updates the tracked task in Timewarrior accordingly.
+
 When the task is `stop`ped, or completed, the hook script will stop time tracking in Timewarrior.
+
+The hook script is open source, written in Python, so feel free to inspect and adjust it to your needs.
+
+Below you can see a usage example: create a task, start it, complete it and automatically track it.
+
+![](/images/taskwarrior-on-modify-hook-example.png)

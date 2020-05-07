@@ -403,21 +403,7 @@ Extensions are not restricted to emitting text, they could for example output HT
 Timewarrior integrates with Taskwarrior by means of a Taskwarrior `on-modify` hook script.
 Once installed, this means that whenever a task is active, Timewarrior is used to track the time.
 
-To install the script, copy it into your Taskwarrior directory:
-
-![](/images/tutorial49.png)
-
-Again, that path is platform-dependent, so use the appropriate path for your system.
-
-Now we can create a task, start it, complete it and automatically track it.
-
-![](/images/tutorial50.png)
-
-The `on-modify.timewarrior` hook script captures the task description and all tags and passes these to Timewarrior as tags.
-If a project was assigned (it was not in this example) then it too would have been passed as a tag.
-
-Is this behavior modifiable?
-Yes, this is open source, and the hook script is written in Python.
+Find instructions on how to install & use it on its [dedicated page](/docs/taskwarrior.html).
 
 ## End
 
