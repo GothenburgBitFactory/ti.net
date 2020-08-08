@@ -67,6 +67,7 @@
 ├── data
 │   ├── 2016-08.data
 │   └── undo.data
+│   └── tags.data
 ├── extensions
 └── timewarrior.cfg</pre>
             <p>
@@ -76,6 +77,11 @@
               The <code>data</code> directory contains the monthly data files (<code>2016-08.data</code>), which tend to remain quite small.
               Each monthly file is self-contained, and data does not span multiple files.
               This means you can archive or delete old data simply by moving/removing older data files.
+            </p>
+            <p>
+              The <code>tags.data</code> contains information about how often a certain tag is used to enable Timewarrior to notify the user whether the tag is new or not.
+              You should not modify the file directly to avoid inconsistencies in the database.
+              When <code>tags.data</code> gets out of sync with the interval data you can delete it and Timewarrior will recreate it from the interval data.
             </p>
             <p>
               The <code>undo.data</code> file stores transactions for the <code>undo</code> command.
