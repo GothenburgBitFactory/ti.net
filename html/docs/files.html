@@ -95,6 +95,19 @@
               only affects your ability to <code>undo</code> changes.
             </p>
 
+						<p> 
+							The <code>tags.data</code> contains information about how often a
+							certain tag is used to make Timewarrior able to notify the user
+							whether the tag is new or not. In contrast to
+							<code>undo.data</code> you should not modify the file directly to
+							avoid inconsistencies in the database. When <code>tags.data</code>
+							gets out of sync with the interval data you can delete it and
+							Timewarrior will recreate it from the interval data.  More
+							information at <a
+							href="https://github.com/GothenburgBitFactory/timewarrior/issues/355"
+						  target="_blank">#355</a> 
+						</p>
+
             <p>
               The extensions directory is where
               you place either extension scripts, or symlinks to extension
