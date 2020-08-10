@@ -52,24 +52,20 @@
           <div class="row">
             <h3>Taskwarrior</h3>
             <p>
-              Taskwarrior and Timewarrior are related, and work together using
-              an <code>on-modify</code> hook script for Taskwarrior supplied by
-              Timewarrior. Simply copy it to the Taskwarrior hooks directory
-              and make it executable:
+              Taskwarrior and Timewarrior are related, and work together using an <code>on-modify</code> hook script for Taskwarrior supplied by Timewarrior.
+			  Simply copy it to the Taskwarrior hooks directory and make it executable:
             </p>
 
             <pre>cp /usr/local/share/doc/timew/ext/on-modify.timewarrior ~/.task/hooks/
 chmod +x ~/.task/hooks/on-modify.timewarrior</pre>
 
             <p>
-              Depending on your system and installation method, you might need
-              to adjust the path you copy from.
+              Depending on your system and installation method, you might need to adjust the path you copy from.
             </p>
 
             <p>
-              Then run the Taskwarrior command <code>task diagnostics</code> to
-              check whether it was installed correctly. It should mention
-              <code>on-modify.timewarrior</code> in the Hooks > Active section:
+              Then run the Taskwarrior command <code>task diagnostics</code> to check whether it was installed correctly.
+			  It should mention <code>on-modify.timewarrior</code> in the Hooks > Active section:
             </p>
 
             <pre><b>Hooks</b>
@@ -78,31 +74,25 @@ chmod +x ~/.task/hooks/on-modify.timewarrior</pre>
      Active: on-modify.timewarrior (executable)</pre>
 
             <p>
-              Whenever you <code>start</code> a task in Taskwarrior, the hook
-              script will start time tracking in Timewarrior. The hook captures
-              the description, project and tags of the task and passes them to
-              Timewarrior as tags.
+              Whenever you <code>start</code> a task in Taskwarrior, the hook script will start time tracking in Timewarrior.
+			  The hook captures the description, project and tags of the task and passes them to Timewarrior as tags.
 
-              When the task is <code>stop</code>ped, or completed, the hook
-              script will stop time tracking  in Timewarrior.
+              It triggers for any command that modifies the <code>start</code> property of a task.
+			  It also picks up any modifications the aforementioned properties on the tracked task and updates the tracked task in Timewarrior accordingly.
 
-              It works for any command that modifies the `start` property of
-              a task, but note that it currently does not detect if a newly
-              added task is immediately started. It also does not yet capture
+              When the task is <code>stop</code>ped, or completed, the hook script will stop time tracking in Timewarrior.
             </p>
 
             <p>
-              The hook script is open source, written in Python, so feel free
-              to inspect and adjust it to your needs.
+              The hook script is open source, written in Python, so feel free to inspect and adjust it to your needs.
             </p>
 
             <p>
-              Below you can see an example usage: create a task, start it,
-              complete it and automatically track it.
+              Below you can see a usage example: create a task, start it, complete it and automatically track it.
             </p>
 
             <p>
-                <img src="/docs/images/taskwarrior1.png" class="img-responsive" />
+                <img src="/docs/images/taskwarrior-on-modify-hook-example.png" class="img-responsive" />
             </p>
 
           </div>
