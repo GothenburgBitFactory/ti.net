@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - timew-clone</title>
+    <title>Timewarrior - Development Releases</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -42,176 +42,121 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="col-md-10">
         <div class="col-md-2">
         </div>
-
         <div class="col-md-10 main">
           <div class="row">
-            <a name="how"></a>
-            <h3>How To Build Timewarrior</h3>
+            <h1>How to Install the Development Snapshot</h1>
             <p>
-              This is for developers. Specifically those who know how to use
-              tools, satisfy dependencies, and want to set up a development
-              environment. It is not user-friendly.
+              This is for those who want to submit pull requests or simply use the latest snapshot release.
+              Normal users might be interested in <a href="/docs/install.html">how to install a stable Timewarrior release</a>.
             </p>
-
+            <a name="prerequisites"></a>
+            <h2>Prerequisites</h2>
             <p>
-              You'll need these tools:
+              To build Timewarrior you will need these tools:
+            </p>
               <ul>
                 <li><a href="http://git-scm.com/">git</a></li>
                 <li><a href="http://cmake.org">cmake</a></li>
                 <li>make</li>
                 <li>C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support</li>
-                <li>Python 2.7 or later (for tests)</li>
-                <li>Bash (for tests)</li>
+                <li>Python 3 (for tests)</li>
               </ul>
-            </p>
-
-            <a name="clone"></a>
-            <h3>Cloning the Repo</h3>
-
-            <pre>$ git clone --recursive https://github.com/GothenburgBitFactory/timewarrior.git timewarrior.git</pre>
-
-            <a name="stable"></a>
-            <h3>Building the Stable Version</h3>
+            <a name="cloning"></a>
+            <h2>Cloning the Repository</h2>
             <p>
-              The master branch always represents the more recently released version,
-              and should be your preferred choice.
+              The repository is <a href="https://github.com/GothenburgBitFactory/timewarrior">hosted on github</a>.
+              You can clone the repository with
             </p>
-
-              <pre>$ cd timew.git
-$ git checkout master                # Master is the stable branch.
-$ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
-$ make                               # Just build it.</pre>
-
-
-            <a name="build"></a>
-            <h3>Building the Dev Branch</h3>
+            <pre>$ git clone --recurse-submodules https://github.com/GothenburgBitFactory/timewarrior
+$ cd timewarrior</pre>
             <p>
-              The dev branch is always the highest numbered branch, in this
-              example, <code>1.1.0</code>.
+              This clones the repository including the <a href="https://github.com/GothenburgBitFactory/libshared">libshared</a> submodule.
+              By default, the <code>dev</code> branch is checked out.
             </p>
-
-              <pre>$ cd timew.git
-$ git checkout 1.1.0                 # Dev branch
-$ git submodule init                 # Initialize the submodule for this branch
-$ git submodule update               # Update the submodule for this branch
-$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
-$ make VERBOSE=1                     # Shows details</pre>
-
+            <h3>Branch <code>dev</code></h3>
             <p>
-              If you do a fresh clone, the following will checkout <code>1.1.0</code>
-              immediately.
+              The dev branch is where the development takes place.
+              All pull requests must be based on the dev branch!
             </p>
-              <pre>$ git clone --recursive -b 1.1.0 https://github.com/GothenburgBitFactory/timewarrior.git
-$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
-$ make VERBOSE=1                     # Shows details</pre>
-
+            <h3>Branch <code>master</code></h3>
             <p>
-              Build the debug type if you want symbols in the binary for debugging.
+              The master branch always points to the last released version.
+              Older releases are marked by tags.
+              Release checkouts should only be used for analysis and not for development!
             </p>
-
+            <a name="building"></a>
+            <h2>Building & Installing</h2>
+            <p>
+              Build with type <code>Debug</code> if you want symbols in the binary for debugging.
+            </p>
+            <pre>$ cmake -DCMAKE_BUILD_TYPE=Debug .
+...
+$ make
+...
+$ sudo make install</pre>
+            <p>
+              Add the optional parameter <code>-DCMAKE_INSTALL_PREFIX=/path/to/your/install/location</code> to the <code>cmake</code> command if you want to install Timewarrior at a location other than<code>/usr/local</code>.
+              The <code>make install</code> command may not require <code>sudo</code> depending on your choice of install location.
+            </p>
             <a name="tests"></a>
-            <h3>Running the Test Suite</h3>
+            <h2>Running the Test Suite</h2>
             <p>
               There are C++, Python and Bash tests, build and run them:
             </p>
-
-            <pre>$ cd timew.git/test
+            <pre>$ make test</pre>
+            <p>
+              Alternatively you can switch to the <code>test</code> directory and build and run the tests there:
+            </p>
+            <pre>$ cd test
 $ make VERBOSE=1     # Shows details
+...
 $ ./run_all          # Runs all tests silently &gt; all.log
 $ ./problems         # Find errors in all.log</pre>
-
-            <a name="patch"></a>
-            <h3>Submitting a Patch</h3>
             <p>
-              Talk to us first - make sure you are working on something that is
-              wanted. Patches will not be applied simply because you did the work,
-              or because it was easy, or because you want it. Instead, the change
-              has to be considered right for the project.
+              The <code>problems</code> script shows a report of the full test run.
+              You can also run each test individually, e.g.:
             </p>
-
+            <pre>$ ./start.t</pre>
+            <a name="pull-requests"></a>
+            <h2>Submitting a Pull Request</h2>
             <p>
-              Remember the various forms of documentation involved, and the test
-              suite. Work on the dev branch, not <code>master</code>. When you
-              are are ready to submit, do this:
+              Before submitting a pull request it is best to talk to us first - make sure you are working on something that is wanted.
+              <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Open a feature request on github</a> and explain your idea.
+              We will discuss it and provide feedback.
             </p>
-
-            <pre>$ git commit</pre>
-
             <p>
-              Follow the standard form for commit messages, which looks like this:
+              Pull requests will not be applied simply because you did the work, or because it was easy, or because you want it.
+              Instead, the change has to be considered right for the project.
             </p>
-
-            <pre>Category: Short message
-
-- Details
-- Details</pre>
-
             <p>
-              Here is a good example:
-            </p>
-
-            <pre>TW-1636: UUID with numeric-only first segment is not parsed properly
-
-- Switched Nibbler::getUUID to Nibbler::getPartialUUID, which caused partial
-  UUID matching to fail sometimes.
-- Changed precedence to search for UUID before ID, which solves the numeric
-  UUID problem.</pre>
-
-            <p>
-              Create the patch using this:
-            </p>
-
-            <pre>$ git format-patch HEAD^</pre>
-
-            <p>
-              Mail the patch to
-              <a href="mailto:taskwarrior-dev@googlegroups.com">taskwarrior-dev@googlegroups.com</a>
-              or attach it to the appropriate ticket in the
-              <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">bug tracker</a>.
-              If you do the latter, make sure someone knows about it, or it
-              could go unnoticed.
-            </p>
-
-            <p>
-              Expect feedback. It is unlikely your patch will be accepted
-              unmodified. Usually this is because you violated the coding
-              style, worked in the wrong branch, or <em>forgot</em> about
-              documentation and unit tests.
+              Please consult the <a href="https://github.com/GothenburgBitFactory/timewarrior/blob/dev/CONTRIBUTING.md">CONTRIBUTING.md</a> in the repository for further details on code contributions.
             </p>
           </div>
-
           <br />
           <br />
         </div>
       </div>
-
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#how">Build</a></li>
-            <li><a class="alert-link" href="#clone">Clone</a></li>
-            <li><a class="alert-link" href="#stable">Stable Version</a></li>
-<!--
-            <li><a class="alert-link" href="#build">Dev Branch</a></li>
--->
-            <li><a class="alert-link" href="#tests">Running Tests</a></li>
-            <li><a class="alert-link" href="#patch">Patch</a></li>
+            <li><a class="alert-link" href="#prerequisites">Prerequisites</a></li>
+            <li><a class="alert-link" href="#cloning">Cloning the Repository</a></li>
+            <li><a class="alert-link" href="#building">Building & Installing</a></li>
+            <li><a class="alert-link" href="#tests">Running the Test Suite</a></li>
+            <li><a class="alert-link" href="#pull-requests">Submitting a Pull Request</a></li>
           </ul>
         </div>
       </div>
     </div>
-
     <!-- Occupy some vertical space -->
     <div class="container">
       <div class="col-md-3 main">
       </div>
     </div>
-
     <div id="footer">
       <div class="container">
         <div class="col-md-2">
@@ -254,7 +199,6 @@ $ ./problems         # Find errors in all.log</pre>
           <div class="text-muted">
             Donate
             <br />
-
             <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="lc" value="en_US">
@@ -272,7 +216,6 @@ $ ./problems         # Find errors in all.log</pre>
         </div>
       </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
   </body>
