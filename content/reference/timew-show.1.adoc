@@ -1,0 +1,23 @@
+---
+lang: en
+title: 'Timewarrior - timew-show'
+viewport: 'width=device-width, initial-scale=1'
+---
+= timew-show(1)
+:doctype: manpage
+:manmanual: User Manual
+:mansource: timew 1.4.2
+:man-linkstyle: pass:[blue R < >]
+
+== NAME
+timew-show - display configuration
+
+== SYNOPSIS
+[verse]
+*timew show*
+
+== DESCRIPTION
+Displays the effective configuration in hierarchical form.
+
+== SEE ALSO
+**timew-config**(1)

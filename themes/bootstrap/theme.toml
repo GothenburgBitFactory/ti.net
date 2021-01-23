@@ -1,0 +1,8 @@
+name = "Bootstrap Docs"
+license = "MIT"
+description = "Bootstrap documentation theme for hugo"
+features = ["documentation", ""]
+
+[author]
+  name = "Gothenburg Bitfactory"
+  homepage = "https://gothenburgbitfactory.org/"

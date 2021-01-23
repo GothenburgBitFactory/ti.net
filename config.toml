@@ -1,0 +1,9 @@
+baseURL = "https://timewarrior.net"
+languageCode = "en-us"
+title = "Timewarrior"
+theme = "bootstrap"
+uglyurls = true
+publishDir = "html"
+
+[params]
+description = "Timewarrior is Free and Open Source Software that tracks time from the command line."

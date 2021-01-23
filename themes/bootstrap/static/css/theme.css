@@ -1,0 +1,65 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 120px;
+  padding-top: 51px;
+  padding-bottom: 0px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+main > .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+dl dt {
+  margin-left: 20px;
+}
+
+dl dd {
+  margin-left: 40px;
+}
+
+td, th {
+  padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  height: 120px;
+  line-height: 20px;
+  background-color: #333;
+}
+
+img {
+  width: 100%;
+  border-radius: 4px
+}

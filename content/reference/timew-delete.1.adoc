@@ -1,0 +1,35 @@
+---
+lang: en
+title: 'Timewarrior - timew-delete'
+viewport: 'width=device-width, initial-scale=1'
+---
+= timew-delete(1)
+:doctype: manpage
+:manmanual: User Manual
+:mansource: timew 1.4.2
+:man-linkstyle: pass:[blue R < >]
+
+== NAME
+timew-delete - delete intervals
+
+== SYNOPSIS
+[verse]
+*timew delete* _<id>_**...**
+
+== DESCRIPTION
+Deletes an interval.
+Using the 'summary' command, and specifying the ':ids' hint shows interval IDs.
+Using the right ID, you can identify an interval to delete.
+
+== EXAMPLES
+For example, show the IDs:
+
+    $ timew summary :week :ids
+
+Then having selected '@2' as the interval you wish to delete:
+
+    $ timew delete @2
+
+
+== SEE ALSO
+*timew-cancel*(1)

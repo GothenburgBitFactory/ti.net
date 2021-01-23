@@ -1,0 +1,36 @@
+{{ $baseUrl := .Site.BaseURL }}
+{{ partial "header.html" . }}
+
+<main role="main">
+  <div class="banner" style="background-color:#54b1db;">
+    <div class="container">
+      <h1>Welcome to Timewarrior</h1>
+      <p class="lead">
+        {{ .Site.Params.description }}
+      </p>
+      <p>
+        <img src="/images/swatch.png" style="width:50%;" alt="Timewarrior samples.">
+        <br />
+        <br />
+      </p>
+    </div>
+  </div>
+  <div class="banner" >
+    <div class="container">
+      <h3>Current Release</h3>
+      {{ range $release := first 1 $.Site.Data.releases }}
+      <section>
+        <p class="lead">Timewarrior {{ $release.version }} released {{ $release.date }}.</p>
+        <p class="lead">
+          <a href="{{ $release.url }}">{{ $release.name }}</a>
+          <br />
+          <small>SHA256: {{ $release.sha256 }}</small>
+        </p>
+      </section>
+      {{ end }}
+      <p>Please consult the <a href="docs/install.html">Documentation</a> for binary packages and the installation guide.</p>
+      </div>
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
