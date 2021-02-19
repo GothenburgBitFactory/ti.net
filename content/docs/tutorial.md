@@ -88,7 +88,7 @@ There is a `tags` command, which will show you all the tags you have used.
 
 ![](/images/tutorial11.png)
 
-You may wonder how is that \'Description\' column in the report used?
+You may wonder how is that 'Description' column in the report used?
 It is the first example of tag metadata, which you can configure.
 
 ![](/images/tutorial12.png)
@@ -152,7 +152,7 @@ Here is the `:quiet` hint, being used to suppress all feedback:
 ![](/images/tutorial21.png)
 
 The `:quiet` hint is the same as disabling verbosity, but is easier to specify, and temporary.
-Another hint is `:yes`, which is used to override confirmation, by automatically answering \'yes\' to the question.
+Another hint is `:yes`, which is used to override confirmation, by automatically answering 'yes' to the question.
 
 Some hints are shortcuts specifiers for date ranges.
 For example, the`:yesterday` hint is a date range representing all day yesterday.
@@ -292,7 +292,7 @@ If we worked the whole week on our Research project, we can track all that time 
 
 We see that the exclusions are automatically subtracted from the time, and fill the whole week, leaving no available time.
 
-Note that this example tracks up until \'now\', and as this tutorial is being written on a weekend, you can see that the tracking stops on Friday, and does not continue into the weekend.
+Note that this example tracks up until 'now', and as this tutorial is being written on a weekend, you can see that the tracking stops on Friday, and does not continue into the weekend.
 If this was being done on the Friday, at 16:23, then the `week` report would stop precisely at 16:23, because it is an open interval.
 
 ## Corrections
