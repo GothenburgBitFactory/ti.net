@@ -6,7 +6,8 @@ viewport: 'width=device-width, initial-scale=1'
 
 ### Syntax: Interval
 
-An interval defines a block of time that is tracked. The syntax for
+An interval defines a block of time that is tracked.
+The syntax for
 specifying an interval is flexible, and may be one of:
 
     [from] <date>

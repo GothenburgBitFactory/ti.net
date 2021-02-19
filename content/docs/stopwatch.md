@@ -7,7 +7,8 @@ viewport: 'width=device-width, initial-scale=1'
 ### Simple Stopwatch
 
 The simplest use of Timewarrior is as a stopwatch, to record an
-activity. As you begin the activity, you start the clock:
+activity.
+As you begin the activity, you start the clock:
 
     $ timew start
     Tracking 
@@ -15,9 +16,11 @@ activity. As you begin the activity, you start the clock:
       Current                  23
       Total               0:00:00
 
-The word \'Tracking\' is used to indicate active tracking. You are shown
+The word \'Tracking\' is used to indicate active tracking.
+You are shown
 the start date/time, the current time compared to the start time, and
-the total elapsed time, which is currently none. As the clock is
+the total elapsed time, which is currently none.
+As the clock is
 running, you can see the current elapsed time by simply running
 Timewarrior with no arguments:
 
@@ -36,7 +39,8 @@ Later when the activity ends, you stop the clock:
       Total               0:02:26
 
 The word \'Recorded\' is used to indicate that an activity has ended,
-and the time recorded. Now if you run Timewarrior with no arguments, it
+and the time recorded.
+Now if you run Timewarrior with no arguments, it
 will not report any tracking:
 
     $ timew
@@ -75,5 +79,6 @@ To see a summary of today\'s recorded time, use the `summary` command:
                                                     -------
                                                     0:02:26
 
-By default, the `summary` command shows only today\'s tracked time. You
+By default, the `summary` command shows only today\'s tracked time.
+You
 can learn more about the `ѕummary` command in other documents.

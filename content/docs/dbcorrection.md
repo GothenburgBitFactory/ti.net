@@ -37,5 +37,7 @@ all the files in `~/.timewarrior/data`, run this:
     ...
 
 The script may run for a few minutes, depending on your machine and your
-database complexity. It shows a progress bar. Do not kill the script or
+database complexity.
+It shows a progress bar.
+Do not kill the script or
 you will need to restore from your backup.

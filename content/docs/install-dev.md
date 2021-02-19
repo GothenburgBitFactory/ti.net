@@ -87,4 +87,5 @@ We will discuss it and provide feedback.
 Pull requests will not be applied simply because you did the work, or because it was easy, or because you want it.
 Instead, the change has to be considered right for the project.
 
-Please consult the [`CONTRIBUTING.md`](https://github.com/GothenburgBitFactory/timewarrior/blob/dev/CONTRIBUTING.md) in the repository for further details on code contributions. 
+Please consult the [`CONTRIBUTING.md`](https://github.com/GothenburgBitFactory/timewarrior/blob/dev/CONTRIBUTING.md) in the repository for further details on code contributions.
+

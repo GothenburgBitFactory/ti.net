@@ -11,16 +11,20 @@ that start with a colon like this:
 
     :week
 
-Hints serve several purposes. This example is a shortcut for the date
-range that defines the current week. Other hints, such as:
+Hints serve several purposes.
+This example is a shortcut for the date
+range that defines the current week.
+Other hints, such as:
 
     :quiet
 
 are ways to control the behavior of Timewarrior, in this case
-eliminating all forms of feedback, for purposes of automation. The
+eliminating all forms of feedback, for purposes of automation.
+The
 supported hints are:
 
-    :quiet         Turns off all feedback. For automation
+    :quiet         Turns off all feedback.
+For automation
     :debug         Runs in debug mode, shows many runtime details
     :yes           Overrides confirmation by answering 'yes' to the questions
 

@@ -6,9 +6,9 @@ viewport: 'width=device-width, initial-scale=1'
 
 ### Backdating `start`\/`stop`
 
-You can backdate the start time when tracking an interval. This happens
-a lot, because it is very common to forget to start tracking time. Here
-are some different ways to do that:
+You can backdate the start time when tracking an interval.
+This happens a lot, because it is very common to forget to start tracking time.
+Here are some different ways to do that:
 
     $ timew 
     There is no active time tracking.
@@ -29,9 +29,9 @@ are some different ways to do that:
       Total               1:30:00
     $
 
-This works the same way for the `stop` command. Again, it is very common
-to forget to also stop the clock. This is what makes time tracking
-difficult - everything needs to be mutable.
+This works the same way for the `stop` command.
+Again, it is very common to forget to also stop the clock.
+This is what makes time tracking difficult - everything needs to be mutable.
 
     $ timew
     Tracking 
@@ -46,8 +46,7 @@ difficult - everything needs to be mutable.
       Total               1:20:12
     $
 
-If you forgot to change your current activity in the past, you can use
-the `start` command with a date:
+If you forgot to change your current activity in the past, you can use the `start` command with a date:
 
     $ timew
     Tracking bar
@@ -65,11 +64,7 @@ the `start` command with a date:
       Current            21:18:33
       Total               3:00:00
 
-This command stops the currently tracked interval at the date/time given
-to the `start` command and starts the new interval at the same time,
-thus sparing you one `stop` command.
+This command stops the currently tracked interval at the date/time given to the `start` command and starts the new interval at the same time, thus sparing you one `stop` command.
 
-Note that unlike Taskwarrior, `3pm` refers to the most recent 3pm in the
-past, not in the future. This is because Timewarrior focuses on
-accurately recording time already spent, whereas Taskwarrior looks
-forward to work that is not yet done.
+Note that unlike Taskwarrior, `3pm` refers to the most recent 3pm in the past, not in the future.
+This is because Timewarrior focuses on accurately recording time already spent, whereas Taskwarrior looks forward to work that is not yet done.

@@ -7,7 +7,8 @@ viewport: 'width=device-width, initial-scale=1'
 ### Overrides
 
 Using the override syntax, you can temporarily modify configuration
-settings from the command line, for one command only. The syntax is:
+settings from the command line, for one command only.
+The syntax is:
 
     rc.<name>[=<value>]
 
@@ -23,7 +24,8 @@ This can be temporarily disabled using the override like this:
 
     $ timew start rc.verbose=off
 
-Without verbose mode, no feedback is generated. Another way to do this
+Without verbose mode, no feedback is generated.
+Another way to do this
 is to use the `:quiet` hint, which does the same thing, but only a few
 settings have corresponding hints:
 
