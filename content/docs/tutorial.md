@@ -285,7 +285,7 @@ Suppose this is our work week:
 ![](/images/tutorial35.png)
 
 There is no tracked time, but there are 40:15:00 hours available to be tracked.
-If we worked the whole week on our Research project, we can track all that time with one command:
+If we worked the whole week on our `Research` project, we can track all that time with one command:
 
 ![](/images/tutorial36.png)
 
@@ -304,7 +304,7 @@ We will create some incorrect time tracking, and then correct it.
 
 I actually started work at 8:30am, but forgot to start the clock at the beginning.
 I also did not take a break at 10am, I again forgot to start the clock.
-Then I was working on projectC since about 11am, but didn\'t record it properly.
+Then I was working on `projectC` since about 11am, but didn\'t record it properly.
 
 These are typical mistakes, and are easy to fix, as there are several commands for making adjustments like this.
 
@@ -332,7 +332,7 @@ Finally, I actually stopped for lunch at 12:30 for 45 minutes:
 ![](/images/tutorial41.png)
 
 Let\'s keep going, even though this example has already exceeded credibility, to demonstrate more.
-I need to change that projectB interval to use projectB1 and projectB2 tags, and divide the time between the two.
+I need to change that `projectB` interval to use `projectB1` and `projectB2` tags, and divide the time between the two.
 We will split the interval, the re-tag it.
 
 ![](/images/tutorial42.png)
