@@ -69,7 +69,6 @@ Instead it deals with this problem in two ways, first by making it easy to corre
 The examples so far did not use tags.
 Tags are optional, but when you do make use of tags, you start tracking time spent on *different* activities.
 
-
 ![](/images/tutorial8.png)
 
 This example is tracking time using two different tags.
@@ -155,7 +154,7 @@ The `:quiet` hint is the same as disabling verbosity, but is easier to specify, 
 Another hint is `:yes`, which is used to override confirmation, by automatically answering 'yes' to the question.
 
 Some hints are shortcuts specifiers for date ranges.
-For example, the`:yesterday` hint is a date range representing all day yesterday.
+For example, the `:yesterday` hint is a date range representing all day yesterday.
 Similarly, `:lastweek` is also a date range.
 That makes the following two commands identical (assuming that today is the 6th):
 
@@ -345,8 +344,8 @@ But we\'re still not done - I brought lunch to work and ate at my desk while wor
 
 Now whether this report now accurately represents your day, or whether it is a fiction you need to report (no judgement here), Timewarrior supports it, but let\'s stop - the example can\'t take much more.
 
-We saw the `stop` command with a specific end time, the `move`, the`lengthen`, `split`, `join`, `tag` and `untag` commands and the `:fill`hint being used.
-There are also the `shorten`, `cancel`, and `delete`commands.
+We saw the `stop` command with a specific end time, the `move`, the `lengthen`, `split`, `join`, `tag` and `untag` commands and the `:fill` hint being used.
+There are also the `shorten`, `cancel`, and `delete` commands.
 See `man timew` for full details.
 
 ## Extensions
@@ -368,7 +367,7 @@ The one provided is:
 Again, that path is platform-dependent, so use the appropriate path for your system.
 Note that this is a Python script, and to use this you\'ll need to have Python installed.
 
-To install and use this extension, or any other, simply copy it to your`~/.timewarrior/extensions` directory and make sure it is executable.
+To install and use this extension, or any other, simply copy it to your `~/.timewarrior/extensions` directory and make sure it is executable.
 
 ![](/images/tutorial45.png)
 
@@ -387,7 +386,7 @@ Once the extension is in the `extensions` directory, and executable, it should b
 
 Additionally, the `diagnostics` command will report the presence and status of this extension.
 
-Once an extension is ready to use, it is used in the same way that the`summary` report is used, with date range and/or tag filtering.
+Once an extension is ready to use, it is used in the same way that the `summary` report is used, with date range and/or tag filtering.
 The command you use is compared to the name of the script, and if unique, is a match.
 All of these commands are equivalent:
 
@@ -401,7 +400,7 @@ Extensions are not restricted to emitting text, they could for example output HT
 
 ## Integration
 
-Timewarrior integrates with Taskwarrior by means of a Taskwarrior`on-modify` hook script.
+Timewarrior integrates with Taskwarrior by means of a Taskwarrior `on-modify` hook script.
 Once installed, this means that whenever a task is active, Timewarrior is used to track the time.
 
 To install the script, copy it into your Taskwarrior directory:
