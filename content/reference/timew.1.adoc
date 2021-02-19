@@ -31,104 +31,104 @@ If there is no active time tracking, exit code is 1.
 
 == OPTIONS
 
---version::
+*--version*::
 Displays Timewarrior version information
 
---help::
+*--help*::
 Displays Timewarrior usage information
 
 == Timewarrior commands
 Timewarrior supports many commands.
 Alphabetically:
 
-**timew-annotate**(1)::
+*timew-annotate*(1)::
     Add annotation to intervals
 
-**timew-cancel**(1)::
+*timew-cancel*(1)::
     Cancel time tracking
 
-**timew-config**(1)::
+*timew-config*(1)::
     Get and set Timewarrior configuration
 
-**timew-continue**(1)::
+*timew-continue*(1)::
     Resume tracking of existing interval
 
-**timew-day**(1)::
+*timew-day*(1)::
     Display day chart
 
-**timew-delete**(1)::
+*timew-delete*(1)::
     Delete intervals
 
-**timew-diagnostics**(1)::
+*timew-diagnostics*(1)::
     Show diagnostic information
 
-**timew-export**(1)::
+*timew-export*(1)::
     Export tracked time in JSON
 
-**timew-extensions**(1)::
+*timew-extensions*(1)::
     List available extensions
 
-**timew-get**(1)::
+*timew-get*(1)::
     Display DOM values
 
-**timew-help**(1)::
+*timew-help*(1)::
     Display help
 
-**timew-join**(1)::
+*timew-join*(1)::
     Join intervals
 
-**timew-lengthen**(1)::
+*timew-lengthen*(1)::
     Lengthen intervals
 
-**timew-modify**(1)::
+*timew-modify*(1)::
     Change start or end time of an interval
 
-**timew-month**(1)::
+*timew-month*(1)::
     Display month chart
 
-**timew-move**(1)::
+*timew-move*(1)::
     Change interval start-time
 
-**timew-report**(1)::
+*timew-report*(1)::
     Run an extension report
 
-**timew-resize**(1)::
+*timew-resize*(1)::
     Set interval duration
 
-**timew-shorten**(1)::
+*timew-shorten*(1)::
     Shorten intervals
 
-**timew-show**(1)::
+*timew-show*(1)::
     Display configuration
 
-**timew-split**(1)::
+*timew-split*(1)::
     Split intervals
 
-**timew-start**(1)::
+*timew-start*(1)::
     Start time tracking
 
-**timew-stop**(1)::
+*timew-stop*(1)::
     Stop time tracking
 
-**timew-summary**(1)::
+*timew-summary*(1)::
     Display a time-tracking summary
 
-**timew-tag**(1)::
+*timew-tag*(1)::
     Add tags to intervals
 
-**timew-tags**(1)::
+*timew-tags*(1)::
     Display a list of tags
 
-**timew-track**(1)::
+*timew-track*(1)::
     Add intervals to the database
 
-**timew-undo**(1)::
+*timew-undo*(1)::
     Undo Timewarrior commands
 
-**timew-untag**(1)::
+*timew-untag*(1)::
     Remove tags from intervals
 
-**timew-week**(1)::
+*timew-week*(1)::
     Display week chart
 
 == MORE EXAMPLES
@@ -147,7 +147,7 @@ Note that the online documentation can be more detailed and more current than th
 ~/.timewarrior/data/YYYY-MM.data::
     Time tracking data files.
 
-== CREDITS & COPYRIGHT
+== pass:[CREDITS & COPYRIGHT]
 Copyright (C) 2015 - 2018 T. Lauf, P. Beckingham, F. Hernandez. +
 Timewarrior is distributed under the MIT license.
 See https://www.opensource.org/licenses/mit-license.php for more information.

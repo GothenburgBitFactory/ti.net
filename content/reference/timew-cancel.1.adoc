@@ -21,7 +21,7 @@ If there is an open interval, it is abandoned.
 
 == EXAMPLES
 
-Cancel with active time tracking::
+*Cancel with active time tracking*::
 +
     $ timew start
     ...
@@ -30,7 +30,7 @@ Cancel with active time tracking::
 
 This deletes the open interval.
 
-Cancel with no active time tracking::
+*Cancel with no active time tracking*::
 +
     ...
     $ timew stop
