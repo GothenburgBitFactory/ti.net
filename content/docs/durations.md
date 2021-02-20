@@ -22,12 +22,10 @@ Examples:
     P3W           3 weeks
     P1Y1DT1H1M1S  1 year and 25 hours, 61 seconds (imprecise term)
 
-Note that the year and month terms are imprecise, being defined as 365d
-and 30d respectively.
+Note that the year and month terms are imprecise, being defined as 365d and 30d respectively.
 For precision use the other terms.
 
-In addition to the standard duration formats, the following are
-supported:
+In addition to the standard duration formats, the following are supported:
 
     n[.n]<unit>
 
@@ -59,6 +57,5 @@ Examples:
     3mo           3 months
     10d           10 days
 
-Note that the year, quarter and month terms are imprecise, being defined
-as 365d, 91d and 30d respectively.
+Note that the year, quarter and month terms are imprecise, being defined as 365d, 91d and 30d respectively.
 For precision use the other terms.
