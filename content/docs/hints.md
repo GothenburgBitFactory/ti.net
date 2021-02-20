@@ -4,7 +4,7 @@ title: 'Timewarrior - Hints'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Hints
+## Hints
 
 Timewarrior supports hints, which are single-word command line features that start with a colon like this:
 

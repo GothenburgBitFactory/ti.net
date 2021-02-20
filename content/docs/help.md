@@ -4,7 +4,7 @@ title: 'Timewarrior - timew-help'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Getting Help
+## Getting Help
 
 There are three source of help for Timewarrior:
 

@@ -4,7 +4,7 @@ title: 'Timewarrior - Work Week'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Work Week
+## Work Week
 
 Timewarrior can do more for you if it knows your work patterns.
 Currently this means your daily work schedule.

@@ -4,7 +4,7 @@ title: 'Timewarrior - timew-charts'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Charts
+## Charts
 
 Timewarrior can show simple charts in your terminal that show how your day is being tracked.
 These are neither high-resolution, nor precise, and are only intended to show a crude representation of the day.

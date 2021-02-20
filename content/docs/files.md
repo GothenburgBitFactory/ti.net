@@ -4,7 +4,7 @@ title: 'Timewarrior - File Layout'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### File Layout
+## File Layout
 
 Make sure you have Timewarrior installed.
 Check that it can be found using this command:
@@ -14,7 +14,7 @@ Check that it can be found using this command:
 
 The version is displayed, all is well.
 
-#### Setup
+### Setup
 
 There is no setup with Timewarrior, you simply start using it, and the data directory is automatically created for you.
 By default this structure is created in your home directory:

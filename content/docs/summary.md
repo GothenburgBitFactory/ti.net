@@ -4,7 +4,7 @@ title: 'Timewarrior - timew-summary'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Summary
+## Summary
 
 There is a `summary` report which shows all the tracked intervals for the day, with totals of the time tracked.
 Here is an example:
@@ -19,7 +19,7 @@ The \'Total\' column has sub-totals for the day, and a grand total for the time 
 
 Because of the open interval, re-running the `summary` command will yield a different total each time, after all, the clock is still running.
 
-### Date Ranges
+## Date Ranges
 
 The default date range shown is for today only.
 This can be overridden on the command line by specifying the date range.
@@ -49,7 +49,7 @@ Here are some of them used in this context, but not matching the \'today\' examp
 
 See the [hints](/docs/hints.html) page for full details.
 
-### IDs
+## IDs
 
 The `summary` report has an important feature.
 When the `:ids` hint is used, Some `@id` numbers are shown:

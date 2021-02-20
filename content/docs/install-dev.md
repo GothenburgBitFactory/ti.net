@@ -42,7 +42,7 @@ The master branch always points to the last released version.
 Older releases are marked by tags.
 Release checkouts should only be used for analysis and not for development!
 
-## Building & Installing
+## Build & Install
 
 Build with type `Debug` if you want symbols in the binary for debugging.
 ```

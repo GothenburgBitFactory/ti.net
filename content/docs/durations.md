@@ -4,7 +4,7 @@ title: 'Timewarrior - Duration Syntax'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Syntax: Duration
+## Syntax: Duration
 
 Timewarrior supports the following duration formats based on ISO-8601:
 

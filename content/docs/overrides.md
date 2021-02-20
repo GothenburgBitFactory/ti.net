@@ -4,7 +4,7 @@ title: 'Timewarrior - Overrides'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Overrides
+## Overrides
 
 Using the override syntax, you can temporarily modify configuration
 settings from the command line, for one command only.

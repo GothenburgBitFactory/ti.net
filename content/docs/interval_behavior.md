@@ -4,7 +4,7 @@ title: 'Timewarrior - Interval Behavior'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Interval Behavior
+## Interval Behavior
 
 Timewarrior stores intervals, most of which are closed, and only one
 which may be open.

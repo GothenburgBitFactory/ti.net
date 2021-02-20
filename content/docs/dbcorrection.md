@@ -4,7 +4,7 @@ title: 'Timewarrior - DB Correction'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Timewarrior Database Correction Script
+## Timewarrior Database Correction Script
 
 This is the correction script for the interval flattening bug (TI-102).
 The script exports all intervals stored, purges the database, and re-enters the intervals.
@@ -22,7 +22,7 @@ This script will export your stored intervals, purge your database and re-enter 
 
 ***!!! YOU ARE STRONGLY ADVISED TO BACKUP YOUR TIMEWARRIOR DATABASE BEFORE PROCEEDING !!!***
 
-#### Running the Correction Script
+### Running the Correction Script
 
 After making a backup copy of your Timewarrior data by making a copy of all the files in `~/.timewarrior/data`, run this:
 

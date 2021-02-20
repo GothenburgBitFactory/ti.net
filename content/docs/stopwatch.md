@@ -4,7 +4,7 @@ title: 'Timewarrior - Stopwatch'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Simple Stopwatch
+## Simple Stopwatch
 
 The simplest use of Timewarrior is as a stopwatch, to record an
 activity.

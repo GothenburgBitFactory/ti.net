@@ -4,7 +4,7 @@ title: 'Timewarrior - Corrections'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Corrections
+## Corrections
 
 One of the most problematic aspects of time tracking is the constant need for adjustments and corrections.
 It is very common to forget to start or stop tracking at the right time or use the wrong tags.
@@ -25,30 +25,30 @@ Note that the most recent interval is always numbered `@1`, which makes the ID n
 
 With the ID known, we can make various adjustments to the interval using the following commands:
 
-#### Remove extra tags
+### Remove extra tags
 
     $ timew untag @1 Prepare Talk
 
-#### Add missing tag
+### Add missing tag
 
     $ timew tag @1 'Prepare Talk'
 
-#### Add time to a closed interval
+### Add time to a closed interval
 
     $ timew lengthen @1 20mins
 
-#### Remove time from a closed interval
+### Remove time from a closed interval
 
     $ timew shorten @1 PT5M30S
 
-#### Move any interval to a new start time
+### Move any interval to a new start time
 
     $ timew move @1 8:30am
 
-#### Split an interval in two
+### Split an interval in two
 
     $ timew split @1
 
-#### Join two intervals together
+### Join two intervals together
 
     $ timew join @1 @2

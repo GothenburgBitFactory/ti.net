@@ -4,7 +4,7 @@ title: 'Timewarrior - Extensions'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-### Extensions
+## Extensions
 
 Timewarrior has an [Extension mechanism](/docs/api.html) that permits the authoring and sharing of arbitrary reports.
 
