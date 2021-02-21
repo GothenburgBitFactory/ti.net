@@ -9,7 +9,6 @@
   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
   <link rel="icon" href="{{ $baseUrl }}/favicon.ico">
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-  <!--<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">-->
   <link rel="stylesheet" href="{{ $baseUrl }}/css/highlight/{{ with .Site.Params.highlightStyle }}{{ . }}{{ else }}default{{ end }}.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap-theme.min.css">
