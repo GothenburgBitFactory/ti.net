@@ -1,48 +1,47 @@
 {{ partial "header.html" . }}
 
 <main role="main">
-  <div class="row">
-    <div class="container">
-      <div class="col-sm-8 doc-main">
-        <article>
-          <a id="title"></a>
-          <h1 class="doc-entry-title">{{ .Title }}</h1>
-          <section>
-            {{ .Content }}
-          </section>
-          <h2>Current release</h2>
-          {{ range $release := first 1 $.Site.Data.releases }}
-          <section>
-            <h3>Timewarrior {{ $release.version }}</h3>
-            <p>released {{ $release.date }}</p>
-            <p class="lead">
-              <a href="{{ $release.url }}">{{ $release.name }}</a>
-              <br />
-              <small>SHA256: {{ $release.sha256 }}</small>
-            </p>
-          </section>
-          {{ end }}
-          <h2>Previous releases</h2>
-          <p>
-            Note that support is only given for the latest release.
-            If you have an issue with your Timewarrior installation you should try to upgrade first!
-            Older releases listed here are only for analysis and not recommended for usage.
-          </p>
-          {{ range $release := after 1 $.Site.Data.releases }}
-          <section>
-            <h3>Timewarrior {{ $release.version }}</h3>
-            <p>released {{ $release.date }}</p>
-            <p class="lead">
-              <a href="{{ $release.url }}">{{ $release.name }}</a>
-              <br />
-              <small>SHA256: {{ $release.sha256 }}</small>
-            </p>
-          </section>
-          {{ end }}
-        </article>
-      </div> <!-- /.doc-main -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <section>
+          {{ .Content }}
+        </section>
+      </div>
     </div>
-  </div> <!-- /.row -->
+  </div>
+  <div class="banner" style="background-color:#c4cbb7;">
+    <div class="container">
+      <h2>Current release</h2>
+      {{ range $release := first 1 $.Site.Data.releases }}
+      <section>
+        <h3>Timewarrior {{ $release.version }}</h3>
+        <p>released {{ $release.date }}</p>
+        <p class="lead">
+          <a href="{{ $release.url }}">{{ $release.name }}</a>
+          <br/>
+          <small>SHA256: {{ $release.sha256 }}</small>
+        </p>
+      </section>
+      {{ end }}
+    </div>
+  </div>
+  <div class="banner" style="background-color:#ebefc9;">
+    <div class="container">
+      <h2>Previous releases</h2>
+      {{ range $release := after 1 $.Site.Data.releases }}
+      <section>
+        <h3>Timewarrior {{ $release.version }}</h3>
+        <p>released {{ $release.date }}</p>
+        <p class="lead">
+          <a href="{{ $release.url }}">{{ $release.name }}</a>
+          <br />
+          <small>SHA256: {{ $release.sha256 }}</small>
+        </p>
+      </section>
+      {{ end }}
+    </div> <!-- /.doc-main -->
+  </div>
 </main>
 
 {{ partial "footer.html" . }}

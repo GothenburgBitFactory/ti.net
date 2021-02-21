@@ -34,6 +34,7 @@
       <ul class="nav navbar-nav">
         <li {{ if or ( eq $currentPage "docs.html" ) ( eq $currentDir "/docs" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/docs.html">Docs</a></li>
         <li {{ if or ( eq $currentPage "support.html" ) ( eq $currentDir "/support" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/support.html">Support</a></li>
+        <li {{ if or ( eq $currentPage "releases.html" ) ( eq $currentDir "/releases" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/releases.html">Releases</a></li>
         {{ $url := .URL }}
         {{ with .Site.Menus.main }}
         {{ range $menu := . }}

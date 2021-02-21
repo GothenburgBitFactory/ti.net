@@ -2,7 +2,9 @@
 title: "Releases"
 layout: releases
 ---
-Binary packages for Arch Linux, Debian, and macOS are available [here](docs/install.html).  
-Otherwise check with your distribution.
+{{< lead >}} This is the Timewarrior release archive.{{< /lead >}}
 
-When upgrading form a version earlier than 1.1.1 you might consider applying the database correction script after the upgrade.
+Note that support is only given for the latest release!
+Older releases listed here are only for analysis and not recommended for usage.
+
+If you have an issue with your Timewarrior installation you should try to upgrade first!
