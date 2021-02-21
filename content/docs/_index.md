@@ -5,7 +5,7 @@ viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
 
-Here is the complete set of Timewarrior documentation.
+{{< lead >}}Here is the complete set of Timewarrior documentation.{{< /lead >}}
 
 ## Getting Started
 

@@ -4,7 +4,7 @@ title: 'How To Install Timewarrior'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-You can install Timewarrior either via packages or manually by building the release tarball.
+{{< lead >}}You can install Timewarrior either via packages or manually by building the release tarball.{{< /lead >}}
 
 If you are a developer, you might be interested in [how to install the development snapshot](/docs/install-dev.html).
 

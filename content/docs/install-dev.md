@@ -4,7 +4,7 @@ title: 'How to Install the Development Snapshot'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-This is for those who want to submit pull requests or simply use the latest snapshot release.
+{{< lead >}}This is for those who want to submit pull requests or simply use the latest snapshot release.{{< /lead >}}
 
 Normal users might be interested in [how to install a stable Timewarrior release](/docs/install.html).
 
