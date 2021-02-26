@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Copy this file as `update-tools` and set the API keys.
+# This file should **NOT** be committed.
+
+export GITHUB_API_KEY=abcdefghijklmnopqrstuvwxyz
+
+if [[ ! -d "venv" ]] ; then
+  python3 -m venv venv
+  venv/bin/pip install --upgrade pip
+  venv/bin/pip install -r bin/requirements.txt
+fi
+
+venv/bin/python ./bin/update.py "${1-"static/tools-data.json"}"
