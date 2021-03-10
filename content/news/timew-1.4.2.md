@@ -7,7 +7,7 @@ date: 2020-08-29T00:00:00
 
 **SHA256:** c3d3992aa8d2cc3cd86e59d00060fb4a3e16c15babce78451cc9d39a7f5bb2e1
 
-Binary packages for Arch Linux, Debian, and macOS are available [here](/docs/download.html).
+Binary packages for Arch Linux, Debian, and macOS are available [here](/docs/install).
 Otherwise check with your distribution.
 
 When upgrading form a version earlier than 1.1.1 you might consider applying the database correction script after the upgrade.

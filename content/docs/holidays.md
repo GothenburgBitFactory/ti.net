@@ -29,7 +29,7 @@ It should be run like this to update your files:
 That command will refresh the data in all the holiday files in that directory.
 This is done by downloading a JSON file from <https://holidata.net> and formatting it for Timewarrior.
 
-Holidata.net has data for [many locales](https://holidata.net/map.html), and is still growing.
+Holidata.net has data for [many locales](https://holidata.net/map), and is still growing.
 Please request any missing locales that you need.
 
 To add a new holiday file, simply run the `refresh` script for a specific locale:

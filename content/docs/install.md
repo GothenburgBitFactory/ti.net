@@ -6,7 +6,7 @@ viewport: 'width=device-width, initial-scale=1'
 
 {{< lead >}}You can install Timewarrior either via packages or manually by building the release tarball.{{< /lead >}}
 
-If you are a developer, you might be interested in [how to install the development snapshot](/docs/install-dev.html).
+If you are a developer, you might be interested in [how to install the development snapshot](/docs/install-dev).
 
 ## Distributions
 
@@ -59,4 +59,4 @@ $ sudo make install
 ```
 
 Timewarrior is now ready to use.
-For your first steps your might want to read the [tutorial](docs/tutorial.md) or try the [`help`](/docs/timew-help.1.md) command.
+For your first steps your might want to read the [tutorial](/docs/tutorial) or try the [`help`](/reference/timew-help.1) command.

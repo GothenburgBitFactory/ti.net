@@ -1,4 +1,4 @@
-{{ $baseUrl := .Site.BaseURL }}
+{{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 
 <footer class="footer">
   <div class="container">

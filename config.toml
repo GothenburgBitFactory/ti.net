@@ -2,7 +2,6 @@ baseURL = "https://timewarrior.net"
 languageCode = "en-us"
 title = "Timewarrior"
 theme = "bootstrap"
-uglyurls = true
 publishDir = "html"
 
 [params]

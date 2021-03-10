@@ -25,7 +25,7 @@ Now we\'ll add another interval:
 
 ![](/images/day2.png)
 
-The second interval is shown in blue, and these colors are extracted from a palette defined in the [theme](/docs/themes.html).
+The second interval is shown in blue, and these colors are extracted from a palette defined in the [theme](/docs/themes).
 See how the totals are adjusted.
 Finally we add an open interval:
 
@@ -36,7 +36,7 @@ If you run this report periodically, you\'ll see the green interval grow to the 
 
 ![](/images/day4.png)
 
-Like the [`summary`](/docs/summary.html) report, the `:ids` hint is supported by the `day` report, for [making corrections](/docs/corrections.html).
+Like the [`summary`](/docs/summary) report, the `:ids` hint is supported by the `day` report, for [making corrections](/docs/corrections).
 
 ![](/images/day5.png)
 
@@ -53,7 +53,7 @@ Use the `summary` report to show precise timings.
 
 ![](/images/day7.png)
 
-If you have defined your [work week](/docs/workweek.html) then the `day` report will show the blocked-off time, here shown in gray.
+If you have defined your [work week](/docs/workweek) then the `day` report will show the blocked-off time, here shown in gray.
 Notice that this affects the totals.
 
 ![](/images/day8.png)
@@ -78,7 +78,7 @@ These are defined just for convenience, but with a command line interval specifi
 
 In place of specifying a date range, a hint may be used, such as: `:yesterday`, `:week`, `:month`, `:quarter`, `:year`, `:lastweek`, `:lastmonth`, `:lastquarter`, and `:lastyear`.
 
-See also how the [holidays](/docs/holidays.html) are shown, in this case with 2016-05-30 being Memorial Day in the US.
+See also how the [holidays](/docs/holidays) are shown, in this case with 2016-05-30 being Memorial Day in the US.
 The day is marked as an exclusion, and the date grayed out.
 
 Many of the elements of the `day` report are customizable.

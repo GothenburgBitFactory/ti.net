@@ -9,104 +9,104 @@ layout: single
 
 ## Getting Started
 
-  * [What is Timewarrior?](/docs/what.html)
-  * [How to install Timewarrior](/docs/install.html) (Normal user)
-  * [How to install the development snapshot](/docs/install-dev.html) (Developers)
-  * [File Layout](/docs/files.html)     
-  * [Tutorial](/docs/tutorial.html)
+  * [What is Timewarrior?](/docs/what)
+  * [How to install Timewarrior](/docs/install) (Normal user)
+  * [How to install the development snapshot](/docs/install-dev) (Developers)
+  * [File Layout](/docs/files)     
+  * [Tutorial](/docs/tutorial)
 
 ## Basic Usage
 
-  * [Getting Help](/docs/help.html)
-  * [Simple Stopwatch](/docs/stopwatch.html)
-  * [Tags](/docs/tags.html)
-  * [Backdated `start`\/`stop`](/docs/backdated.html)
-  * [Recording closed intervals](/docs/track.html)
-  * [Hints](/docs/hints.html)
-  * [Summary Report](/docs/summary.html)
-  * [Corrections](/docs/corrections.html)
-  * [Configuration](/docs/configuration.html)
-  * [Themes](/docs/themes.html)
-  * [Holidays](/docs/holidays.html)
-  * [Work week](/docs/workweek.html)
-  * [Charts](/docs/charts.html)
+  * [Getting Help](/docs/help)
+  * [Simple Stopwatch](/docs/stopwatch)
+  * [Tags](/docs/tags)
+  * [Backdated `start`\/`stop`](/docs/backdated)
+  * [Recording closed intervals](/docs/track)
+  * [Hints](/docs/hints)
+  * [Summary Report](/docs/summary)
+  * [Corrections](/docs/corrections)
+  * [Configuration](/docs/configuration)
+  * [Themes](/docs/themes)
+  * [Holidays](/docs/holidays)
+  * [Work week](/docs/workweek)
+  * [Charts](/docs/charts)
 
 ## Command Reference
 
 ### Setup and configure
 
- * [timew](/reference/timew.1.html)
- * [help](/reference/timew-help.1.html)
- * [config](/reference/timew-config.1.html)
- * [show](/reference/timew-show.1.html)
+ * [timew](/reference/timew.1)
+ * [help](/reference/timew-help.1)
+ * [config](/reference/timew-config.1)
+ * [show](/reference/timew-show.1)
 
 ### Basic Commands
 
- * [start](/reference/timew-start.1.html)
- * [stop](/reference/timew-stop.1.html)
- * [track](/reference/timew-track.1.html)
- * [cancel](/reference/timew-cancel.1.html)
- * [continue](/reference/timew-continue.1.html)
+ * [start](/reference/timew-start.1)
+ * [stop](/reference/timew-stop.1)
+ * [track](/reference/timew-track.1)
+ * [cancel](/reference/timew-cancel.1)
+ * [continue](/reference/timew-continue.1)
 
 ### Modifying Intervals
 
- * [delete](/reference/timew-delete.1.html)
- * [move](/reference/timew-move.1.html)
- * [lengthen](/reference/timew-lengthen.1.html)
- * [shorten](/reference/timew-shorten.1.html)
- * [resize](/reference/timew-resize.1.html)
- * [modify](/reference/timew-modify.1.html)
- * [split](/reference/timew-split.1.html)
- * [join](/reference/timew-join.1.html)
- * [undo](/reference/timew-undo.1.html)
+ * [delete](/reference/timew-delete.1)
+ * [move](/reference/timew-move.1)
+ * [lengthen](/reference/timew-lengthen.1)
+ * [shorten](/reference/timew-shorten.1)
+ * [resize](/reference/timew-resize.1)
+ * [modify](/reference/timew-modify.1)
+ * [split](/reference/timew-split.1)
+ * [join](/reference/timew-join.1)
+ * [undo](/reference/timew-undo.1)
 
 ### Managing Meta Information
 
- * [annotate](/reference/timew-annotate.1.html)
- * [tag](/reference/timew-tag.1.html)
- * [untag](/reference/timew-untag.1.html)
- * [tags](/reference/timew-tags.1.html)
+ * [annotate](/reference/timew-annotate.1)
+ * [tag](/reference/timew-tag.1)
+ * [untag](/reference/timew-untag.1)
+ * [tags](/reference/timew-tags.1)
 
 ### Reporting and Exporting
 
- * [day](/reference/timew-chart.1.html)
- * [week](/reference/timew-chart.1.html)
- * [month](/reference/timew-chart.1.html)
- * [summary](/reference/timew-summary.1.html)
- * [report](/reference/timew-report.1.html)
- * [export](/reference/timew-export.1.html)
+ * [day](/reference/timew-chart.1)
+ * [week](/reference/timew-chart.1)
+ * [month](/reference/timew-chart.1)
+ * [summary](/reference/timew-summary.1)
+ * [report](/reference/timew-report.1)
+ * [export](/reference/timew-export.1)
 
 ### Advanced Commands
 
- * [get](/reference/timew-get.1.html)
- * [fill](/reference/timew-fill.1.html)
- * [gaps](/reference/timew-gaps.1.html)
+ * [get](/reference/timew-get.1)
+ * [fill](/reference/timew-fill.1)
+ * [gaps](/reference/timew-gaps.1)
 
 ### Diagnostics
 
- * [extensions](/reference/timew-extensions.1.html)
- * [diagnostics](/reference/timew-diagnostics.1.html)
+ * [extensions](/reference/timew-extensions.1)
+ * [diagnostics](/reference/timew-diagnostics.1)
 
 ## Advanced Topics
 
- * [Command Syntax](/docs/syntax.html)
- * [Syntax: Interval](/docs/interval.html)
- * [Syntax: Dates](/docs/dates.html)
- * [Syntax: Durations](/docs/durations.html)
- * [Command line overrides](/docs/overrides.html)
- * [Taskwarrior on-modify Hook](/docs/taskwarrior.html)
- * [Extension API](/docs/extensions.html)
- * [Diagnostics](/docs/diagnostics.html)
- * [timew-config](/reference/timew-config.7.html)
- * [timew-dates](/reference/timew-dates.7.html)
- * [timew-dom](/reference/timew-dom.7.html)
- * [timew-durations](/reference/timew-durations.7.html)
- * [timew-hints](/reference/timew-hints.7.html)
- * [timew-ranges](/reference/timew-ranges.7.html)
+ * [Command Syntax](/docs/syntax)
+ * [Syntax: Interval](/docs/interval)
+ * [Syntax: Dates](/docs/dates)
+ * [Syntax: Durations](/docs/durations)
+ * [Command line overrides](/docs/overrides)
+ * [Taskwarrior on-modify Hook](/docs/taskwarrior)
+ * [Extension API](/docs/extensions)
+ * [Diagnostics](/docs/diagnostics)
+ * [timew-config](/reference/timew-config.7)
+ * [timew-dates](/reference/timew-dates.7)
+ * [timew-dom](/reference/timew-dom.7)
+ * [timew-durations](/reference/timew-durations.7)
+ * [timew-hints](/reference/timew-hints.7)
+ * [timew-ranges](/reference/timew-ranges.7)
 
 ## Developers
 
- * [Interval behaviour](/docs/interval_behavior.html)
+ * [Interval behaviour](/docs/interval_behavior)
 
 ## Beta
 

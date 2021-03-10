@@ -1,4 +1,4 @@
-{{ $baseUrl := .Site.BaseURL }}
+{{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 {{ partial "header.html" . }}
 
 <main role="main">
@@ -28,8 +28,8 @@
         </p>
       </section>
       {{ end }}
-      <p>Please consult the <a href="docs/install.html">Documentation</a> for binary packages and the installation guide.</p>
-      <p>Older releases can be found in the <a href="releases.html">archive</a>.</p>
+      <p>Please consult the <a href="/docs/install">Documentation</a> for binary packages and the installation guide.</p>
+      <p>Older releases can be found in the <a href="/releases">archive</a>.</p>
       </div>
   </div>
 </main>

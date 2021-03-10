@@ -2,7 +2,7 @@
 title: "Releases"
 layout: releases
 ---
-{{< lead >}} This is the Timewarrior release archive.{{< /lead >}}
+{{< lead >}}Here are the Timewarrior releases.{{< /lead >}}
 
 Note that support is only given for the latest release!
 Older releases listed here are only for analysis and not recommended for usage.
