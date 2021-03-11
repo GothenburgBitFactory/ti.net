@@ -40,7 +40,7 @@ The release tarballs are [hosted on github](https://github.com/GothenburgBitFact
 You can download the tarball with `curl`, as an example of just one of many ways to download the tarball.
 
 ```
-$ curl -L -O https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.4.2/timew-1.4.2.tar.gz
+$ curl -L -O {{< current_release url >}}
 ```
 
 ### Build & Install
@@ -49,8 +49,8 @@ Expand the tarball, build Timewarrior, and install it.
 This copies files into the right place, and installs man pages.
 
 ```
-$ tar xzf timew-1.4.2.tar.gz
-$ cd timew-1.4.2
+$ tar xzf {{< current_release tarball >}}
+$ cd {{< current_release name >}}
 $ cmake -DCMAKE_BUILD_TYPE=Release .
 ...
 $ make

@@ -18,16 +18,15 @@
   <div class="banner" >
     <div class="container">
       <h3>Current Release</h3>
-      {{ range $release := first 1 $.Site.Data.releases }}
+      {{ $currentRelease := index ($.Site.Data.releases) 0 }}
       <section>
-        <p class="lead">Timewarrior {{ $release.version }} released {{ $release.date }}.</p>
+        <p class="lead">Timewarrior {{ $currentRelease.version }} released {{ $currentRelease.date }}.</p>
         <p class="lead">
-          <a href="{{ $release.url }}">{{ $release.name }}</a>
+          <a href="{{ $currentRelease.url }}">{{ $currentRelease.tarball }}</a>
           <br />
-          <small>SHA256: {{ $release.sha256 }}</small>
+          <small>SHA256: {{ $currentRelease.sha256 }}</small>
         </p>
       </section>
-      {{ end }}
       <p>Please consult the <a href="/docs/install">Documentation</a> for binary packages and the installation guide.</p>
       <p>Older releases can be found in the <a href="/releases">archive</a>.</p>
       </div>

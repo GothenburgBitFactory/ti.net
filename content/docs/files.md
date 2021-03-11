@@ -10,7 +10,7 @@ Make sure you have Timewarrior installed.
 Check that it can be found using this command:
 
     $ timew --version
-    1.4.2
+    {{< current_release version >}}
 
 The version is displayed, all is well.
 
