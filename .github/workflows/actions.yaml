@@ -4,6 +4,7 @@ on:
     - cron: 0 0 * * *
 jobs:
   update-tools:
+    if: ${{ secrets.RUN_UPDATE_TOOLS }} == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
