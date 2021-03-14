@@ -25,7 +25,7 @@ $ ./update-tools [OUTPUT]
 
 The script will create a Python virtual environment on the first run and install all the necessary components there.
 
-On execution, the script will run `bin/upgrade.py` which scrapes Github for repositories containing one of the keywords `taskwarrior`, `taskserver`, or `timewarrior` in their name, description, or as topic.
+On execution, the script will run `bin/upgrade.py` which scrapes Github for repositories containing the keyword `timewarrior` in their name, description, or as topic.
 Additionally, tools can be added via `bin/include.json` or filtered out via `bin/blacklist.json`.
 Any modifications to those files can be committed.
 The output is stored in `static/tools-data.json` if no `OUTPUT` argument is given.
