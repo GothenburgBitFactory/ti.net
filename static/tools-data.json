@@ -465,6 +465,36 @@
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
   {
+    "description": "The timewarrior synchronization client",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timew-sync-client",
+    "obsolete": false,
+    "owner": [
+      "timewarrior-synchronize"
+    ],
+    "rating": 2,
+    "updated": "2021-03-16",
+    "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
+  },
+  {
+    "description": "The timewarrior synchronization server",
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "timew-sync-server",
+    "obsolete": false,
+    "owner": [
+      "timewarrior-synchronize"
+    ],
+    "rating": 2,
+    "updated": "2021-03-16",
+    "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
+  },
+  {
     "description": "A timewarrior rust library",
     "language": [
       "Rust"
