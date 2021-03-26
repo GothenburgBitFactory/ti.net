@@ -30,21 +30,6 @@
     "url": "https://github.com/ActionScripted/jirate"
   },
   {
-    "description": "Timewarrior productivity extensions",
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "timew-extensions",
-    "obsolete": false,
-    "owner": [
-      "BROOSWAJNE"
-    ],
-    "rating": 0,
-    "updated": "2021-03-18",
-    "url": "https://github.com/BROOSWAJNE/timew-extensions"
-  },
-  {
     "description": "Extension for Timewarrior.",
     "language": [
       "Python"
