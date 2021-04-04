@@ -75,6 +75,21 @@
     "url": "https://github.com/ShockRabbit/report-twarriors"
   },
   {
+    "description": "An i3blocks integration for timewarrior.",
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-status-i3blocks-script",
+    "obsolete": false,
+    "owner": [
+      "TimothyGillespie"
+    ],
+    "rating": 0,
+    "updated": "2021-04-03",
+    "url": "https://github.com/TimothyGillespie/timewarrior-status-i3blocks-script"
+  },
+  {
     "description": "Extenstions for https://timewarrior.net/",
     "language": [
       "Python"
@@ -310,8 +325,8 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 28,
-    "updated": "2021-03-30",
+    "rating": 29,
+    "updated": "2021-04-03",
     "url": "https://github.com/mkluge/timewcs"
   },
   {
@@ -415,8 +430,8 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 20,
-    "updated": "2021-02-04",
+    "rating": 21,
+    "updated": "2021-04-03",
     "url": "https://github.com/svenXY/timewarrior"
   },
   {
