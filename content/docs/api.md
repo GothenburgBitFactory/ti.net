@@ -56,7 +56,7 @@ It has the form:
 
     <name>: <value>
 
-Between the `<name>` and `<value>`are the characters U+003A and U+0020.
+Between the `<name>` and `<value>` are the characters U+003A and U+0020.
 This configuration block includes the Timewarrior version, so that multiple releases maybe supported by the extension.
 Additionally, other data is included with the \'temp.\' prefix, indicating that it is not part of the configuration data, but may be of use to the extension.
 For example:
