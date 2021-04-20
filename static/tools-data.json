@@ -360,6 +360,21 @@
     "url": "https://github.com/pxtimes3/timewarrior"
   },
   {
+    "description": "Get Timewarrior's total time per tag per week through a web API.",
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-web-report",
+    "obsolete": false,
+    "owner": [
+      "rccavalcanti"
+    ],
+    "rating": 0,
+    "updated": "2021-04-19",
+    "url": "https://github.com/rccavalcanti/timew-web-report"
+  },
+  {
     "description": "Holidays file definitions for South america countries to be loaded by timewarrior.",
     "language": [
       "Python"
@@ -505,8 +520,8 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 4,
-    "updated": "2021-03-26",
+    "rating": 5,
+    "updated": "2021-04-19",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
