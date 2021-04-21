@@ -435,6 +435,21 @@
     "url": "https://github.com/sruffell/timewarrior-timesheet-report"
   },
   {
+    "description": "A PySimpleGUI based GUI for timewarrior for quick time entry",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TimeWarriorGUI",
+    "obsolete": false,
+    "owner": [
+      "suidroot"
+    ],
+    "rating": 0,
+    "updated": "2021-04-20",
+    "url": "https://github.com/suidroot/TimeWarriorGUI"
+  },
+  {
     "description": "zsh plugin for timewarrior",
     "language": [
       "Shell"
