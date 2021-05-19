@@ -360,7 +360,7 @@
     "url": "https://github.com/pxtimes3/timewarrior"
   },
   {
-    "description": "Get Timewarrior's total time per tag per week through a web API.",
+    "description": "Get Timewarrior's total time per tag per week through a web API and page.",
     "language": [
       "Python"
     ],
@@ -371,7 +371,7 @@
       "rccavalcanti"
     ],
     "rating": 0,
-    "updated": "2021-05-17",
+    "updated": "2021-05-18",
     "url": "https://github.com/rccavalcanti/timew-web-report"
   },
   {
@@ -535,8 +535,8 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 8,
-    "updated": "2021-05-13",
+    "rating": 9,
+    "updated": "2021-05-18",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
