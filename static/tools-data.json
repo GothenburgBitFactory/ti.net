@@ -135,6 +135,21 @@
     "url": "https://github.com/agwells/timew-scripts"
   },
   {
+    "description": "Simple bash script to display the active task in timewarrior.",
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "activetask",
+    "obsolete": false,
+    "owner": [
+      "auderer"
+    ],
+    "rating": 0,
+    "updated": "2021-05-20",
+    "url": "https://github.com/auderer/activetask"
+  },
+  {
     "description": "XFCE4 plugin: Time tracking widget with TimeWarrior",
     "language": [
       "Shell"
