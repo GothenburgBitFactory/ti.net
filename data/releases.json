@@ -36,7 +36,7 @@
     "date": "2018-02-03",
     "name": "timew-1.1.1",
     "tarball": "timew-1.1.1.tar.gz",
-    "url": "https://taskwarrior.org/download/timew-1.1.1.tar.gz",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.1.1/timew-1.1.1.tar.gz",
     "sha256": "1f7d9a62e55fc5a3126433654ccb1fd7d2d135f06f05697f871897c9db77ccc9"
   },
   {
@@ -44,7 +44,7 @@
     "date": "2018-01-13",
     "name": "timew-1.1.0",
     "tarball": "timew-1.1.0.tar.gz",
-    "url": "https://taskwarrior.org/download/timew-1.1.0.tar.gz",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.1.0/timew-1.1.0.tar.gz",
     "sha256": "09c7b48b98922e15792cf13a2d5a5b7f60dceeab130a2920a3d664ea2892dc4a"
   },
   {
@@ -52,7 +52,7 @@
     "date": "2016-08-21",
     "name": "timew-1.0.0",
     "tarball": "timew-1.0.0.tar.gz",
-    "url": "https://taskwarrior.org/download/timew-1.0.0.tar.gz",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.0.0/timew-1.0.0.tar.gz",
     "sha256": "ac027910e1e8365bdd218a8b42389b26d017d38d3c96516c408db6d5a44e0bb5"
   }
 ]
