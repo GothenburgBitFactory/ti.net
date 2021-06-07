@@ -45,7 +45,7 @@
     "url": "https://github.com/Fjanks/timew-catreport"
   },
   {
-    "description": "WIP to Automatically install Taskwarrior, Taskserver and Timewarrior such that it syncs accros multiple devices (and with google calendar).",
+    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with google calendar).",
     "language": [
       "Shell"
     ],
@@ -56,7 +56,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-06-04",
+    "updated": "2021-06-06",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
