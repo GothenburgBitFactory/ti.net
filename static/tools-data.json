@@ -385,8 +385,8 @@
     "owner": [
       "rccavalcanti"
     ],
-    "rating": 1,
-    "updated": "2021-06-02",
+    "rating": 2,
+    "updated": "2021-06-08",
     "url": "https://github.com/rccavalcanti/timew-web-report"
   },
   {
@@ -583,5 +583,20 @@
     "rating": 0,
     "updated": "2020-06-27",
     "url": "https://github.com/wshanks/timewarrior-weekly"
+  },
+  {
+    "description": "Generates pdf reports of what was done, when and for which projects as logged via taskwarrior and timewarrior",
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timereporter",
+    "obsolete": false,
+    "owner": [
+      "x94carbone"
+    ],
+    "rating": 0,
+    "updated": "2021-06-08",
+    "url": "https://github.com/x94carbone/timereporter"
   }
 ]
