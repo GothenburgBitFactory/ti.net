@@ -45,6 +45,21 @@
     "url": "https://github.com/Fjanks/timew-catreport"
   },
   {
+    "description": "Read-only mirror of https://gitlab.com/FoxAmes/timewarrior-jirapush",
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-jirapush",
+    "obsolete": false,
+    "owner": [
+      "FoxAmes"
+    ],
+    "rating": 1,
+    "updated": "2021-06-09",
+    "url": "https://github.com/FoxAmes/timewarrior-jirapush"
+  },
+  {
     "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with google calendar).",
     "language": [
       "Shell"
