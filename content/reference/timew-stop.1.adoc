@@ -1,13 +1,4 @@
----
-lang: en
-title: 'Timewarrior - timew-stop'
-viewport: 'width=device-width, initial-scale=1'
----
 = timew-stop(1)
-:doctype: manpage
-:manmanual: User Manual
-:mansource: timew 1.4.2
-:man-linkstyle: pass:[blue R < >]
 
 == NAME
 timew-stop - stop time tracking
