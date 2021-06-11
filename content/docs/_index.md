@@ -111,4 +111,4 @@ layout: single
 ## Beta
 
  * [Submit a bug](https://github.com/GothenburgBitFactory/timewarrior/issues)
- * [Provide feedback](mailto:supprt@gothenburgbitfactory.org)
+ * [Provide feedback](mailto:support@gothenburgbitfactory.org)
