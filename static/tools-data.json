@@ -71,7 +71,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-06-06",
+    "updated": "2021-06-18",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -295,8 +295,8 @@
     "owner": [
       "lauft"
     ],
-    "rating": 11,
-    "updated": "2021-01-14",
+    "rating": 12,
+    "updated": "2021-06-18",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
   {
