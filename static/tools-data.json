@@ -60,21 +60,6 @@
     "url": "https://github.com/FoxAmes/timewarrior-jirapush"
   },
   {
-    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with google calendar).",
-    "language": [
-      "Shell"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "name": "Taskwarrior-installation",
-    "obsolete": false,
-    "owner": [
-      "HiveMinds-EU"
-    ],
-    "rating": 1,
-    "updated": "2021-06-18",
-    "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
-  },
-  {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
     "language": [
       "Python"
@@ -490,8 +475,8 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 24,
-    "updated": "2021-05-24",
+    "rating": 25,
+    "updated": "2021-06-21",
     "url": "https://github.com/svenXY/timewarrior"
   },
   {
