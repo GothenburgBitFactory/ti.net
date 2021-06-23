@@ -1,6 +1,6 @@
 # Timewarrior Site Repository
 
-This repository contains the content of the timewarrior.net site.
+This repository contains the content of the [timewarrior.net](https://timewarrior.net) site.
 
 
 ## To Clone this Repository:
