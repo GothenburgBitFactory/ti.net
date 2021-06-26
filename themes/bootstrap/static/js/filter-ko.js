@@ -70,7 +70,7 @@ function ToolsViewModel() {
         }
     });
 
-    // The Owner selector  (huge list...)
+    // The Owner selector (huge list...)
     self.OwnersSelected = ko.observableArray([]);
     self.selectedAllOwners = ko.pureComputed({
         read: function () {
@@ -82,10 +82,10 @@ function ToolsViewModel() {
         }
     });
 
-    // the search field
+    // The search field
     self.query = ko.observable('');
 
-    // The printed tool list:
+    // The printed tool list
     self.filteredTools = ko.computed(
         function() {
             const sort_by_rating_and_name = function (left, right) { return compare(right.rating, left.rating) || compare(left.name.toLowerCase(), right.name.toLowerCase()) };
