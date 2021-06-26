@@ -14,6 +14,13 @@ function Tool(data) {
     this.url = data.url;
 }
 
+function compare(left, right) {
+    if (left === right) {
+        return 0;
+    }
+    return left < right ? -1 : 1;
+}
+
 // Overall view model for this screen, along with initial state
 function ToolsViewModel() {
     let self = this;
@@ -45,7 +52,7 @@ function ToolsViewModel() {
         }
 
         self.tools(mappedTools);
-        self.tools.sort(function (left, right) { return left.name === right.name ? 0 : (left.name < right.name ? -1 : 1) });
+        self.tools.sort(function (left, right) { return compare(left.name, right.name) });
         self.owners.sort();
     });
 
@@ -81,8 +88,7 @@ function ToolsViewModel() {
     // The printed tool list:
     self.filteredTools = ko.computed(
         function() {
-            const sort_by_name = function (left, right) { return left.name === right.name ? 0 : (left.name.toLowerCase() < right.name.toLowerCase() ? -1 : 1) };
-            const sort_by_rating = function (left, right) { return left.rating === right.rating  ? sort_by_name(left,right) : (left.rating > right.rating ? -1 : 1) };
+            const sort_by_rating_and_name = function (left, right) { return compare(right.rating, left.rating) || compare(left.name.toLowerCase(), right.name.toLowerCase()) };
             return self.tools().filter(
                 function (tool) {
                     const isLanguageIn = (self.LanguagesSelected().length === 0) ||  self.LanguagesSelected().some(function (elem) { return tool.language.includes(elem)} );
@@ -93,7 +99,7 @@ function ToolsViewModel() {
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
                             || (tool.owner && tool.owner.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
                     return (!tool.obsolete || self.ObsoleteSelected()) && isLanguageIn && isOwnerIn && isQuery;
-                } ).sort(sort_by_rating);
+                } ).sort(sort_by_rating_and_name);
         }
     );
 }
