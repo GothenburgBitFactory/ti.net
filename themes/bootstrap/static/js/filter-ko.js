@@ -32,7 +32,7 @@ function ToolsViewModel() {
     // Load tools from server, convert to Tools instances, then populate the data for templates
     // This data is static.
     $.getJSON("/tools-data.json", function(allData) {
-        let mappedTools = $.map(allData, function(item) { return new Tool(item) });
+        let mappedTools = allData.map(function(item) { return new Tool(item) });
         let uniqueLanguage = {};
         let uniqueOwner = {};
 
