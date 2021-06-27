@@ -28,6 +28,10 @@ function has_intersection(array, test) {
         });
 }
 
+function unique() {
+    return (value, index, array) => array.indexOf(value) === index;
+}
+
 // Overall view model for this screen, along with initial state
 function ToolsViewModel() {
     let self = this;
@@ -40,27 +44,12 @@ function ToolsViewModel() {
     // This data is static.
     $.getJSON("/tools-data.json", function(allData) {
         let mappedTools = allData.map(function(item) { return new Tool(item) });
-        let uniqueLanguage = {};
-        let uniqueOwner = {};
 
-        for(let i in mappedTools ){
-            for (let j in mappedTools[i].language) {
-                if (typeof(uniqueLanguage[mappedTools[i].language[j]]) == "undefined") {
-                    self.languages.push(mappedTools[i].language[j]);
-                }
-                uniqueLanguage[mappedTools[i].language[j]] = 0;
-            }
-            for (let j in mappedTools[i].owner) {
-                if (typeof(uniqueOwner[mappedTools[i].owner[j]]) == "undefined") {
-                    self.owners.push(mappedTools[i].owner[j]);
-                }
-                uniqueOwner[mappedTools[i].owner[j]] = 0;
-            }
-        }
+        self.languages(mappedTools.flatMap(item => item.language).filter(unique()).sort())
+        self.owners(mappedTools.flatMap(item => item.owner).filter(unique()).sort())
 
         self.tools(mappedTools);
         self.tools.sort(function (left, right) { return compare(left.name, right.name) });
-        self.owners.sort();
     });
 
     self.ObsoleteSelected = ko.observable(false);
