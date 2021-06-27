@@ -32,9 +32,9 @@ function has_intersection(array, test) {
 function ToolsViewModel() {
     let self = this;
 
-    self.tools = ko.observableArray([]);
-    self.languages = ko.observableArray([]);
-    self.owners = ko.observableArray([]);
+    self.tools = ko.observableArray();
+    self.languages = ko.observableArray();
+    self.owners = ko.observableArray();
 
     // Load tools from server, convert to Tools instances, then populate the data for templates
     // This data is static.
@@ -66,7 +66,7 @@ function ToolsViewModel() {
     self.ObsoleteSelected = ko.observable(false);
 
     // The Language selector
-    self.LanguagesSelected = ko.observableArray([]);
+    self.LanguagesSelected = ko.observableArray();
     self.selectedAllLanguages = ko.pureComputed({
         read: function () {
             console.log("Read ... Filter: " + self.LanguagesSelected.slice(0));
@@ -78,7 +78,7 @@ function ToolsViewModel() {
     });
 
     // The Owner selector (huge list...)
-    self.OwnersSelected = ko.observableArray([]);
+    self.OwnersSelected = ko.observableArray();
     self.selectedAllOwners = ko.pureComputed({
         read: function () {
             console.log("Read ... Filter: " + self.OwnersSelected.slice(0));
