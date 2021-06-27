@@ -21,6 +21,13 @@ function compare(left, right) {
     return left < right ? -1 : 1;
 }
 
+function has_intersection(array, test) {
+    return (array.length === 0)
+        || array.some(function (elem) {
+            return test.includes(elem)
+        });
+}
+
 // Overall view model for this screen, along with initial state
 function ToolsViewModel() {
     let self = this;
@@ -91,8 +98,8 @@ function ToolsViewModel() {
             const sort_by_rating_and_name = function (left, right) { return compare(right.rating, left.rating) || compare(left.name.toLowerCase(), right.name.toLowerCase()) };
             return self.tools().filter(
                 function (tool) {
-                    const isLanguageIn = (self.LanguagesSelected().length === 0) ||  self.LanguagesSelected().some(function (elem) { return tool.language.includes(elem)} );
-                    const isOwnerIn = (self.OwnersSelected().length === 0) ||  self.OwnersSelected().some(function (elem) { return tool.owner.includes(elem)} );
+                    const isLanguageIn = has_intersection(self.LanguagesSelected(), tool.language);
+                    const isOwnerIn = has_intersection(self.OwnersSelected(), tool.owner);
                     const isQuery = (self.query().length === 0)
                             || (tool.name && tool.name.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.description && tool.description.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
