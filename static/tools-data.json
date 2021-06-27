@@ -405,6 +405,21 @@
     "url": "https://github.com/rizel/timewarrior-southamerica-holidays"
   },
   {
+    "description": "A extension for GothenburgBitFactory/timewarrior to create simple time sheets as logs",
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timewarrior-report-rs",
+    "obsolete": false,
+    "owner": [
+      "scattenlaeufer"
+    ],
+    "rating": 0,
+    "updated": "2021-06-26",
+    "url": "https://github.com/scattenlaeufer/timewarrior-report-rs"
+  },
+  {
     "description": "Bugwarrior, Taskwarrior and Timewarrior integration with Serokell issue tracker and time tracking",
     "language": [
       "Python"
