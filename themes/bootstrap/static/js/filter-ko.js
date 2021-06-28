@@ -43,13 +43,13 @@ function ToolsViewModel() {
     // Load tools from server, convert to Tools instances, then populate the data for templates
     // This data is static.
     $.getJSON("/tools-data.json", function(allData) {
-        let mappedTools = allData.map(function(item) { return new Tool(item) });
+        let mappedTools = allData.map(item => new Tool(item));
 
         self.languages(mappedTools.flatMap(item => item.language).filter(unique()).sort())
         self.owners(mappedTools.flatMap(item => item.owner).filter(unique()).sort())
 
         self.tools(mappedTools);
-        self.tools.sort(function (left, right) { return compare(left.name, right.name) });
+        self.tools.sort((left, right) => compare(left.name, right.name));
     });
 
     self.ObsoleteSelected = ko.observable(false);
