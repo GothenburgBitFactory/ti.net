@@ -375,6 +375,21 @@
     "url": "https://github.com/pxtimes3/timewarrior"
   },
   {
+    "description": "Timewarrior extensions",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timew-extensions",
+    "obsolete": false,
+    "owner": [
+      "rccavalcanti"
+    ],
+    "rating": 0,
+    "updated": "2021-07-07",
+    "url": "https://github.com/rccavalcanti/timew-extensions"
+  },
+  {
     "description": "Get Timewarrior's total time per tag per week through a web API and page.",
     "language": [
       "Python"
