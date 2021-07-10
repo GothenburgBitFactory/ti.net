@@ -375,6 +375,21 @@
     "url": "https://github.com/pxtimes3/timewarrior"
   },
   {
+    "description": "Bash extension for Timewarrior to create csv with entry duration and a total",
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "timew-csv",
+    "obsolete": false,
+    "owner": [
+      "radarsymphony"
+    ],
+    "rating": 0,
+    "updated": "2021-07-09",
+    "url": "https://github.com/radarsymphony/timew-csv"
+  },
+  {
     "description": "Timewarrior extensions",
     "language": [
       "Python"
@@ -431,7 +446,7 @@
       "scattenlaeufer"
     ],
     "rating": 0,
-    "updated": "2021-07-08",
+    "updated": "2021-07-09",
     "url": "https://github.com/scattenlaeufer/timewarrior-kimai-report"
   },
   {
@@ -446,7 +461,7 @@
       "scattenlaeufer"
     ],
     "rating": 0,
-    "updated": "2021-07-08",
+    "updated": "2021-07-09",
     "url": "https://github.com/scattenlaeufer/timewarrior-report-rs"
   },
   {
