@@ -90,21 +90,6 @@
     "url": "https://github.com/MFreeze/powerline-timewarrior"
   },
   {
-    "description": "taskwarrior, timewarrior weekly report script (personal script. not general)",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "report-twarriors",
-    "obsolete": false,
-    "owner": [
-      "ShockRabbit"
-    ],
-    "rating": 0,
-    "updated": "2021-03-06",
-    "url": "https://github.com/ShockRabbit/report-twarriors"
-  },
-  {
     "description": "An i3blocks integration for timewarrior.",
     "language": [
       "Rust"
@@ -310,8 +295,8 @@
     "owner": [
       "lauft"
     ],
-    "rating": 29,
-    "updated": "2021-07-06",
+    "rating": 30,
+    "updated": "2021-07-16",
     "url": "https://github.com/lauft/timew-report"
   },
   {
