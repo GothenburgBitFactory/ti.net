@@ -225,6 +225,21 @@
     "url": "https://github.com/fradeve/twtools"
   },
   {
+    "description": "Alfred workflow for timewarrior",
+    "language": [
+      "TypeScript"
+    ],
+    "license": "Apache License 2.0",
+    "name": "alfred-timewarrior",
+    "obsolete": false,
+    "owner": [
+      "goetzd"
+    ],
+    "rating": 0,
+    "updated": "2021-07-20",
+    "url": "https://github.com/goetzd/alfred-timewarrior"
+  },
+  {
     "description": "A polybar plugin to track timewarrior state",
     "language": [
       "Python"
