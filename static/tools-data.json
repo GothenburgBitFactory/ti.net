@@ -405,6 +405,21 @@
     "url": "https://github.com/radarsymphony/timew-csv"
   },
   {
+    "description": "timewarrior-aggregate is an extension for timewarrior which helps to plan a day and/or a week in advance and monitor the progress of the plan during the course of the duration.",
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timewarrior-aggregate",
+    "obsolete": false,
+    "owner": [
+      "rameshg87"
+    ],
+    "rating": 0,
+    "updated": "2021-07-29",
+    "url": "https://github.com/rameshg87/timewarrior-aggregate"
+  },
+  {
     "description": "Timewarrior extensions",
     "language": [
       "Python"
@@ -625,8 +640,8 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 10,
-    "updated": "2021-05-24",
+    "rating": 11,
+    "updated": "2021-07-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
