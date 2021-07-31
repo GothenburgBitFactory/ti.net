@@ -420,7 +420,7 @@
     "url": "https://github.com/rameshg87/timewarrior-aggregate"
   },
   {
-    "description": "Timewarrior extensions",
+    "description": "Timewarrior extensions.",
     "language": [
       "Python"
     ],
@@ -431,7 +431,7 @@
       "rccavalcanti"
     ],
     "rating": 0,
-    "updated": "2021-07-08",
+    "updated": "2021-07-30",
     "url": "https://github.com/rccavalcanti/timew-extensions"
   },
   {
@@ -446,7 +446,7 @@
       "rccavalcanti"
     ],
     "rating": 2,
-    "updated": "2021-07-03",
+    "updated": "2021-07-30",
     "url": "https://github.com/rccavalcanti/timew-web-report"
   },
   {
