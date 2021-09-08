@@ -12,12 +12,13 @@ If you are a developer, you might be interested in [how to install the developme
 
 The Gothenburg Bit Factory does not maintain any packages, but thanks to the community, there are binary packages available:
 
-| Distribution                                                             | Command                          | Available since |
-| ------------------------------------------------------------------------ | -------------------------------- | --------------- |
-| [Arch Linux](https://www.archlinux.org/packages/community/x86_64/timew/) |`sudo pacman -S timew`            | -               |
-| [Debian](https://packages.debian.org/search?keywords=timewarrior)        |`sudo apt-get install timewarrior`| Stretch         |
-| [Gentoo](https://packages.gentoo.org/packages/app-misc/timew)            |`emerge app-misc/timew`           | -               |
-| [macOS](https://formulae.brew.sh/formula/timewarrior)                    |`brew install timewarrior`        | El Capitan      |
+| Distribution                                                             | Command                            | Available since |
+| ------------------------------------------------------------------------ | ---------------------------------- | --------------- |
+| [Arch Linux](https://www.archlinux.org/packages/community/x86_64/timew/) | `sudo pacman -S timew`             | -               |
+| [Debian](https://packages.debian.org/search?keywords=timewarrior)        | `sudo apt-get install timewarrior` | Stretch         |
+| [Gentoo](https://packages.gentoo.org/packages/app-misc/timew)            | `emerge app-misc/timew`            | -               |
+| [Fedora](https://bodhi.fedoraproject.org/updates/?packages=timew)        | `sudo dnf install timew`           | Fedora 26       |
+| [macOS](https://formulae.brew.sh/formula/timewarrior)                    | `brew install timewarrior`         | El Capitan      |
 
 Note that packages are the responsibility of the respective maintainers.
 Please contact them in case of outdated or missing packages.
