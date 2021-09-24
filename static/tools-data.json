@@ -581,7 +581,7 @@
       "sw00"
     ],
     "rating": 15,
-    "updated": "2021-09-22",
+    "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
   },
   {
@@ -610,8 +610,8 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 6,
-    "updated": "2021-08-29",
+    "rating": 7,
+    "updated": "2021-09-23",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
