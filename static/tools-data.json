@@ -115,8 +115,8 @@
     "owner": [
       "ViliamV"
     ],
-    "rating": 3,
-    "updated": "2021-08-06",
+    "rating": 4,
+    "updated": "2021-09-27",
     "url": "https://github.com/ViliamV/timewarrior-extensions"
   },
   {
@@ -580,8 +580,8 @@
     "owner": [
       "sw00"
     ],
-    "rating": 15,
-    "updated": "2021-09-23",
+    "rating": 16,
+    "updated": "2021-09-27",
     "url": "https://github.com/sw00/billwarrior"
   },
   {
@@ -626,7 +626,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 12,
-    "updated": "2021-09-26",
+    "updated": "2021-09-27",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
