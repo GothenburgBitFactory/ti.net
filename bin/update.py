@@ -71,16 +71,16 @@ def search_github(names, keywords):
     results = []
 
     for name in names:
-        log_debug("Pulling Github for repository '{}'", name)
+        log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
     for keyword in keywords:
-        log_debug("Querying Github for repositories with keyword '{}'", keyword)
+        log_debug("Querying GitHub for repositories with keyword '{}'", keyword)
         query = "{}+in:description,name,topic".format(keyword)
         for repo in client.search_repositories(query, sort="stars", order="desc"):
             results.append(from_github_repo(repo))
 
-    log_info("Added {} entries from Github", len(results))
+    log_info("Received {} entries from GitHub", len(results))
 
     return results
 
@@ -141,6 +141,7 @@ def filter_tools(inputs):
             log_debug("Dropping '{}' because it {}", tool['url'], blacklist[url])
             continue
 
+        log_debug("Adding '{}'", tool['url'])
         seen.add(tool["url"])
         results.append(tool)
 
@@ -181,7 +182,7 @@ if __name__ == "__main__":
     includes["manual"] = [] if "manual" not in includes else includes["manual"]
 
     log_info("Updating tool listing...")
-    log_info("Querying Github...")
+    log_info("Querying GitHub...")
     tools = search_github(includes["github"], KEYWORDS)
     log_info("Adding {} manual includes ...", len(includes["manual"]))
     tools.extend(includes["manual"])
