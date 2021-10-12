@@ -630,6 +630,21 @@
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
+    "description": null,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timew_distribution",
+    "obsolete": false,
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 2,
+    "updated": "2021-10-10",
+    "url": "https://github.com/tom-doerr/timew_distribution"
+  },
+  {
     "description": "A timewarrior rust library",
     "language": [
       "Rust"
