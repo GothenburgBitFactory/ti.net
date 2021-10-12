@@ -3,9 +3,10 @@
 import datetime
 import json
 import os
-from enum import IntEnum
-
 import sys
+from enum import IntEnum
+from json import JSONDecodeError
+
 from github import Github
 
 
@@ -70,10 +71,12 @@ def search_github(names, keywords):
 
     results = []
 
+    log_debug("Processing {} manual entries", len(names))
     for name in names:
         log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
+    log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
         log_debug("Querying GitHub for repositories with keyword '{}'", keyword)
         query = "{}+in:description,name,topic".format(keyword)
@@ -153,6 +156,10 @@ def load_file(filepath):
         with open(filepath) as f:
             return json.load(f)
     except FileNotFoundError:
+        log_debug("No {} found!", filepath)
+        return dict()
+    except JSONDecodeError:
+        log_debug("Could not parse {}!", filepath)
         return dict()
 
 
