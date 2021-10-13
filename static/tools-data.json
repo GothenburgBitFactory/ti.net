@@ -1,12 +1,12 @@
 [
   {
     "description": "timewarrior plugin to keep track of flexible time contracts",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "Other",
     "name": "flexitime",
-    "obsolete": false,
     "owner": [
       "AMNeumann"
     ],
@@ -16,12 +16,12 @@
   },
   {
     "description": "Task/time management using TimeWarrior and friends with browser extensions for JIRA.",
+    "dormant": false,
     "language": [
       "JavaScript"
     ],
     "license": "GNU General Public License v3.0",
     "name": "jirate",
-    "obsolete": false,
     "owner": [
       "ActionScripted"
     ],
@@ -31,42 +31,42 @@
   },
   {
     "description": "Extension for Timewarrior.",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timew-catreport",
-    "obsolete": false,
     "owner": [
       "Fjanks"
     ],
     "rating": 1,
-    "updated": "2021-10-01",
+    "updated": "2020-12-14",
     "url": "https://github.com/Fjanks/timew-catreport"
   },
   {
     "description": "Read-only mirror of https://gitlab.com/FoxAmes/timewarrior-jirapush",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": "MIT License",
     "name": "timewarrior-jirapush",
-    "obsolete": false,
     "owner": [
       "FoxAmes"
     ],
     "rating": 2,
-    "updated": "2021-09-09",
+    "updated": "2021-06-10",
     "url": "https://github.com/FoxAmes/timewarrior-jirapush"
   },
   {
     "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior). This project aims to support automated installation of all Taskwarrior hook scripts, configuration flavours etc. with a single command.",
+    "dormant": false,
     "language": [
       "Shell"
     ],
     "license": "GNU Affero General Public License v3.0",
     "name": "tw-install",
-    "obsolete": false,
     "owner": [
       "HiveMinds"
     ],
@@ -76,57 +76,57 @@
   },
   {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "powerline-timewarrior",
-    "obsolete": false,
     "owner": [
       "MFreeze"
     ],
     "rating": 1,
-    "updated": "2021-01-19",
+    "updated": "2020-01-06",
     "url": "https://github.com/MFreeze/powerline-timewarrior"
   },
   {
     "description": "An i3blocks integration for timewarrior.",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": "MIT License",
     "name": "timewarrior-status-i3blocks-script",
-    "obsolete": false,
     "owner": [
       "TimothyGillespie"
     ],
     "rating": 4,
-    "updated": "2021-10-07",
+    "updated": "2021-04-03",
     "url": "https://github.com/TimothyGillespie/timewarrior-status-i3blocks-script"
   },
   {
     "description": "Extenstions for https://timewarrior.net/",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timewarrior-extensions",
-    "obsolete": false,
     "owner": [
       "ViliamV"
     ],
     "rating": 4,
-    "updated": "2021-09-27",
+    "updated": "2020-06-29",
     "url": "https://github.com/ViliamV/timewarrior-extensions"
   },
   {
     "description": "My helper scripts for use with timewarrior ",
+    "dormant": false,
     "language": [
       "Shell"
     ],
     "license": null,
     "name": "timew-scripts",
-    "obsolete": false,
     "owner": [
       "agwells"
     ],
@@ -136,12 +136,12 @@
   },
   {
     "description": "Simple bash script to display the active task in timewarrior.",
+    "dormant": false,
     "language": [
       "Shell"
     ],
     "license": null,
     "name": "activetask",
-    "obsolete": false,
     "owner": [
       "auderer"
     ],
@@ -151,27 +151,27 @@
   },
   {
     "description": "XFCE4 plugin: Time tracking widget with TimeWarrior",
+    "dormant": false,
     "language": [
       "Shell"
     ],
     "license": null,
     "name": "xfce4-timewarrior",
-    "obsolete": false,
     "owner": [
       "bimlas"
     ],
     "rating": 2,
-    "updated": "2021-02-23",
+    "updated": "2021-02-08",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
   },
   {
     "description": "A TimeWarrior report to automate hours claiming",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "erp-warrior",
-    "obsolete": false,
     "owner": [
       "danjones1618"
     ],
@@ -181,27 +181,27 @@
   },
   {
     "description": "Parses iCal ics files and formats them for use by timewarrior",
+    "dormant": true,
     "language": [
       "Python"
     ],
     "license": null,
     "name": "ics-to-timew",
-    "obsolete": true,
     "owner": [
       "davisdude"
     ],
     "rating": 0,
-    "updated": "2018-02-18",
+    "updated": "2018-02-19",
     "url": "https://github.com/davisdude/ics-to-timew"
   },
   {
     "description": "Jira formatter (and sync) for TimeWarrior",
+    "dormant": false,
     "language": [
       "Ruby"
     ],
     "license": "MIT License",
     "name": "xfel-timew-jira",
-    "obsolete": false,
     "owner": [
       "fernando-jascovich"
     ],
@@ -211,132 +211,132 @@
   },
   {
     "description": "A command line tool to enhance TimeWarrior's functionalities.",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "twtools",
-    "obsolete": false,
     "owner": [
       "fradeve"
     ],
     "rating": 15,
-    "updated": "2021-09-26",
+    "updated": "2021-02-20",
     "url": "https://github.com/fradeve/twtools"
   },
   {
     "description": "Alfred workflow for timewarrior",
+    "dormant": false,
     "language": [
       "TypeScript"
     ],
     "license": "Apache License 2.0",
     "name": "alfred-timewarrior",
-    "obsolete": false,
     "owner": [
       "goetzd"
     ],
     "rating": 1,
-    "updated": "2021-08-20",
+    "updated": "2021-08-13",
     "url": "https://github.com/goetzd/alfred-timewarrior"
   },
   {
     "description": "A polybar plugin to track timewarrior state",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timewarrior-polybar",
-    "obsolete": false,
     "owner": [
       "greati"
     ],
     "rating": 1,
-    "updated": "2021-10-04",
+    "updated": "2021-01-10",
     "url": "https://github.com/greati/timewarrior-polybar"
   },
   {
     "description": "A flextime extension to be used with timewarrior",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timewarrior-extensions",
-    "obsolete": false,
     "owner": [
       "joemat"
     ],
     "rating": 1,
-    "updated": "2021-02-18",
+    "updated": "2020-10-27",
     "url": "https://github.com/joemat/timewarrior-extensions"
   },
   {
     "description": "My Timewarrior Extensions",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "my-timewarrior-extensions",
-    "obsolete": false,
     "owner": [
       "johannesgiorgis"
     ],
     "rating": 0,
-    "updated": "2020-06-08",
+    "updated": "2020-06-16",
     "url": "https://github.com/johannesgiorgis/my-timewarrior-extensions"
   },
   {
     "description": "Bash completion for Timewarrior",
+    "dormant": false,
     "language": [
       "N/A"
     ],
     "license": "MIT License",
     "name": "timew-bashcompletion",
-    "obsolete": false,
     "owner": [
       "lauft"
     ],
     "rating": 16,
-    "updated": "2021-10-06",
+    "updated": "2020-05-08",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
   {
     "description": "An interface for Timewarrior report data",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timew-report",
-    "obsolete": false,
     "owner": [
       "lauft"
     ],
     "rating": 36,
-    "updated": "2021-10-06",
+    "updated": "2021-04-09",
     "url": "https://github.com/lauft/timew-report"
   },
   {
     "description": "My timewarrior taskwarrior integration scripts",
+    "dormant": true,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "warriors",
-    "obsolete": false,
     "owner": [
       "liloman"
     ],
     "rating": 12,
-    "updated": "2021-09-26",
+    "updated": "2017-03-29",
     "url": "https://github.com/liloman/warriors"
   },
   {
     "description": "A simple script to migrate timer entries from timetrap to timewarrior.",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timetrap-timewarrior",
-    "obsolete": false,
     "owner": [
       "matt-snider"
     ],
@@ -346,42 +346,42 @@
   },
   {
     "description": "Timewarrior Cheat Sheet",
+    "dormant": true,
     "language": [
       "TeX"
     ],
     "license": "MIT License",
     "name": "timewcs",
-    "obsolete": false,
     "owner": [
       "mkluge"
     ],
     "rating": 40,
-    "updated": "2021-10-06",
+    "updated": "2017-04-24",
     "url": "https://github.com/mkluge/timewcs"
   },
   {
     "description": "Extension for TimeWarrior for exporting data into Google Sheets",
+    "dormant": false,
     "language": [
       "Go"
     ],
     "license": "GNU General Public License v3.0",
     "name": "timew-to-sheets",
-    "obsolete": false,
     "owner": [
       "nicovillanueva"
     ],
     "rating": 3,
-    "updated": "2021-08-20",
+    "updated": "2019-02-17",
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
   },
   {
     "description": "Helper scripts for TimeWarrior",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": null,
     "name": "timewarrior",
-    "obsolete": false,
     "owner": [
       "pxtimes3"
     ],
@@ -391,27 +391,27 @@
   },
   {
     "description": "Bash extension for Timewarrior to create csv with entry duration and a total",
+    "dormant": false,
     "language": [
       "Shell"
     ],
     "license": "MIT License",
     "name": "timew-csv",
-    "obsolete": false,
     "owner": [
       "radarsymphony"
     ],
     "rating": 2,
-    "updated": "2021-09-30",
+    "updated": "2021-07-18",
     "url": "https://github.com/radarsymphony/timew-csv"
   },
   {
     "description": "timewarrior-aggregate is an extension for timewarrior which helps to plan a day and/or a week in advance and monitor the progress of the plan during the course of the duration.",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": null,
     "name": "timewarrior-aggregate",
-    "obsolete": false,
     "owner": [
       "rameshg87"
     ],
@@ -421,42 +421,42 @@
   },
   {
     "description": "Timewarrior extensions.",
+    "dormant": true,
     "language": [
       "Python"
     ],
     "license": null,
     "name": "timew-extensions",
-    "obsolete": false,
     "owner": [
       "rccavalcanti"
     ],
     "rating": 0,
-    "updated": "2021-09-24",
+    "updated": "2021-07-08",
     "url": "https://github.com/rccavalcanti/timew-extensions"
   },
   {
     "description": "Get Timewarrior's total time per tag per week through a web API and page.",
+    "dormant": true,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "timew-web-report",
-    "obsolete": false,
     "owner": [
       "rccavalcanti"
     ],
     "rating": 2,
-    "updated": "2021-09-15",
+    "updated": "2021-07-03",
     "url": "https://github.com/rccavalcanti/timew-web-report"
   },
   {
     "description": "Holidays file definitions for South america countries to be loaded by timewarrior.",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timewarrior-southamerica-holidays",
-    "obsolete": false,
     "owner": [
       "rizel"
     ],
@@ -466,57 +466,57 @@
   },
   {
     "description": "Create timesheet records for Kimai from Timewarrior records",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": null,
     "name": "timewarrior-kimai-report",
-    "obsolete": false,
     "owner": [
       "scattenlaeufer"
     ],
     "rating": 0,
-    "updated": "2021-07-11",
+    "updated": "2021-09-26",
     "url": "https://github.com/scattenlaeufer/timewarrior-kimai-report"
   },
   {
     "description": "A crate to build reports from Timewarrior's extension API",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": null,
     "name": "timewarrior-report-rs",
-    "obsolete": false,
     "owner": [
       "scattenlaeufer"
     ],
     "rating": 0,
-    "updated": "2021-07-12",
+    "updated": "2021-07-11",
     "url": "https://github.com/scattenlaeufer/timewarrior-report-rs"
   },
   {
     "description": "Bugwarrior, Taskwarrior and Timewarrior integration with Serokell issue tracker and time tracking",
+    "dormant": true,
     "language": [
       "Python"
     ],
     "license": null,
     "name": "srkwarrior",
-    "obsolete": false,
     "owner": [
       "serokell"
     ],
     "rating": 0,
-    "updated": "2019-12-12",
+    "updated": "2019-01-29",
     "url": "https://github.com/serokell/srkwarrior"
   },
   {
     "description": "\u23f1\ufe0f Timewarrior report plugin \u23f3 for Timeduty \ud83d\udcc6",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": null,
     "name": "timewarrior-report-timedutty",
-    "obsolete": false,
     "owner": [
       "simmel"
     ],
@@ -526,102 +526,102 @@
   },
   {
     "description": "Weekly timesheet report script for timewarrior",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": null,
     "name": "timewarrior-timesheet-report",
-    "obsolete": false,
     "owner": [
       "sruffell"
     ],
     "rating": 1,
-    "updated": "2020-12-18",
+    "updated": "2020-08-07",
     "url": "https://github.com/sruffell/timewarrior-timesheet-report"
   },
   {
     "description": "A PySimpleGUI based GUI for timewarrior for quick time entry",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": null,
     "name": "TimeWarriorGUI",
-    "obsolete": false,
     "owner": [
       "suidroot"
     ],
     "rating": 1,
-    "updated": "2021-06-05",
+    "updated": "2021-05-23",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
   {
     "description": "zsh plugin for timewarrior",
+    "dormant": false,
     "language": [
       "Shell"
     ],
     "license": "MIT License",
     "name": "timewarrior",
-    "obsolete": false,
     "owner": [
       "svenXY"
     ],
     "rating": 30,
-    "updated": "2021-10-09",
+    "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
   {
     "description": "A Timewarrior report extension for generating invoices in LaTeX",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "billwarrior",
-    "obsolete": false,
     "owner": [
       "sw00"
     ],
     "rating": 16,
-    "updated": "2021-09-27",
+    "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
   },
   {
     "description": "An indicator for gnome-shell that shows the current activity tracked by timewarrior",
+    "dormant": false,
     "language": [
       "JavaScript"
     ],
     "license": "GNU General Public License v3.0",
     "name": "timewarrior-indicator",
-    "obsolete": false,
     "owner": [
       "tassos"
     ],
     "rating": 15,
-    "updated": "2021-06-03",
+    "updated": "2020-10-24",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
   {
     "description": "The timewarrior synchronization client",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timew-sync-client",
-    "obsolete": false,
     "owner": [
       "timewarrior-synchronize"
     ],
     "rating": 7,
-    "updated": "2021-09-23",
+    "updated": "2021-09-15",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
     "description": "The timewarrior synchronization server",
+    "dormant": false,
     "language": [
       "Go"
     ],
     "license": "MIT License",
     "name": "timew-sync-server",
-    "obsolete": false,
     "owner": [
       "timewarrior-synchronize"
     ],
@@ -631,12 +631,12 @@
   },
   {
     "description": null,
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "MIT License",
     "name": "timew_distribution",
-    "obsolete": false,
     "owner": [
       "tom-doerr"
     ],
@@ -646,27 +646,27 @@
   },
   {
     "description": "A timewarrior rust library",
+    "dormant": false,
     "language": [
       "Rust"
     ],
     "license": "MIT License",
     "name": "libtimew",
-    "obsolete": false,
     "owner": [
       "woodworker"
     ],
     "rating": 3,
-    "updated": "2021-09-17",
+    "updated": "2021-02-09",
     "url": "https://github.com/woodworker/libtimew"
   },
   {
     "description": "Timewarrior extension to report total time per week",
+    "dormant": false,
     "language": [
       "Python"
     ],
     "license": "BSD Zero Clause License",
     "name": "timewarrior-weekly",
-    "obsolete": false,
     "owner": [
       "wshanks"
     ],
