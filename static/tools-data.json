@@ -90,6 +90,21 @@
     "url": "https://github.com/MFreeze/powerline-timewarrior"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Java"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior-java-control",
+    "owner": [
+      "TimothyGillespie"
+    ],
+    "rating": 0,
+    "updated": "2021-04-24",
+    "url": "https://github.com/TimothyGillespie/timewarrior-java-control"
+  },
+  {
     "description": "An i3blocks integration for timewarrior.",
     "dormant": false,
     "language": [
@@ -118,6 +133,21 @@
     "rating": 4,
     "updated": "2020-06-29",
     "url": "https://github.com/ViliamV/timewarrior-extensions"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Elixir"
+    ],
+    "license": null,
+    "name": "Timewarrior-icalendar",
+    "owner": [
+      "addcninblue"
+    ],
+    "rating": 0,
+    "updated": "2021-01-30",
+    "url": "https://github.com/addcninblue/Timewarrior-icalendar"
   },
   {
     "description": "My helper scripts for use with timewarrior ",
@@ -163,6 +193,21 @@
     "rating": 2,
     "updated": "2021-02-08",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
+  },
+  {
+    "description": "A command-line tool to manage todo list and record time spent on tasks.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "pomodoro-warriors",
+    "owner": [
+      "cf020031308"
+    ],
+    "rating": 36,
+    "updated": "2019-05-31",
+    "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
   {
     "description": "A TimeWarrior report to automate hours claiming",
@@ -255,6 +300,21 @@
     "url": "https://github.com/greati/timewarrior-polybar"
   },
   {
+    "description": "Get a balance between allotted and spent hours",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "timewarrior-balance",
+    "owner": [
+      "guludo"
+    ],
+    "rating": 0,
+    "updated": "2021-10-11",
+    "url": "https://github.com/guludo/timewarrior-balance"
+  },
+  {
     "description": "A flextime extension to be used with timewarrior",
     "dormant": false,
     "language": [
@@ -315,6 +375,21 @@
     "url": "https://github.com/lauft/timew-report"
   },
   {
+    "description": " Systray app for pomodoro with taskwarrior ",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "pomodoroTasks2",
+    "owner": [
+      "liloman"
+    ],
+    "rating": 26,
+    "updated": "2017-11-11",
+    "url": "https://github.com/liloman/pomodoroTasks2"
+  },
+  {
     "description": "My timewarrior taskwarrior integration scripts",
     "dormant": true,
     "language": [
@@ -330,6 +405,36 @@
     "url": "https://github.com/liloman/warriors"
   },
   {
+    "description": "A timewarriror provider for german holidays from https://ipty.de/feiertag/",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-german-holidays",
+    "owner": [
+      "madonius"
+    ],
+    "rating": 1,
+    "updated": "2017-07-28",
+    "url": "https://github.com/madonius/timewarrior-german-holidays"
+  },
+  {
+    "description": "run time warrior as a service using systemd",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "timewarriorManaged",
+    "owner": [
+      "marcianito"
+    ],
+    "rating": 0,
+    "updated": "2019-03-01",
+    "url": "https://github.com/marcianito/timewarriorManaged"
+  },
+  {
     "description": "A simple script to migrate timer entries from timetrap to timewarrior.",
     "dormant": false,
     "language": [
@@ -343,6 +448,36 @@
     "rating": 0,
     "updated": "2020-08-30",
     "url": "https://github.com/matt-snider/timetrap-timewarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "telegram_bot_timewarrior",
+    "owner": [
+      "mkluge"
+    ],
+    "rating": 0,
+    "updated": "2021-10-05",
+    "url": "https://github.com/mkluge/telegram_bot_timewarrior"
+  },
+  {
+    "description": "A mouse tracker that talks to time warrior",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior_mouse_integration",
+    "owner": [
+      "mkluge"
+    ],
+    "rating": 1,
+    "updated": "2017-01-05",
+    "url": "https://github.com/mkluge/timewarrior_mouse_integration"
   },
   {
     "description": "Timewarrior Cheat Sheet",
@@ -495,6 +630,21 @@
     "url": "https://github.com/scattenlaeufer/timewarrior-report-rs"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Ruby"
+    ],
+    "license": null,
+    "name": "timewarrior-extensions",
+    "owner": [
+      "sdietzel"
+    ],
+    "rating": 0,
+    "updated": "2021-01-17",
+    "url": "https://github.com/sdietzel/timewarrior-extensions"
+  },
+  {
     "description": "Bugwarrior, Taskwarrior and Timewarrior integration with Serokell issue tracker and time tracking",
     "dormant": true,
     "language": [
@@ -643,6 +793,21 @@
     "rating": 2,
     "updated": "2021-10-10",
     "url": "https://github.com/tom-doerr/timew_distribution"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_beeminder_times",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 0,
+    "updated": "2021-04-28",
+    "url": "https://github.com/tom-doerr/timewarrior_beeminder_times"
   },
   {
     "description": "A timewarrior rust library",
