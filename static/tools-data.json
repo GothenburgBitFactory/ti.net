@@ -60,21 +60,6 @@
     "url": "https://github.com/FoxAmes/timewarrior-jirapush"
   },
   {
-    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior). This project aims to support automated installation of all Taskwarrior hook scripts, configuration flavours etc. with a single command.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "name": "tw-install",
-    "owner": [
-      "HiveMinds"
-    ],
-    "rating": 6,
-    "updated": "2021-10-08",
-    "url": "https://github.com/HiveMinds/tw-install"
-  },
-  {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
     "dormant": false,
     "language": [
@@ -780,7 +765,7 @@
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
-    "description": null,
+    "description": "This plugin plots the time you spent on a tag as a histogram.",
     "dormant": false,
     "language": [
       "Python"
