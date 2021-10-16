@@ -156,10 +156,10 @@ def load_file(filepath):
         with open(filepath) as f:
             return json.load(f)
     except FileNotFoundError:
-        log_debug("No {} found!", filepath)
+        log_info("File '{}' not found!", filepath)
         return dict()
     except JSONDecodeError:
-        log_debug("Could not parse {}!", filepath)
+        log_warn("Could not parse file '{}'!", filepath)
         return dict()
 
 
