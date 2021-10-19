@@ -9,6 +9,10 @@ body {
   padding-bottom: 0px;
 }
 
+pre code {
+  white-space: pre;
+}
+
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;

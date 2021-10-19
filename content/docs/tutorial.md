@@ -15,11 +15,22 @@ If you prefer your information in smaller pieces, use the [online docs](/docs).
 As a new Timewarrior user, there is no configuration needed.
 Once you have installed the software, the first time you run it, a data/configuration directory is created for you if necessary, and if you allow this action.
 
-![](/images/tutorial1.png)
+```console
+$ timew
+Create new database in ~/.timewarrior? (yes/no) yes
+There is no active time tracking
+$ ▒
+```
 
 You are told that there is no active time tracking, and that\'s right, because we\'ve done nothing yet.
 
-![](/images/tutorial2.png)
+```console
+$ ls -l .timewarrior
+data
+extensions
+timewarrior.cfg
+$ ▒
+```
 
 By default a `.timewarrior` directory is created in your home directory, and contains a sub-directory for data, and another for extensions.
 There is also an empty configuration file created.
@@ -33,29 +44,87 @@ Just like a stopwatch, you start and stop a clock, and you can see the elapsed t
 Start the clock when you begin work, and stop it when you are done.
 First let\'s see if the clock is running:
 
-![](/images/tutorial3.png)
-
+```console
+$ timew
+There is no active timew tracking.
+$ ▒ 
+```
 No it\'s not.
 You can always run timewarrior with no arguments to see if the clock is running, and no data is modified.
 Let\'s start the clock.
 
-![](/images/tutorial4.png)
+```console
+$ timew start
+Tracking
+  Started 2016-08-07T20:19:42
+  Current                  42
+  Total               0:00:00
+$ ▒
+```
 
 The clock is now running.
 In reality there is no clock and all that happened was that the start time was recorded, so don\'t be concerned about using system resources, as none are being used.
 Now when we check, we see a summary of the time recorded so far:
 
-![](/images/tutorial5.png)
+```console
+$ timew start
+Tracking
+  Started 2016-08-07T20:19:42
+  Current               20:34
+  Total               0:00:52
+$ ▒
+````
 
 Once our work is complete, we stop the clock, and look at the summary.
 
-![](/images/tutorial6.png)
+```console
+$ timew stop
+Recorded
+  Started 2016-08-07T20:19:42
+  Current               21:12
+  Total               0:01:30
+$
+$ timew summary
+
+Wk  Date       Day Tags    Start      End    Time   Total
+--- ---------- --- ---- -------- -------- ------- -------
+W31 2016-08-07 Sun      20:19:42 20:21:12 0:01:30 0:01:30
+
+                                                  -------
+                                                  0:01:30
+
+$ ▒
+```
 
 The summary report shows time that was tracked today by default.
 
 There is a `continue` command that re-starts the previous tracking, and is useful if you stopped the clock during lunch, or overnight.
 
-![](/images/tutorial7.png)
+```console
+$ timew continue
+Tracking
+  Started 2016-08-07T20:22:06
+  Current                  06
+  Total               0:01:30
+$
+$ timew stop
+Recorded
+  Started 2016-08-07T20:22:06
+  Current                  18
+  Total               0:01:42
+$
+$ timew summary
+
+Wk  Date       Day Tags    Start      End    Time   Total
+--- ---------- --- ---- -------- -------- ------- -------
+W31 2016-08-07 Sun      20:19:42 20:21:12 0:01:30
+                        20:22:06 20:22:18 0:00:12 0:01:42
+
+                                                  -------
+                                                  0:01:42
+
+$ ▒
+```
 
 See how every time the clock is started, there is a new line in the `summary` report?
 
@@ -69,28 +138,79 @@ Instead it deals with this problem in two ways, first by making it easy to corre
 The examples so far did not use tags.
 Tags are optional, but when you do make use of tags, you start tracking time spent on *different* activities.
 
-![](/images/tutorial8.png)
+```console
+$ timew start 'Using Tags' Software
+Tracking 'Using Tags' Software
+  Started 2016-08-07T20:23:08
+  Current                  08
+  Total               0:00:00
+$ ▒
+```
 
 This example is tracking time using two different tags.
 The first is `Using Tags`, the second is `Software`.
 The first tag is two words, and because of the space between them, the quotes are needed to keep those two words together in one tag.
 The second tag is a single word and needs no quotes.
 
-![](/images/tutorial9.png)
+```console
+$ timew stop
+Recorded 'Using Tags' Software
+  Started 2016-08-07T20:23:08
+  Current                  48
+  Total               0:00:40
+$
+$ timew summary
+
+Wk  Date       Day Tags                    Start      End    Time   Total
+--- ---------- --- -------------------- -------- -------- ------- -------
+W31 2016-08-07 Sun                      20:19:42 20:21:12 0:01:30
+                                        20:22:06 20:22:18 0:00:12
+                   Software, Using Tags 20:23:08 20:23:48 0:00:40 0:02:22
+                
+                                                                  -------
+                                                                  0:02:22
+
+$ ▒
+```
 
 You can see that using tags is useful, but optional.
 Once you are using tags, you can use them to filter reports, such as the `summary` report.
 
-![](/images/tutorial10.png)
+```console
+$ timew summary Software
+
+Wk  Date       Day Tags                    Start      End    Time   Total
+--- ---------- --- -------------------- -------- -------- ------- -------
+W31 2016-08-07 Sun Software, Using Tags 20:23:08 20:23:48 0:00:40 0:00:40
+                
+                                                                  -------
+                                                                  0:00:40
+
+$ ▒
+```
 
 There is a `tags` command, which will show you all the tags you have used.
 
-![](/images/tutorial11.png)
+```console
+$ timew tags
+
+Tag        Description
+---------- -----------
+Software   -
+Using Tags -
+
+$ ▒
+```
 
 You may wonder how is that 'Description' column in the report used?
 It is the first example of tag metadata, which you can configure.
 
-![](/images/tutorial12.png)
+```console
+$ timew config tags.Software.description 'Learning about new software'
+Are you sure you want to add 'tags.Software.description' with a value of 'Learning about new software'? (yes/no) yes
+Config file ~/.timewarrior/timewarrior.cfg modified
+$ ▒
+```
 
 This is not currently used, but does represent how Timewarrior will be extended to include tag metadata in future releases.
 
@@ -99,14 +219,41 @@ This is not currently used, but does represent how Timewarrior will be extended 
 Although we have just begun, it is important to mention the built-in help system.
 Let\'s look at the help for the `continue` command.
 
-![](/images/tutorial13.png)
+```console
+$ timew help continue
+
+Syntax: timew continue
+
+Resumes tracking the most recently closed interval. For example:
+
+  $ timew track 09am - 10am tag1 tag2
+  $ timew continue
+
+The 'continue' command creates a new interval, starting now, and using the tags
+'tag1' and 'tag2'
+
+This command is a convenient way to resume work without re-entering the tags.
+
+See also 'start', 'stop'
+
+$ ▒
+```
 
 You can see that the help system contains examples, and introduces new commands and other help topics.
 From the help text, we learn that the `continue` command will not only resume tracking but use the same set of tags.
 
 In addition to the built-in help, there is a man page which contains the same information plus a lot more.
 
-![](/images/tutorial14.png)
+```console
+$ man timew
+timew(1)                          User Manuals                         timew(1)
+
+NAME
+       timew - A command line time tracker.
+
+SYNOPSIS    
+       timew <command> [<arg> ...]
+```
 
 ## Historical
 
@@ -114,30 +261,83 @@ We have seen how to use the stopwatch feature, and combine it with tags.
 Additionally we can record time *ex post facto*.
 So to track time I spent earlier in the day (but forgot to record), I use the `track` command.
 
-![](/images/tutorial15.png)
+```console
+$ timew track 9:00 - 11:00 'Outline the tutorial topics'
+Recorded
+  Started 2016-08-07T09:00:00
+  Current            11:00:00
+  Total               2:00:00
+$ ▒
+```
 
 When Timewarrior sees a time like `9:00` it always assumes it is in the past, because Timewarrior is a tool for recording what you have done or are doing, and is not a forward-looking planning tool.
 This is the opposite of Taskwarrior, which always looks forward, because tasks are generally going to be completed in the future.
 
 There are other ways to specify time in the past, for example:
 
-![](/images/tutorial16.png)
+```console
+$ timew track 9am for    2h   'Outline the tutorial topics'
+$ timew track 9am to     11am 'Outline the tutorial topics'
+$ timew track 2h  before 11am 'Outline the tutorial topics'
+$ ▒
+```
 
 And there are many more, which can be seen in the help system.
 
-![](/images/tutorial17.png)
+```console
+$ timew help ranges
+
+timew-ranges(7)                         User Manuals                        timew-ranges(7)
+
+
+
+NAME
+       timew-ranges - date and time ranges supported by Timewarrior
+
+SYNOPSIS
+DESCRIPTION
+       An interval defines a block of time that is tracked.
+       The syntax for specifying an interval is flexible, and may be one of:
+         [from] <date>
+         [from] <date> to/- <date>
+         [from] <date> for <duration>
+         <duration> before/after <date>
+         <duration> ago
+         [for] <duration>
+       Examples are:
+         from 9:00
+         from 9am - 11am
+         from 9:00:00 to 11:00
+         from 9:00 for 2h
+         2h after 9am
+         2h before 11:00
+         2h ago
+         for 2h
+       An interval is said to be 'closed' if there is both a start and end,
+       and 'open' if there is no end date.
+
+
+
+timew 1.4.2                            2020-09-23                           timew-ranges(7)
+```
 
 In addition to time, you can specify date and time, so one equivalent command would use an ISO datetime.
 
-![](/images/tutorial18.png)
+```console
+$ timew track 2016-07-30T09:00:00 - 2016-07-30T11:00:00 'Outline the tutorial topics'
+```
 
 Again, you can see all the date formats listed using the help system.
 
-![](/images/tutorial19.png)
+```console
+$ timew help dates
+```
 
 Using date synonyms you can track time for a whole month.
 
-![](/images/tutorial20.png)
+```console
+$ timew track june - july Training
+```
 
 But that command will track all 30 days, all 24 hours each in June, including weekends, holidays and lunch breaks.
 Or does it?
@@ -148,7 +348,10 @@ This is discussed later.
 Many commands support hints, which are words that start with a `:` and are convenient representations to save time.
 Here is the `:quiet` hint, being used to suppress all feedback:
 
-![](/images/tutorial21.png)
+```console
+$ timew track 9am - 10am 'Walk the dog' :quiet
+$ ▒
+```
 
 The `:quiet` hint is the same as disabling verbosity, but is easier to specify, and temporary.
 Another hint is `:yes`, which is used to override confirmation, by automatically answering 'yes' to the question.
@@ -158,11 +361,40 @@ For example, the `:yesterday` hint is a date range representing all day yesterda
 Similarly, `:lastweek` is also a date range.
 That makes the following two commands identical (assuming that today is the 6th):
 
-![](/images/tutorial22.png)
+```console
+$ timew track :yesterday Hiking
+$ timew track 5th - 6th Hiking
+```
 
 The help system lists all the supported hints.
 
-![](/images/tutorial23.png)
+```console
+$ timew help hints
+
+timew-hints(7)                          User Manuals                         timew-hints(7)
+
+
+
+NAME
+       timew-hints - Timewarrior hints
+
+SYNOPSIS
+DESCRIPTION
+       Timewarrior  supports  hints, which are single-word command line features that start
+       with a colon like this:
+         :week
+       Hints serve several purposes.  This example is a shortcut for the date range that
+       defines the current week.
+       Other hints, such as:
+         :quiet
+       Are  ways  to  control  the  behavior of Timewarrior, in this case eliminating all
+       forms of feedback, for purposes of automation.
+       The supported hints are:
+         :quiet         Turns off all feedback. For automation
+         :debug         Runs in debug mode, shows many runtime details
+         :yes           Overrides confirmation by answering 'yes' to the questions
+...
+```
 
 ## Charts
 
@@ -174,25 +406,83 @@ There are three charts, which are really just three variations of the same chart
 We\'ll take a look at these charts, but first we need some sample data to look at.
 Let us first track a couple of days of data, to illustrate how the charts work.
 
-![](/images/tutorial24.png)
+```console
+$ timew track 2016-08-06T09:00 - 2016-08-06T12:00 'Staff meeting'  :quiet
+$ timew track 2016-08-06T12:45 - 2016-08-06T14:00 Training         :quiet
+$ timew track 2016-08-06T14:15 - 2016-08-06T16:00 'Project review' :quiet
+$ timew track 2016-08-06T16:15 - 2016-08-06T17:20 Research         :quiet
+$ timew track 2016-08-07T08:45 - 2016-08-07T12:30 Research         :quiet
+$ timew track 2016-08-07T13:15 - 2016-08-07T17:30 Research         :quiet
+$
+$ ▒
+```
 
 We have tracked six separate intervals, and the summary report shows just that.
 
-![](/images/tutorial25.png)
+```console
+$ timew summary yesterday - now
+
+Wk  Date       Day Tags              Start      End    Time    Total
+--- ---------- --- -------------- -------- -------- ------- --------
+W31 2016-08-06 Sat Staff meeting   9:00:00 12:00:00 3:00:00 
+                   Training       12:45:00 14:00:00 1:15:00 
+                   Project review 14:15:00 16:00:00 1:45:00 
+                   Research       16:15:00 17:20:00 1:05:00  7:05:00
+W31 2016-08-07 Sun Research        8:45:00 12:30:00 3:45:00 
+                   Research       13:15:00 17:30:00 4:15:00  8:00:00
+                
+                                                            --------
+                                                            15:05:00
+
+$ ▒
+```
 
 The summary report gives accurate time values, so this should be the preferred report for this reason.
 Let\'s look at the first chart, the `day` report.
 
-![](/images/tutorial26.png)
+```
+$ timew day
+
+Sun  7 0    1    2    3    4    5    6    7    8  Research▒▒▒▒▒▒▒▒▒▒▒   1Research▒▒▒▒▒▒▒▒▒▒▒▒▒▒  18   19   20   21   22   23
+                                                  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒    ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒                             
+
+
+          Tracked         8:00:00
+          Available      16:00:00
+          Total          24:00:00
+
+$ ▒
+```
 
 Like the `summary` report, the `day` report shows data for today by default.
 You can make it show multiple days like this:
 
-![](/images/tutorial27.png)
+```console
+$ timew day 4th - now
+```
 
 A better option is to use the `week` report.
 
-![](/images/tutorial28.png)
+```
+$ timew week
+
+          0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21   22   23     Total
+W31 Mon 1
+    Tue 2
+    Wed 3
+    Thu 4 
+    Fri 5
+    Sat 6                                              Staff▒meeting▒▒   Trainin Project▒▒ Resea                                     7:05 
+    Sun 7                                            Research▒▒▒▒▒▒▒▒▒▒▒    Research▒▒▒▒▒▒▒▒▒▒▒▒▒                                    8:00
+                                                                                                                                   ------
+                                                                                                                                    15:05
+
+          Tracked        15:05:00
+          Available     152:55:00
+          Total         168:00:00
+
+$ ▒
+```
 
 There is also a `month` report that looks the same, but is longer.
 
@@ -203,7 +493,31 @@ See `man timew` for full configuration details.
 
 We have seen the `summary` and `tags` reports, but there is another useful report that shows the untracked time in the day.
 
-![](/images/tutorial29.png)
+```console
+$ timew summary
+
+Wk  Date       Day Tags              Start      End    Time   Total
+--- ---------- --- -------------- -------- -------- ------- -------
+W31 2016-08-07 Sun Research        8:45:00 12:30:00 3:45:00 
+                   Research       13:15:00 17:30:00 4:15:00 8:00:00
+                
+                                                            -------
+                                                            8:00:00
+
+$
+$ timew gaps
+
+Wk  Date       Day Tags              Start      End    Time    Total
+--- ---------- --- -------------- -------- -------- ------- --------
+W31 2016-08-07 Sun Research        0:00:00  8:45:00 8:45:00  
+                   Research       12:30:00 13:15:00 0:45:00
+                   Research       17:30:00  0:00:00 6:30:00 16:00:00
+                 
+                                                            --------
+                                                            16:00:00
+
+$ ▒
+```
 
 The `gaps` report is useful for finding time in the day where you were not tracking time.
 In the example the gaps correspond well to time that was not spent working, so there is no need for adjustments.
@@ -215,12 +529,16 @@ All reports in Timewarrior can be filtered by time interval and tags, but all ha
 Timewarrior has color themes that are mostly used by the charts to color the different parts of the display.
 To use a color theme, add this line to your `~/.timewarrior/timewarrior.cfg` file with a text editor:
 
-    import /path/to/themes/dark_green.theme
+```console
+import /path/to/themes/dark_green.theme
+```
 
 Note that the path `/path/to/themes` is a placeholder.
 Your installation will likely use a path more like this, but it should be noted that this path varies depending on platform and the wishes of the packager.
 
-    import /usr/local/share/doc/timew/doc/themes/dark_green.theme
+```console
+import /usr/local/share/doc/timew/doc/themes/dark_green.theme
+```
 
 There are a few simple themes available initially, but this collection will grow and improve.
 Timewarrior is also likely to make greater use of themes in future releases.
@@ -230,7 +548,9 @@ Timewarrior is also likely to make greater use of themes in future releases.
 Timewarrior can also make use of Holiday files.
 In the same way that a color theme was imported into the configuration file, a holiday file can also be used:
 
-    import /usr/local/share/doc/timew/doc/holidays/holidays.en-US
+```console
+import /usr/local/share/doc/timew/doc/holidays/holidays.en-US
+```
 
 Again, that path is platform-dependent, so use the appropriate path for your system.
 
@@ -249,17 +569,44 @@ The simplest exclusion is a day off work.
 Suppose you took a day off, on August 4th.
 You can define this day as an exclusion.
 
-![](/images/tutorial30.png)
+```console
+$ timew config exclusions.days.2016_08_04 off :yes
+Config file ~/.timewarrior/timewarrior.cfg modified.
+$ ▒
+```
 
 The date must be formatted in this precise way.
 Note the use of the `:yes` hint to override confirmation.
 Now we see on the `week` report that the day is marked as non-working.
 
-![](/images/tutorial31.png)
+```console
+$ timew week
+
+          0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21   22   23     Total
+W31 Mon 1
+    Tue 2
+    Wed 3
+    Thu 4 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Fri 5
+    Sat 6
+    Sun 7
+                                                                                                                                   ------
+                                                                                                                                     0:00
+
+          Tracked         0:00:00
+          Available     156:00:00
+          Total         156:00:00
+
+$ ▒
+```
 
 Similarly, if you worked on a holiday, you can define that day as a work day, and therefore available for automatic tracking.
 
-![](/images/tutorial32.png)
+```console
+$ timew config exclusions.days.2016_01_01 on :yes
+Config file ~/.timewarrior/timewarrior.cfg modified.
+$ ▒
+```
 
 Here we have (re)defined January 1st as a working day, which was previously defined as a holiday in the `en-US` locale.
 
@@ -268,11 +615,39 @@ Suppose you work a regular weekly schedule, that starts at 8:30am, Monday to Fri
 You take a 45-minute lunch break each day, and leave work at 5:30pm.
 On Fridays you leave early.
 
-![](/images/tutorial33.png)
+```console
+$ timew config exclusions.monday    '<8:30 12:30-13:15' :yes
+$ timew config exclusions.tuesday   '<8:30 12:30-13:15' :yes
+$ timew config exclusions.wednesday '<8:30 12:30-13:15' :yes
+$ timew config exclusions.thursday  '<8:30 12:30-13:15' :yes
+$ timew config exclusions.friday    '<8:30 12:30-13:15' :yes
+$ timew config exclusions.saturday  '>0:00'             :yes
+$ timew config exclusions.sunday    '>0:00'             :yes
+$ ▒
+```
 
 You can view this in the `week` report, and here we will use the `:blank` hint to remove all the tracked data from the report, leaving only the exclusions.
 
-![](/images/tutorial34.png)
+```console
+$ timew week :blank
+
+          0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21   22   23     Total
+W31 Mon 1 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                     ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Tue 2 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                     ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Wed 3 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                     ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Thu 4 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Fri 5 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Sat 6 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒  
+    Sun 7 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+                                                                                                                                   ------
+                                                                                                                                     0:00
+
+          Tracked         0:00:00
+          Available      32:00:00
+          Total          32:00:00
+
+$ ▒
+```
 
 Your whole work week is defined.
 While you are not at all constrained by this defined schedule, it does control automatic time tracking.
@@ -282,12 +657,56 @@ While you are not at all constrained by this defined schedule, it does control a
 Once you have defined exclusions for your workweek, the tracked time will conform to the set boundaries.
 Suppose this is our work week:
 
-![](/images/tutorial35.png)
+```console
+$ timew week august
+
+          0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21   22   23     Total
+W31 Mon 1 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                     ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Tue 2 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                     ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Wed 3 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                     ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Thu 4 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Fri 5 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒                    ▒▒ ▒                ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Sat 6 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒  
+    Sun 7 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+                                                                                                                                   ------
+                                                                                                                                     0:00
+
+          Tracked         0:00:00
+          Available      32:00:00
+          Total          32:00:00
+
+$ ▒
+```
 
 There is no tracked time, but there are 40:15:00 hours available to be tracked.
 If we worked the whole week on our `Research` project, we can track all that time with one command:
 
-![](/images/tutorial36.png)
+```console
+$ timew start monday Research
+Tracking Research
+  Started 2016-08-01T00:00:00
+  Current         07T21:38:29
+  Total             165:38:29
+$
+$ timew week august
+
+          0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21   22   23     Total
+W31 Mon 1 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒Research            ▒▒ ▒Research             ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Tue 2 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒Research            ▒▒ ▒Research             ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Wed 3 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒Research            ▒▒ ▒Research             ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Thu 4 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Fri 5 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒Research            ▒▒ ▒Research        ▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+    Sat 6 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒  
+    Sun 7 ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ ▒▒▒▒ 
+                                                                                                                                   ------
+                                                                                                                                     0:00
+
+          Tracked         0:00:00
+          Available      32:00:00
+          Total          32:00:00
+
+$ ▒
+```
 
 We see that the exclusions are automatically subtracted from the time, and fill the whole week, leaving no available time.
 
@@ -300,7 +719,35 @@ With or without the use of [exclusions](#exclusions), there is always the need t
 As mentioned earlier, it is quite likely that the clock would be left running by mistake, or that the tracking was started or stopped at the wrong time.
 We will create some incorrect time tracking, and then correct it.
 
-![](/images/tutorial37.png)
+```console
+$ timew track 9am - 10am ProjectA
+Recorded ProjectA
+  Started 2016-08-07T09:00:00
+  Ended              10:00:00
+  Total               1:00:00
+$ timew track 10:12am - 10:30am projectB
+Recorded projectB
+  Started 2016-08-07T10:12:00
+  Ended                 30:00
+  Total               0:18:00
+$ timew start 12pm projectC
+Tracking projectC
+   Started 2016-08-07T12:00:00
+   Current            21:41:18
+   Total               9:41:18
+$ timew summary 
+
+Wk  Date       Day Tags        Start      End    Time    Total
+--- ---------- --- -------- -------- -------- ------- --------
+W31 2016-08-07 Sun ProjectA  9:00:00 10:00:00 1:00:00  
+                   projectB 10:12:00 10:30:00 0:18:00
+                   projectC 12:00:00        - 9:41:24 10:59:24
+           
+                                                      --------
+                                                      10:59:24
+
+$ ▒
+```
 
 I actually started work at 8:30am, but forgot to start the clock at the beginning.
 I also did not take a break at 10am, I again forgot to start the clock.
@@ -312,35 +759,181 @@ To make an adjustment to an interval, we need first to identify that interval.
 The `summary`, `day`, `week` and `month` reports all support the `:ids` hint for this purpose.
 If we take a look at the `summary` report with the hint:
 
-![](/images/tutorial38.png)
+```console
+$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time    Total
+--- ---------- --- -- -------- -------- -------- ------- --------
+W31 2016-08-07 Sun @3 ProjectA  9:00:00 10:00:00 1:00:00  
+                   @2 projectB 10:12:00 10:30:00 0:18:00
+                   @1 projectC 12:00:00        - 9:41:24 10:59:24
+              
+                                                         --------
+                                                         10:59:24
+
+$ ▒
+```
 
 Notice how the intervals now have IDs: `@3` for the oldest interval.
 Let\'s make some corrections:
 
-![](/images/tutorial39.png)
+```console
+$ timew move @3 8:30am
+Moved @3 to 2016-08-07T08:30:00
+$ timew lengthen @3 30mins
+Lengthened @3 by 0:30:00
+$ timew move @1 11:00
+Moved @1 to 2016-08-07T11:30:00
+$
+$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End     Time    Total
+--- ---------- --- -- -------- -------- -------- -------- --------
+W31 2016-08-07 Sun @3 ProjectA  8:30:00 10:00:00  1:30:00  
+                   @2 projectB 10:12:00 10:30:00  0:18:00
+                   @1 projectC 11:00:00        - 10:41:24 12:30:39
+               
+                                                          --------
+                                                          12:30:39
+
+$ ▒
+```
 
 There is still a problem, interval `@2` needs to occupy the slot between 10am and 11am.
 There is a `:fill` hint that does this for us.
 
-![](/images/tutorial40.png)
+```console
+$ timew @2 move 10:02 :fill
+Backfilled @2 to 2016-08-07T10:00:00
+Filled @2 to 2016-08-07T11:00:00
+Moved @2 to 2016-08-07T10:00:00
+$
+$ timew summary
+
+Wk  Date       Day Tags        Start      End     Time    Total
+--- ---------- --- -------- -------- -------- -------- --------
+W31 2016-08-07 Sun ProjectA  8:30:00 10:00:00  1:30:00  
+                   projectB 10:00:00 11:00:00  1:00:00
+                   projectC 11:00:00        - 10:43:15 13:13:15
+            
+                                                       --------
+                                                       13:13:15
+
+$ ▒
+```
 
 The `@1` ID always represents the newest interval.
 Note that if my corrections have changes the order, then the IDs would be different, and you would need to run `timew summary :ids` again to see the new IDs.
 
 Finally, I actually stopped for lunch at 12:30 for 45 minutes:
 
-![](/images/tutorial41.png)
+```console
+$ timew stop 12:30pm
+Recorded projectC
+   Started 2016-08-07T11:00:00
+   Current            12:30:00
+   Total               1:30:00
+$
+$ timew continue
+Tracking projectC
+   Started 2016-08-07T21:43:53
+   Current                  53
+   Total               1:30:00
+$
+$ timew summary
+
+Wk  Date       Day Tags        Start      End    Time   Total
+--- ---------- --- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun ProjectA  8:30:00 10:00:00 1:30:00 
+                   projectB 10:00:00 11:00:00 1:00:00
+                   projectC 11:00:00 12:30:00 1:30:00        
+                   projectC 21:43:53        - 0:00:07 4:00:07
+          
+                                                      -------
+                                                      4:00:07
+
+$
+$ timew move @1 1:15pm
+Moved @1 to 2016-08-07T13:15:00
+$ ▒
+```
 
 Let\'s keep going, even though this example has already exceeded credibility, to demonstrate more.
 I need to change that `projectB` interval to use `projectB1` and `projectB2` tags, and divide the time between the two.
 We will split the interval, the re-tag it.
 
-![](/images/tutorial42.png)
+```console
+$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time    Total
+--- ---------- --- -- -------- -------- -------- ------- --------
+W31 2016-08-07 Sun @4 ProjectA  8:30:00 10:00:00 1:30:00 
+                   @3 projectB 10:00:00 11:00:00 1:00:00
+                   @2 projectC 11:00:00 12:30:00 1:30:00        
+                   @1 projectC 13:15:00        - 8:29:42 12:29:42
+               
+                                                         --------
+                                                         12:29:42
+
+$ timew @3 split
+Split @3
+$
+$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time    Total
+--- ---------- --- -- -------- -------- -------- ------- --------
+W31 2016-08-07 Sun @4 ProjectA  8:30:00 10:00:00 1:30:00 
+                   @3 projectB 10:00:00 11:30:00 0:30:00
+                   @3 projectB 11:30:00 11:00:00 0:30:00
+                   @2 projectC 11:00:00 12:30:00 1:30:00        
+                   @1 projectC 13:15:00        - 8:29:54 12:29:54
+               
+                                                         --------
+                                                         12:29:54
+$ timew untag @4 @3 projectB
+Removed projectB from @4
+Removed projectB from @3
+$ timew tag @4 projectB1
+Added projectB1 to @4
+$ timew tag @3 projectB2
+Added projectB2 to @3
+$ timew summary :ids
+
+Wk  Date       Day ID Tags         Start      End    Time    Total
+--- ---------- --- -- --------- -------- -------- ------- --------
+W31 2016-08-07 Sun @4 ProjectA   8:30:00 10:00:00 1:30:00 
+                   @3 projectB1 10:00:00 11:30:00 0:30:00
+                   @3 projectB2 11:30:00 11:00:00 0:30:00
+                   @2 projectC  11:00:00 12:30:00 1:30:00        
+                   @1 projectC  13:15:00        - 8:30:19 12:30:19
+                
+                                                          --------
+                                                          12:30:19
+
+$ ▒
+```
 
 Notice how the `split` command just divided `@3` into two even-sized intervals.
 But we\'re still not done - I brought lunch to work and ate at my desk while working so let\'s eliminate that lunch break.
 
-![](/images/tutorial43.png)
+```console
+$ timew join @2 @1
+Joined @2 and @1
+$
+$ timew summary
+
+Wk  Date       Day Tags         Start      End     Time    Total
+--- ---------- --- --------- -------- -------- -------- --------
+W31 2016-08-07 Sun ProjectA   8:30:00 10:00:00  1:30:00 
+                   projectB1 10:00:00 11:30:00  0:30:00
+                   projectB2 11:30:00 11:00:00  0:30:00
+                   projectC  11:00:00        - 10:46:10 13:16:10
+                 
+                                                        --------
+                                                        13:16:10
+
+$ ▒
+```
 
 Now whether this report now accurately represents your day, or whether it is a fiction you need to report (no judgement here), Timewarrior supports it, but let\'s stop - the example can\'t take much more.
 
@@ -362,14 +955,22 @@ Better yet, share the result, and we\'ll build a list of 3rd party reports.
 We\'ve included one extension report with Timewarrior, and will add more.
 The one provided is:
 
-![](/images/tutorial44.png)
+```console
+$ ls -l /usr/local/share/doc/timew/ext/totals.py
+-rw-r--r-- 1 root admin 3606 Jul 30 15:34 /usr/local/share/doc/timew/ext/totals.py
+$ ▒
+```
 
 Again, that path is platform-dependent, so use the appropriate path for your system.
 Note that this is a Python script, and to use this you\'ll need to have Python installed.
 
 To install and use this extension, or any other, simply copy it to your `~/.timewarrior/extensions` directory and make sure it is executable.
 
-![](/images/tutorial45.png)
+```console
+$ cp /usr/local/share/doc/timew/ext/totals.py ~/.timewarrior/extensions
+$ chmod +x ~/.timewarrior/extensions/totals.py
+$
+```
 
 ## Caution
 
@@ -382,7 +983,18 @@ If you are unsure, don\'t.
 
 Once the extension is in the `extensions` directory, and executable, it should be visible to the `extensions` command.
 
-![](/images/tutorial46.png)
+```console
+$ timew extensions
+
+Extensions located in:
+  ~/.timewarrior/extensions
+
+Extention Status
+--------- ------
+totals.py Active
+
+$ ▒
+```
 
 Additionally, the `diagnostics` command will report the presence and status of this extension.
 
@@ -390,11 +1002,33 @@ Once an extension is ready to use, it is used in the same way that the `summary`
 The command you use is compared to the name of the script, and if unique, is a match.
 All of these commands are equivalent:
 
-![](/images/tutorial47.png)
+```console
+$ timew totals.py
+$ timew totals.p
+$ timew totals.
+$ timew totals
+$ timew total
+```
 
 Here is the report run with no filter, and therefore against all recorded data, which is not much in this example.
 
-![](/images/tutorial48.png)
+```console
+$ timew totals
+
+Total by Tag, for 2016-08-07 12:30:00 - 2016-08-08 01:52:44
+
+Tag          Total
+--------- --------
+ProjectA   1:30:00
+projectB1  0:30:00
+projectB2  0:30:00
+projectC  10:52:44
+
+          --------
+Total     13:22:44
+
+$ ▒
+```
 
 Extensions are not restricted to emitting text, they could for example output, DOT, PDF, PNG, JPEG \...
 
