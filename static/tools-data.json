@@ -16,7 +16,7 @@
   },
   {
     "description": "Task/time management using TimeWarrior and friends with browser extensions for JIRA.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
