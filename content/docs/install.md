@@ -19,6 +19,7 @@ The Gothenburg Bit Factory does not maintain any packages, but thanks to the com
 | [Gentoo](https://packages.gentoo.org/packages/app-misc/timew)            | `emerge app-misc/timew`            | -               |
 | [Fedora](https://bodhi.fedoraproject.org/updates/?packages=timew)        | `sudo dnf install timew`           | Fedora 26       |
 | [macOS](https://formulae.brew.sh/formula/timewarrior)                    | `brew install timewarrior`         | El Capitan      |
+| [Nix](https://nixos.org/)                                                | `nix-env --install timewarrior`    | -               |
 
 Note that packages are the responsibility of the respective maintainers.
 Please contact them in case of outdated or missing packages.
