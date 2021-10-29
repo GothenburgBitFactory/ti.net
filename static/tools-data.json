@@ -255,6 +255,21 @@
     "url": "https://github.com/fradeve/twtools"
   },
   {
+    "description": "Extend the functionality of timewarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior-extensions",
+    "owner": [
+      "gkssjovi"
+    ],
+    "rating": 0,
+    "updated": "2021-10-28",
+    "url": "https://github.com/gkssjovi/timewarrior-extensions"
+  },
+  {
     "description": "Alfred workflow for timewarrior",
     "dormant": false,
     "language": [
