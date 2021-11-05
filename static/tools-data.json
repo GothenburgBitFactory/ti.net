@@ -355,7 +355,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2020-05-08",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
@@ -761,7 +761,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 7,
-    "updated": "2021-11-03",
+    "updated": "2021-11-04",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
