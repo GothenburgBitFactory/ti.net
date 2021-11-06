@@ -255,6 +255,21 @@
     "url": "https://github.com/fradeve/twtools"
   },
   {
+    "description": "Sync worklogs between multiple time trackers, invoicing, and bookkeeping software.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "minutes",
+    "owner": [
+      "gabor-boros"
+    ],
+    "rating": 10,
+    "updated": "2021-11-04",
+    "url": "https://github.com/gabor-boros/minutes"
+  },
+  {
     "description": "Extend the functionality of timewarrior",
     "dormant": false,
     "language": [
@@ -761,7 +776,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 7,
-    "updated": "2021-11-04",
+    "updated": "2021-11-05",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
