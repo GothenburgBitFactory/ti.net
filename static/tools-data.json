@@ -578,11 +578,11 @@
     "license": null,
     "name": "timew-extensions",
     "owner": [
-      "rccavalcanti"
+      "rc2dev"
     ],
     "rating": 0,
     "updated": "2021-07-08",
-    "url": "https://github.com/rccavalcanti/timew-extensions"
+    "url": "https://github.com/rc2dev/timew-extensions"
   },
   {
     "description": "Get Timewarrior's total time per tag per week through a web API and page.",
@@ -593,11 +593,11 @@
     "license": "GNU General Public License v3.0",
     "name": "timew-web-report",
     "owner": [
-      "rccavalcanti"
+      "rc2dev"
     ],
     "rating": 2,
-    "updated": "2021-07-03",
-    "url": "https://github.com/rccavalcanti/timew-web-report"
+    "updated": "2021-11-23",
+    "url": "https://github.com/rc2dev/timew-web-report"
   },
   {
     "description": "Holidays file definitions for South america countries to be loaded by timewarrior.",
