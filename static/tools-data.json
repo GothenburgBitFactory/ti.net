@@ -150,6 +150,21 @@
     "url": "https://github.com/agwells/timew-scripts"
   },
   {
+    "description": "Simple Timewarrior interface running on top of Xfce4's Genmon",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "xfce4-genmon-timewarrior",
+    "owner": [
+      "alikasundara"
+    ],
+    "rating": 0,
+    "updated": "2021-11-25",
+    "url": "https://github.com/alikasundara/xfce4-genmon-timewarrior"
+  },
+  {
     "description": "Simple bash script to display the active task in timewarrior.",
     "dormant": false,
     "language": [
