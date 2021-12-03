@@ -300,6 +300,21 @@
     "url": "https://github.com/gkssjovi/timewarrior-extensions"
   },
   {
+    "description": "This extension create a link between taskwarrior and timewarrior that allows you to keep track of time spend on tasks. The time will be displayed in a new column in taskwarrior.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "trackwarrior",
+    "owner": [
+      "gkssjovi"
+    ],
+    "rating": 0,
+    "updated": "2021-11-02",
+    "url": "https://github.com/gkssjovi/trackwarrior"
+  },
+  {
     "description": "Alfred workflow for timewarrior",
     "dormant": false,
     "language": [
@@ -385,7 +400,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2020-05-08",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
