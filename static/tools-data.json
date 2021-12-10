@@ -310,7 +310,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -746,7 +746,7 @@
       "suidroot"
     ],
     "rating": 2,
-    "updated": "2021-05-23",
+    "updated": "2021-12-09",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
   {
@@ -775,7 +775,7 @@
     "owner": [
       "sw00"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
   },
@@ -790,7 +790,7 @@
     "owner": [
       "tassos"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2020-10-24",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
