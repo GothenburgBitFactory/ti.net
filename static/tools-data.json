@@ -295,7 +295,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-10-29",
     "url": "https://github.com/gkssjovi/timewarrior-extensions"
   },
@@ -310,7 +310,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -581,7 +581,7 @@
       "radarsymphony"
     ],
     "rating": 2,
-    "updated": "2021-07-18",
+    "updated": "2021-12-10",
     "url": "https://github.com/radarsymphony/timew-csv"
   },
   {
