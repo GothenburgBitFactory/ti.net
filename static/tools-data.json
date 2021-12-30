@@ -806,7 +806,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 7,
-    "updated": "2021-11-05",
+    "updated": "2021-12-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -821,7 +821,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 12,
-    "updated": "2021-12-25",
+    "updated": "2021-12-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
@@ -835,7 +835,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-10-15",
     "url": "https://github.com/tom-doerr/timew_distribution"
   },
