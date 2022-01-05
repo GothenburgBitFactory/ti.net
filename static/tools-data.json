@@ -360,6 +360,21 @@
     "url": "https://github.com/guludo/timewarrior-balance"
   },
   {
+    "description": "a timewarrior alternative that fits my needs",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "gott",
+    "owner": [
+      "jblawatt"
+    ],
+    "rating": 0,
+    "updated": "2022-01-04",
+    "url": "https://github.com/jblawatt/gott"
+  },
+  {
     "description": "A flextime extension to be used with timewarrior",
     "dormant": false,
     "language": [
@@ -806,7 +821,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 7,
-    "updated": "2021-12-30",
+    "updated": "2022-01-04",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
