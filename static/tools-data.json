@@ -371,7 +371,7 @@
       "jblawatt"
     ],
     "rating": 0,
-    "updated": "2022-01-04",
+    "updated": "2022-01-05",
     "url": "https://github.com/jblawatt/gott"
   },
   {
@@ -466,7 +466,7 @@
   },
   {
     "description": "A timewarriror provider for german holidays from https://ipty.de/feiertag/",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -476,7 +476,7 @@
       "madonius"
     ],
     "rating": 1,
-    "updated": "2017-07-28",
+    "updated": "2022-01-05",
     "url": "https://github.com/madonius/timewarrior-german-holidays"
   },
   {
