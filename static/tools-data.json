@@ -371,7 +371,7 @@
       "jblawatt"
     ],
     "rating": 0,
-    "updated": "2022-01-06",
+    "updated": "2022-01-08",
     "url": "https://github.com/jblawatt/gott"
   },
   {
@@ -553,6 +553,21 @@
     "rating": 44,
     "updated": "2017-04-24",
     "url": "https://github.com/mkluge/timewcs"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "Other",
+    "name": "timewarrior-bash-utility",
+    "owner": [
+      "nico-nacq"
+    ],
+    "rating": 0,
+    "updated": "2022-01-08",
+    "url": "https://github.com/nico-nacq/timewarrior-bash-utility"
   },
   {
     "description": "Extension for TimeWarrior for exporting data into Google Sheets",
