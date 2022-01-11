@@ -115,7 +115,7 @@
     "owner": [
       "ViliamV"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2020-06-29",
     "url": "https://github.com/ViliamV/timewarrior-extensions"
   },
@@ -775,8 +775,8 @@
     "owner": [
       "suidroot"
     ],
-    "rating": 2,
-    "updated": "2021-12-17",
+    "rating": 3,
+    "updated": "2022-01-10",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
   {
@@ -851,7 +851,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 13,
-    "updated": "2022-01-07",
+    "updated": "2022-01-10",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
