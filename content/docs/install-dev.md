@@ -21,7 +21,7 @@ To build Timewarrior you will need these tools:
 
 ## Cloning the Repository
 
-The repository is [hosted on github](https://github.com/GothenburgBitFactory/timewarrior).
+The repository is [hosted on GitHub](https://github.com/GothenburgBitFactory/timewarrior).
 You can clone the repository with
 
 ```
@@ -82,7 +82,7 @@ $ ./start.t
 ## Submitting a Pull Request
 
 Before submitting a pull request it is best to talk to us first - make sure you are working on something that is wanted.
-[Open a feature request on github](https://github.com/GothenburgBitFactory/timewarrior/issues) and explain your idea.
+[Open a feature request on GitHub](https://github.com/GothenburgBitFactory/timewarrior/issues) and explain your idea.
 We will discuss it and provide feedback.
 
 Pull requests will not be applied simply because you did the work, or because it was easy, or because you want it.

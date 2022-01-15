@@ -39,7 +39,7 @@ To build Timewarrior from the tarball you will need these tools:
 
 ### Download
 
-The release tarballs are [hosted on github](https://github.com/GothenburgBitFactory/timewarrior/releases).
+The release tarballs are [hosted on GitHub](https://github.com/GothenburgBitFactory/timewarrior/releases).
 You can download the tarball with `curl`, as an example of just one of many ways to download the tarball.
 
 ```
