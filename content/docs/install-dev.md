@@ -30,16 +30,16 @@ $ cd timewarrior
 ```
 
 This clones the repository including the [libshared](https://github.com/GothenburgBitFactory/libshared) submodule.
-By default, the `dev` branch is checked out.
+By default, the `develop` branch is checked out.
 
-### Branch `dev`
+### Branch `develop`
 
-The dev branch is where the development takes place.
-All pull requests must be based on the dev branch!
+The `develop` branch is where the development takes place.
+All pull requests must be based on the `develop` branch!
 
-### Branch `master`
+### Branch `stable`
 
-The master branch always points to the last released version.
+The `stable` branch always points to the last released version.
 Older releases are marked by tags.
 Release checkouts should only be used for analysis and not for development!
 
@@ -88,5 +88,5 @@ We will discuss it and provide feedback.
 Pull requests will not be applied simply because you did the work, or because it was easy, or because you want it.
 Instead, the change has to be considered right for the project.
 
-Please consult the [`CONTRIBUTING.md`](https://github.com/GothenburgBitFactory/timewarrior/blob/dev/CONTRIBUTING.md) in the repository for further details on code contributions.
+Please consult the [`CONTRIBUTING.md`](https://github.com/GothenburgBitFactory/timewarrior/blob/develop/CONTRIBUTING.md) in the repository for further details on code contributions.
 
