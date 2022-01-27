@@ -210,6 +210,21 @@
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
   {
+    "description": "\u23f3 A Bash wrapper around the Timewarrior CLI that aims to improve its usability.",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "ISC License",
+    "name": "toki",
+    "owner": [
+      "cheap-glitch"
+    ],
+    "rating": 1,
+    "updated": "2022-01-26",
+    "url": "https://github.com/cheap-glitch/toki"
+  },
+  {
     "description": "A TimeWarrior report to automate hours claiming",
     "dormant": false,
     "language": [
@@ -585,6 +600,21 @@
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
   },
   {
+    "description": "A timewarrior extension to list and restart recently tracked intervals with the help of fzf",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timew-fzf",
+    "owner": [
+      "oivvio"
+    ],
+    "rating": 0,
+    "updated": "2022-01-26",
+    "url": "https://github.com/oivvio/timew-fzf"
+  },
+  {
     "description": "Helper scripts for TimeWarrior",
     "dormant": false,
     "language": [
@@ -776,7 +806,7 @@
       "suidroot"
     ],
     "rating": 3,
-    "updated": "2022-01-18",
+    "updated": "2022-01-26",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
   {
@@ -805,7 +835,7 @@
     "owner": [
       "sw00"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
   },
