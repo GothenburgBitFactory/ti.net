@@ -190,7 +190,7 @@
     "owner": [
       "bimlas"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-02-08",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
   },
@@ -280,7 +280,7 @@
     "owner": [
       "fradeve"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2021-02-20",
     "url": "https://github.com/fradeve/twtools"
   },
@@ -600,6 +600,21 @@
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
   },
   {
+    "description": "A timewarrior extension to produce reports that collate durations for intervals with the same tags",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timew-collate",
+    "owner": [
+      "oivvio"
+    ],
+    "rating": 0,
+    "updated": "2022-01-28",
+    "url": "https://github.com/oivvio/timew-collate"
+  },
+  {
     "description": "A timewarrior extension to list and restart recently tracked intervals with the help of fzf",
     "dormant": false,
     "language": [
@@ -880,7 +895,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 13,
+    "rating": 15,
     "updated": "2022-01-25",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
