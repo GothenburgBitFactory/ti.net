@@ -221,7 +221,7 @@
       "cheap-glitch"
     ],
     "rating": 1,
-    "updated": "2022-01-26",
+    "updated": "2022-01-29",
     "url": "https://github.com/cheap-glitch/toki"
   },
   {
@@ -880,7 +880,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2022-01-06",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -895,7 +895,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2022-01-25",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
