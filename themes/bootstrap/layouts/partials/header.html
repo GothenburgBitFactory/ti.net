@@ -36,10 +36,10 @@
         <li {{ if ( eq $currentDir "/support" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/support">Support</a></li>
         <li {{ if ( eq $currentDir "/releases" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/releases">Releases</a></li>
         <li {{ if ( eq $currentDir "/tools" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/tools">Tools</a></li>
-        {{ $url := .URL }}
+        {{ $url := .Permalink }}
         {{ with .Site.Menus.main }}
         {{ range $menu := . }}
-        <li {{ if eq $url .URL }}class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
+        <li {{ if eq $url .Permalink }}class="active"{{ end }}><a href="{{ .Permalink }}">{{ .Name }}</a></li>
         {{ end }}
         {{ end }}
       </ul>
