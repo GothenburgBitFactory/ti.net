@@ -720,6 +720,21 @@
     "url": "https://github.com/rizel/timewarrior-southamerica-holidays"
   },
   {
+    "description": "My dotfiles for GNU+Linux",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "salastro"
+    ],
+    "rating": 2,
+    "updated": "2021-08-15",
+    "url": "https://github.com/salastro/dotfiles"
+  },
+  {
     "description": "Create timesheet records for Kimai from Timewarrior records",
     "dormant": false,
     "language": [
