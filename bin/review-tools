@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+function get_added_urls()
+{
+  git log -p \
+      ${REVIEW_TIMESTAMP+"--since=${REVIEW_TIMESTAMP}"} \
+      --full-diff \
+      "${TOOLS_DATA_JSON}" \
+       | grep -E "^\+\s+\"url\"" \
+       | sed -e "s|.*\"url\": \"\(.*\)\"|\1|" \
+       | sort -u
+}
+
+function update_review_timestamp()
+{
+  echo "REVIEW_TIMESTAMP=$( git log -1 --format=%cd --date=short )" > "${REPO_ROOT}/.review-timestamp"
+}
+
+REPO_ROOT="$( git rev-parse --show-toplevel )"
+[[ -e "${REPO_ROOT}/.review-timestamp" ]] && source "${REPO_ROOT}/.review-timestamp"
+TOOLS_DATA_JSON="${REPO_ROOT}/static/tools-data.json"
+
+declare -a URLS
+readarray -t URLS < <( get_added_urls )
+
+if [[ "${#URLS[@]}" -eq 0 ]] ; then
+  echo "No new URLs found to review!"
+  update_review_timestamp
+  exit 0
+fi
+
+echo "Reviewing ${#URLS[@]} URLs${REVIEW_TIMESTAMP+", added since ${REVIEW_TIMESTAMP}"}..."
+
+declare -a TI_BLACKLIST
+
+for url in "${URLS[@]}" ; do
+  open -g "${url}"
+
+  read -r -p "Blacklist ${url}? (y/N): " confirm
+
+  if [[ ! ("${confirm}" =~ [yY]) ]] ; then
+    continue
+  fi
+
+  read -r -p "Specify reason: because it ... " reason
+
+  TI_BLACKLIST+=( "\"${url}\": \"${reason}\"" )
+done
+
+if [[ "${#TI_BLACKLIST[@]}" -ne 0 ]] ; then
+  echo "Here are ${#TI_BLACKLIST[@]} key(s) to be added to 'blacklist.json':"
+  for entry in "${TI_BLACKLIST[@]}" ; do
+    echo "${entry}"
+  done
+else
+  echo "No new keys to be added to 'blacklist.json'!"
+fi
+
+update_review_timestamp
