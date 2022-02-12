@@ -375,21 +375,6 @@
     "url": "https://github.com/guludo/timewarrior-balance"
   },
   {
-    "description": "a timewarrior alternative that fits my needs",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "gott",
-    "owner": [
-      "jblawatt"
-    ],
-    "rating": 0,
-    "updated": "2022-01-14",
-    "url": "https://github.com/jblawatt/gott"
-  },
-  {
     "description": "A flextime extension to be used with timewarrior",
     "dormant": false,
     "language": [
@@ -705,36 +690,6 @@
     "url": "https://github.com/rc2dev/timew-web-report"
   },
   {
-    "description": "Holidays file definitions for South america countries to be loaded by timewarrior.",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "timewarrior-southamerica-holidays",
-    "owner": [
-      "rizel"
-    ],
-    "rating": 0,
-    "updated": "2021-03-14",
-    "url": "https://github.com/rizel/timewarrior-southamerica-holidays"
-  },
-  {
-    "description": "My dotfiles for GNU+Linux",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "salastro"
-    ],
-    "rating": 2,
-    "updated": "2021-08-15",
-    "url": "https://github.com/salastro/dotfiles"
-  },
-  {
     "description": "Create timesheet records for Kimai from Timewarrior records",
     "dormant": false,
     "language": [
@@ -836,7 +791,7 @@
       "suidroot"
     ],
     "rating": 4,
-    "updated": "2022-02-10",
+    "updated": "2022-02-11",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
   {
