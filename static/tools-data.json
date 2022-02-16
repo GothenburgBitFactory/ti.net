@@ -70,7 +70,7 @@
     "owner": [
       "MFreeze"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2020-01-06",
     "url": "https://github.com/MFreeze/powerline-timewarrior"
   },
@@ -280,7 +280,7 @@
     "owner": [
       "fradeve"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2021-02-20",
     "url": "https://github.com/fradeve/twtools"
   },
@@ -610,7 +610,7 @@
     "owner": [
       "oivvio"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-01-26",
     "url": "https://github.com/oivvio/timew-fzf"
   },
@@ -805,7 +805,7 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
@@ -838,6 +838,21 @@
     "rating": 16,
     "updated": "2020-10-24",
     "url": "https://github.com/tassos/timewarrior-indicator"
+  },
+  {
+    "description": "Timewarrior TypeScript bindings for Node",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-ts",
+    "owner": [
+      "th-we"
+    ],
+    "rating": 0,
+    "updated": "2022-02-15",
+    "url": "https://github.com/th-we/timewarrior-ts"
   },
   {
     "description": "The timewarrior synchronization client",
