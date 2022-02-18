@@ -325,7 +325,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -571,7 +571,7 @@
   },
   {
     "description": "Extension for TimeWarrior for exporting data into Google Sheets",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
