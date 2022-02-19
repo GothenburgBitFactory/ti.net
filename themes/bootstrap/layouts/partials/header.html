@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{{ $baseUrl := .Site.BaseURL }}
+{{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 {{ $currentPage := path.Base .RelPermalink }}
 {{ $currentDir := path.Dir .RelPermalink }}
 <html lang="en">
