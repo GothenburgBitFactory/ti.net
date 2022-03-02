@@ -481,7 +481,7 @@
   },
   {
     "description": "run time warrior as a service using systemd",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
