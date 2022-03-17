@@ -611,7 +611,7 @@
       "oivvio"
     ],
     "rating": 1,
-    "updated": "2022-02-16",
+    "updated": "2022-03-16",
     "url": "https://github.com/oivvio/timew-fzf"
   },
   {
@@ -865,7 +865,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-01-06",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -880,7 +880,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2022-03-03",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
