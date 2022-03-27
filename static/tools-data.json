@@ -225,6 +225,21 @@
     "url": "https://github.com/cheap-glitch/toki"
   },
   {
+    "description": "Time Warrior to QB Time/TSheets Bridge. WIP",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "Apache License 2.0",
+    "name": "goosebay",
+    "owner": [
+      "codehivetx"
+    ],
+    "rating": 0,
+    "updated": "2022-03-26",
+    "url": "https://github.com/codehivetx/goosebay"
+  },
+  {
     "description": "A TimeWarrior report to automate hours claiming",
     "dormant": false,
     "language": [
