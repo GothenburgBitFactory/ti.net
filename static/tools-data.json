@@ -235,7 +235,7 @@
     "owner": [
       "codehivetx"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-03-28",
     "url": "https://github.com/codehivetx/goosebay"
   },
@@ -253,6 +253,21 @@
     "rating": 0,
     "updated": "2021-03-02",
     "url": "https://github.com/danjones1618/erp-warrior"
+  },
+  {
+    "description": "\u23f2\ufe0f Soothing pastel theme for Timewarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior",
+    "owner": [
+      "davidbgonz"
+    ],
+    "rating": 0,
+    "updated": "2022-03-31",
+    "url": "https://github.com/davidbgonz/timewarrior"
   },
   {
     "description": "Parses iCal ics files and formats them for use by timewarrior",
