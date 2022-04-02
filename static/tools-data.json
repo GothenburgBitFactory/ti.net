@@ -225,7 +225,7 @@
     "url": "https://github.com/cheap-glitch/toki"
   },
   {
-    "description": "Time Warrior to QB Time/TSheets Bridge. WIP",
+    "description": "bridge from Timewarrior to QuickBooks Time Tracking. Pre-alpha.",
     "dormant": false,
     "language": [
       "JavaScript"
@@ -236,7 +236,7 @@
       "codehivetx"
     ],
     "rating": 1,
-    "updated": "2022-03-28",
+    "updated": "2022-04-01",
     "url": "https://github.com/codehivetx/goosebay"
   },
   {
