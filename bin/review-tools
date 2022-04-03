@@ -1,5 +1,30 @@
 #!/usr/bin/env bash
 
+function review_added_urls()
+{
+  for url in "${URLS[@]}" ; do
+    open -g "${url}"
+
+    read -r -p "Blacklist ${url}? (y/N): " confirm
+
+    if [[ ! ("${confirm}" =~ [yY]) ]] ; then
+      continue
+    fi
+
+    read -r -p "Specify reason: because it ... " reason
+
+    TOOLS_BLACKLIST+=( ["${url}"]="${reason}" )
+  done
+}
+
+function update_blacklist()
+{
+  echo "Here are ${#TOOLS_BLACKLIST[@]} entries to be added to 'blacklist.json':"
+  for key in "${!TOOLS_BLACKLIST[@]}" ; do
+    echo "\"${key}\": \"${TOOLS_BLACKLIST[${key}]}\""
+  done
+}
+
 function get_added_urls()
 {
   git log -p \
@@ -16,44 +41,35 @@ function update_review_timestamp()
   echo "LAST_REVIEW_TIMESTAMP=$( git log -1 --format=%cd --date=short )" > "${REPO_ROOT}/.review-timestamp"
 }
 
+function require_tool()
+{
+  if ! command -v "${1}" >/dev/null 2>&1 ; then
+    echo "Tool '${1}' is either inaccessible or not installed!"
+    exit
+  fi
+}
+
+require_tool "jq"
+
 REPO_ROOT="$( git rev-parse --show-toplevel )"
 [[ -e "${REPO_ROOT}/.review-timestamp" ]] && source "${REPO_ROOT}/.review-timestamp"
 TOOLS_DATA_JSON="${REPO_ROOT}/static/tools-data.json"
 
+declare -A TOOLS_BLACKLIST
 declare -a URLS
 readarray -t URLS < <( get_added_urls )
 
 if [[ "${#URLS[@]}" -eq 0 ]] ; then
   echo "No new URLs found to review!"
-  update_review_timestamp
-  exit 0
-fi
-
-echo "Reviewing ${#URLS[@]} URLs${LAST_REVIEW_TIMESTAMP+", added since ${LAST_REVIEW_TIMESTAMP}"}..."
-
-declare -a TOOLS_BLACKLIST
-
-for url in "${URLS[@]}" ; do
-  open -g "${url}"
-
-  read -r -p "Blacklist ${url}? (y/N): " confirm
-
-  if [[ ! ("${confirm}" =~ [yY]) ]] ; then
-    continue
-  fi
-
-  read -r -p "Specify reason: because it ... " reason
-
-  TOOLS_BLACKLIST+=( "\"${url}\": \"${reason}\"" )
-done
-
-if [[ "${#TOOLS_BLACKLIST[@]}" -ne 0 ]] ; then
-  echo "Here are ${#TOOLS_BLACKLIST[@]} entries to be added to 'blacklist.json':"
-  for entry in "${TOOLS_BLACKLIST[@]}" ; do
-    echo "${entry}"
-  done
 else
-  echo "No new entries to be added to 'blacklist.json'!"
+  echo "Reviewing ${#URLS[@]} URLs${LAST_REVIEW_TIMESTAMP+", added since ${LAST_REVIEW_TIMESTAMP}"}..."
+  review_added_urls
+
+  if [[ "${#TOOLS_BLACKLIST[@]}" -eq 0 ]] ; then
+    echo "No new entries to be added to 'blacklist.json'!"
+  else
+    update_blacklist
+  fi
 fi
 
 update_review_timestamp
