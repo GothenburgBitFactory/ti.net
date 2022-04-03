@@ -35,7 +35,7 @@ function get_added_urls()
   git log -p \
       ${LAST_REVIEW_TIMESTAMP+"--since=${LAST_REVIEW_TIMESTAMP}"} \
       --full-diff \
-      "${TOOLS_DATA_JSON}" \
+      "**/tools-data.json" \
        | grep -E "^\+\s+\"url\"" \
        | sed -e "s|.*\"url\": \"\(.*\)\"|\1|" \
        | sort -u
@@ -60,7 +60,6 @@ TOOLS_BLACKLIST_FILE="${1?"Path to blacklist is missing!"}"
 
 REPO_ROOT="$( git rev-parse --show-toplevel )"
 [[ -e "${REPO_ROOT}/.review-timestamp" ]] && source "${REPO_ROOT}/.review-timestamp"
-TOOLS_DATA_JSON="${REPO_ROOT}/static/tools-data.json"
 
 declare -A TOOLS_BLACKLIST
 while read -r key value ; do
