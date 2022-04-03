@@ -19,10 +19,15 @@ function review_added_urls()
 
 function update_blacklist()
 {
-  echo "Here are ${#TOOLS_BLACKLIST[@]} entries to be added to 'blacklist.json':"
-  for key in "${!TOOLS_BLACKLIST[@]}" ; do
-    echo "\"${key}\": \"${TOOLS_BLACKLIST[${key}]}\""
-  done
+  (
+    local first_line
+    echo "{"
+    for key in "${!TOOLS_BLACKLIST[@]}" ; do
+      echo "${first_line+","}\"${key}\": \"${TOOLS_BLACKLIST[${key}]}\""
+      first_line="no"
+    done
+    echo "}"
+  ) | jq --sort-keys
 }
 
 function get_added_urls()
@@ -51,11 +56,37 @@ function require_tool()
 
 require_tool "jq"
 
+TOOLS_BLACKLIST_FILE="${1?"Path to blacklist is missing!"}"
+
 REPO_ROOT="$( git rev-parse --show-toplevel )"
 [[ -e "${REPO_ROOT}/.review-timestamp" ]] && source "${REPO_ROOT}/.review-timestamp"
 TOOLS_DATA_JSON="${REPO_ROOT}/static/tools-data.json"
 
 declare -A TOOLS_BLACKLIST
+while read -r key value ; do
+  TOOLS_BLACKLIST["${key}"]="${value}"
+done < <( jq -r 'to_entries[] | .key+" "+.value' "${TOOLS_BLACKLIST_FILE}" )
+
+if [[ "${#TOOLS_BLACKLIST[@]}" -eq 0 ]] ; then
+  echo "Current blacklist is emtpy!"
+else
+  read -r -p "Review current blacklist? (Y/n): " confirm
+
+  if [[ ! ("${confirm}" =~ [nN]) ]] ; then
+    for url in "${!TOOLS_BLACKLIST[@]}" ; do
+      open -g -u "${url}"
+      echo "${url} was blacklisted because it '${TOOLS_BLACKLIST[${url}]}'"
+      read -r -p "Keep ${url} in blacklist? (Y/n): " confirm
+
+      if [[ ! ("${confirm}" =~ [nN]) ]] ; then
+        continue
+      fi
+      unset TOOLS_BLACKLIST["${url}"]
+      echo "${!TOOLS_BLACKLIST[*]}"
+    done
+  fi
+fi
+
 declare -a URLS
 readarray -t URLS < <( get_added_urls )
 
@@ -64,12 +95,9 @@ if [[ "${#URLS[@]}" -eq 0 ]] ; then
 else
   echo "Reviewing ${#URLS[@]} URLs${LAST_REVIEW_TIMESTAMP+", added since ${LAST_REVIEW_TIMESTAMP}"}..."
   review_added_urls
-
-  if [[ "${#TOOLS_BLACKLIST[@]}" -eq 0 ]] ; then
-    echo "No new entries to be added to 'blacklist.json'!"
-  else
-    update_blacklist
-  fi
 fi
+
+echo "Writing ${#TOOLS_BLACKLIST[@]} entries to '${TOOLS_BLACKLIST_FILE}'..."
+update_blacklist > "${TOOLS_BLACKLIST_FILE}"
 
 update_review_timestamp
