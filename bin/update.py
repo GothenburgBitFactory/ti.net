@@ -11,10 +11,11 @@ from json import JSONDecodeError
 
 
 class LogLevel(IntEnum):
-    DEBUG = 0
-    INFO = 1
-    WARN = 2
-    ERROR = 3
+    TRACE = 0
+    DEBUG = 1
+    INFO = 2
+    WARN = 3
+    ERROR = 4
 
 
 # Keywords used to search for projects
@@ -34,6 +35,12 @@ def log_message(message, *args, label=None):
         print(message.format(*args))
     else:
         print("[{}]".format(label), message.format(*args))
+
+
+def log_trace(message, *args):
+    if LOG_LEVEL > LogLevel.TRACE:
+        return
+    log_message(message, *args, label="TRACE")
 
 
 def log_debug(message, *args):
@@ -76,21 +83,20 @@ def search_github(names, keywords):
         log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
-    first = time.perf_counter()
-    last = first
     log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
         for qualifier in ["topic", "name,description"]:
-            log_debug("Querying GitHub for repositories with keyword '{}' in {}", keyword, qualifier)
-            for repo in client.search_repositories(keyword, **{"in": f"{qualifier}"}):
+            log_info("Querying GitHub for repositories with keyword '{}' in '{}'...", keyword, qualifier)
+            repos = client.search_repositories(keyword, **{"in": f"{qualifier}"})
+
+            for repo in repos:
                 results.append(from_github_repo(repo))
-                current = time.perf_counter() - first
-                delta = current - last
-                last = current
-                log_debug("Adding '{}' as {} (at {:.4f}, delta {:.4f})", repo.html_url, len(results), current, delta)
-                # GitHub API allows 30 requests per minute and delivers results
-                # in pages of 30 items. Add sleep to stay below rate limit.
-                time.sleep(0.067)
+                log_debug("Adding '{}' as {}", repo.html_url, len(results))
+
+                sleep_period = calculate_sleep(repo.raw_headers)
+
+                log_debug("Sleeping {:.3f} s", sleep_period)
+                time.sleep(sleep_period)
 
     log_info("Received {} entries from GitHub", len(results))
 
@@ -133,6 +139,25 @@ def is_dormant(pushed_at):
     """
     elapsed = datetime.datetime.now() - pushed_at
     return elapsed.days > DAYS_DORMANT
+
+
+def calculate_sleep(headers):
+    resource_name = headers['x-ratelimit-resource'].capitalize()
+    remaining_requests = int(headers['x-ratelimit-remaining'])
+    max_requests = headers['x-ratelimit-limit']
+    reset_time = float(headers['x-ratelimit-reset'])
+
+    log_trace("{} rate limit: {} of {} requests remaining",
+              resource_name,
+              remaining_requests,
+              max_requests)
+
+    current_time = time.time()
+    diff = reset_time - current_time if reset_time > current_time else 0
+    log_trace("{:.3f} s until rate limit reset ({})", diff, reset_time)
+    sleep_period = diff / remaining_requests if remaining_requests > 0 else diff + 5
+
+    return sleep_period
 
 
 def filter_tools(inputs):
