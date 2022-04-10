@@ -645,6 +645,21 @@
     "url": "https://github.com/pxtimes3/timewarrior"
   },
   {
+    "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-hooks",
+    "owner": [
+      "radarsymphony"
+    ],
+    "rating": 0,
+    "updated": "2022-04-10",
+    "url": "https://github.com/radarsymphony/taskwarrior-hooks"
+  },
+  {
     "description": "Bash extension for Timewarrior to create csv with entry duration and a total",
     "dormant": false,
     "language": [
