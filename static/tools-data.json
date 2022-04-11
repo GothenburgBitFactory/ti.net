@@ -565,7 +565,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2017-04-24",
     "url": "https://github.com/mkluge/timewcs"
   },
@@ -648,7 +648,7 @@
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
     "name": "taskwarrior-hooks",
