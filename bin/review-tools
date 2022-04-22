@@ -1,5 +1,20 @@
 #!/usr/bin/env bash
 
+function review_blacklist()
+{
+  for url in "${!TOOLS_BLACKLIST[@]}" ; do
+    open -g -u "${url}"
+    echo "${url} was blacklisted because it '${TOOLS_BLACKLIST[${url}]}'"
+    read -r -p "Keep ${url} in blacklist? (Y/n): " confirm
+
+    if [[ "${confirm-"y"}" =~ [yY] ]] ; then
+      continue
+    fi
+
+    unset TOOLS_BLACKLIST["${url}"]
+  done
+}
+
 function review_added_urls()
 {
   for url in "${URLS[@]}" ; do
@@ -7,7 +22,7 @@ function review_added_urls()
 
     read -r -p "Blacklist ${url}? (y/N): " confirm
 
-    if [[ ! ("${confirm}" =~ [yY]) ]] ; then
+    if [[ "${confirm:-"n"}" =~ [nN] ]] ; then
       continue
     fi
 
@@ -19,6 +34,7 @@ function review_added_urls()
 
 function update_blacklist()
 {
+  echo "Writing ${#TOOLS_BLACKLIST[@]} entries to '${TOOLS_BLACKLIST_FILE}'..."
   (
     local first_line
     echo "{"
@@ -27,7 +43,7 @@ function update_blacklist()
       first_line="no"
     done
     echo "}"
-  ) | jq --sort-keys
+  ) | jq --sort-keys --indent 4  > "${TOOLS_BLACKLIST_FILE}"
 }
 
 function get_added_urls()
@@ -39,6 +55,11 @@ function get_added_urls()
        | grep -E "^\+\s+\"url\"" \
        | sed -e "s|.*\"url\": \"\(.*\)\"|\1|" \
        | sort -u
+}
+
+function load_review_timestamp()
+{
+  [[ -e "${REPO_ROOT}/.review-timestamp" ]] && source "${REPO_ROOT}/.review-timestamp"
 }
 
 function update_review_timestamp()
@@ -59,7 +80,8 @@ require_tool "jq"
 TOOLS_BLACKLIST_FILE="${1?"Path to blacklist is missing!"}"
 
 REPO_ROOT="$( git rev-parse --show-toplevel )"
-[[ -e "${REPO_ROOT}/.review-timestamp" ]] && source "${REPO_ROOT}/.review-timestamp"
+
+load_review_timestamp
 
 declare -A TOOLS_BLACKLIST
 while read -r key value ; do
@@ -69,20 +91,11 @@ done < <( jq -r 'to_entries[] | .key+" "+.value' "${TOOLS_BLACKLIST_FILE}" )
 if [[ "${#TOOLS_BLACKLIST[@]}" -eq 0 ]] ; then
   echo "Current blacklist is emtpy!"
 else
-  read -r -p "Review current blacklist? (Y/n): " confirm
+  read -r -p "Review current blacklist (${#TOOLS_BLACKLIST[@]} items)? (y/N): " confirm
 
-  if [[ ! ("${confirm}" =~ [nN]) ]] ; then
-    for url in "${!TOOLS_BLACKLIST[@]}" ; do
-      open -g -u "${url}"
-      echo "${url} was blacklisted because it '${TOOLS_BLACKLIST[${url}]}'"
-      read -r -p "Keep ${url} in blacklist? (Y/n): " confirm
-
-      if [[ ! ("${confirm}" =~ [nN]) ]] ; then
-        continue
-      fi
-      unset TOOLS_BLACKLIST["${url}"]
-      echo "${!TOOLS_BLACKLIST[*]}"
-    done
+  if [[ "${confirm:-"n"}" =~ [yY] ]] ; then
+    echo "Reviewing ${#TOOLS_BLACKLIST[@]} entries..."
+    review_blacklist
   fi
 fi
 
@@ -96,7 +109,5 @@ else
   review_added_urls
 fi
 
-echo "Writing ${#TOOLS_BLACKLIST[@]} entries to '${TOOLS_BLACKLIST_FILE}'..."
-update_blacklist > "${TOOLS_BLACKLIST_FILE}"
-
+update_blacklist
 update_review_timestamp
