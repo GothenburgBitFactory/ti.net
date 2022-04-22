@@ -236,7 +236,7 @@
       "codehivetx"
     ],
     "rating": 1,
-    "updated": "2022-04-01",
+    "updated": "2022-04-21",
     "url": "https://github.com/codehivetx/goosebay"
   },
   {
@@ -445,7 +445,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2021-10-27",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -865,7 +865,7 @@
     "owner": [
       "tassos"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2020-10-24",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
@@ -911,7 +911,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 19,
-    "updated": "2022-04-13",
+    "updated": "2022-04-21",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
