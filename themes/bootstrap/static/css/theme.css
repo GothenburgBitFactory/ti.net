@@ -6,7 +6,7 @@ html {
 body {
   margin-bottom: 120px;
   padding-top: 51px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 pre code {
@@ -79,7 +79,7 @@ img {
 .tooltip {
   position: relative;
   display: inline-block;
-  opacity: 100;
+  opacity: 1;
 }
 
 /* Tooltip text */
@@ -124,6 +124,7 @@ img {
 
 .sidebar-toc {
   position: fixed;
+  background: #C4CBB728;
   background: rgba(196, 203, 183, 0.16);
   padding: 5px 20px;
   border-radius: 10px;
