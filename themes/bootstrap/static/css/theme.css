@@ -83,7 +83,7 @@ img {
 }
 
 /* Tooltip text */
-.tooltip .tooltiptext {
+.tooltip .tooltip-text {
   visibility: hidden;
   width: 180px;
   background-color: #555;
@@ -105,7 +105,7 @@ img {
 }
 
 /* Tooltip arrow */
-.tooltip .tooltiptext::after {
+.tooltip .tooltip-text::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -117,7 +117,7 @@ img {
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
 }

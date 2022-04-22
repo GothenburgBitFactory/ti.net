@@ -26,7 +26,7 @@
                   Exclude dormant projects&ensp;
                   <span class="tooltip">
                     <em class="bi bi-moon-stars"></em>
-                    <span class="tooltiptext">
+                    <span class="tooltip-text">
                       Projects are considered 'dormant' if their last update was more than 3 years ago, or if the repository has been archived.
                     </span>
                   </span>
@@ -97,7 +97,7 @@
                 <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong>&ensp;
                 <span data-bind="visible: dormant" class="tooltip">
                   <em class="bi bi-moon-stars"></em>
-                  <span class="tooltiptext">This project is dormant</span>
+                  <span class="tooltip-text">This project is dormant</span>
                 </span><br>
                 <span data-bind="visible: owner.length > 0"><small>by <em title="Owners" data-bind="text: owner.join(', ')"></em></small></span>
               </p>
