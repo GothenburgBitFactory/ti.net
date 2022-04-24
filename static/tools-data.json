@@ -255,6 +255,21 @@
     "url": "https://github.com/danjones1618/erp-warrior"
   },
   {
+    "description": "timewarrior extension that prints the total length of time spent on each of the selected tags in the selected time frame.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-tagsum",
+    "owner": [
+      "danteu"
+    ],
+    "rating": 0,
+    "updated": "2022-04-23",
+    "url": "https://github.com/danteu/timewarrior-tagsum"
+  },
+  {
     "description": "Parses iCal ics files and formats them for use by timewarrior",
     "dormant": true,
     "language": [
