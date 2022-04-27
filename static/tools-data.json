@@ -960,6 +960,21 @@
     "url": "https://github.com/tom-doerr/timewarrior_beeminder_times"
   },
   {
+    "description": "A Timewarrior report script for calculating billable hours.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timew-billable",
+    "owner": [
+      "trev-dev"
+    ],
+    "rating": 0,
+    "updated": "2022-04-27",
+    "url": "https://github.com/trev-dev/timew-billable"
+  },
+  {
     "description": "A timewarrior rust library",
     "dormant": false,
     "language": [
