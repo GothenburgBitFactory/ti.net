@@ -911,7 +911,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 9,
-    "updated": "2022-01-06",
+    "updated": "2022-04-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -965,13 +965,13 @@
     "language": [
       "Python"
     ],
-    "license": null,
+    "license": "GNU General Public License v3.0",
     "name": "timew-billable",
     "owner": [
       "trev-dev"
     ],
     "rating": 0,
-    "updated": "2022-04-27",
+    "updated": "2022-04-28",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
