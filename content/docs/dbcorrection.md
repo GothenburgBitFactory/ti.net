@@ -13,8 +13,8 @@ Timewarrior 1.1.1 or higher correctly enters intervals.
 
 Use this script when you have used
 
--   Timewarrior earlier than version 1.1.1
--   Exclusions
+- Timewarrior earlier than version 1.1.1
+- Exclusions
 
 If none of the above applies, you probably do not need to run this script.
 
