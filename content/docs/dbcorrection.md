@@ -6,7 +6,7 @@ viewport: 'width=device-width, initial-scale=1'
 
 # Timewarrior Database Correction Script
 
-This is the correction script for the interval flattening bug (TI-102).
+This is the correction script for the interval flattening bug ([TI-102](https://github.com/GothenburgBitFactory/timewarrior/issues/106)).
 The script exports all intervals stored, purges the database, and re-enters the intervals.
 
 Timewarrior 1.1.1 or higher correctly enters intervals.
