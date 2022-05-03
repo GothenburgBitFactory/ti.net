@@ -26,9 +26,11 @@ This script will export your stored intervals, purge your database and re-enter 
 
 After making a backup copy of your Timewarrior data by making a copy of all the files in `~/.timewarrior/data`, run this:
 
-    $ curl -O https://taskwarrior.org/download/timew-dbcorrection.py
-    $ python timew-dbcorrection.py
-    ...
+```
+$ curl -O https://taskwarrior.org/download/timew-dbcorrection.py
+$ python timew-dbcorrection.py
+...
+```
 
 The script may run for a few minutes, depending on your machine and your database complexity.
 It shows a progress bar.

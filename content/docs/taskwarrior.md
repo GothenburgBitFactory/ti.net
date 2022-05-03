@@ -11,18 +11,22 @@ Taskwarrior and Timewarrior are related, and work together using an `on-modify` 
 
 Simply copy it to the Taskwarrior hooks directory and make it executable:
 
-    $ cp /usr/local/share/doc/timew/ext/on-modify.timewarrior ~/.task/hooks/
-    $ chmod +x ~/.task/hooks/on-modify.timewarrior
+```
+$ cp /usr/local/share/doc/timew/ext/on-modify.timewarrior ~/.task/hooks/
+$ chmod +x ~/.task/hooks/on-modify.timewarrior
+```
 
 Depending on your system and installation method, you might need to adjust the path you copy from.
 
 Then run the Taskwarrior command `task diagnostics` to check whether it was installed correctly.
 It should mention `on-modify.timewarrior` in the Hooks > Active section:
 
-    Hooks
-         System: Enabled
-       Location: /home/user/.task/hooks
-         Active: on-modify.timewarrior (executable)
+```
+Hooks
+     System: Enabled
+   Location: /home/user/.task/hooks
+     Active: on-modify.timewarrior (executable)
+```
 
 Whenever you `start` a task in Taskwarrior, the hook script will start time tracking in Timewarrior.
 The hook captures the description, project and tags of the task and passes them to Timewarrior as tags.

@@ -12,8 +12,10 @@ Perhaps you
 forgot to record time, or are just filling in old entries.
 For example:
 
-    $ timew track :yesterday 'Training Course'
-    $ timew track 9am - 11am 'Staff Meeting'
+```
+$ timew track :yesterday 'Training Course'
+$ timew track 9am - 11am 'Staff Meeting'
+```
 
 Note that the track command expects a closed interval (start and end
 time), when recording.

@@ -27,28 +27,42 @@ With the ID known, we can make various adjustments to the interval using the fol
 
 ## Remove extra tags
 
-    $ timew untag @1 Prepare Talk
+```
+$ timew untag @1 Prepare Talk
+```
 
 ## Add missing tag
 
-    $ timew tag @1 'Prepare Talk'
+```
+$ timew tag @1 'Prepare Talk'
+```
 
 ## Add time to a closed interval
 
-    $ timew lengthen @1 20mins
+```
+$ timew lengthen @1 20mins
+```
 
 ## Remove time from a closed interval
 
-    $ timew shorten @1 PT5M30S
+```
+$ timew shorten @1 PT5M30S
+```
 
 ## Move any interval to a new start time
 
-    $ timew move @1 8:30am
+```
+$ timew move @1 8:30am
+```
 
 ## Split an interval in two
 
-    $ timew split @1
+```
+$ timew split @1
+```
 
 ## Join two intervals together
 
-    $ timew join @1 @2
+```
+$ timew join @1 @2
+```

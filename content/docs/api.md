@@ -16,16 +16,20 @@ Simply placing an executable script/program in the `~/.timewarrior/extensions` d
 Alternately a symlink can also be placed there.
 The name of the program is left-most matched, so that this extension:
 
-    ~/.timewarrior/extensions/my_report.py
+```
+~/.timewarrior/extensions/my_report.py
+```
 
 can be run using all of the following commands, depending on the uniqueness of the name:
 
-    $ timew report my_report.py
-    $ timew report my_report
-    $ timew report my_r
-    $ timew my_report.py
-    $ timew my_report
-    $ timew my_r
+```
+$ timew report my_report.py
+$ timew report my_report
+$ timew report my_r
+$ timew my_report.py
+$ timew my_report
+$ timew my_r
+```
 
 ## Mechanism
 
@@ -40,40 +44,48 @@ There may be additional text prepended or appended.
 
 The input format looks like this:
 
-    name1: value1
-    name2: value2
-    ...
+```
+name1: value1
+name2: value2
+...
 
-    [
-    { ... },
-    { ... },
-    ...
-    ]
+[
+{ ... },
+{ ... },
+...
+]
+```
 
 Each line is terminated by the newline character U+000A.
 There is an initial block of name/value pairs, which is a copy of the complete current configuration data.
 It has the form:
 
-    <name>: <value>
+```
+<name>: <value>
+```
 
 Between the `<name>` and `<value>` are the characters U+003A and U+0020.
 This configuration block includes the Timewarrior version, so that multiple releases maybe supported by the extension.
 Additionally, other data is included with the \'temp.\' prefix, indicating that it is not part of the configuration data, but may be of use to the extension.
 For example:
 
-    temp.db: /home/user/.timewarrior
-    temp.report.end: 20160401T000000Z
-    temp.report.start: 20160430T235959Z
-    temp.report.tags: "This is a multi-word tag",ProjectA,tag123
-    temp.version: 0.1.0
+```
+temp.db: /home/user/.timewarrior
+temp.report.end: 20160401T000000Z
+temp.report.start: 20160430T235959Z
+temp.report.tags: "This is a multi-word tag",ProjectA,tag123
+temp.version: 0.1.0
+```
 
 After the configuration block, there is a single blank line to separate it from the JSON data.
 
 The JSON data is a single JSON array, containing zero or more Interval objects that look like this (line breaks used here for clarity):
 
-    {"start":"20160405T162205Z",\
-    "end":"20160405T162211Z",\
-    "tags":["This is a multi-word tag","ProjectA","tag123"]},
+```
+{"start":"20160405T162205Z",\
+"end":"20160405T162211Z",\
+"tags":["This is a multi-word tag","ProjectA","tag123"]},
+```
 
 Here the presence of the \"end\" data means this interval is closed, i.e. not actively being tracked.
 There is one JSON object per line.

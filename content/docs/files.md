@@ -10,8 +10,10 @@ hide_toc: true
 Make sure you have Timewarrior installed.
 Check that it can be found using this command:
 
-    $ timew --version
-    {{< current_release version >}}
+```
+$ timew --version
+{{< current_release version >}}
+```
 
 The version is displayed, all is well.
 
@@ -20,12 +22,14 @@ The version is displayed, all is well.
 There is no setup with Timewarrior, you simply start using it, and the data directory is automatically created for you.
 By default this structure is created in your home directory:
 
-    ~/.timewarrior
-    ├── data
-    │   ├── 2016-08.data
-    │   └── undo.data
-    ├── extensions
-    └── timewarrior.cfg
+```
+~/.timewarrior
+├── data
+│   ├── 2016-08.data
+│   └── undo.data
+├── extensions
+└── timewarrior.cfg
+```
 
 You can see that the data is stored in monthly data files (`2016-08.data`), which tend to remain quite small.
 Each monthly file is self-contained, and data does not span multiple files.

@@ -25,14 +25,16 @@ The default date range shown is for today only.
 This can be overridden on the command line by specifying the date range.
 All these commands are therefore the same:
 
-    $ timew summary
-    $ timew summary today
-    $ timew summary today - tomorrow
-    $ timew summary today to tomorrow
-    $ timew summary 2016-06-18T00:00
-    $ timew summary 2016-06-18T00:00 - 2016-06-19T00:00:00
-    $ timew summary 18th
-    $ timew summary saturday
+```
+$ timew summary
+$ timew summary today
+$ timew summary today - tomorrow
+$ timew summary today to tomorrow
+$ timew summary 2016-06-18T00:00
+$ timew summary 2016-06-18T00:00 - 2016-06-19T00:00:00
+$ timew summary 18th
+$ timew summary saturday
+```
 
 Timewarrior is very flexible about specifying intervals.
 See the [interval syntax](/docs/interval) page for full details.
@@ -40,12 +42,14 @@ See the [interval syntax](/docs/interval) page for full details.
 In addition there are hints that correspond to preset data ranges for added convenience.
 Here are some of them used in this context, but not matching the \'today\' example above:
 
-    $ timew summary :yesterday
-    $ timew summary :week
-    $ timew summary :lastweek
-    $ timew summary :month
-    $ timew summary :quarter
-    $ timew summary :year
+```
+$ timew summary :yesterday
+$ timew summary :week
+$ timew summary :lastweek
+$ timew summary :month
+$ timew summary :quarter
+$ timew summary :year
+```
 
 See the [hints](/docs/hints) page for full details.
 

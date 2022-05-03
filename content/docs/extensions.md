@@ -11,7 +11,9 @@ Timewarrior has an [Extension mechanism](/docs/api) that permits the authoring a
 
 Using the `extensions` command, you can list installed extensions:
 
-    $ timew extensions
-    ...
+```
+$ timew extensions
+...
+```
 
 Additionally the [`diagnostics`](/docs/diagnostics) command will list installed extensions.

@@ -14,19 +14,23 @@ An example will make this clear.
 Suppose it is Monday at \~3pm.
 You begin working on a new task, and start tracking time:
 
-    $ timew start 'Outline Talk' Conference
-    Tracking Conference "Outline Talk"
-      Started 2016-06-20T15:01:24
-      Current                  24
-      Total               0:00:00
+```
+$ timew start 'Outline Talk' Conference
+Tracking Conference "Outline Talk"
+  Started 2016-06-20T15:01:24
+  Current                  24
+  Total               0:00:00
+```
 
 You work for a while, then at 5pm you leave your office.
 On Tuesday morning you complete the outline, and stop tracking time:
 
-    Recorded Conference "Outline Talk"
-      Started 2016-06-20T15:01:24
-      Ended           21T09:28:14
-      Total              18:26:50
+```
+Recorded Conference "Outline Talk"
+  Started 2016-06-20T15:01:24
+  Ended           21T09:28:14
+  Total              18:26:50
+```
 
 Oh no, 18 and a half hours have elapsed! That\'s not right, because you really only spent about two and a half hours working.
 But you left the clock running all night.
@@ -36,14 +40,16 @@ But if you leave work at 5pm every day, and start at 9am, you can capture this i
 Suppose you also don\'t work on weekends, and you take lunch on weekdays for 30 minutes at 12:30pm.
 Add the following to your `~/.timewarrior/timewarrior.cfg` configuration file, using a text editor:
 
-    define exclusions:
-      monday    = <9:00 12:30-13:00 >17:00
-      tuesday   = <9:00 12:30-13:00 >17:00
-      wednesday = <9:00 12:30-13:00 >17:00
-      thursday  = <9:00 12:30-13:00 >17:00
-      friday    = <9:00 12:30-13:00 >17:00
-      saturday  = >0:00
-      sunday    = >0:00
+```
+define exclusions:
+  monday    = <9:00 12:30-13:00 >17:00
+  tuesday   = <9:00 12:30-13:00 >17:00
+  wednesday = <9:00 12:30-13:00 >17:00
+  thursday  = <9:00 12:30-13:00 >17:00
+  friday    = <9:00 12:30-13:00 >17:00
+  saturday  = >0:00
+  sunday    = >0:00
+```
 
 The indentation in the configuration file is important, so be sure to match the indentation of the example.
 Also be sure to leave a blank line before and after the settings shown.
