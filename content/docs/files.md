@@ -2,6 +2,7 @@
 lang: en
 title: 'Timewarrior - File Layout'
 viewport: 'width=device-width, initial-scale=1'
+hide_toc: true
 ---
 
 # File Layout

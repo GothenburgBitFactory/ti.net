@@ -2,6 +2,7 @@
 lang: en
 title: 'Timewarrior - Stopwatch'
 viewport: 'width=device-width, initial-scale=1'
+hide_toc: true
 ---
 
 # Simple Stopwatch
