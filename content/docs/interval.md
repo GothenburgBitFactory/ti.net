@@ -4,7 +4,7 @@ title: 'Timewarrior - Interval Syntax'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Syntax: Interval
+# Syntax: Interval
 
 An interval defines a block of time that is tracked.
 The syntax for

@@ -4,7 +4,7 @@ title: 'Timewarrior - Syntax'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Command Syntax
+# Command Syntax
 
 You can see the full command syntax with the `help` command:
 

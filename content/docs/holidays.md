@@ -4,7 +4,7 @@ title: 'Timewarrior - Holidays'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Holidays
+# Holidays
 
 Timewarrior references holiday files and uses them when automatically filling in tracked time.
 Holiday files are optional, but can improve your experience.
@@ -16,7 +16,7 @@ To use holiday files, you need a line added to your
 
 That path is platform-dependent, so yours may differ.
 
-### Updates
+## Updates
 
 A script is provided, named `refresh` with the holiday files.
 Its purpose is to update your holiday files.

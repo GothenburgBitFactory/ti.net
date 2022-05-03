@@ -4,7 +4,7 @@ title: 'Timewarrior - Configuration'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Configuration
+# Configuration
 
 Allows setting and removing configuration values, as an alternative to directly editing your `~/.timewarrior/timewarrior.cfg` file.
 For example:

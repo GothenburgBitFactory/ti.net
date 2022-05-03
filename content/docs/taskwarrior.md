@@ -4,7 +4,7 @@ title: 'Timewarrior - Taskwarrior'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Taskwarrior
+# Taskwarrior
 
 Taskwarrior and Timewarrior are related, and work together using an `on-modify` hook script for Taskwarrior supplied by Timewarrior.
 

@@ -4,7 +4,7 @@ title: 'Timewarrior - timew-tags'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Tags
+# Tags
 
 Using tags is optional, but when no tags are used, it is difficult to associate the recorded time with the activity.
 Use tags to label the recorded time.

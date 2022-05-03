@@ -4,7 +4,7 @@ title: 'Timewarrior - timew-diagnostics'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Diagnostics
+# Diagnostics
 
 Timewarrior has a `diagnostics` command that can be used to help determine problems.
 The output is:

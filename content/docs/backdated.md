@@ -4,7 +4,7 @@ title: 'Timewarrior - Backdating'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Backdating `start`\/`stop`
+# Backdating `start`\/`stop`
 
 You can backdate the start time when tracking an interval.
 This happens a lot, because it is very common to forget to start tracking time.

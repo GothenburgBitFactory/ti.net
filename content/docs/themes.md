@@ -4,7 +4,7 @@ title: 'Timewarrior - Themes'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Themes
+# Themes
 
 Timewarrior uses color, and supports color themes.
 The colors are used for assorted highlighting, and for coloring tags on charts.

@@ -4,7 +4,7 @@ title: 'Timewarrior - Date Syntax'
 viewport: 'width=device-width, initial-scale=1'
 ---
 
-## Syntax: Dates
+# Syntax: Dates
 
 Timewarrior supports the following date formats based on ISO-8601:
 
