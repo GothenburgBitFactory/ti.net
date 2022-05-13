@@ -160,7 +160,7 @@
     "owner": [
       "alikasundara"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-02-22",
     "url": "https://github.com/alikasundara/xfce4-genmon-timewarrior"
   },
@@ -911,7 +911,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 9,
-    "updated": "2022-04-29",
+    "updated": "2022-05-13",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
