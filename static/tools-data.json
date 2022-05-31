@@ -310,7 +310,7 @@
     "owner": [
       "fradeve"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2021-02-20",
     "url": "https://github.com/fradeve/twtools"
   },
@@ -401,7 +401,7 @@
       "guludo"
     ],
     "rating": 2,
-    "updated": "2022-05-16",
+    "updated": "2022-05-30",
     "url": "https://github.com/guludo/timewarrior-balance"
   },
   {
@@ -910,7 +910,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-05-23",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
