@@ -196,7 +196,7 @@
   },
   {
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
