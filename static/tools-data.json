@@ -75,6 +75,21 @@
     "url": "https://github.com/MFreeze/powerline-timewarrior"
   },
   {
+    "description": "A pomodoro timer interface for timewarrior",
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "Timewarrior-Pomodoro",
+    "owner": [
+      "OmarMohamedKhallaf"
+    ],
+    "rating": 0,
+    "updated": "2022-06-14",
+    "url": "https://github.com/OmarMohamedKhallaf/Timewarrior-Pomodoro"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
