@@ -220,7 +220,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -300,6 +300,21 @@
     "url": "https://github.com/davisdude/ics-to-timew"
   },
   {
+    "description": "PHP script that automatically pushes worklogs made in timewarrior to JIRA and Tempo",
+    "dormant": false,
+    "language": [
+      "PHP"
+    ],
+    "license": null,
+    "name": "jira-worklogger",
+    "owner": [
+      "ettern00b"
+    ],
+    "rating": 0,
+    "updated": "2022-06-17",
+    "url": "https://github.com/ettern00b/jira-worklogger"
+  },
+  {
     "description": "Jira formatter (and sync) for TimeWarrior",
     "dormant": false,
     "language": [
@@ -370,7 +385,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -505,7 +520,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2017-03-29",
     "url": "https://github.com/liloman/warriors"
   },
