@@ -4,9 +4,12 @@ html {
 }
 
 body {
-  margin-bottom: 120px;
+  height: 100vh;
   padding-top: 51px;
   padding-bottom: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 pre code {
@@ -53,35 +56,26 @@ table {
   margin-bottom: 20px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
+footer {
   width: 100%;
   padding: 20px 0;
   line-height: 20px;
   background-color: #333;
 }
 
-.footer .container {
-  padding: 0;
+footer .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 767px) {
-  .footer .container {
-    padding: 0 15px;
-  }
+.footer-item {
+  margin: 0 10px
 }
 
-.footer .container:before {
+footer .container:before {
   content: none;
-}
-
-.footer .container div.col-md-2 {
-  padding-right: 15px;
 }
 
 img {
