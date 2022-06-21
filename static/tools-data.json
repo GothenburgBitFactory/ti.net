@@ -300,21 +300,6 @@
     "url": "https://github.com/davisdude/ics-to-timew"
   },
   {
-    "description": "PHP script that automatically pushes worklogs made in timewarrior to JIRA and Tempo",
-    "dormant": false,
-    "language": [
-      "PHP"
-    ],
-    "license": null,
-    "name": "jira-worklogger",
-    "owner": [
-      "ettern00b"
-    ],
-    "rating": 0,
-    "updated": "2022-06-17",
-    "url": "https://github.com/ettern00b/jira-worklogger"
-  },
-  {
     "description": "Jira formatter (and sync) for TimeWarrior",
     "dormant": false,
     "language": [
