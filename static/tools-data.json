@@ -145,7 +145,7 @@
     "owner": [
       "addcninblue"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-01-30",
     "url": "https://github.com/addcninblue/Timewarrior-icalendar"
   },
@@ -926,7 +926,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 11,
-    "updated": "2022-06-28",
+    "updated": "2022-06-30",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
