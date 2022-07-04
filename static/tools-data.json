@@ -476,7 +476,7 @@
       "lauft"
     ],
     "rating": 43,
-    "updated": "2022-06-27",
+    "updated": "2022-07-03",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -701,7 +701,7 @@
       "radarsymphony"
     ],
     "rating": 5,
-    "updated": "2022-06-28",
+    "updated": "2022-07-03",
     "url": "https://github.com/radarsymphony/timew-csv"
   },
   {
@@ -925,7 +925,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2022-06-30",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -940,7 +940,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2022-06-28",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
