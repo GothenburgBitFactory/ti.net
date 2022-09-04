@@ -2,6 +2,7 @@
 #
 # Copy this file as `update-tools` and set the API keys.
 # This file should **NOT** be committed.
+set -euo pipefail
 
 export GITHUB_API_KEY=abcdefghijklmnopqrstuvwxyz
 
