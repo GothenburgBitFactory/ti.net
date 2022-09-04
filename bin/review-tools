@@ -4,10 +4,10 @@ function review_blacklist()
 {
   for url in "${!TOOLS_BLACKLIST[@]}" ; do
     open -g -u "${url}"
-    echo "${url} was blacklisted because it '${TOOLS_BLACKLIST[${url}]}'"
+    echo "${url} was blacklisted because it '${TOOLS_BLACKLIST["${url}"]}'"
     read -r -p "Keep ${url} in blacklist? (Y/n): " confirm
 
-    if [[ "${confirm-"y"}" =~ [yY] ]] ; then
+    if [[ "${confirm:-"y"}" =~ [yY] ]] ; then
       continue
     fi
 
