@@ -225,6 +225,21 @@
     "url": "https://github.com/cheap-glitch/toki"
   },
   {
+    "description": "Docker environment for taskwarrior/timewarrior/etc.",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": "Apache License 2.0",
+    "name": "dock-warrior",
+    "owner": [
+      "codehivetx"
+    ],
+    "rating": 0,
+    "updated": "2022-09-21",
+    "url": "https://github.com/codehivetx/dock-warrior"
+  },
+  {
     "description": "bridge from Timewarrior to QuickBooks Time Tracking. Pre-alpha.",
     "dormant": false,
     "language": [
