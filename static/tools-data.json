@@ -1023,7 +1023,7 @@
     "description": "A Timewarrior report script for calculating billable hours.",
     "dormant": false,
     "language": [
-      "Python"
+      "Nim"
     ],
     "license": "GNU General Public License v3.0",
     "name": "timew-billable",
