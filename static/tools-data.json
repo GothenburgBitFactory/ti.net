@@ -180,6 +180,21 @@
     "url": "https://github.com/alikasundara/xfce4-genmon-timewarrior"
   },
   {
+    "description": "GUI application for presenting Timewarrior data on charts.",
+    "dormant": false,
+    "language": [
+      "Java"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TimeFX",
+    "owner": [
+      "amiroslaw"
+    ],
+    "rating": 1,
+    "updated": "2022-11-13",
+    "url": "https://github.com/amiroslaw/TimeFX"
+  },
+  {
     "description": "Simple bash script to display the active task in timewarrior.",
     "dormant": false,
     "language": [
@@ -1031,7 +1046,7 @@
       "trev-dev"
     ],
     "rating": 7,
-    "updated": "2022-11-12",
+    "updated": "2022-11-13",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
