@@ -75,21 +75,6 @@
     "url": "https://github.com/FoxAmes/timewarrior-jirapush"
   },
   {
-    "description": "Who are we? We are \"Time Warriors\"!",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "TimeWarrior",
-    "owner": [
-      "LTree0703"
-    ],
-    "rating": 0,
-    "updated": "2022-11-14",
-    "url": "https://github.com/LTree0703/TimeWarrior"
-  },
-  {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
     "dormant": false,
     "language": [
@@ -688,21 +673,6 @@
     "rating": 0,
     "updated": "2022-01-28",
     "url": "https://github.com/oivvio/timew-collate"
-  },
-  {
-    "description": "Small scripts around timewarrior that are not extensions",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "timew-extras",
-    "owner": [
-      "oivvio"
-    ],
-    "rating": 0,
-    "updated": "2022-10-14",
-    "url": "https://github.com/oivvio/timew-extras"
   },
   {
     "description": "A timewarrior extension to list and restart recently tracked intervals with the help of fzf",
