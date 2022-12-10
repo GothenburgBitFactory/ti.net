@@ -191,8 +191,23 @@
       "amiroslaw"
     ],
     "rating": 1,
-    "updated": "2022-11-13",
+    "updated": "2022-12-09",
     "url": "https://github.com/amiroslaw/TimeFX"
+  },
+  {
+    "description": "Script to synchronize timewarrior data with JIRA tempo",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior-tempo",
+    "owner": [
+      "aubincleme"
+    ],
+    "rating": 0,
+    "updated": "2022-12-10",
+    "url": "https://github.com/aubincleme/timewarrior-tempo"
   },
   {
     "description": "Simple bash script to display the active task in timewarrior.",
@@ -985,7 +1000,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2022-10-30",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
