@@ -555,6 +555,21 @@
     "url": "https://github.com/liloman/warriors"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior_remaining_extension",
+    "owner": [
+      "lmoyasans"
+    ],
+    "rating": 0,
+    "updated": "2022-12-18",
+    "url": "https://github.com/lmoyasans/timewarrior_remaining_extension"
+  },
+  {
     "description": "A timewarriror provider for german holidays from https://ipty.de/feiertag/",
     "dormant": false,
     "language": [
@@ -760,7 +775,7 @@
     "owner": [
       "radarsymphony"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-07-03",
     "url": "https://github.com/radarsymphony/timew-csv"
   },
