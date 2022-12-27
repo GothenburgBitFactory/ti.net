@@ -1,31 +1,24 @@
 # Timewarrior Site Repository
 
-This repository contains the content of the [timewarrior.net](https://timewarrior.net) site.
+This repository contains the content of [timewarrior.net](https://timewarrior.net), the website for the [Timewarrior](https://github.com/GothenburgBitFactory/timewarrior) project.
 
+## Tools page
 
-## To Clone this Repository:
+Thanks to the community, there are many add-ons available for Timewarrior, listed on the [tools page](https://timewarrior.net/tools).
+The content for this page is generated automatically by a GitHub action which runs once a day.
+Read below how to get your project listed there.
 
-   git clone https://github.com/GothenburgBitFactory/ti.net
+### Your project is on GitHub?
 
+The GitHub action queries the GitHub API for repositories with the keyword `timewarrior` as _topic_.
 
-## Manually Updating `static/tools-data.json`
+If you want your tool to be listed, just add the topic `timewarrior` to its GitHub repository.
+The GitHub action should then pick it up on the next run.
 
-On first usage, generate an API token and store it safely for later:
+### Your project is not on GitHub?
 
-* [GitHub](https://github.com/settings/tokens): requires no special scopes
+If your project is not on GitHub, you can either create a mirror repository on GitHub and add the topic `timewarrior` to it, or open a [pull request](https://github.com/GothenburgBitFactory/ti.net/pulls) with the necessary details, so it can be added manually.
+Note that status information about your project is not kept up-to-date automatically in the latter case!
 
-Then create the `update_tools` script by copying the sample file, and setting the API key there.
-This file **must not be committed**!
-
-Now that everything is set up, the `tools-data.json` can be updated by running `update_tools`:
-
-```bash
-$ ./update-tools [OUTPUT]
-```
-
-The script will create a Python virtual environment on the first run and install all the necessary components there.
-
-On execution, the script will run `bin/upgrade.py` which scrapes Github for repositories containing the keyword `timewarrior` in their name, description, or as topic.
-Additionally, tools can be added via `bin/include.json` or filtered out via `bin/blacklist.json`.
-Any modifications to those files can be committed.
-The output is stored in `static/tools-data.json` if no `OUTPUT` argument is given.
+We are working on including other hosts than GitHub into the automatic crawl.
+If you want to help out here, take a look at [this issue](https://github.com/GothenburgBitFactory/ti.net/issues/55).
