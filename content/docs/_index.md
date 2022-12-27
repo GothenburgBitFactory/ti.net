@@ -107,8 +107,5 @@ layout: single
 ## Developers
 
  * [Interval behaviour](/docs/interval_behavior)
-
-## Beta
-
  * [Submit a bug](https://github.com/GothenburgBitFactory/timewarrior/issues)
  * [Provide feedback](mailto:support@gothenburgbitfactory.org)
