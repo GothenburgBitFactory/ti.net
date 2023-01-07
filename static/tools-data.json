@@ -76,7 +76,7 @@
   },
   {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -325,7 +325,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-07-14",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
