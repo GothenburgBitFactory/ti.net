@@ -690,6 +690,21 @@
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
   },
   {
+    "description": "CLI application that extends the functionality of Taskwarrior and Timewarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "mayuri-organizer",
+    "owner": [
+      "nikohonu"
+    ],
+    "rating": 0,
+    "updated": "2023-01-07",
+    "url": "https://github.com/nikohonu/mayuri-organizer"
+  },
+  {
     "description": "A timewarrior extension to produce reports that collate durations for intervals with the same tags",
     "dormant": false,
     "language": [
