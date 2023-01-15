@@ -190,7 +190,7 @@
     "owner": [
       "amiroslaw"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-12-09",
     "url": "https://github.com/amiroslaw/TimeFX"
   },
@@ -505,7 +505,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2020-05-08",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
@@ -1001,7 +1001,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 13,
-    "updated": "2023-01-11",
+    "updated": "2023-01-13",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
