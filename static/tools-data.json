@@ -566,7 +566,7 @@
       "lmoyasans"
     ],
     "rating": 0,
-    "updated": "2023-01-04",
+    "updated": "2023-01-20",
     "url": "https://github.com/lmoyasans/timewarrior_remaining_extension"
   },
   {
@@ -646,7 +646,7 @@
   },
   {
     "description": "Timewarrior Cheat Sheet",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "TeX"
     ],
@@ -656,7 +656,7 @@
       "mkluge"
     ],
     "rating": 52,
-    "updated": "2017-04-24",
+    "updated": "2023-01-21",
     "url": "https://github.com/mkluge/timewcs"
   },
   {
