@@ -240,6 +240,21 @@
     "url": "https://github.com/bimlas/xfce4-timewarrior"
   },
   {
+    "description": "An extension for https://timewarrior.net/ that helps summarizing work hours/minutes spend on specific tags",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-recap",
+    "owner": [
+      "cbenker"
+    ],
+    "rating": 0,
+    "updated": "2023-01-29",
+    "url": "https://github.com/cbenker/timewarrior-recap"
+  },
+  {
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
     "dormant": true,
     "language": [
@@ -495,6 +510,21 @@
     "url": "https://github.com/johannesgiorgis/my-timewarrior-extensions"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "task-timewarrior-hook",
+    "owner": [
+      "lauft"
+    ],
+    "rating": 0,
+    "updated": "2023-01-29",
+    "url": "https://github.com/lauft/task-timewarrior-hook"
+  },
+  {
     "description": "Bash completion for Timewarrior",
     "dormant": false,
     "language": [
@@ -733,6 +763,21 @@
     "rating": 1,
     "updated": "2023-01-03",
     "url": "https://github.com/omarmohamedkh/Timewarrior-Pomodoro"
+  },
+  {
+    "description": "Taskwarrior and timewarrior widget for awesome",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskw",
+    "owner": [
+      "petrovag"
+    ],
+    "rating": 0,
+    "updated": "2023-01-29",
+    "url": "https://github.com/petrovag/taskw"
   },
   {
     "description": "Helper scripts for TimeWarrior",
