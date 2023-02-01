@@ -248,11 +248,11 @@
     "license": "MIT License",
     "name": "timewarrior-recap",
     "owner": [
-      "cbenker"
+      "cbe"
     ],
-    "rating": 1,
-    "updated": "2023-01-29",
-    "url": "https://github.com/cbenker/timewarrior-recap"
+    "rating": 0,
+    "updated": "2023-01-31",
+    "url": "https://github.com/cbe/timewarrior-recap"
   },
   {
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
@@ -521,7 +521,7 @@
       "lauft"
     ],
     "rating": 0,
-    "updated": "2023-01-30",
+    "updated": "2023-01-31",
     "url": "https://github.com/lauft/task-timewarrior-hook"
   },
   {
