@@ -250,8 +250,8 @@
     "owner": [
       "cbe"
     ],
-    "rating": 0,
-    "updated": "2023-01-31",
+    "rating": 1,
+    "updated": "2023-02-02",
     "url": "https://github.com/cbe/timewarrior-recap"
   },
   {
@@ -313,6 +313,21 @@
     "rating": 1,
     "updated": "2022-11-23",
     "url": "https://github.com/codehivetx/goosebay"
+  },
+  {
+    "description": "Repository that stores useful (at least for me) timewarrior extensions",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior-extensions",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2023-02-02",
+    "url": "https://github.com/crossbone-magister/timewarrior-extensions"
   },
   {
     "description": "A TimeWarrior report to automate hours claiming",
@@ -521,7 +536,7 @@
       "lauft"
     ],
     "rating": 0,
-    "updated": "2023-01-31",
+    "updated": "2023-02-01",
     "url": "https://github.com/lauft/task-timewarrior-hook"
   },
   {
@@ -596,7 +611,7 @@
       "lmoyasans"
     ],
     "rating": 0,
-    "updated": "2023-01-20",
+    "updated": "2023-02-01",
     "url": "https://github.com/lmoyasans/timewarrior_remaining_extension"
   },
   {
@@ -1046,7 +1061,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 13,
-    "updated": "2023-01-16",
+    "updated": "2023-02-02",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
