@@ -75,6 +75,21 @@
     "url": "https://github.com/FoxAmes/timewarrior-jirapush"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "task-timewarrior-hook",
+    "owner": [
+      "GothenburgBitFactory"
+    ],
+    "rating": 1,
+    "updated": "2023-02-05",
+    "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
+  },
+  {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
     "dormant": true,
     "language": [
@@ -205,7 +220,7 @@
     "owner": [
       "aubincleme"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-12-10",
     "url": "https://github.com/aubincleme/timewarrior-tempo"
   },
@@ -326,7 +341,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2023-02-03",
+    "updated": "2023-02-06",
     "url": "https://github.com/crossbone-magister/timewarrior-extensions"
   },
   {
@@ -523,21 +538,6 @@
     "rating": 0,
     "updated": "2020-06-16",
     "url": "https://github.com/johannesgiorgis/my-timewarrior-extensions"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "task-timewarrior-hook",
-    "owner": [
-      "lauft"
-    ],
-    "rating": 0,
-    "updated": "2023-02-01",
-    "url": "https://github.com/lauft/task-timewarrior-hook"
   },
   {
     "description": "Bash completion for Timewarrior",
