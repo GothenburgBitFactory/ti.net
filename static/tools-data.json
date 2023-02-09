@@ -390,6 +390,21 @@
     "url": "https://github.com/davisdude/ics-to-timew"
   },
   {
+    "description": "Very simple report app to push timewarrior intervals to Jira Tempo",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "timew-jira-sync",
+    "owner": [
+      "dereulenspiegel"
+    ],
+    "rating": 0,
+    "updated": "2023-02-08",
+    "url": "https://github.com/dereulenspiegel/timew-jira-sync"
+  },
+  {
     "description": "Jira formatter (and sync) for TimeWarrior",
     "dormant": false,
     "language": [
