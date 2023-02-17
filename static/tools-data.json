@@ -240,7 +240,7 @@
     "url": "https://github.com/auderer/activetask"
   },
   {
-    "description": "XFCE4 plugin: Time tracking widget with TimeWarrior",
+    "description": "XFCE4 GenMon plugin: Time tracking widget with TimeWarrior",
     "dormant": false,
     "language": [
       "Shell"
