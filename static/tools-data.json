@@ -401,7 +401,7 @@
       "dereulenspiegel"
     ],
     "rating": 0,
-    "updated": "2023-02-27",
+    "updated": "2023-03-16",
     "url": "https://github.com/dereulenspiegel/timew-jira-sync"
   },
   {
@@ -615,7 +615,7 @@
     "url": "https://github.com/liloman/warriors"
   },
   {
-    "description": null,
+    "description": "Timewarrior extension for management of working hours",
     "dormant": false,
     "language": [
       "Python"
@@ -1000,7 +1000,7 @@
     "owner": [
       "suidroot"
     ],
-    "rating": 6,
+    "rating": 5,
     "updated": "2022-02-11",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
