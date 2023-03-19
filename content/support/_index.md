@@ -13,8 +13,8 @@ Perhaps you have a clarifying example?
 Insight into a reported problem?
 Want to request a feature or improvement?
 
-# Email
-You can ask for help at <support@gothenburgbitfactory.org>.
+# Discord
+You can ask for help at [our Discord channel](https://discord.gg/536GAvdS2Q).
 We request that you first look around at the [full online documentation](/docs), and perhaps answer your own question.
 Remember, there is only a small group of volunteers reading these.
 
