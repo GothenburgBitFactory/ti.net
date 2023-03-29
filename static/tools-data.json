@@ -810,6 +810,21 @@
     "url": "https://github.com/petrovag/taskw"
   },
   {
+    "description": "timewarrior-container",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "timewarrior-container",
+    "owner": [
+      "pschmitt"
+    ],
+    "rating": 0,
+    "updated": "2023-03-28",
+    "url": "https://github.com/pschmitt/timewarrior-container"
+  },
+  {
     "description": "Helper scripts for TimeWarrior",
     "dormant": false,
     "language": [
@@ -1076,7 +1091,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 15,
-    "updated": "2023-03-07",
+    "updated": "2023-03-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
