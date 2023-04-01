@@ -745,7 +745,7 @@
     "owner": [
       "nicovillanueva"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2019-02-17",
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
   },
@@ -813,7 +813,7 @@
     "description": "timewarrior-container",
     "dormant": false,
     "language": [
-      "N/A"
+      "Dockerfile"
     ],
     "license": null,
     "name": "timewarrior-container",
@@ -821,7 +821,7 @@
       "pschmitt"
     ],
     "rating": 0,
-    "updated": "2023-03-28",
+    "updated": "2023-03-31",
     "url": "https://github.com/pschmitt/timewarrior-container"
   },
   {
@@ -1090,7 +1090,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2023-03-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
