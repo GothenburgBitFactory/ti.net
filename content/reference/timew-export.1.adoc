@@ -5,13 +5,32 @@ timew-export - export tracked time in JSON
 
 == SYNOPSIS
 [verse]
-*timew export* [_<range>_] [_<tag>_**...**]
+*timew export* [ _<id>_**...** | ([_<range>_] [_<tag>_**...**]) ]
 
 == DESCRIPTION
 Exports all the tracked time in JSON format.
-Supports filtering.
+
+Supply either a list of interval IDs (e.g. `@1 @2`), or optional filters (see **timew-ranges(7)** and/or **timew-tags(1)**)
 
 == EXAMPLES
-For example:
 
-    $ timew export from 2016-01-01 for 3wks tag1
+*Export all intervals*::
+[source]
+----
+$ timew export
+...
+----
+
+*Export intervals filtered by range and tag*::
+[source]
+----
+$ timew export from 2016-01-01 for 3wks tag1
+...
+----
+
+*Export intervals by their ids*::
+[source]
+----
+$ timew export @1 @3 @7
+...
+----

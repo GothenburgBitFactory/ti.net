@@ -6,7 +6,8 @@ timew-dates - date formats supported by Timewarrior
 == SYNOPSIS
 
 == DESCRIPTION
-Timewarrior supports the following date formats based on ISO-8601:
+Timewarrior supports the following datetime formats based on ISO-8601.
+If times are followed by a 'Z', they are assumed to be in UTC, otherwise local time (TZ) is assumed.
 
   <extended-date> [T <extended-time>]   Extended date, optional extended time
   <date> [T <time>]                     Date, optional time
@@ -37,7 +38,8 @@ time::
     hhmm[ss]Z                           Hour, minutes, optional seconds, UTC
     hhmm[ss][+/-hh[mm]]                 Hour, minutes, optional seconds, TZ
 
-Examples:
+== EXAMPLES
+Here are some examples for ISO datetimes:
 
   2016-06-09T08:12:00Z
   2016-06T08:12:00+01:00
@@ -50,17 +52,17 @@ Examples:
   8:12:00Z
   0812-0500
 
-In addition to the standard date formats, the following are supported:
+In addition to the standard date formats, the following named dates are supported:
 
   now                                   Current date and time
   today                                 Current date at 0:00:00
   yesterday                             Yesterday at 0:00:00
   tomorrow                              Tomorrow at 0:00:00 (midnight tonight)
   <day-of-week>                         Previous named day at 0:00:00
-  <month-of-year>                       Previous 1st of the  month at 0:00:00
+  <month-of-year>                       Previous 1st of the month at 0:00:00
   hh:mm[:ss][am|a|pm|p]                 Short time format
   Nst, Nnd, Nrd, Nth                    Previous 1st, 2nd, 3rd ...
-  <epoch>                               POSIX time
+  <epoch>                               POSIX time (at least 315532800)
   later                                 2038-01-18T0:00:00 (Y2K38)
   someday                               2038-01-18T0:00:00 (Y2K38)
   sopd, eopd                            Start/end of previous day
@@ -90,13 +92,29 @@ In addition to the standard date formats, the following are supported:
   midsommarafton                        midnight, 1st Friday after 19th June
   juhannus                              midnight, 1st Friday after 19th June
 
-Examples:
+For times, the following are also possible:
 
   8am
   24th
   monday
   august
 
+== NOTES
+The minimum value for the POSIX time format of 315532800 (that is 1980-01-01) was chosen to avoid confusion with ISO dates in the YYYYMMDD format.
+
+Because named dates are defined with time 0:00:00, using them as range end excludes the respective day.
+E.g. using 'today' as upper range
+[source]
+----
+$ timew sum 2d before today
+----
+will not show any intervals of the current day.
+Use either 'now' or 'tomorrow' in this case:
+[source]
+----
+$ timew sum 2d before now
+$ timew sum 2d before tomorrow
+----
 
 == SEE ALSO
 **timew-durations**(7),
