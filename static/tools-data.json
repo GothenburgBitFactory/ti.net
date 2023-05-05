@@ -86,7 +86,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-05-01",
+    "updated": "2023-05-04",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -103,6 +103,21 @@
     "rating": 3,
     "updated": "2020-01-06",
     "url": "https://github.com/MFreeze/powerline-timewarrior"
+  },
+  {
+    "description": "Simple bash script to display the active task in timewarrior.",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "activetask",
+    "owner": [
+      "NEO97code"
+    ],
+    "rating": 1,
+    "updated": "2021-05-20",
+    "url": "https://github.com/NEO97code/activetask"
   },
   {
     "description": null,
@@ -223,21 +238,6 @@
     "rating": 0,
     "updated": "2022-12-10",
     "url": "https://github.com/aubincleme/timewarrior-tempo"
-  },
-  {
-    "description": "Simple bash script to display the active task in timewarrior.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "activetask",
-    "owner": [
-      "auderer"
-    ],
-    "rating": 1,
-    "updated": "2021-05-20",
-    "url": "https://github.com/auderer/activetask"
   },
   {
     "description": "XFCE4 GenMon plugin: Time tracking widget with TimeWarrior",
@@ -1091,7 +1091,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 17,
-    "updated": "2023-04-27",
+    "updated": "2023-05-05",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
