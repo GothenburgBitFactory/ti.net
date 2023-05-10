@@ -556,7 +556,7 @@
   },
   {
     "description": "Bash completion for Timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
