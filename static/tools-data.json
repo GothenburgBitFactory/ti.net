@@ -280,7 +280,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -808,21 +808,6 @@
     "rating": 1,
     "updated": "2023-01-29",
     "url": "https://github.com/petrovag/taskw"
-  },
-  {
-    "description": "timewarrior-container",
-    "dormant": false,
-    "language": [
-      "Dockerfile"
-    ],
-    "license": null,
-    "name": "timewarrior-container",
-    "owner": [
-      "pschmitt"
-    ],
-    "rating": 1,
-    "updated": "2023-04-01",
-    "url": "https://github.com/pschmitt/timewarrior-container"
   },
   {
     "description": "Helper scripts for TimeWarrior",
