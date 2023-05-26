@@ -341,7 +341,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2023-05-24",
+    "updated": "2023-05-25",
     "url": "https://github.com/crossbone-magister/timewarrior-extensions"
   },
   {
@@ -433,21 +433,6 @@
     "rating": 21,
     "updated": "2021-02-20",
     "url": "https://github.com/fradeve/twtools"
-  },
-  {
-    "description": "Sync worklogs between multiple time trackers, invoicing, and bookkeeping software.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "minutes",
-    "owner": [
-      "gabor-boros"
-    ],
-    "rating": 21,
-    "updated": "2023-04-24",
-    "url": "https://github.com/gabor-boros/minutes"
   },
   {
     "description": "Extend the functionality of timewarrior",
