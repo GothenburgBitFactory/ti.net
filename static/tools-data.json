@@ -810,6 +810,21 @@
     "url": "https://github.com/petrovag/taskw"
   },
   {
+    "description": " Fish completion for Timewarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "timew-fishcompletion",
+    "owner": [
+      "pfmephisto"
+    ],
+    "rating": 1,
+    "updated": "2023-05-29",
+    "url": "https://github.com/pfmephisto/timew-fishcompletion"
+  },
+  {
     "description": "Helper scripts for TimeWarrior",
     "dormant": false,
     "language": [
