@@ -541,7 +541,7 @@
   },
   {
     "description": "My Timewarrior Extensions",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
