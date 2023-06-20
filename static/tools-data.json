@@ -86,8 +86,23 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-06-15",
+    "updated": "2023-06-19",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
+  },
+  {
+    "description": "Commandline UI for Timewarrior. Gives you a realtime overview of your tracking. Inspired by atsb/worklog ",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "Combatant",
+    "owner": [
+      "KlingelDev"
+    ],
+    "rating": 1,
+    "updated": "2023-06-19",
+    "url": "https://github.com/KlingelDev/Combatant"
   },
   {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
@@ -445,7 +460,7 @@
     "owner": [
       "gabor-boros"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2023-04-24",
     "url": "https://github.com/gabor-boros/minutes"
   },
