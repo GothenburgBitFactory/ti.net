@@ -86,7 +86,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-06-21",
+    "updated": "2023-06-26",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -101,7 +101,7 @@
       "KlingelDev"
     ],
     "rating": 2,
-    "updated": "2023-06-25",
+    "updated": "2023-06-26",
     "url": "https://github.com/KlingelDev/Combatant"
   },
   {
@@ -415,7 +415,7 @@
     "owner": [
       "dereulenspiegel"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-05-19",
     "url": "https://github.com/dereulenspiegel/timew-jira-sync"
   },
