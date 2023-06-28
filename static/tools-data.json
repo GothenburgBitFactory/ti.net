@@ -86,7 +86,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-06-26",
+    "updated": "2023-06-27",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -101,7 +101,7 @@
       "KlingelDev"
     ],
     "rating": 2,
-    "updated": "2023-06-26",
+    "updated": "2023-06-27",
     "url": "https://github.com/KlingelDev/Combatant"
   },
   {
@@ -1186,7 +1186,7 @@
   },
   {
     "description": "Timewarrior extension to report total time per week",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
