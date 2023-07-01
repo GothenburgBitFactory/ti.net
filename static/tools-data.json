@@ -166,7 +166,7 @@
   },
   {
     "description": "Extenstions for https://timewarrior.net/",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
