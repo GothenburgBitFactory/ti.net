@@ -100,9 +100,24 @@
     "owner": [
       "KlingelDev"
     ],
-    "rating": 2,
+    "rating": 1,
     "updated": "2023-06-27",
     "url": "https://github.com/KlingelDev/Combatant"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "timewarrior-waybar",
+    "owner": [
+      "Krakazybik"
+    ],
+    "rating": 0,
+    "updated": "2023-07-08",
+    "url": "https://github.com/Krakazybik/timewarrior-waybar"
   },
   {
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
