@@ -71,7 +71,7 @@ function require_tool()
 {
   if ! command -v "${1}" >/dev/null 2>&1 ; then
     echo "Tool '${1}' is either inaccessible or not installed!"
-    exit
+    exit 1
   fi
 }
 
