@@ -1,0 +1,19 @@
+{
+  "manual": [
+    {
+      "description": "A Timewarrior extension for displaying a one-line summary.",
+      "dormant": false,
+      "language": [
+        "Haskell"
+      ],
+      "license": "GNU General Public License v3.0",
+      "name": "timew-one-line-summary",
+      "owner": [
+        "vilchy"
+      ],
+      "rating": 0,
+      "updated": "2023-07-14",
+      "url": "https://codeberg.org/vilchy/timew-one-line-summary"
+    }
+  ]
+}
