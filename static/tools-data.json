@@ -855,6 +855,21 @@
     "url": "https://github.com/pfmephisto/timew-fishcompletion"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_shortcuts",
+    "owner": [
+      "pgierz"
+    ],
+    "rating": 0,
+    "updated": "2023-07-13",
+    "url": "https://github.com/pgierz/timewarrior_shortcuts"
+  },
+  {
     "description": "Helper scripts for TimeWarrior",
     "dormant": false,
     "language": [
