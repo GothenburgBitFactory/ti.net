@@ -295,9 +295,24 @@
     "owner": [
       "bimlas"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-02-08",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
+  },
+  {
+    "description": "Rust implementation of the timewarrior tool",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timewarrior-rs",
+    "owner": [
+      "cazou"
+    ],
+    "rating": 0,
+    "updated": "2023-07-17",
+    "url": "https://github.com/cazou/timewarrior-rs"
   },
   {
     "description": "An extension for https://timewarrior.net/ that helps summarizing work hours/minutes spend on specific tags",
