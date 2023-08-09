@@ -10,16 +10,17 @@ If you are a developer, you might be interested in [how to install the developme
 
 ## Distributions
 
-The Gothenburg Bit Factory does not maintain any packages, but thanks to the community, there are binary packages available:
+The Gothenburg Bit Factory does not maintain any packages, but thanks to the community there are binary packages available:
 
-| Distribution                                                             | Command                            | Available since |
-|--------------------------------------------------------------------------|------------------------------------|-----------------|
-| [Arch Linux](https://www.archlinux.org/packages/community/x86_64/timew/) | `sudo pacman -S timew`             | -               |
-| [Debian](https://packages.debian.org/search?keywords=timewarrior)        | `sudo apt-get install timewarrior` | Stretch         |
-| [Gentoo](https://packages.gentoo.org/packages/app-misc/timew)            | `emerge app-misc/timew`            | -               |
-| [Fedora](https://bodhi.fedoraproject.org/updates/?packages=timew)        | `sudo dnf install timew`           | Fedora 26       |
-| [macOS](https://formulae.brew.sh/formula/timewarrior)                    | `brew install timewarrior`         | El Capitan      |
-| [Nix](https://nixos.org/)                                                | `nix-env --install timewarrior`    | -               |
+| Distribution                                                      | Command                            |
+|:------------------------------------------------------------------|:-----------------------------------|
+| [Arch Linux](https://archlinux.org/packages/?q=timewarrior)       | `sudo pacman -S timew`             |
+| [Debian](https://packages.debian.org/search?keywords=timewarrior) | `sudo apt-get install timewarrior` |
+| [Gentoo](https://packages.gentoo.org/packages/app-misc/timew)     | `emerge app-misc/timew`            |
+| [Fedora](https://bodhi.fedoraproject.org/updates/?packages=timew) | `sudo dnf install timew`           |
+| [macOS](https://formulae.brew.sh/formula/timewarrior)             | `brew install timewarrior`         |
+| [Nix](https://search.nixos.org/packages?query=timewarrior)        | `nix-env --install timewarrior`    |
+| [Ubuntu](https://packages.ubuntu.com/search?keywords=timewarrior) | `sudo apt install timewarrior`     |
 
 Note that packages are the responsibility of the respective maintainers.
 Please contact them in case of outdated or missing packages.
