@@ -465,6 +465,21 @@
     "url": "https://github.com/dereulenspiegel/timew-jira-sync"
   },
   {
+    "description": "A timewarrior extension focusing on data sync by using a FTP server and Rust",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior-sync-utilities",
+    "owner": [
+      "dev-cyprium"
+    ],
+    "rating": 0,
+    "updated": "2023-08-08",
+    "url": "https://github.com/dev-cyprium/timewarrior-sync-utilities"
+  },
+  {
     "description": "Jira formatter (and sync) for TimeWarrior",
     "dormant": false,
     "language": [
@@ -1051,7 +1066,7 @@
   },
   {
     "description": "Weekly timesheet report script for timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
