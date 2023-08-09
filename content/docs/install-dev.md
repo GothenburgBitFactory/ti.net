@@ -26,7 +26,6 @@ You can clone the repository with
 
 ```
 $ git clone --recurse-submodules https://github.com/GothenburgBitFactory/timewarrior
-$ cd timewarrior
 ```
 
 This clones the repository including the [libshared](https://github.com/GothenburgBitFactory/libshared) submodule.
@@ -45,7 +44,7 @@ Release checkouts should only be used for analysis and not for development!
 
 ## Build & Install
 
-Build with type `Debug` if you want symbols in the binary for debugging.
+Build with type `Debug` if you want symbols in the binary for debugging, otherwise choose `Release`.
 ```
 $ cmake -DCMAKE_BUILD_TYPE=Debug .
 ...
@@ -53,9 +52,24 @@ $ make
 ...
 $ sudo make install
 ```
-
-Add the optional parameter `-DCMAKE_INSTALL_PREFIX=/path/to/your/install/location` to the `cmake` command if you want to install Timewarrior at a location other than`/usr/local`.
 The `make install` command may not require `sudo` depending on your choice of install location.
+
+### CMake configuration parameters
+
+Add the optional parameter `-DCMAKE_INSTALL_PREFIX=/path/to/your/install/location` to the `cmake` command if you want to install Timewarrior at a location other than `/usr/local`.
+
+Five more variables can be used to customize the installation process:
+
+| Variable        | Default Value     |
+|-----------------|-------------------|
+| `TIMEW_BINDIR`  | `bin`             |
+| `TIMEW_DOCDIR`  | `share/doc/timew` |
+| `TIMEW_MANDIR`  | `share/man`       |
+| `TIMEW_MAN1DIR` | `share/man/man1`  |
+| `TIMEW_MAN7DIR` | `share/man/man7`  |
+
+Those paths are prefixed with the value of `CMAKE_INSTALL_PREFIX`, resulting in the final path.
+On FreeBSD or DragonFly BSD systems, the `share/` directory is omitted for the `TIMEW_MAN*DIR` variables.
 
 ## Running the Test Suite
 
@@ -68,7 +82,7 @@ Alternatively you can switch to the `test` directory and build and run the tests
 $ cd test
 $ make VERBOSE=1     # Shows details
 ...
-$ ./run_all          # Runs all tests silently &gt; all.log
+$ ./run_all          # Runs all tests silently > all.log
 $ ./problems         # Find errors in all.log
 ```
 
