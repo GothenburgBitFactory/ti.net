@@ -12,10 +12,10 @@ Normal users might be interested in [how to install a stable Timewarrior release
 
 To build Timewarrior you will need these tools:
 
-* [git](https://git-scm.com)
-* [cmake](https://cmake.org)
-* make
-* C++ compiler with full C++14 support, currently gcc 6.1+ or clang 3.4+
+* [Git](https://git-scm.com)
+* [CMake](https://cmake.org)
+* Make
+* C++ compiler with full C++17 support, currently GCC 8 or Clang 5
 * Python 3 (for running the test suite)
 * Asciidoctor (for building man pages)
 

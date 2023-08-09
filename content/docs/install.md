@@ -31,9 +31,9 @@ If there is no package available for your distribution, you can build and instal
 
 To build Timewarrior from the tarball you will need these tools:
 
-* [cmake](https://cmake.org)
-* make
-* C++ compiler with full C++14 support, currently gcc 6.1+ or clang 3.4+
+* [Cmake](https://cmake.org)
+* Make
+* C++ compiler with full C++17 support, currently GCC 8 or Clang 5
 * Python 3 (optional, only required for running the test suite)
 * Asciidoctor (optional, only required for re-building man pages)
 
