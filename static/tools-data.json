@@ -1050,6 +1050,21 @@
     "url": "https://github.com/simmel/timewarrior-report-timedutty"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Makefile"
+    ],
+    "license": null,
+    "name": "timewarrior",
+    "owner": [
+      "solus-packages"
+    ],
+    "rating": 0,
+    "updated": "2023-08-15",
+    "url": "https://github.com/solus-packages/timewarrior"
+  },
+  {
     "description": "Weekly timesheet report script for timewarrior",
     "dormant": true,
     "language": [
