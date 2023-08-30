@@ -356,7 +356,7 @@
       "codehivetx"
     ],
     "rating": 0,
-    "updated": "2022-11-28",
+    "updated": "2023-08-29",
     "url": "https://github.com/codehivetx/dock-warrior"
   },
   {
@@ -585,6 +585,21 @@
     "url": "https://github.com/guludo/timewarrior-balance"
   },
   {
+    "description": "zsh completions for the timewarrior time tracking command line application",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_zsh_completion",
+    "owner": [
+      "ianmkenney"
+    ],
+    "rating": 0,
+    "updated": "2023-08-29",
+    "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
+  },
+  {
     "description": "A flextime extension to be used with timewarrior",
     "dormant": false,
     "language": [
@@ -746,7 +761,7 @@
       "mkluge"
     ],
     "rating": 0,
-    "updated": "2023-07-20",
+    "updated": "2023-08-29",
     "url": "https://github.com/mkluge/telegram_bot_timewarrior"
   },
   {
