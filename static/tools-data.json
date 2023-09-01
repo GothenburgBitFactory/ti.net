@@ -736,7 +736,7 @@
   },
   {
     "description": "A simple script to migrate timer entries from timetrap to timewarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
