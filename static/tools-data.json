@@ -101,7 +101,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2023-09-11",
+    "updated": "2023-09-12",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1063,21 +1063,6 @@
     "rating": 0,
     "updated": "2021-05-31",
     "url": "https://github.com/simmel/timewarrior-report-timedutty"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Makefile"
-    ],
-    "license": null,
-    "name": "timewarrior",
-    "owner": [
-      "solus-packages"
-    ],
-    "rating": 0,
-    "updated": "2023-08-15",
-    "url": "https://github.com/solus-packages/timewarrior"
   },
   {
     "description": "Weekly timesheet report script for timewarrior",
