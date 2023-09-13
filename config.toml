@@ -6,3 +6,7 @@ publishDir = "html"
 
 [params]
 description = "Timewarrior is Free and Open Source Software that tracks time from the command line."
+
+[security]
+    [security.exec]
+        allow = ['^asciidoctor$']
