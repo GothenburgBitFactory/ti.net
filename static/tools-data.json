@@ -270,6 +270,21 @@
     "url": "https://github.com/amiroslaw/TimeFX"
   },
   {
+    "description": "Making a GUI for task/timewarrior (slow progress)",
+    "dormant": false,
+    "language": [
+      "C"
+    ],
+    "license": null,
+    "name": "twarrior-gui",
+    "owner": [
+      "anivelle"
+    ],
+    "rating": 0,
+    "updated": "2023-09-17",
+    "url": "https://github.com/anivelle/twarrior-gui"
+  },
+  {
     "description": "Script to synchronize timewarrior data with JIRA tempo",
     "dormant": false,
     "language": [
