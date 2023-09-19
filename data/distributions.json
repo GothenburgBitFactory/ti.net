@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Arch Linux",
+    "url": "https://archlinux.org/packages/?q=timewarrior",
+    "cmd": "sudo pacman -S timew"
+  },
+  {
+    "name": "Debian",
+    "url": "https://packages.debian.org/search?keywords=timewarrior",
+    "cmd": "sudo apt-get install timewarrior"
+  },
+  {
+    "name": "Gentoo",
+    "url": "https://packages.gentoo.org/packages/app-misc/timew",
+    "cmd": "emerge app-misc/timew"
+  },
+  {
+    "name": "Fedora",
+    "url": "https://bodhi.fedoraproject.org/updates/?packages=timew",
+    "cmd": "sudo dnf install timew"
+  },
+  {
+    "name": "macOS",
+    "url": "https://formulae.brew.sh/formula/timewarrior",
+    "cmd": "brew install timewarrior"
+  },
+  {
+    "name": "Nix",
+    "url": "https://search.nixos.org/packages?query=timewarrior",
+    "cmd": "nix-env --install timewarrior"
+  },
+  {
+    "name": "Ubuntu",
+    "url": "https://packages.ubuntu.com/search?keywords=timewarrior",
+    "cmd": "sudo apt install timewarrior"
+  }
+]

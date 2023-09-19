@@ -1,0 +1,16 @@
+<table>
+  <thead>
+  <tr>
+    <th>Distribution</th>
+    <th>Command</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{ range $dist := $.Site.Data.distributions }}
+  <tr>
+    <td><a href="{{ $dist.url }}">{{ $dist.name }}</a></td>
+    <td><code>{{ $dist.cmd }}</code></td>
+  </tr>
+  {{ end }}
+  </tbody>
+</table>
