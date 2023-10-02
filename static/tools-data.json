@@ -300,6 +300,21 @@
     "url": "https://github.com/aubincleme/timewarrior-tempo"
   },
   {
+    "description": "TimeWarrior extension for uploading timelog to YouTrack",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "ytpush",
+    "owner": [
+      "azagoskin"
+    ],
+    "rating": 0,
+    "updated": "2023-10-01",
+    "url": "https://github.com/azagoskin/ytpush"
+  },
+  {
     "description": "XFCE4 GenMon plugin: Time tracking widget with TimeWarrior",
     "dormant": false,
     "language": [
@@ -1120,7 +1135,7 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
