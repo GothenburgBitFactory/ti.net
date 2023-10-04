@@ -281,7 +281,7 @@
       "anivelle"
     ],
     "rating": 0,
-    "updated": "2023-09-22",
+    "updated": "2023-10-03",
     "url": "https://github.com/anivelle/twarrior-gui"
   },
   {
@@ -385,7 +385,7 @@
     "owner": [
       "codehivetx"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-08-29",
     "url": "https://github.com/codehivetx/dock-warrior"
   },
@@ -1120,7 +1120,7 @@
     "owner": [
       "suidroot"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-02-11",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
@@ -1210,7 +1210,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2023-08-25",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
