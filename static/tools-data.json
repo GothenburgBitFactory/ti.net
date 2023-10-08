@@ -300,6 +300,21 @@
     "url": "https://github.com/aubincleme/timewarrior-tempo"
   },
   {
+    "description": "TimeWarrior extension for uploading timelog to Jira Tempo ",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "jrpush",
+    "owner": [
+      "azagoskin"
+    ],
+    "rating": 0,
+    "updated": "2023-10-07",
+    "url": "https://github.com/azagoskin/jrpush"
+  },
+  {
     "description": "TimeWarrior extension for uploading timelog to YouTrack",
     "dormant": false,
     "language": [
@@ -311,7 +326,7 @@
       "azagoskin"
     ],
     "rating": 0,
-    "updated": "2023-10-01",
+    "updated": "2023-10-07",
     "url": "https://github.com/azagoskin/ytpush"
   },
   {
