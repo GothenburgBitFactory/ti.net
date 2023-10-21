@@ -281,7 +281,7 @@
       "anivelle"
     ],
     "rating": 0,
-    "updated": "2023-10-19",
+    "updated": "2023-10-20",
     "url": "https://github.com/anivelle/twarrior-gui"
   },
   {
@@ -1033,6 +1033,21 @@
     "rating": 3,
     "updated": "2021-12-12",
     "url": "https://github.com/rc2dev/timew-web-report"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timewarrior-grouped",
+    "owner": [
+      "rylwin"
+    ],
+    "rating": 0,
+    "updated": "2023-10-21",
+    "url": "https://github.com/rylwin/timewarrior-grouped"
   },
   {
     "description": "Create timesheet records for Kimai from Timewarrior records",
