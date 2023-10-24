@@ -22,8 +22,8 @@ Tracking "Prepare Slides" Presentation
   Total               0:00:00
 ```
 
-Two tags were used, Presentation, and Prepare Slides where the latter was quoted because it contains a space.
-Without the quotes, that second tag would have been interpreted as two separate tags, Prepare and Slides.
+Two tags were used, `Presentation` and `Prepare Slides`, where the latter was quoted because it contains a space.
+Without the quotes, that second tag would have been interpreted as two separate tags, `Prepare` and `Slides`.
 
 When stopping tracking, it is not necessary to list the tags:
 
