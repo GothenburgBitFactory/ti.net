@@ -1186,7 +1186,7 @@
   },
   {
     "description": "An indicator for gnome-shell that shows the current activity tracked by timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
