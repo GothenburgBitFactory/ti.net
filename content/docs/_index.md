@@ -65,6 +65,7 @@ layout: single
  * [annotate](/reference/timew-annotate.1)
  * [tag](/reference/timew-tag.1)
  * [untag](/reference/timew-untag.1)
+ * [retag](/reference/timew-retag.1)
  * [tags](/reference/timew-tags.1)
 
 ### Reporting and Exporting
