@@ -101,7 +101,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-11-20",
+    "updated": "2023-11-21",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -433,6 +433,21 @@
     "rating": 0,
     "updated": "2023-05-26",
     "url": "https://github.com/crossbone-magister/timewarrior-extensions"
+  },
+  {
+    "description": "A go library to use as a base to write go extensions for timewarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "timewlib",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2023-11-21",
+    "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
     "description": "A TimeWarrior report to automate hours claiming",
