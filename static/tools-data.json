@@ -420,6 +420,21 @@
     "url": "https://github.com/codehivetx/goosebay"
   },
   {
+    "description": "A Timewarrior extension to calculate earliest start and latest end.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "earliest-start-timew-extension",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2023-11-26",
+    "url": "https://github.com/crossbone-magister/earliest-start-timew-extension"
+  },
+  {
     "description": "Repository that stores useful (at least for me) timewarrior extensions",
     "dormant": false,
     "language": [
@@ -435,7 +450,7 @@
     "url": "https://github.com/crossbone-magister/timewarrior-extensions"
   },
   {
-    "description": "A go library to use as a base to write go extensions for timewarrior",
+    "description": "A go library to use as a base to write go extensions for Timewarrior",
     "dormant": false,
     "language": [
       "Go"
@@ -446,7 +461,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2023-11-21",
+    "updated": "2023-11-25",
     "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
