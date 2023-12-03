@@ -165,6 +165,21 @@
     "url": "https://github.com/NEO97online/activetask"
   },
   {
+    "description": "Ansible role managing timewarrior installations on a machine.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "ansible-role-timewarrior",
+    "owner": [
+      "Spreadcat"
+    ],
+    "rating": 0,
+    "updated": "2023-12-02",
+    "url": "https://github.com/Spreadcat/ansible-role-timewarrior"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
