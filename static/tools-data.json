@@ -176,7 +176,7 @@
       "Spreadcat"
     ],
     "rating": 0,
-    "updated": "2023-12-02",
+    "updated": "2023-12-04",
     "url": "https://github.com/Spreadcat/ansible-role-timewarrior"
   },
   {
@@ -1286,7 +1286,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 34,
-    "updated": "2023-11-29",
+    "updated": "2023-12-04",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
@@ -1345,7 +1345,7 @@
     "owner": [
       "woodworker"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-02-09",
     "url": "https://github.com/woodworker/libtimew"
   },
