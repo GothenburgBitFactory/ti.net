@@ -168,7 +168,7 @@
     "description": "Ansible role managing timewarrior installations on a machine.",
     "dormant": false,
     "language": [
-      "N/A"
+      "Jinja"
     ],
     "license": null,
     "name": "ansible-role-timewarrior",
@@ -176,7 +176,7 @@
       "Spreadcat"
     ],
     "rating": 0,
-    "updated": "2023-12-06",
+    "updated": "2023-12-07",
     "url": "https://github.com/Spreadcat/ansible-role-timewarrior"
   },
   {
