@@ -101,7 +101,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-11-22",
+    "updated": "2023-12-11",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -476,7 +476,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2023-11-25",
+    "updated": "2023-12-11",
     "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
@@ -745,8 +745,8 @@
     "owner": [
       "lauft"
     ],
-    "rating": 51,
-    "updated": "2023-09-11",
+    "rating": 52,
+    "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -1286,7 +1286,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 34,
-    "updated": "2023-12-05",
+    "updated": "2023-12-11",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
