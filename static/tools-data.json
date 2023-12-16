@@ -61,7 +61,7 @@
   },
   {
     "description": "Extension for Timewarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -101,7 +101,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2023-12-12",
+    "updated": "2023-12-15",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1286,7 +1286,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 34,
-    "updated": "2023-12-12",
+    "updated": "2023-12-15",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
