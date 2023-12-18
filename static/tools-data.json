@@ -450,6 +450,21 @@
     "url": "https://github.com/crossbone-magister/earliest-start-timew-extension"
   },
   {
+    "description": "A Timewarrior extension to calculate total time spent on each tag.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "tag-total",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2023-12-17",
+    "url": "https://github.com/crossbone-magister/tag-total"
+  },
+  {
     "description": "Repository that stores useful (at least for me) timewarrior extensions",
     "dormant": false,
     "language": [
@@ -1286,7 +1301,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 34,
-    "updated": "2023-12-15",
+    "updated": "2023-12-17",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
