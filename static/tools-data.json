@@ -16,7 +16,7 @@
   },
   {
     "description": "timewarrior plugin to keep track of flexible time contracts",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
