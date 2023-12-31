@@ -570,6 +570,21 @@
     "url": "https://github.com/dev-cyprium/timewarrior-sync-utilities"
   },
   {
+    "description": "Command line time tracking tool. This is Timewarrior into a snap.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "snap-timewarrior",
+    "owner": [
+      "drcoccodrillus"
+    ],
+    "rating": 0,
+    "updated": "2023-12-30",
+    "url": "https://github.com/drcoccodrillus/snap-timewarrior"
+  },
+  {
     "description": "Jira formatter (and sync) for TimeWarrior",
     "dormant": false,
     "language": [
