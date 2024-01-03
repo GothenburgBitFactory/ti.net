@@ -165,6 +165,21 @@
     "url": "https://github.com/NEO97online/activetask"
   },
   {
+    "description": "taskwarrior, timewarrior weekly report script (personal script. not general)",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "report-twarriors",
+    "owner": [
+      "ShockRabbit"
+    ],
+    "rating": 0,
+    "updated": "2021-03-06",
+    "url": "https://github.com/ShockRabbit/report-twarriors"
+  },
+  {
     "description": "Ansible role managing timewarrior installations on a machine.",
     "dormant": false,
     "language": [
@@ -925,7 +940,7 @@
     "owner": [
       "nicovillanueva"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2019-02-17",
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
   },
@@ -1301,7 +1316,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 35,
-    "updated": "2023-12-19",
+    "updated": "2024-01-02",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
