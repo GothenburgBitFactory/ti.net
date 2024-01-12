@@ -661,7 +661,7 @@
   },
   {
     "description": "A polybar plugin to track timewarrior state",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
