@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.1",
+    "date": "2024-01-16",
+    "name": "timew-1.7.1",
+    "tarball": "timew-1.7.1.tar.gz",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.7.1/timew-1.7.1.tar.gz",
+    "sha256": "5e0817fbf092beff12598537c894ec1f34b0a21019f5a3001fe4e6d15c11bd94"
+  },
+  {
     "version": "1.7.0",
     "date": "2023-12-24",
     "name": "timew-1.7.0",
