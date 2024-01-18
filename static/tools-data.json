@@ -1185,6 +1185,21 @@
     "url": "https://github.com/simmel/timewarrior-report-timedutty"
   },
   {
+    "description": "continuation of python-timew library, provides python api for timewarrior, originally by @tjaartvdwalt",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "python-timew",
+    "owner": [
+      "smemsh"
+    ],
+    "rating": 0,
+    "updated": "2024-01-17",
+    "url": "https://github.com/smemsh/python-timew"
+  },
+  {
     "description": "Weekly timesheet report script for timewarrior",
     "dormant": true,
     "language": [
