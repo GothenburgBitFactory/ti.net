@@ -465,6 +465,21 @@
     "url": "https://github.com/crossbone-magister/tag-total"
   },
   {
+    "description": "A Timewarrior extension to display total of tags in a tree (hierarchical) structure",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "tag-tree",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2024-01-26",
+    "url": "https://github.com/crossbone-magister/tag-tree"
+  },
+  {
     "description": "Repository that stores useful (at least for me) timewarrior extensions",
     "dormant": false,
     "language": [
