@@ -226,7 +226,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Elixir"
     ],
@@ -730,7 +730,7 @@
     "owner": [
       "joemat"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-08-23",
     "url": "https://github.com/joemat/timewarrior-extensions"
   },
@@ -1331,7 +1331,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 35,
-    "updated": "2024-01-25",
+    "updated": "2024-01-31",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
