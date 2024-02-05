@@ -345,6 +345,21 @@
     "url": "https://github.com/azagoskin/ytpush"
   },
   {
+    "description": "A cli based work logger working with task- and timewarrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "worklogger",
+    "owner": [
+      "b1tray3r"
+    ],
+    "rating": 0,
+    "updated": "2024-02-04",
+    "url": "https://github.com/b1tray3r/worklogger"
+  },
+  {
     "description": "XFCE4 GenMon plugin: Time tracking widget with TimeWarrior",
     "dormant": false,
     "language": [
@@ -356,7 +371,7 @@
       "bimlas"
     ],
     "rating": 6,
-    "updated": "2021-02-08",
+    "updated": "2024-02-04",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
   },
   {
@@ -760,7 +775,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2024-01-09",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
@@ -1255,7 +1270,7 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
