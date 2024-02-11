@@ -1330,7 +1330,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2024-02-09",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -1345,7 +1345,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2024-02-08",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
@@ -1396,7 +1396,7 @@
   },
   {
     "description": "A timewarrior rust library",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
