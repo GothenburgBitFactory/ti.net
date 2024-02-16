@@ -1396,7 +1396,7 @@
   },
   {
     "description": "A timewarrior rust library",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Rust"
     ],
@@ -1405,8 +1405,8 @@
     "owner": [
       "woodworker"
     ],
-    "rating": 4,
-    "updated": "2021-02-09",
+    "rating": 5,
+    "updated": "2024-02-15",
     "url": "https://github.com/woodworker/libtimew"
   },
   {
