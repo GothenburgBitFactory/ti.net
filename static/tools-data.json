@@ -348,7 +348,7 @@
     "description": "A cli based work logger working with task- and timewarrior.",
     "dormant": false,
     "language": [
-      "N/A"
+      "Go"
     ],
     "license": null,
     "name": "worklogger",
@@ -356,7 +356,7 @@
       "b1tray3r"
     ],
     "rating": 0,
-    "updated": "2024-02-04",
+    "updated": "2024-02-16",
     "url": "https://github.com/b1tray3r/worklogger"
   },
   {
@@ -490,7 +490,7 @@
     "owner": [
       "crossbone-magister"
     ],
-    "rating": 0,
+    "rating": 2,
     "updated": "2024-01-26",
     "url": "https://github.com/crossbone-magister/tag-tree"
   },
