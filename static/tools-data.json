@@ -356,7 +356,7 @@
       "b1tray3r"
     ],
     "rating": 0,
-    "updated": "2024-02-16",
+    "updated": "2024-02-19",
     "url": "https://github.com/b1tray3r/worklogger"
   },
   {
@@ -598,6 +598,21 @@
     "rating": 0,
     "updated": "2023-08-08",
     "url": "https://github.com/dev-cyprium/timewarrior-sync-utilities"
+  },
+  {
+    "description": "Run some timewarrior commands from neovim",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "timew.nvim",
+    "owner": [
+      "eliasCVII"
+    ],
+    "rating": 1,
+    "updated": "2024-02-17",
+    "url": "https://github.com/eliasCVII/timew.nvim"
   },
   {
     "description": "Jira formatter (and sync) for TimeWarrior",
@@ -1331,7 +1346,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 19,
-    "updated": "2024-02-13",
+    "updated": "2024-02-19",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
