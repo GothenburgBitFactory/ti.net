@@ -550,7 +550,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-09-05",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
@@ -611,7 +611,7 @@
       "eliasCVII"
     ],
     "rating": 1,
-    "updated": "2024-02-17",
+    "updated": "2024-02-21",
     "url": "https://github.com/eliasCVII/timew.nvim"
   },
   {
@@ -1090,7 +1090,7 @@
     "owner": [
       "radarsymphony"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-07-03",
     "url": "https://github.com/radarsymphony/timew-csv"
   },
@@ -1421,7 +1421,7 @@
       "woodworker"
     ],
     "rating": 5,
-    "updated": "2024-02-15",
+    "updated": "2024-02-20",
     "url": "https://github.com/woodworker/libtimew"
   },
   {
