@@ -631,7 +631,7 @@
   },
   {
     "description": "A command line tool to enhance TimeWarrior's functionalities.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
