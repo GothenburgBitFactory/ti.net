@@ -345,7 +345,7 @@
     "url": "https://github.com/azagoskin/ytpush"
   },
   {
-    "description": "A cli based work logger working with task- and timewarrior.",
+    "description": "A cli based work logger working with timewarrior.",
     "dormant": false,
     "language": [
       "Go"
