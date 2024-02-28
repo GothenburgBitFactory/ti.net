@@ -355,8 +355,8 @@
     "owner": [
       "b1tray3r"
     ],
-    "rating": 0,
-    "updated": "2024-02-25",
+    "rating": 1,
+    "updated": "2024-02-27",
     "url": "https://github.com/b1tray3r/worklogger"
   },
   {
@@ -655,7 +655,7 @@
     "owner": [
       "gabor-boros"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2023-04-24",
     "url": "https://github.com/gabor-boros/minutes"
   },
@@ -1051,7 +1051,7 @@
   },
   {
     "description": "Helper scripts for TimeWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1063,6 +1063,21 @@
     "rating": 0,
     "updated": "2021-02-25",
     "url": "https://github.com/pxtimes3/timewarrior"
+  },
+  {
+    "description": "Scripts for using TimeWarrior data for my job",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior",
+    "owner": [
+      "pzzd"
+    ],
+    "rating": 0,
+    "updated": "2024-02-26",
+    "url": "https://github.com/pzzd/timewarrior"
   },
   {
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
@@ -1421,7 +1436,7 @@
       "woodworker"
     ],
     "rating": 5,
-    "updated": "2024-02-20",
+    "updated": "2024-02-26",
     "url": "https://github.com/woodworker/libtimew"
   },
   {
