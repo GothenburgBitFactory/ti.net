@@ -526,7 +526,7 @@
   },
   {
     "description": "A TimeWarrior report to automate hours claiming",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
