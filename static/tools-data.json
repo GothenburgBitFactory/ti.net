@@ -15,6 +15,21 @@
     "url": "https://codeberg.org/vilchy/timew-one-line-summary"
   },
   {
+    "description": "Taskwarrior and Timewarrior config using XDG, as much as they allow",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "dot-task",
+    "owner": [
+      "00dani"
+    ],
+    "rating": 0,
+    "updated": "2024-03-07",
+    "url": "https://github.com/00dani/dot-task"
+  },
+  {
     "description": "timewarrior plugin to keep track of flexible time contracts",
     "dormant": true,
     "language": [
@@ -1376,7 +1391,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 36,
-    "updated": "2024-02-08",
+    "updated": "2024-03-07",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
