@@ -1,6 +1,5 @@
 [
   {
-    "archived": false,
     "description": "A Timewarrior extension for displaying a one-line summary.",
     "dormant": false,
     "language": [
@@ -210,7 +209,7 @@
   {
     "archived": false,
     "description": "An i3blocks integration for timewarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -380,7 +379,7 @@
       "b1tray3r"
     ],
     "rating": 2,
-    "updated": "2024-03-30",
+    "updated": "2024-04-03",
     "url": "https://github.com/b1tray3r/worklogger"
   },
   {
@@ -1003,7 +1002,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
   },
@@ -1200,9 +1199,9 @@
     "url": "https://github.com/rameshg87/timewarrior-aggregate"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "Timewarrior extensions.",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -1216,9 +1215,9 @@
     "url": "https://github.com/rc2dev/timew-extensions"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "Get Timewarrior's total time per tag per week through a web API and page.",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -1296,7 +1295,7 @@
     "url": "https://github.com/sdietzel/timewarrior-extensions"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "Bugwarrior, Taskwarrior and Timewarrior integration with Serokell issue tracker and time tracking",
     "dormant": true,
     "language": [
