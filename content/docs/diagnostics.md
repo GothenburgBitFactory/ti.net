@@ -10,7 +10,7 @@ hide_toc: true
 Timewarrior has a `diagnostics` command that can be used to help determine problems.
 The output is:
 
-![](/images/diag1.png)
+![](../../images/diag1.png)
 
 If there are detectable problems, the `diagnostics` command tries to identify the cause.
 This command will likely grow more sophisticated over time, reporting more problems.

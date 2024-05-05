@@ -39,4 +39,4 @@ The hook script is open source, written in Python, so feel free to inspect and a
 
 Below you can see a usage example: create a task, start it, complete it and automatically track it.
 
-![](/images/taskwarrior-on-modify-hook-example.png)
+![](../../images/taskwarrior-on-modify-hook-example.png)

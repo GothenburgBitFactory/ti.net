@@ -12,13 +12,13 @@ It is very common to forget to start or stop tracking at the right time or use t
 Timewarrior has a set of commands that allow you to make these corrections.
 First create a scenario that requires adjustment:
 
-![](/images/correction1.png)
+![](../../images/correction1.png)
 
 This creates an active interval, starting one hour ago, using the tags Prepare and Talk.
 Everything about this interval is wrong.
 The first step to correcting it is to get the ID, using the `summary` command with the `:ids` hint.
 
-![](/images/correction2.png)
+![](../../images/correction2.png)
 
 The ID is 1, so we will use `@1` when referencing this interval.
 Note that the most recent interval is always numbered `@1`, which makes the ID numbers independent of which report you run to see them.

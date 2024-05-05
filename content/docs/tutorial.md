@@ -5,10 +5,10 @@ viewport: 'width=device-width, initial-scale=1'
 ---
 
 This tutorial assumes you have installed Timewarrior.
-If not, follow these [download and build instructions](/docs/install).
+If not, follow these [download and build instructions](../install).
 This is a lengthy and detailed tutorial.
 If you wish to learn about Timewarrior in depth, this is the place.
-If you prefer your information in smaller pieces, use the [online docs](/docs).
+If you prefer your information in smaller pieces, use the [online docs](..).
 
 ## Setup
 
@@ -946,7 +946,7 @@ See `man timew` for full details.
 Timewarrior reports are not sophisticated, they are minimally functional and focus on simply displaying the data.
 What if you need a report broken down by tags, with weekly subtotals?
 
-Timewarrior supports extension reports, via the [extension API](/docs/api).
+Timewarrior supports extension reports, via the [extension API](../api).
 This is mechanism that allows you to write a report using any language you choose.
 Don\'t like the way the summary report shows the data?
 Write your own.
@@ -1037,7 +1037,7 @@ Extensions are not restricted to emitting text, they could for example output, D
 Timewarrior integrates with Taskwarrior by means of a Taskwarrior `on-modify` hook script.
 Once installed, this means that whenever a task is active, Timewarrior is used to track the time.
 
-Find instructions on how to install & use it on its [dedicated page](/docs/taskwarrior).
+Find instructions on how to install & use it on its [dedicated page](../taskwarrior).
 
 ## End
 

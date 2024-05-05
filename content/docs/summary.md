@@ -9,7 +9,7 @@ viewport: 'width=device-width, initial-scale=1'
 There is a `summary` report which shows all the tracked intervals for the day, with totals of the time tracked.
 Here is an example:
 
-![](/images/summary1.png)
+![](../../images/summary1.png)
 
 This report shows that there are two intervals today.
 The first is tagged Breakfast meeting with client ABC and was recorded as a one-hour meeting.
@@ -37,7 +37,7 @@ $ timew summary saturday
 ```
 
 Timewarrior is very flexible about specifying intervals.
-See the [interval syntax](/docs/interval) page for full details.
+See the [interval syntax](../interval) page for full details.
 
 In addition there are hints that correspond to preset data ranges for added convenience.
 Here are some of them used in this context, but not matching the \'today\' example above:
@@ -51,15 +51,15 @@ $ timew summary :quarter
 $ timew summary :year
 ```
 
-See the [hints](/docs/hints) page for full details.
+See the [hints](../hints) page for full details.
 
 ## IDs
 
 The `summary` report has an important feature.
 When the `:ids` hint is used, Some `@id` numbers are shown:
 
-![](/images/summary2.png)
+![](../../images/summary2.png)
 
-These are the `@id` numbers you use when making [corrections](/docs/corrections).
+These are the `@id` numbers you use when making [corrections](../corrections).
 
 Note that the most recent interval is always numbered `@1`, which makes the ID numbers independent of which report you run to see them.
