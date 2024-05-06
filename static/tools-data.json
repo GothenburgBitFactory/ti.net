@@ -195,6 +195,22 @@
     "description": null,
     "dormant": false,
     "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TimeWarrior",
+    "owner": [
+      "ThePhoneBeLinging"
+    ],
+    "rating": 0,
+    "updated": "2024-05-06",
+    "url": "https://github.com/ThePhoneBeLinging/TimeWarrior"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
       "Java"
     ],
     "license": "GNU General Public License v3.0",
@@ -923,7 +939,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-04-29",
+    "updated": "2024-05-05",
     "url": "https://github.com/lvhungdev/timetracker"
   },
   {
