@@ -810,7 +810,7 @@
     "owner": [
       "ianmkenney"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-04-05",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
@@ -1499,7 +1499,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 37,
-    "updated": "2024-05-04",
+    "updated": "2024-05-07",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
