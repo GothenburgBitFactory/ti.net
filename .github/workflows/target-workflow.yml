@@ -1,0 +1,25 @@
+name: My Target Workflow
+
+on:
+  repository_dispatch:
+    types: [trigger-workflow]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.client_payload.sha }}
+
+      # Add your workflow steps here
+
+      - name: Extract Service Name & Version
+        run: |
+          service_name=${{ github.event.client_payload.service }}
+          echo "Service Name: $service_name"
+
+          version=${{ github.event.client_payload.version }}
+          echo "Version: $version"
