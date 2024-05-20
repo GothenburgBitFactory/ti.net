@@ -16,7 +16,7 @@ jobs:
 
       # Add your workflow steps here
 
-      - name: Extract Service Name & Version
+      - name: Extract Service Name, Version, and Changed Files
         run: |
           service_name=${{ github.event.client_payload.service }}
           echo "Service Name: $service_name"
