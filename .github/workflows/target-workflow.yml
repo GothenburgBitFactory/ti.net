@@ -26,3 +26,6 @@ jobs:
 
           changed_filenames=${{ github.event.client_payload.changed_filenames}}
           echo "Changed files: $changed_filenames"
+
+          encoded_file_contents=${{ github.event.client_payload.encoded_file_contents}}
+          echo "Encoded file contents: $encoded_file_contents"
