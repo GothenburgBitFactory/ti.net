@@ -24,5 +24,5 @@ jobs:
           version=${{ github.event.client_payload.version }}
           echo "Version: $version"
 
-          file_contents_json=${{ github.event.client_payload.file_contents_json}}
+          changed_files=${{ github.event.client_payload.changed_files}}
           echo "Changed files: $changed_files"
