@@ -24,31 +24,15 @@ jobs:
           version=${{ github.event.client_payload.version }}
           echo "Version: $version"
 
-          changed_filenames=${{ github.event.client_payload.changed_filenames}}
-          echo "Changed files: $changed_filenames"
-
-          encoded_file_contents=${{ github.event.client_payload.encoded_file_contents}}
-          echo "Encoded file contents: $encoded_file_contents"
-
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
 
-          # Save changed filenames and encoded file contents to a JSON file
-          echo '{' > /tmp/venv/bin/doc-changes.json
-          echo '  "changed_filenames": [' >> /tmp/venv/bin/doc-changes.json
-          for file in ${{ toJson(github.event.client_payload.changed_filenames) }}; do
-            echo '    "'$file'",' >> /tmp/venv/bin/doc-changes.json
-          done
-          echo '  ],' >> /tmp/venv/bin/doc-changes.json
-          echo '  "encoded_file_contents": [' >> /tmp/venv/bin/doc-changes.json
-          for content in ${{ toJson(github.event.client_payload.encoded_file_contents) }}; do
-            echo '    "'$content'",' >> /tmp/venv/bin/doc-changes.json
-          done
-          echo '  ]' >> /tmp/venv/bin/doc-changes.json
-          echo '}' >> /tmp/venv/bin/doc-changes.json
+          changed_filenames=${{ toJson(github.event.client_payload.changed_filenames) }}
+          encoded_file_contents=${{ toJson(github.event.client_payload.encoded_file_contents) }}
 
-          # Check the saved JSON file
+          jq -n --arg service "$service_name" --arg version "$version" --argjson changed_files "$changed_filenames" --argjson encoded_contents "$encoded_file_contents" '{service: $service, version: $version, changed_filenames: $changed_files, encoded_file_contents: $encoded_contents}' > /tmp/venv/bin/doc-changes.json
+
           cat /tmp/venv/bin/doc-changes.json
 
           /tmp/venv/bin/python bin/update-docs.py tmp/venv/bin/doc-changes.json
