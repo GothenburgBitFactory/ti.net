@@ -30,8 +30,6 @@ jobs:
 
           echo "${{ toJson(github.event.client_payload) }}" > /tmp/venv/bin/doc-changes.json
 
-          cat /tmp/venv/bin/doc-changes.json
-          sleep 5
           /tmp/venv/bin/python bin/update-docs.py tmp/venv/bin/doc-changes.json
 
       # - name: Create Pull Request
