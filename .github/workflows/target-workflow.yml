@@ -37,13 +37,13 @@ jobs:
           # Save changed filenames and encoded file contents to a JSON file
           echo '{' > /tmp/venv/bin/doc-changes.json
           echo '  "changed_filenames": [' >> /tmp/venv/bin/doc-changes.json
-          for file in "${{ github.event.client_payload.changed_filenames[@] }}"; do
-          echo '    "'$file'",' >> /tmp/venv/bin/doc-changes.json
+          for file in ${{ toJson(github.event.client_payload.changed_filenames) }}; do
+            echo '    "'$file'",' >> /tmp/venv/bin/doc-changes.json
           done
           echo '  ],' >> /tmp/venv/bin/doc-changes.json
           echo '  "encoded_file_contents": [' >> /tmp/venv/bin/doc-changes.json
-          for content in "${{ github.event.client_payload.encoded_file_contents[@] }}"; do
-          echo '    "'$content'",' >> /tmp/venv/bin/doc-changes.json
+          for content in ${{ toJson(github.event.client_payload.encoded_file_contents) }}; do
+            echo '    "'$content'",' >> /tmp/venv/bin/doc-changes.json
           done
           echo '  ]' >> /tmp/venv/bin/doc-changes.json
           echo '}' >> /tmp/venv/bin/doc-changes.json
