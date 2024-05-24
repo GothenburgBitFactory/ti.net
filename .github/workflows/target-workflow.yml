@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install jq
+        run: sudo apt-get install jq
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -28,7 +31,7 @@ jobs:
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
 
-          echo "${{ toJson(github.event.client_payload) }}" > /tmp/venv/bin/doc-changes.json
+          echo "${{ toJson(github.event.client_payload) }}" | jq . > /tmp/venv/bin/doc-changes.json
 
           echo cat /tmp/venv/bin/doc-changes.json:
           echo ""
