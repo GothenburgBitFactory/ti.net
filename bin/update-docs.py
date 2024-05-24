@@ -2,12 +2,13 @@
 
 from base64 import b64decode
 import json
-import os
+# import os
 import re
 
 
-SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
-DOC_PATH = os.path.join(SCRIPT_DIR, "doc-changes.json")
+# SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+# DOC_PATH = os.path.join(SCRIPT_DIR, "doc-changes.json")
+DOC_PATH = "/tmp/venv/bin/doc-changes.json"
 
 
 def update_files():
