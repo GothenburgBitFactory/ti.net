@@ -42,7 +42,7 @@ jobs:
           echo $encoded_file_contents >> /tmp/venv/bin/doc-changes.json
           echo "}" >> /tmp/venv/bin/doc-changes.json
 
-         /tmp/venv/bin/python bin/update-docs.py tmp/venv/bin/doc-changes.json
+          /tmp/venv/bin/python bin/update-docs.py tmp/venv/bin/doc-changes.json
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
