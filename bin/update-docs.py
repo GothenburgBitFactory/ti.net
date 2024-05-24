@@ -1,6 +1,5 @@
 from base64 import b64decode
-import sys
-import ast
+import json
 import re
 
 # changed_filenames = [
@@ -13,18 +12,20 @@ import re
 #     "Ln5+IENoYW5nZSB0byB0aGlzIGZpbGUgdG8gdHJpZ2dlciB3b3JrZmxvdyB+fgo9IHRpbWV3LWNhbmNlbCgxKQoKPT0gTkFNRQp0aW1ldy1jYW5jZWwgLSBjYW5jZWwgdGltZSB0cmFja2luZwoKPT0gU1lOT1BTSVMKW3ZlcnNlXQoqdGltZXcgY2FuY2VsKgoKPT0gREVTQ1JJUFRJT04KSWYgdGhlcmUgaXMgYW4gb3BlbiBpbnRlcnZhbCwgaXQgaXMgYWJhbmRvbmVkLgoKPT0gRVhBTVBMRVMKCipDYW5jZWwgd2l0aCBhY3RpdmUgdGltZSB0cmFja2luZyo6OgorCiAgICAkIHRpbWV3IHN0YXJ0CiAgICAuLi4KICAgICQgdGltZXcgY2FuY2VsCiAgICBDYW5jZWxlZCBhY3RpdmUgdGltZSB0cmFja2luZy4KClRoaXMgZGVsZXRlcyB0aGUgb3BlbiBpbnRlcnZhbC4KCipDYW5jZWwgd2l0aCBubyBhY3RpdmUgdGltZSB0cmFja2luZyo6OgorCiAgICAuLi4KICAgICQgdGltZXcgc3RvcAogICAgJCB0aW1ldyBjYW5jZWwKICAgIFRoZXJlIGlzIG5vIGFjdGl2ZSB0aW1lIHRyYWNraW5nLgoKQ2FuY2VsIGhhcyBubyBlZmZlY3QsIG9ubHkgYSB3YXJuaW5nIGlzIHByaW50ZWQuCgo9PSBTRUUgQUxTTwoqKnRpbWV3LWNvbnRpbnVlKiooMSksCioqdGltZXctc3RhcnQqKigxKSwKKip0aW1ldy1zdG9wKiooMSksCioqdGltZXctdHJhY2sqKigxKQo="
 # ]
 
-changed_filenames = ast.literal_eval(sys.argv[1])
-encoded_file_contents = ast.literal_eval(sys.argv[2])
 
+def update_files():
+    with open('doc-changes.json') as f:
+        doc_changes = json.load(f)
 
-def update_files(changed_filenames, encoded_file_contents):
     pattern = re.compile(r'doc/man\d/(.*)')
-    filenames = [pattern.sub(r'\1', name) for name in changed_filenames]
+    filenames = [pattern.sub(r'\1', name)
+                 for name in doc_changes['changed_filenames']]
 
     for i in range(len(filenames)):
         with open(f'../content/reference/{filenames[i]}', "w") as f:
-            f.write(b64decode(encoded_file_contents[i]).decode('utf-8'))
+            f.write(b64decode(doc_changes['encoded_file_contents'][i])
+                    .decode('utf-8'))
 
 
 if __name__ == "__main__":
-    update_files(changed_filenames, encoded_file_contents)
+    update_files()
