@@ -34,7 +34,7 @@ jobs:
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
 
-          '' > /tmp/venv/bin/doc-changes.json
+          echo '' > /tmp/venv/bin/doc-changes.json
           echo "{" >> /tmp/venv/bin/doc-changes.json
           echo \"changed_filenames\": >> /tmp/venv/bin/doc-changes.json
           echo $changed_filenames, >> /tmp/venv/bin/doc-changes.json
