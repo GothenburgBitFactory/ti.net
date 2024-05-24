@@ -31,7 +31,11 @@ jobs:
           changed_filenames=${{ toJson(github.event.client_payload.changed_filenames) }}
           encoded_file_contents=${{ toJson(github.event.client_payload.encoded_file_contents) }}
 
-          jq -n --arg service "$service_name" --arg version "$version" --argjson changed_files "$changed_filenames" --argjson encoded_contents "$encoded_file_contents" '{service: $service, version: $version, changed_filenames: $changed_files, encoded_file_contents: $encoded_contents}' > /tmp/venv/bin/doc-changes.json
+          jq -n --arg service "$service_name" \
+            --arg version "$version" \
+            --arg changed_files "$changed_filenames | @sh" \
+            --arg encoded_contents "$encoded_file_contents | @sh" \
+            '{service: $service, version: $version, changed_filenames: $changed_files, encoded_file_contents: $encoded_contents}' > /tmp/venv/bin/doc-changes.json
 
           cat /tmp/venv/bin/doc-changes.json
 
