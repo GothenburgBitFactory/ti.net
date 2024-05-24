@@ -22,7 +22,7 @@ def update_files():
                  for name in doc_changes['changed_filenames']]
 
     for i in range(len(filenames)):
-        with open(f'../content/reference/{filenames[i]}', "w") as f:
+        with open(f'content/reference/{filenames[i]}', "w") as f:
             f.write(b64decode(doc_changes['encoded_file_contents'][i])
                     .decode('utf-8'))
 
