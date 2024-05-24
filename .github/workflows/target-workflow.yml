@@ -28,7 +28,8 @@ jobs:
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
 
-          node -e "const fs = require('fs'); fs.writeFileSync('/tmp/venv/bin/doc-changes.json', JSON.stringify(${toJson(github.event.client_payload)}, null, 2));"
+          echo '${{ toJson(github.event.client_payload) }}' > /tmp/payload.json
+          node -e "const fs = require('fs'); fs.writeFileSync('/tmp/venv/bin/doc-changes.json', JSON.stringify(JSON.parse(fs.readFileSync('/tmp/payload.json', 'utf8')), null, 2));"
 
           echo cat /tmp/venv/bin/doc-changes.json:
           echo ""
