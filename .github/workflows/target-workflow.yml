@@ -30,19 +30,19 @@ jobs:
           encoded_file_contents=${{ github.event.client_payload.encoded_file_contents}}
           echo "Encoded file contents: $encoded_file_contents"
 
-          cd bin
-          '' > doc-changes.json
-          echo "{" >> doc-changes.json
-          echo \"changed_filenames\": >> doc-changes.json
-          echo $changed_filenames, >> doc-changes.json
-          echo \"encoded_file_contents\": >> doc-changes.json
-          echo $encoded_file_contents >> doc-changes.json
-          echo "}" >> doc-changes.json
-
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
-          /tmp/venv/bin/python bin/update-docs.py bin/doc-changes.json
+
+          '' > /tmp/venv/bin/doc-changes.json
+          echo "{" >> /tmp/venv/bin/doc-changes.json
+          echo \"changed_filenames\": >> /tmp/venv/bin/doc-changes.json
+          echo $changed_filenames, >> /tmp/venv/bin/doc-changes.json
+          echo \"encoded_file_contents\": >> /tmp/venv/bin/doc-changes.json
+          echo $encoded_file_contents >> /tmp/venv/bin/doc-changes.json
+          echo "}" >> /tmp/venv/bin/doc-changes.json
+
+         /tmp/venv/bin/python bin/update-docs.py tmp/venv/bin/doc-changes.json
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
