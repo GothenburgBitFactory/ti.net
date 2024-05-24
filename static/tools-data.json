@@ -161,7 +161,7 @@
   {
     "archived": false,
     "description": "Simple bash script to display the active task in timewarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -1483,7 +1483,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 20,
-    "updated": "2024-04-29",
+    "updated": "2024-05-22",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
