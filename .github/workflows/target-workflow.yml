@@ -1,4 +1,4 @@
-name: My Target Workflow
+name: Update Docs
 
 on:
   repository_dispatch:
