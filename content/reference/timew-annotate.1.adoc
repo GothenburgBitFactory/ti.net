@@ -9,7 +9,6 @@ timew-annotate - add an annotation to intervals
 
 == DESCRIPTION
 The 'annotate' command is used to add an annotation to an interval.
-*****Sometimes, we make changes to the documentation*****
 
 See the 'summary' command on how to display the _<id>_ and _<annotation>_ of an interval.
 
