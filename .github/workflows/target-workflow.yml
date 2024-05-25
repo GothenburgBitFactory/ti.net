@@ -1,32 +1,26 @@
 name: Update Docs
-
 on:
   repository_dispatch:
     types: [trigger-workflow]
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.client_payload.sha }}
-
       - name: Update the docs
         run: |
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
-
           echo '${{ toJson(github.event.client_payload) }}' > /tmp/payload.json
           node -e "const fs = require('fs');\
           const payloadContent = fs.readFileSync('/tmp/payload.json', 'utf8');\
           const payloadJSON = JSON.parse(payloadContent);\
           const formattedJSON = JSON.stringify(payloadJSON, null, 2);\
           fs.writeFileSync('/tmp/venv/bin/changes.json', formattedJSON);"
-
           /tmp/venv/bin/python bin/update-docs.py /tmp/venv/bin/changes.json
       - name: Create Pull Request
         id: cpr
