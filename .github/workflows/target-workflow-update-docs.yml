@@ -1,7 +1,7 @@
 name: Update Docs
 on:
   repository_dispatch:
-    types: [trigger-workflow]
+    types: [trigger-workflow-update-docs]
 jobs:
   build:
     runs-on: ubuntu-latest
