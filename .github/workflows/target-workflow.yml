@@ -14,7 +14,7 @@ jobs:
         with:
           ref: ${{ github.event.client_payload.sha }}
 
-      - name: Extract Service Name, Version, and Changed Files
+      - name: Update the docs
         run: |
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
@@ -25,10 +25,9 @@ jobs:
           const payloadContent = fs.readFileSync('/tmp/payload.json', 'utf8');\
           const payloadJSON = JSON.parse(payloadContent);\
           const formattedJSON = JSON.stringify(payloadJSON, null, 2);\
-          fs.writeFileSync('/tmp/venv/bin/doc-changes.json', formattedJSON);"
+          fs.writeFileSync('/tmp/venv/bin/changes.json', formattedJSON);"
 
-          /tmp/venv/bin/python bin/update-docs.py /tmp/venv/bin/doc-changes.json
-
+          /tmp/venv/bin/python bin/update-docs.py /tmp/venv/bin/changes.json
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
