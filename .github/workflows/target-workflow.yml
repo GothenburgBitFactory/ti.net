@@ -21,7 +21,7 @@ jobs:
           const payloadJSON = JSON.parse(payloadContent);\
           const formattedJSON = JSON.stringify(payloadJSON, null, 2);\
           fs.writeFileSync('/tmp/venv/bin/changes.json', formattedJSON);"
-          /tmp/venv/bin/python bin/update-docs.py /tmp/venv/bin/changes.json
+          /tmp/venv/bin/python bin/update-docs.py
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6

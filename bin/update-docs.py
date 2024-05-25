@@ -4,7 +4,7 @@ from base64 import b64decode
 import json
 import re
 
-DOC_CHANGES_PATH = "/tmp/venv/bin/doc-changes.json"
+DOC_CHANGES_PATH = "/tmp/venv/bin/changes.json"
 
 
 def update_files():
