@@ -14,26 +14,18 @@ jobs:
         with:
           ref: ${{ github.event.client_payload.sha }}
 
-      # Add your workflow steps here
-
       - name: Extract Service Name, Version, and Changed Files
         run: |
-          service_name=${{ github.event.client_payload.service }}
-          echo "Service Name: $service_name"
-
-          version=${{ github.event.client_payload.version }}
-          echo "Version: $version"
-
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r bin/requirements.txt
 
           echo '${{ toJson(github.event.client_payload) }}' > /tmp/payload.json
-          node -e "const fs = require('fs'); fs.writeFileSync('/tmp/venv/bin/doc-changes.json', JSON.stringify(JSON.parse(fs.readFileSync('/tmp/payload.json', 'utf8')), null, 2));"
-
-          echo cat /tmp/venv/bin/doc-changes.json:
-          echo ""
-          cat /tmp/venv/bin/doc-changes.json
+          node -e "const fs = require('fs');\
+          const payloadContent = fs.readFileSync('/tmp/payload.json', 'utf8');\
+          const payloadJSON = JSON.parse(payloadContent);\
+          const formattedJSON = JSON.stringify(payloadJSON, null, 2);\
+          fs.writeFileSync('/tmp/venv/bin/doc-changes.json', formattedJSON);"
 
           /tmp/venv/bin/python bin/update-docs.py /tmp/venv/bin/doc-changes.json
 
