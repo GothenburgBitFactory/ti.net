@@ -9,8 +9,18 @@ hide_toc: true
 
 Taskwarrior and Timewarrior are related, and work together using an `on-modify` hook script for Taskwarrior.
 
-This script is part of the Timewarrior installation, usually at `/usr/local/share/doc/timew/ext/on-modify.timewarrior`.
-(However, depending on your system and installation method, you might need to adjust the path to copy from.)
+This script is part of the Timewarrior installation.
+If you installed Timewarrior manually, it is usually located at `/usr/local/share/doc/timew/ext/on-modify.timewarrior`.
+For packages, check the following table for examples.
+
+{{< hook_location_table >}}
+
+If your distribution is not listed above, you might try the following shell command to locate the hook script:
+
+```
+$ find / -name on-modify.timewarrior 2>/dev/null
+```
+
 Simply copy it to the Taskwarrior hooks directory and make it executable:
 
 ```
