@@ -1345,7 +1345,7 @@
   {
     "archived": false,
     "description": "\u23f1\ufe0f Timewarrior report plugin \u23f3 for Timeduty \ud83d\udcc6",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
