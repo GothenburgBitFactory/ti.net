@@ -16,12 +16,12 @@ $ timew config verbose ''
 $ timew config verbose
 ```
 
-The first command sets \'verbose\' to \'yes\'.
+The first command sets 'verbose' to 'yes'.
 The second sets it to a blank value which overrides the default value.
-The third example deletes the \'verbose\' setting.
+The third example deletes the 'verbose' setting.
 
 When modifying configuration in this way, interactive confirmation will be sought.
-To override this confirmation, use the \':yes\' hint:
+To override this confirmation, use the ':yes' hint:
 
 ```
 $ timew config verbose '' :yes

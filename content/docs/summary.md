@@ -15,7 +15,7 @@ This report shows that there are two intervals today.
 The first is tagged Breakfast meeting with client ABC and was recorded as a one-hour meeting.
 The second interval, tagged Prepare Presentation for DEF began at 9am and is open, with no end time.
 
-The \'Total\' column has sub-totals for the day, and a grand total for the time shown, which in this case is just a single day, and is the same as the sub-total.
+The 'Total' column has sub-totals for the day, and a grand total for the time shown, which in this case is just a single day, and is the same as the sub-total.
 
 Because of the open interval, re-running the `summary` command will yield a different total each time, after all, the clock is still running.
 
@@ -40,7 +40,7 @@ Timewarrior is very flexible about specifying intervals.
 See the [interval syntax](../interval/) page for full details.
 
 In addition there are hints that correspond to preset data ranges for added convenience.
-Here are some of them used in this context, but not matching the \'today\' example above:
+Here are some of them used in this context, but not matching the 'today' example above:
 
 ```
 $ timew summary :yesterday

@@ -20,4 +20,4 @@ $ timew track 9am - 11am 'Staff Meeting'
 Note that the track command expects a closed interval (start and end
 time), when recording.
 If a closed interval is not provided, the
-\'track\' command behaves the same as the \'start\' command.
+'track' command behaves the same as the 'start' command.

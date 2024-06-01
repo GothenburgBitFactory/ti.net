@@ -19,7 +19,7 @@ Tracking
   Total               0:00:00
 ```
 
-The word \'Tracking\' is used to indicate active tracking.
+The word 'Tracking' is used to indicate active tracking.
 You are shown
 the start date/time, the current time compared to the start time, and
 the total elapsed time, which is currently none.
@@ -45,7 +45,7 @@ Recorded
   Total               0:02:26
 ```
 
-The word \'Recorded\' is used to indicate that an activity has ended,
+The word 'Recorded' is used to indicate that an activity has ended,
 and the time recorded.
 Now if you run Timewarrior with no arguments, it
 will not report any tracking:
@@ -80,7 +80,7 @@ As you can see, the previously running activity has ended at the current
 time/date, while the new activity has started with an open interval at
 the same time.
 
-To see a summary of today\'s recorded time, use the `summary` command:
+To see a summary of today's recorded time, use the `summary` command:
 
 ```
 $ timew summary
@@ -92,6 +92,6 @@ W25 2016-06-14 Tue      8:18:23 8:20:49 0:02:26 0:02:26
                                                 0:02:26
 ```
 
-By default, the `summary` command shows only today\'s tracked time.
+By default, the `summary` command shows only today's tracked time.
 You
 can learn more about the `ѕummary` command in other documents.

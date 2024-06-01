@@ -18,11 +18,11 @@ $ timew start
 $ timew stop
 ```
 
-That\'s the simple stopwatch capability.
+That's the simple stopwatch capability.
 
 ## Why do I need Timewarrior?
 
-We\'re not trying to convince you to track your time.
+We're not trying to convince you to track your time.
 But if you already do, or want to begin, then Timewarrior aims to be your preferred choice.
 You will be able to track your time intelligently, then generate useful visual or tabular reports of that time.
 An extension API lets you do anything you want with your data.

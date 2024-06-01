@@ -20,7 +20,7 @@ layout: single
   * [Getting Help](help/)
   * [Simple Stopwatch](stopwatch/)
   * [Tags](tags/)
-  * [Backdated `start`\/`stop`](backdated/)
+  * [Backdated `start`/`stop`](backdated/)
   * [Recording closed intervals](track/)
   * [Hints](hints/)
   * [Summary Report](summary/)

@@ -10,7 +10,7 @@ hide_toc: true
 Timewarrior can show simple charts in your terminal that show how your day is being tracked.
 These are neither high-resolution, nor precise, and are only intended to show a crude representation of the day.
 
-As an example, let\'s do some gardening time tracking.
+As an example, let's do some gardening time tracking.
 We will add an interval, then use the `day` report to represent that:
 
 ![](../../images/day1.png)
@@ -22,7 +22,7 @@ The tags are displayed within red rectangle.
 At the left you see the day is Sunday the 19th, and the date and the current hour, 14, is highlighted.
 Beneath the chart are some totals, showing that two hours are tracked, 22 hours remain open, for a total of 24 hours in the day.
 
-Now we\'ll add another interval:
+Now we'll add another interval:
 
 ![](../../images/day2.png)
 
@@ -33,7 +33,7 @@ Finally we add an open interval:
 ![](../../images/day3.png)
 
 The open interval, shown in green, has a `+` symbol that indicates it is open and being actively tracked.
-If you run this report periodically, you\'ll see the green interval grow to the right as time passes.
+If you run this report periodically, you'll see the green interval grow to the right as time passes.
 
 ![](../../images/day4.png)
 

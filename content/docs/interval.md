@@ -33,5 +33,5 @@ from 9:00 for 2h
 for 2h
 ```
 
-An interval is said to be \'closed\' if there is both a start and end,
-and \'open\' if there is only a start.
+An interval is said to be 'closed' if there is both a start and end,
+and 'open' if there is only a start.

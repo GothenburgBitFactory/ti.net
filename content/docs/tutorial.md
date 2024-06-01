@@ -22,7 +22,7 @@ There is no active time tracking
 $ ▒
 ```
 
-You are told that there is no active time tracking, and that\'s right, because we\'ve done nothing yet.
+You are told that there is no active time tracking, and that's right, because we've done nothing yet.
 
 ```console
 $ ls -l .timewarrior
@@ -42,16 +42,16 @@ If you want to use an alternate location, you can either symlink it to `~/.timew
 The most basic tracking can be done by using the stopwatch features.
 Just like a stopwatch, you start and stop a clock, and you can see the elapsed time.
 Start the clock when you begin work, and stop it when you are done.
-First let\'s see if the clock is running:
+First let's see if the clock is running:
 
 ```console
 $ timew
 There is no active timew tracking.
 $ ▒ 
 ```
-No it\'s not.
+No it's not.
 You can always run timewarrior with no arguments to see if the clock is running, and no data is modified.
-Let\'s start the clock.
+Let's start the clock.
 
 ```console
 $ timew start
@@ -63,7 +63,7 @@ $ ▒
 ```
 
 The clock is now running.
-In reality there is no clock and all that happened was that the start time was recorded, so don\'t be concerned about using system resources, as none are being used.
+In reality there is no clock and all that happened was that the start time was recorded, so don't be concerned about using system resources, as none are being used.
 Now when we check, we see a summary of the time recorded so far:
 
 ```console
@@ -217,7 +217,7 @@ This is not currently used, but does represent how Timewarrior will be extended 
 ## Help
 
 Although we have just begun, it is important to mention the built-in help system.
-Let\'s look at the help for the `continue` command.
+Let's look at the help for the `continue` command.
 
 ```console
 $ timew help continue
@@ -403,7 +403,7 @@ This is a text-based chart so it is not high resolution and has no drill-down ca
 (Incidentally such a chart would be possible using the extension API, but by default, Timewarrior just has simple charting).
 
 There are three charts, which are really just three variations of the same chart, all controlled by configuration.
-We\'ll take a look at these charts, but first we need some sample data to look at.
+We'll take a look at these charts, but first we need some sample data to look at.
 Let us first track a couple of days of data, to illustrate how the charts work.
 
 ```console
@@ -438,7 +438,7 @@ $ ▒
 ```
 
 The summary report gives accurate time values, so this should be the preferred report for this reason.
-Let\'s look at the first chart, the `day` report.
+Let's look at the first chart, the `day` report.
 
 ```
 $ timew day
@@ -751,7 +751,7 @@ $ ▒
 
 I actually started work at 8:30am, but forgot to start the clock at the beginning.
 I also did not take a break at 10am, I again forgot to start the clock.
-Then I was working on `projectC` since about 11am, but didn\'t record it properly.
+Then I was working on `projectC` since about 11am, but didn't record it properly.
 
 These are typical mistakes, and are easy to fix, as there are several commands for making adjustments like this.
 
@@ -775,7 +775,7 @@ $ ▒
 ```
 
 Notice how the intervals now have IDs: `@3` for the oldest interval.
-Let\'s make some corrections:
+Let's make some corrections:
 
 ```console
 $ timew move @3 8:30am
@@ -858,7 +858,7 @@ Moved @1 to 2016-08-07T13:15:00
 $ ▒
 ```
 
-Let\'s keep going, even though this example has already exceeded credibility, to demonstrate more.
+Let's keep going, even though this example has already exceeded credibility, to demonstrate more.
 I need to change that `projectB` interval to use `projectB1` and `projectB2` tags, and divide the time between the two.
 We will split the interval, the re-tag it.
 
@@ -914,7 +914,7 @@ $ ▒
 ```
 
 Notice how the `split` command just divided `@3` into two even-sized intervals.
-But we\'re still not done - I brought lunch to work and ate at my desk while working so let\'s eliminate that lunch break.
+But we're still not done - I brought lunch to work and ate at my desk while working so let's eliminate that lunch break.
 
 ```console
 $ timew join @2 @1
@@ -935,7 +935,7 @@ W31 2016-08-07 Sun ProjectA   8:30:00 10:00:00  1:30:00
 $ ▒
 ```
 
-Now whether this report now accurately represents your day, or whether it is a fiction you need to report (no judgement here), Timewarrior supports it, but let\'s stop - the example can\'t take much more.
+Now whether this report now accurately represents your day, or whether it is a fiction you need to report (no judgement here), Timewarrior supports it, but let's stop - the example can't take much more.
 
 We saw the `stop` command with a specific end time, the `move`, the `lengthen`, `split`, `join`, `tag` and `untag` commands and the `:fill` hint being used.
 There are also the `shorten`, `cancel`, and `delete` commands.
@@ -948,11 +948,11 @@ What if you need a report broken down by tags, with weekly subtotals?
 
 Timewarrior supports extension reports, via the [extension API](../api/).
 This is mechanism that allows you to write a report using any language you choose.
-Don\'t like the way the summary report shows the data?
+Don't like the way the summary report shows the data?
 Write your own.
-Better yet, share the result, and we\'ll build a list of 3rd party reports.
+Better yet, share the result, and we'll build a list of 3rd party reports.
 
-We\'ve included one extension report with Timewarrior, and will add more.
+We've included one extension report with Timewarrior, and will add more.
 The one provided is:
 
 ```console
@@ -962,7 +962,7 @@ $ ▒
 ```
 
 Again, that path is platform-dependent, so use the appropriate path for your system.
-Note that this is a Python script, and to use this you\'ll need to have Python installed.
+Note that this is a Python script, and to use this you'll need to have Python installed.
 
 To install and use this extension, or any other, simply copy it to your `~/.timewarrior/extensions` directory and make sure it is executable.
 
@@ -979,7 +979,7 @@ As with any downloaded program, be careful - you are giving execute permission t
 
 Fortunately this is the world of open source, and while that does not mean the software is safe, it does mean you have the necessary access to audit the code and prove it is safe.
 If you find the code safe, use it.
-If you are unsure, don\'t.
+If you are unsure, don't.
 
 Once the extension is in the `extensions` directory, and executable, it should be visible to the `extensions` command.
 
@@ -1041,7 +1041,7 @@ Find instructions on how to install & use it on its [dedicated page](../taskwarr
 
 ## End
 
-You\'ve made it to the end of the tutorial.
+You've made it to the end of the tutorial.
 You now know more about Timewarrior than most users.
 If you have feedback, we are interested in hearing it, because open source is a collaborative effort, and you are part of that.
 
