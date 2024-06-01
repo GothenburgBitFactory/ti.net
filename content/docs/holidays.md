@@ -9,8 +9,7 @@ viewport: 'width=device-width, initial-scale=1'
 Timewarrior references holiday files and uses them when automatically filling in tracked time.
 Holiday files are optional, but can improve your experience.
 
-To use holiday files, you need a line added to your
-`~/.timewarrior/timewarrior.cfg` file, like this:
+To use holiday files, you need a line added to your `~/.timewarrior/timewarrior.cfg` file, like this:
 
 ```
 import /usr/local/share/doc/timew/holidays/holidays.en-US
