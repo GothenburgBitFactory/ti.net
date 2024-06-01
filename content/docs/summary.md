@@ -37,7 +37,7 @@ $ timew summary saturday
 ```
 
 Timewarrior is very flexible about specifying intervals.
-See the [interval syntax](../interval) page for full details.
+See the [interval syntax](../interval/) page for full details.
 
 In addition there are hints that correspond to preset data ranges for added convenience.
 Here are some of them used in this context, but not matching the \'today\' example above:
@@ -51,7 +51,7 @@ $ timew summary :quarter
 $ timew summary :year
 ```
 
-See the [hints](../hints) page for full details.
+See the [hints](../hints/) page for full details.
 
 ## IDs
 
@@ -60,6 +60,6 @@ When the `:ids` hint is used, Some `@id` numbers are shown:
 
 ![](../../images/summary2.png)
 
-These are the `@id` numbers you use when making [corrections](../corrections).
+These are the `@id` numbers you use when making [corrections](../corrections/).
 
 Note that the most recent interval is always numbered `@1`, which makes the ID numbers independent of which report you run to see them.
