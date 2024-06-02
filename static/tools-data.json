@@ -195,22 +195,6 @@
     "description": null,
     "dormant": false,
     "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "TimeWarrior",
-    "owner": [
-      "ThePhoneBeLinging"
-    ],
-    "rating": 0,
-    "updated": "2024-05-15",
-    "url": "https://github.com/ThePhoneBeLinging/TimeWarrior"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
       "Java"
     ],
     "license": "GNU General Public License v3.0",
@@ -925,22 +909,6 @@
     "rating": 1,
     "updated": "2024-01-30",
     "url": "https://github.com/lmoyasans/timewarrior_remaining_extension"
-  },
-  {
-    "archived": false,
-    "description": "A TimeWarrior clone",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "timetracker",
-    "owner": [
-      "lvhungdev"
-    ],
-    "rating": 0,
-    "updated": "2024-05-15",
-    "url": "https://github.com/lvhungdev/timetracker"
   },
   {
     "archived": false,
