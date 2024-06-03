@@ -1,5 +1,4 @@
 = timew-config(7)
-Testing a change to four docs files.
 
 == NAME
 timew-config - Timewarrior configuration file and override options
