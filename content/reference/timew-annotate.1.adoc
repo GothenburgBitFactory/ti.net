@@ -1,4 +1,5 @@
 = timew-annotate(1)
+Testing a change to four docs files
 
 == NAME
 timew-annotate - add an annotation to intervals
