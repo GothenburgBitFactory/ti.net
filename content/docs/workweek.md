@@ -32,12 +32,12 @@ Recorded Conference "Outline Talk"
   Total              18:26:50
 ```
 
-Oh no, 18 and a half hours have elapsed! That\'s not right, because you really only spent about two and a half hours working.
+Oh no, 18 and a half hours have elapsed! That's not right, because you really only spent about two and a half hours working.
 But you left the clock running all night.
 This is a very common problem with time tracking; we are simply not good at remembering to start and stop the clock.
 
 But if you leave work at 5pm every day, and start at 9am, you can capture this in Timewarrior configuration, and it will automatically do the right thing.
-Suppose you also don\'t work on weekends, and you take lunch on weekdays for 30 minutes at 12:30pm.
+Suppose you also don't work on weekends, and you take lunch on weekdays for 30 minutes at 12:30pm.
 Add the following to your `~/.timewarrior/timewarrior.cfg` configuration file, using a text editor:
 
 ```
@@ -53,7 +53,7 @@ define exclusions:
 
 The indentation in the configuration file is important, so be sure to match the indentation of the example.
 Also be sure to leave a blank line before and after the settings shown.
-This construct is one of the first \'rules\' supported by Timewarrior.
-So far it is really just configuration settings, but you\'ll notice more rules, and more sophisticated rules appear as more releases are made.
+This construct is one of the first 'rules' supported by Timewarrior.
+So far it is really just configuration settings, but you'll notice more rules, and more sophisticated rules appear as more releases are made.
 
 With your work week defined, as above, the example would be recorded as only `2:26:50`, which is not only correct, but you did not have to remember to stop and restart the clock.

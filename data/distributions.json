@@ -2,12 +2,14 @@
   {
     "name": "Arch Linux",
     "url": "https://archlinux.org/packages/?q=timewarrior",
-    "cmd": "sudo pacman -S timew"
+    "cmd": "sudo pacman -S timew",
+    "hook": "usr/share/doc/timew/ext/on-modify.timewarrior"
   },
   {
     "name": "Debian",
     "url": "https://packages.debian.org/search?keywords=timewarrior",
-    "cmd": "sudo apt-get install timewarrior"
+    "cmd": "sudo apt-get install timewarrior",
+    "hook": "/usr/share/doc/timewarrior/ext/on-modify.timewarrior"
   },
   {
     "name": "Gentoo",
@@ -17,21 +19,25 @@
   {
     "name": "Fedora",
     "url": "https://bodhi.fedoraproject.org/updates/?packages=timew",
-    "cmd": "sudo dnf install timew"
+    "cmd": "sudo dnf install timew",
+    "hook": "/usr/lib64/timew/ext/on-modify.timewarrior"
   },
   {
     "name": "macOS",
     "url": "https://formulae.brew.sh/formula/timewarrior",
-    "cmd": "brew install timewarrior"
+    "cmd": "brew install timewarrior",
+    "hook": "/opt/homebrew/share/doc/timew/ext/on-modify.timewarrior"
   },
   {
     "name": "Nix",
     "url": "https://search.nixos.org/packages?query=timewarrior",
-    "cmd": "nix-env --install timewarrior"
+    "cmd": "nix-env --install timewarrior",
+    "hook": "/share/doc/timew/ext/on-modify.timewarrior"
   },
   {
     "name": "Ubuntu",
     "url": "https://packages.ubuntu.com/search?keywords=timewarrior",
-    "cmd": "sudo apt install timewarrior"
+    "cmd": "sudo apt install timewarrior",
+    "hook": "/usr/share/doc/timewarrior/ext/on-modify.timewarrior"
   }
 ]

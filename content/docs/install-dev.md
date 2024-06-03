@@ -6,7 +6,7 @@ viewport: 'width=device-width, initial-scale=1'
 
 {{< lead >}}This is for those who want to submit pull requests or simply use the latest snapshot release.{{< /lead >}}
 
-Normal users might be interested in [how to install a stable Timewarrior release](../install).
+Normal users might be interested in [how to install a stable Timewarrior release](../install/).
 
 ## Prerequisites
 

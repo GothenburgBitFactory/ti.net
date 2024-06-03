@@ -7,8 +7,7 @@ hide_toc: true
 
 # Overrides
 
-Using the override syntax, you can temporarily modify configuration
-settings from the command line, for one command only.
+Using the override syntax, you can temporarily modify configuration settings from the command line, for one command only.
 The syntax is:
 
 ```
@@ -32,9 +31,7 @@ $ timew start rc.verbose=off
 ```
 
 Without verbose mode, no feedback is generated.
-Another way to do this
-is to use the `:quiet` hint, which does the same thing, but only a few
-settings have corresponding hints:
+Another way to do this is to use the `:quiet` hint, which does the same thing, but only a few settings have corresponding hints:
 
 ```
 $ timew start :quiet
