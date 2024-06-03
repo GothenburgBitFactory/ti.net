@@ -13,7 +13,7 @@ def update_files():
 
     pattern = re.compile(r'doc/man\d/(.*)')
     filenames = [pattern.sub(r'\1', name)
-                 for name in doc_changes['changed_filenames']]
+                 for name in doc_changes['doc_filenames']]
 
     for i in range(len(filenames)):
         with open(f'content/reference/{filenames[i]}', "w") as f:
