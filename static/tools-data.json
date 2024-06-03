@@ -195,22 +195,6 @@
     "description": null,
     "dormant": false,
     "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "TimeWarrior",
-    "owner": [
-      "ThePhoneBeLinging"
-    ],
-    "rating": 0,
-    "updated": "2024-05-15",
-    "url": "https://github.com/ThePhoneBeLinging/TimeWarrior"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
       "Java"
     ],
     "license": "GNU General Public License v3.0",
@@ -859,7 +843,7 @@
       "lauft"
     ],
     "rating": 24,
-    "updated": "2024-01-09",
+    "updated": "2024-05-29",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
   {
@@ -925,22 +909,6 @@
     "rating": 1,
     "updated": "2024-01-30",
     "url": "https://github.com/lmoyasans/timewarrior_remaining_extension"
-  },
-  {
-    "archived": false,
-    "description": "A TimeWarrior clone",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "timetracker",
-    "owner": [
-      "lvhungdev"
-    ],
-    "rating": 0,
-    "updated": "2024-05-15",
-    "url": "https://github.com/lvhungdev/timetracker"
   },
   {
     "archived": false,
@@ -1345,7 +1313,7 @@
   {
     "archived": false,
     "description": "\u23f1\ufe0f Timewarrior report plugin \u23f3 for Timeduty \ud83d\udcc6",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1483,7 +1451,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 20,
-    "updated": "2024-05-22",
+    "updated": "2024-05-30",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {

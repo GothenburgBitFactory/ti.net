@@ -66,7 +66,7 @@ It has the form:
 
 Between the `<name>` and `<value>` are the characters U+003A and U+0020.
 This configuration block includes the Timewarrior version, so that multiple releases maybe supported by the extension.
-Additionally, other data is included with the \'temp.\' prefix, indicating that it is not part of the configuration data, but may be of use to the extension.
+Additionally, other data is included with the 'temp.' prefix, indicating that it is not part of the configuration data, but may be of use to the extension.
 For example:
 
 ```
@@ -97,8 +97,8 @@ Any active interval is not necessarily the last element in the array.
 A well-behaved extension is one that follows these guidelines, and conforms to the general pattern of behavior exhibited by Timewarrior.
 The guidelines are:
 
-- Obey the \'verbose\' setting, and if the value is neither of `on`\/`1`\/`yes`\/`y`\/`true`, then consider it \'off\', and generate minimal output, which should tend toward no output at all.
-- Obey the \'debug\' setting, and if the value is either of `on`\/`1`\/`yes`\/`y`\/`true`, then emit helpful feedback, but only that which can be useful for debugging a problem, which should tend toward no output at all.
-- Obey the \'confirmation\' setting, and if the value is either of `on`\/`1`\/`yes`\/`y`\/`true`, then obtain user permission interactively before proceeding with any data modification.
-  Do not rely on, or implement a \'force\'-like feature.
+- Obey the 'verbose' setting, and if the value is neither of `on`/`1`/`yes`/`y`/`true`, then consider it 'off', and generate minimal output, which should tend toward no output at all.
+- Obey the 'debug' setting, and if the value is either of `on`/`1`/`yes`/`y`/`true`, then emit helpful feedback, but only that which can be useful for debugging a problem, which should tend toward no output at all.
+- Obey the 'confirmation' setting, and if the value is either of `on`/`1`/`yes`/`y`/`true`, then obtain user permission interactively before proceeding with any data modification.
+  Do not rely on, or implement a 'force'-like feature.
 - Use the `temp.version` to selectively offer functionality that correlates with the release.

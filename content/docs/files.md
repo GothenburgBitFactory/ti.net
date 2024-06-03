@@ -43,5 +43,5 @@ The extensions directory is where you place either extension scripts, or symlink
 Initially there are none.
 
 Finally the `timewarrior.cfg` file is where all the configuration settings are stored.
-You\'ll access this indirectly using the `config` command, or directly with a text editor.
-However, you don\'t need to make any changes now.
+You'll access this indirectly using the `config` command, or directly with a text editor.
+However, you don't need to make any changes now.
