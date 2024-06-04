@@ -131,7 +131,7 @@ Alphabetically:
 
 For examples please see the online documentation at:
 
-<https://timewarrior.net/docs/>
+https://timewarrior.net/docs/
 
 Note that the online documentation is often more detailed and more current than this man page.
 
@@ -159,14 +159,14 @@ See https://www.opensource.org/licenses/mit-license.php for more information.
 == FURTHER DOCUMENTATION
 For more information regarding Timewarrior, see the following:
 
-The official site at <https://timewarrior.net>
+The official site at https://timewarrior.net
 
-The official code repository at <https://github.com/GothenburgBitFactory/timewarrior>
+The official code repository at https://github.com/GothenburgBitFactory/timewarrior
 
-You can contact the project by emailing <support@gothenburgbitfactory.org>
+You can contact the project by emailing support@gothenburgbitfactory.org
 
 == REPORTING BUGS
-Bugs in Timewarrior may be reported to the issue-tracker at <https://github.com/GothenburgBitFactory/timewarrior/issues>
+Bugs in Timewarrior may be reported to the issue-tracker at https://github.com/GothenburgBitFactory/timewarrior/issues
 
 == SEE ALSO
 **timew-config**(7),
