@@ -618,7 +618,7 @@
     "owner": [
       "dereulenspiegel"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-05-19",
     "url": "https://github.com/dereulenspiegel/timew-jira-sync"
   },
@@ -1466,7 +1466,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2024-05-09",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
