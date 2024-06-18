@@ -58,7 +58,7 @@
     "owner": [
       "AnWeber"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-08-17",
     "url": "https://github.com/AnWeber/vscode-timewarrior"
   },
@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2024-06-11",
+    "updated": "2024-06-17",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
