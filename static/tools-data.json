@@ -272,6 +272,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior extensions for producing pandas dataframes.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-dataframe",
+    "owner": [
+      "alexlyttle"
+    ],
+    "rating": 0,
+    "updated": "2024-07-04",
+    "url": "https://github.com/alexlyttle/timewarrior-dataframe"
+  },
+  {
+    "archived": false,
     "description": "Simple Timewarrior interface running on top of Xfce4's Genmon",
     "dormant": false,
     "language": [
@@ -365,22 +381,6 @@
     "rating": 0,
     "updated": "2023-11-27",
     "url": "https://github.com/azagoskin/ytpush"
-  },
-  {
-    "archived": false,
-    "description": "A cli based work logger working with timewarrior.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "worklogger",
-    "owner": [
-      "b1tray3r"
-    ],
-    "rating": 2,
-    "updated": "2024-06-19",
-    "url": "https://github.com/b1tray3r/worklogger"
   },
   {
     "archived": false,
@@ -1409,7 +1409,7 @@
   {
     "archived": false,
     "description": "An indicator for gnome-shell that shows the current activity tracked by timewarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "JavaScript"
     ],
@@ -1419,7 +1419,7 @@
       "tassos"
     ],
     "rating": 19,
-    "updated": "2020-10-24",
+    "updated": "2024-07-04",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
   {
