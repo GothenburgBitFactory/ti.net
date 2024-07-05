@@ -75,6 +75,6 @@ will result in interval @1 having only 'ipsum' as its annotation.
 Use quotes to avoid this.
 
 == SEE ALSO
-**timew-export**(1),
-**timew-summary**(1),
-**timew-tag**(1)
+link:../../reference/timew-export.1[**timew-export**(1)],
+link:../../reference/timew-summary.1[**timew-summary**(1)],
+link:../../reference/timew-tag.1[**timew-tag**(1)]

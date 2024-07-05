@@ -22,6 +22,6 @@ Then having selected '@2' as the interval you wish to split:
     $ timew split @2
 
 == SEE ALSO
-**timew-join**(1),
-**timew-lengthen**(1),
-**timew-shorten**(1)
+link:../../reference/timew-join.1[**timew-join**(1)],
+link:../../reference/timew-lengthen.1[**timew-lengthen**(1)],
+link:../../reference/timew-shorten.1[**timew-shorten**(1)]

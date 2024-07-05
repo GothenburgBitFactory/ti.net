@@ -25,7 +25,7 @@ If there is a previous open interval, it will be closed at the given start time.
 Quotes are harmless if used unnecessarily.
 
 == SEE ALSO
-**timew-cancel**(1),
-**timew-continue**(1),
-**timew-stop**(1),
-**timew-track**(1)
+link:../../reference/timew-cancel.1[**timew-cancel**(1)],
+link:../../reference/timew-continue.1[**timew-continue**(1)],
+link:../../reference/timew-stop.1[**timew-stop**(1)],
+link:../../reference/timew-track.1[**timew-track**(1)]

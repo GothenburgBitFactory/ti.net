@@ -26,7 +26,7 @@ To stop all tracking:
 
 
 == SEE ALSO
-**timew-cancel**(1),
-**timew-continue**(1),
-**timew-start**(1),
-**timew-track**(1)
+link:../../reference/timew-cancel.1[**timew-cancel**(1)],
+link:../../reference/timew-continue.1[**timew-continue**(1)],
+link:../../reference/timew-start.1[**timew-start**(1)],
+link:../../reference/timew-track.1[**timew-track**(1)]

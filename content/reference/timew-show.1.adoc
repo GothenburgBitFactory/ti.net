@@ -11,4 +11,4 @@ timew-show - display configuration
 Displays the effective configuration in hierarchical form.
 
 == SEE ALSO
-**timew-config**(1)
+link:../../reference/timew-config.1[**timew-config**(1)]

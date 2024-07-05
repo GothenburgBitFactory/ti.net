@@ -22,7 +22,7 @@ Then having selected '@1' and '@2' as the intervals you wish to join:
     $ timew join @1 @2
 
 == SEE ALSO
-**timew-lengthen**(1),
-**timew-resize**(1),
-**timew-shorten**(1),
-**timew-split**(1)
+link:../../reference/timew-lengthen.1[**timew-lengthen**(1)],
+link:../../reference/timew-resize.1[**timew-resize**(1)],
+link:../../reference/timew-shorten.1[**timew-shorten**(1)],
+link:../../reference/timew-split.1[**timew-split**(1)]

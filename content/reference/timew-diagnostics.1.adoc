@@ -13,4 +13,4 @@ This command shows details about your version of Timewarrior, your platform, how
 The purpose of this command is to help diagnose configuration problems and provide supplemental information when reporting a problem.
 
 == SEE ALSO
-**timew-extensions**(1)
+link:../../reference/timew-extensions.1[**timew-extensions**(1)]

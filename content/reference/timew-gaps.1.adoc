@@ -17,7 +17,7 @@ The default date range shown is ':day'.
 == CONFIGURATION
 **reports.gaps.range**::
 For reports that show a range of data, this setting will override the default value.
-The value should be a range hint, see **timew-hints**(7).
+The value should be a range hint, see link:../../reference/timew-hints.7[**timew-hints**(7)].
 
 == SEE ALSO
-**timew-summary**(1)
+link:../../reference/timew-summary.1[**timew-summary**(1)]

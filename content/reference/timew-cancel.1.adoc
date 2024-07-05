@@ -31,7 +31,7 @@ This deletes the open interval.
 Cancel has no effect, only a warning is printed.
 
 == SEE ALSO
-**timew-continue**(1),
-**timew-start**(1),
-**timew-stop**(1),
-**timew-track**(1)
+link:../../reference/timew-continue.1[**timew-continue**(1)],
+link:../../reference/timew-start.1[**timew-start**(1)],
+link:../../reference/timew-stop.1[**timew-stop**(1)],
+link:../../reference/timew-track.1[**timew-track**(1)]

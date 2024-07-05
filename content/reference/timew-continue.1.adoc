@@ -76,7 +76,7 @@ The 'continue' command creates a new closed interval
 2. with tag 'FOO' (as specified by '@1') and start time '19:00', and end time '20:00'.
 
 == SEE ALSO
-**timew-cancel**(1),
-**timew-start**(1),
-**timew-stop**(1),
-**timew-track**(1)
+link:../../reference/timew-cancel.1[**timew-cancel**(1)],
+link:../../reference/timew-start.1[**timew-start**(1)],
+link:../../reference/timew-stop.1[**timew-stop**(1)],
+link:../../reference/timew-track.1[**timew-track**(1)]

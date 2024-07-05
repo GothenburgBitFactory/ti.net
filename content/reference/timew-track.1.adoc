@@ -21,7 +21,7 @@ Note that the track command expects a closed interval (start and end time), when
 If a closed interval is not provided, the 'track' command behaves the same as the 'start' command.
 
 == SEE ALSO
-**timew-cancel**(1),
-**timew-continue**(1),
-**timew-start**(1),
-**timew-stop**(1)
+link:../../reference/timew-cancel.1[**timew-cancel**(1)],
+link:../../reference/timew-continue.1[**timew-continue**(1)],
+link:../../reference/timew-start.1[**timew-start**(1)],
+link:../../reference/timew-stop.1[**timew-stop**(1)]
