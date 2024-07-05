@@ -11,4 +11,4 @@ timew-extensions - list available extensions
 Displays the directory containing the extension programs and a table showing each extension and its status.
 
 == SEE ALSO
-**timew-diagnostics**(1)
+link:../../reference/timew-diagnostics.1[**timew-diagnostics**(1)]

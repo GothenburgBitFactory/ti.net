@@ -23,8 +23,8 @@ Then having selected '@3' as the interval you wish to modify:
 
 
 == SEE ALSO
-**timew-lengthen**(1),
-**timew-move**(1),
-**timew-resize**(1)
-**timew-shorten**(1),
-**timew-summary**(1)
+link:../../reference/timew-lengthen.1[**timew-lengthen**(1)],
+link:../../reference/timew-move.1[**timew-move**(1)],
+link:../../reference/timew-resize.1[**timew-resize**(1)]
+link:../../reference/timew-shorten.1[**timew-shorten**(1)],
+link:../../reference/timew-summary.1[**timew-summary**(1)]

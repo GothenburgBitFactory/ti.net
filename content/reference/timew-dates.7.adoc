@@ -117,5 +117,5 @@ $ timew sum 2d before tomorrow
 ----
 
 == SEE ALSO
-**timew-durations**(7),
-**timew-hints**(7)
+link:../../reference/timew-durations.7[**timew-durations**(7)],
+link:../../reference/timew-hints.7[**timew-hints**(7)]

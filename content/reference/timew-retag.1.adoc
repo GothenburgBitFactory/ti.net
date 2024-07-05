@@ -33,8 +33,8 @@ If there is active time tracking, you can omit the ID when you want to retag the
 This results in the current interval having only the 'bar' tag.
 
 == SEE ALSO
-**timew-lengthen**(1),
-**timew-shorten**(1),
-**timew-summary**(1),
-**timew-tag**(1),
-**timew-untag**(1)
+link:../../reference/timew-lengthen.1[**timew-lengthen**(1)],
+link:../../reference/timew-shorten.1[**timew-shorten**(1)],
+link:../../reference/timew-summary.1[**timew-summary**(1)],
+link:../../reference/timew-tag.1[**timew-tag**(1)],
+link:../../reference/timew-untag.1[**timew-untag**(1)]

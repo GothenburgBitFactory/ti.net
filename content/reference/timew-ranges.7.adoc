@@ -32,4 +32,4 @@ An interval is called 'closed' if there is both a start date and an end date, an
 There is also a number of useful hints for common ranges.
 
 == SEE ALSO
-**timew-hints**(7)
+link:../../reference/timew-hints.7[**timew-hints**(7)]

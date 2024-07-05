@@ -34,98 +34,89 @@ Display Timewarrior usage information
 Timewarrior supports many commands.
 Alphabetically:
 
-*timew-annotate*(1)::
+link:../../reference/timew-annotate.1[**timew-annotate**(1)]::
     Add annotation to intervals
 
-*timew-cancel*(1)::
+link:../../reference/timew-cancel.1[**timew-cancel**(1)]::
     Cancel time tracking
 
-*timew-config*(1)::
+link:../../reference/timew-config.1[**timew-config**(1)]::
     Get and set Timewarrior configuration
 
-*timew-continue*(1)::
+link:../../reference/timew-continue.1[**timew-continue**(1)]::
     Resume tracking of existing interval
 
-*timew-day*(1)::
-    Display day chart
-
-*timew-delete*(1)::
+link:../../reference/timew-delete.1[**timew-delete**(1)]::
     Delete intervals
 
-*timew-diagnostics*(1)::
+link:../../reference/timew-diagnostics.1[**timew-diagnostics**(1)]::
     Show diagnostic information
 
-*timew-export*(1)::
+link:../../reference/timew-export.1[**timew-export**(1)]::
     Export tracked time in JSON
 
-*timew-extensions*(1)::
+link:../../reference/timew-extensions.1[**timew-extensions**(1)]::
     List available extensions
 
-*timew-get*(1)::
+link:../../reference/timew-get.1[**timew-get**(1)]::
     Display DOM values
 
-*timew-help*(1)::
+link:../../reference/timew-help.1[**timew-help**(1)]::
     Display help
 
-*timew-join*(1)::
+link:../../reference/timew-join.1[**timew-join**(1)]::
     Join intervals
 
-*timew-lengthen*(1)::
+link:../../reference/timew-lengthen.1[**timew-lengthen**(1)]::
     Lengthen intervals
 
-*timew-modify*(1)::
+link:../../reference/timew-modify.1[**timew-modify**(1)]::
     Change start or end time of an interval
 
-*timew-month*(1)::
-    Display month chart
-
-*timew-move*(1)::
+link:../../reference/timew-move.1[**timew-move**(1)]::
     Change interval start-time
 
-*timew-report*(1)::
+link:../../reference/timew-report.1[**timew-report**(1)]::
     Run an extension report
 
-*timew-resize*(1)::
+link:../../reference/timew-resize.1[**timew-resize**(1)]::
     Set interval duration
 
-*timew-retag*(1)::
+link:../../reference/timew-retag.1[**timew-retag**(1)]::
     Replace tags in intervals
 
-*timew-shorten*(1)::
+link:../../reference/timew-shorten.1[**timew-shorten**(1)]::
     Shorten intervals
 
-*timew-show*(1)::
+link:../../reference/timew-show.1[**timew-show**(1)]::
     Display configuration
 
-*timew-split*(1)::
+link:../../reference/timew-split.1[**timew-split**(1)]::
     Split intervals
 
-*timew-start*(1)::
+link:../../reference/timew-start.1[**timew-start**(1)]::
     Start time tracking
 
-*timew-stop*(1)::
+link:../../reference/timew-stop.1[**timew-stop**(1)]::
     Stop time tracking
 
-*timew-summary*(1)::
+link:../../reference/timew-summary.1[**timew-summary**(1)]::
     Display a time-tracking summary
 
-*timew-tag*(1)::
+link:../../reference/timew-tag.1[**timew-tag**(1)]::
     Add tags to intervals
 
-*timew-tags*(1)::
+link:../../reference/timew-tags.1[**timew-tags**(1)]::
     Display a list of tags
 
-*timew-track*(1)::
+link:../../reference/timew-track.1[**timew-track**(1)]::
     Add intervals to the database
 
-*timew-undo*(1)::
+link:../../reference/timew-undo.1[**timew-undo**(1)]::
     Undo Timewarrior commands
 
-*timew-untag*(1)::
+link:../../reference/timew-untag.1[**timew-untag**(1)]::
     Remove tags from intervals
-
-*timew-week*(1)::
-    Display week chart
 
 == MORE EXAMPLES
 
@@ -169,9 +160,9 @@ You can contact the project by emailing support@gothenburgbitfactory.org
 Bugs in Timewarrior may be reported to the issue-tracker at https://github.com/GothenburgBitFactory/timewarrior/issues
 
 == SEE ALSO
-**timew-config**(7),
-**timew-dates**(7),
-**timew-dom**(7),
-**timew-durations**(7),
-**timew-hints**(7),
-**timew-ranges**(7)
+link:../../reference/timew-config.7[**timew-config**(7)],
+link:../../reference/timew-dates.7[**timew-dates**(7)],
+link:../../reference/timew-dom.7[**timew-dom**(7)],
+link:../../reference/timew-durations.7[**timew-durations**(7)],
+link:../../reference/timew-hints.7[**timew-hints**(7)],
+link:../../reference/timew-ranges.7[**timew-ranges**(7)]

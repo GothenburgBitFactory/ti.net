@@ -26,9 +26,9 @@ Note that you can shorten multiple intervals,:
     $ timew shorten @2 @10 @23 1hour
 
 == SEE ALSO
-**timew-lengthen**(1),
-**timew-modify**(1),
-**timew-resize**(1),
-**timew-summary**(1),
-**timew-tag**(1),
-**timew-untag**(1)
+link:../../reference/timew-lengthen.1[**timew-lengthen**(1)],
+link:../../reference/timew-modify.1[**timew-modify**(1)],
+link:../../reference/timew-resize.1[**timew-resize**(1)],
+link:../../reference/timew-summary.1[**timew-summary**(1)],
+link:../../reference/timew-tag.1[**timew-tag**(1)],
+link:../../reference/timew-untag.1[**timew-untag**(1)]
