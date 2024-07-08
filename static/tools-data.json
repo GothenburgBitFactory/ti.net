@@ -1344,6 +1344,22 @@
   },
   {
     "archived": false,
+    "description": "taskwarrior+timewarrior wrapper interface, modify hook and convenience scripts",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwtools",
+    "owner": [
+      "smemsh"
+    ],
+    "rating": 0,
+    "updated": "2024-07-07",
+    "url": "https://github.com/smemsh/taskwtools"
+  },
+  {
+    "archived": false,
     "description": "Weekly timesheet report script for timewarrior",
     "dormant": true,
     "language": [
