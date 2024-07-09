@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2024-07-01",
+    "updated": "2024-07-08",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -283,7 +283,7 @@
       "alexlyttle"
     ],
     "rating": 0,
-    "updated": "2024-07-04",
+    "updated": "2024-07-08",
     "url": "https://github.com/alexlyttle/timewarrior-dataframe"
   },
   {
@@ -1355,7 +1355,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-07",
+    "updated": "2024-07-09",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -1482,7 +1482,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2024-06-25",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
