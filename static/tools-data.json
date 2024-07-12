@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 4,
-    "updated": "2024-07-08",
+    "updated": "2024-07-11",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1265,7 +1265,7 @@
   {
     "archived": false,
     "description": "A crate to build reports from Timewarrior's extension API",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -1355,7 +1355,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-10",
+    "updated": "2024-07-11",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
