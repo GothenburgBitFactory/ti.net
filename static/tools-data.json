@@ -272,6 +272,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior extensions golang library",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-extensions",
+    "owner": [
+      "aibor"
+    ],
+    "rating": 0,
+    "updated": "2024-07-12",
+    "url": "https://github.com/aibor/timewarrior-extensions"
+  },
+  {
+    "archived": false,
     "description": "Timewarrior extensions for producing pandas dataframes.",
     "dormant": false,
     "language": [
@@ -283,7 +299,7 @@
       "alexlyttle"
     ],
     "rating": 0,
-    "updated": "2024-07-08",
+    "updated": "2024-07-12",
     "url": "https://github.com/alexlyttle/timewarrior-dataframe"
   },
   {
