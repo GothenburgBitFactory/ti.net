@@ -384,6 +384,22 @@
   },
   {
     "archived": false,
+    "description": "TimeWarrior Kaiten Push",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "ktpush",
+    "owner": [
+      "azagoskin"
+    ],
+    "rating": 0,
+    "updated": "2024-07-21",
+    "url": "https://github.com/azagoskin/ktpush"
+  },
+  {
+    "archived": false,
     "description": "TimeWarrior extension for uploading timelog to YouTrack",
     "dormant": false,
     "language": [
@@ -395,7 +411,7 @@
       "azagoskin"
     ],
     "rating": 0,
-    "updated": "2023-11-27",
+    "updated": "2024-07-21",
     "url": "https://github.com/azagoskin/ytpush"
   },
   {
@@ -1483,7 +1499,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 20,
-    "updated": "2024-06-19",
+    "updated": "2024-07-22",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
