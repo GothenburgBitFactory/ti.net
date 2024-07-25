@@ -10,7 +10,7 @@ hide_toc: true
 Make sure you have Timewarrior installed.
 Check that it can be found using this command:
 
-```
+```console
 $ timew --version
 {{< current_release version >}}
 ```
@@ -22,7 +22,7 @@ The version is displayed, all is well.
 There is no setup with Timewarrior, you simply start using it, and the data directory is automatically created for you.
 By default this structure is created in your home directory:
 
-```
+```console
 ~/.timewarrior
 ├── data
 │   ├── 2016-08.data

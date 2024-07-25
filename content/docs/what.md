@@ -12,7 +12,7 @@ Timewarrior is a command line time tracking application, which allows you to rec
 You may be tracking your time for curiosity, or because your work requires it.
 At its simplest, you tell it to start and stop tracking time:
 
-```
+```console
 $ timew start
 ...
 $ timew stop
