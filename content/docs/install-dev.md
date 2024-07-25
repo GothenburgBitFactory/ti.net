@@ -24,7 +24,7 @@ To build Timewarrior you will need these tools:
 The repository is [hosted on GitHub](https://github.com/GothenburgBitFactory/timewarrior).
 You can clone the repository with
 
-```
+```console
 $ git clone --recurse-submodules https://github.com/GothenburgBitFactory/timewarrior
 ```
 
@@ -45,7 +45,7 @@ Release checkouts should only be used for analysis and not for development!
 ## Build & Install
 
 Build with type `Debug` if you want symbols in the binary for debugging, otherwise choose `Release`.
-```
+```console
 $ cmake -DCMAKE_BUILD_TYPE=Debug .
 ...
 $ make
@@ -74,11 +74,11 @@ On FreeBSD or DragonFly BSD systems, the `share/` directory is omitted for the `
 ## Running the Test Suite
 
 There are C++, Python and Bash tests, build and run them:
-```
+```console
 $ make test
 ```
 Alternatively you can switch to the `test` directory and build and run the tests there:
-```
+```console
 $ cd test
 $ make VERBOSE=1     # Shows details
 ...
@@ -89,7 +89,7 @@ $ ./problems         # Find errors in all.log
 The `problems` script shows a report of the full test run.
 You can also run each test individually, e.g.:
 
-```
+```console
 $ ./start.t
 ```
 

@@ -9,7 +9,7 @@ hide_toc: true
 
 You can see the full command syntax with the `help` command:
 
-```
+```console
 $ timew help
 
 Usage: timew [--version]

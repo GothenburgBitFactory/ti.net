@@ -11,7 +11,7 @@ Timewarrior has an [Extension mechanism](../api/) that permits the authoring and
 
 Using the `extensions` command, you can list installed extensions:
 
-```
+```console
 $ timew extensions
 ...
 ```

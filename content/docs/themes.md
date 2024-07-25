@@ -13,7 +13,7 @@ Themes are optional, but can improve your experience.
 
 To use a theme, you need a line added to your `~/.timewarrior/timewarrior.cfg` file, like this:
 
-```
+```console
 import /usr/local/share/doc/timew/themes/dark.theme
 ```
 

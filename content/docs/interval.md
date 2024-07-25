@@ -10,7 +10,7 @@ hide_toc: true
 An interval defines a block of time that is tracked.
 The syntax for specifying an interval is flexible, and may be one of:
 
-```
+```console
 [from] <date>
 [from] <date> to/- <date>
 [from] <date> for <duration>
@@ -21,7 +21,7 @@ The syntax for specifying an interval is flexible, and may be one of:
 
 Examples are:
 
-```
+```console
 from 9:00
 from 9am - 11am
 from 9:00:00 to 11:00

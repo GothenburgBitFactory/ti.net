@@ -11,7 +11,7 @@ Holiday files are optional, but can improve your experience.
 
 To use holiday files, you need a line added to your `~/.timewarrior/timewarrior.cfg` file, like this:
 
-```
+```console
 import /usr/local/share/doc/timew/holidays/holidays.en-US
 ```
 
@@ -23,7 +23,7 @@ A script is provided, named `refresh` with the holiday files.
 Its purpose is to update your holiday files.
 It should be run like this to update your files:
 
-```
+```console
 $ cd /usr/local/shared/doc/timew/holidays
 $ ./refresh
 ...
@@ -37,7 +37,7 @@ Please request any missing locales that you need.
 
 To add a new holiday file, simply run the `refresh` script for a specific locale:
 
-```
+```console
 $ cd /usr/local/shared/doc/timew/holidays
 $ ./refresh --locale fr-FR
 ...

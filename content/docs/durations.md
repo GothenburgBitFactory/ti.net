@@ -9,14 +9,14 @@ hide_toc: true
 
 Timewarrior supports the following duration formats based on ISO-8601:
 
-```
+```console
 'P' [nn 'Y'] [nn 'M'] [nn 'D'] ['T' [nn 'H'] [nn 'M'] [nn 'S']]
 PnnW
 ```
 
 Examples:
 
-```
+```console
 P1Y           1 year
 P1.5M         1.5 months
 PT1S          1 second
@@ -32,13 +32,13 @@ For precision use the other terms.
 
 In addition to the standard duration formats, the following are supported:
 
-```
+```console
 n[.n]<unit>
 ```
 
 Where the `<unit>` is one of:
 
-```
+```console
 annual
 biannual
 bimonthly
@@ -61,7 +61,7 @@ yearly, years, year, yrs, yr, y
 
 Examples:
 
-```
+```console
 1hour         60 minutes
 1.5h          90 minutes
 3mo           3 months
