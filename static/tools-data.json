@@ -730,7 +730,7 @@
     "owner": [
       "gabor-boros"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2024-06-14",
     "url": "https://github.com/gabor-boros/minutes"
   },
@@ -1296,6 +1296,22 @@
   },
   {
     "archived": false,
+    "description": "possibly useful timew extension bits",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior-addons",
+    "owner": [
+      "sarnold"
+    ],
+    "rating": 0,
+    "updated": "2024-08-01",
+    "url": "https://github.com/sarnold/timewarrior-addons"
+  },
+  {
+    "archived": false,
     "description": "Create timesheet records for Kimai from Timewarrior records",
     "dormant": false,
     "language": [
@@ -1515,7 +1531,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 20,
-    "updated": "2024-07-28",
+    "updated": "2024-08-02",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
