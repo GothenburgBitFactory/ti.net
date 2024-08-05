@@ -1296,19 +1296,19 @@
   },
   {
     "archived": false,
-    "description": "possibly useful timew extension bits",
+    "description": "possibly useful timewarrior extension and GUI bits",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "GNU General Public License v3.0",
-    "name": "timewarrior-addons",
+    "name": "timew-addons",
     "owner": [
       "sarnold"
     ],
     "rating": 0,
-    "updated": "2024-08-01",
-    "url": "https://github.com/sarnold/timewarrior-addons"
+    "updated": "2024-08-04",
+    "url": "https://github.com/sarnold/timew-addons"
   },
   {
     "archived": false,
@@ -1419,7 +1419,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-21",
+    "updated": "2024-08-04",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -1531,7 +1531,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 20,
-    "updated": "2024-08-02",
+    "updated": "2024-08-05",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
