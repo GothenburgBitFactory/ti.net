@@ -874,7 +874,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2024-05-29",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
@@ -1037,6 +1037,22 @@
     "rating": 68,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
+  },
+  {
+    "archived": false,
+    "description": "A Timewarrior extension to track your overtime on a weekly basis.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tw-overtime",
+    "owner": [
+      "n4tht4n"
+    ],
+    "rating": 0,
+    "updated": "2024-08-14",
+    "url": "https://github.com/n4tht4n/tw-overtime"
   },
   {
     "archived": false,
@@ -1307,7 +1323,7 @@
       "sarnold"
     ],
     "rating": 0,
-    "updated": "2024-08-13",
+    "updated": "2024-08-14",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
@@ -1547,7 +1563,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 39,
-    "updated": "2024-08-10",
+    "updated": "2024-08-14",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
