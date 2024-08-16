@@ -35,7 +35,7 @@ To build Timewarrior from the tarball you will need these tools:
 The release tarballs are [hosted on GitHub](https://github.com/GothenburgBitFactory/timewarrior/releases).
 You can download the tarball with `curl`, as an example of just one of many ways to download the tarball.
 
-```
+```console
 $ curl -L -O {{< current_release url >}}
 ```
 
@@ -44,7 +44,7 @@ $ curl -L -O {{< current_release url >}}
 Expand the tarball, build Timewarrior, and install it.
 This copies files into the right place, and installs man pages.
 
-```
+```console
 $ tar xzf {{< current_release tarball >}}
 $ cd {{< current_release name >}}
 $ cmake -DCMAKE_BUILD_TYPE=Release .

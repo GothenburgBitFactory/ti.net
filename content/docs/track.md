@@ -11,7 +11,7 @@ The track command is used to add tracked time in the past.
 Perhaps you forgot to record time, or are just filling in old entries.
 For example:
 
-```
+```console
 $ timew track :yesterday 'Training Course'
 $ timew track 9am - 11am 'Staff Meeting'
 ```

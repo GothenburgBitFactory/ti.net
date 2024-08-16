@@ -14,7 +14,7 @@ An example will make this clear.
 Suppose it is Monday at \~3pm.
 You begin working on a new task, and start tracking time:
 
-```
+```console
 $ timew start 'Outline Talk' Conference
 Tracking Conference "Outline Talk"
   Started 2016-06-20T15:01:24
@@ -25,7 +25,7 @@ Tracking Conference "Outline Talk"
 You work for a while, then at 5pm you leave your office.
 On Tuesday morning you complete the outline, and stop tracking time:
 
-```
+```console
 Recorded Conference "Outline Talk"
   Started 2016-06-20T15:01:24
   Ended           21T09:28:14
@@ -40,7 +40,7 @@ But if you leave work at 5pm every day, and start at 9am, you can capture this i
 Suppose you also don't work on weekends, and you take lunch on weekdays for 30 minutes at 12:30pm.
 Add the following to your `~/.timewarrior/timewarrior.cfg` configuration file, using a text editor:
 
-```
+```console
 define exclusions:
   monday    = <9:00 12:30-13:00 >17:00
   tuesday   = <9:00 12:30-13:00 >17:00

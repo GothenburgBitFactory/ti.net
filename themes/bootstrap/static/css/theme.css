@@ -16,6 +16,10 @@ pre code {
   white-space: pre;
 }
 
+pre {
+  padding: 3px;
+}
+
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
@@ -99,6 +103,20 @@ img {
   margin-left: -36px;
   margin-top: -4px;
   position: absolute;
+}
+
+/* Docs */
+.language-console {
+  background-color: #9d9d9d;
+  color: #442822;
+}
+
+.bash {
+  color: #442822;
+}
+
+.bash .hljs-comment{
+  color: #397300;
 }
 
 /* Tools page */

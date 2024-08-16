@@ -14,7 +14,7 @@ A tracked interval may have any number of associated tags.
 A tag is either a single UTF-8 word, or a quoted UTF-8 string.
 An example:
 
-```
+```console
 $ timew start Presentation 'Prepare Slides'
 Tracking "Prepare Slides" Presentation
   Started 2016-06-14T08:30:47
@@ -27,7 +27,7 @@ Without the quotes, that second tag would have been interpreted as two separate 
 
 When stopping tracking, it is not necessary to list the tags:
 
-```
+```console
 $ timew stop
 Recorded "Prepare Slides" Presentation
   Started 2016-06-14T08:30:47
@@ -38,7 +38,7 @@ Recorded "Prepare Slides" Presentation
 Note that the tags are always listed in association with the tracked time.
 The summary also contains the tags:
 
-```
+```console
 $ timew summary
 
 Wk  Date       Day Tags                           Start     End    Time   Total
@@ -53,7 +53,7 @@ These commands will be discussed in more detail in other documents.
 
 There is a `tags` command that will list all the tags you have been using:
 
-```
+```console
 $ timew tags
 
 Tag            Description

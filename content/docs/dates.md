@@ -9,7 +9,7 @@ hide_toc: true
 
 Timewarrior supports the following date formats based on ISO-8601:
 
-```
+```console
 <extended-date> [T <extended-time>]   Extended date, optional extended time
 <date> [T <time>]                     Date, optional time
 <extended-time>                       Extended time
@@ -38,7 +38,7 @@ time:
 
 Examples:
 
-```
+```console
 2016-06-09T08:12:00Z
 2016-06T08:12:00+01:00
 2016-06T08:12Z
@@ -53,7 +53,7 @@ Examples:
 
 In addition to the standard date formats, the following are supported:
 
-```
+```console
 now                                   Current date and time
 today                                 Current date at 0:00:00
 sod, eod                              Current date at 0:00:00 and 23:59:59
@@ -87,7 +87,7 @@ juhannus                              midnight, 1st Friday after 19th June
 
 Examples:
 
-```
+```console
 8am
 24th
 monday
