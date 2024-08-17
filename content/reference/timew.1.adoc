@@ -34,88 +34,88 @@ Display Timewarrior usage information
 Timewarrior supports many commands.
 Alphabetically:
 
-link:../../reference/timew-annotate.1[**timew-annotate**(1)]::
+link:../../reference/timew-annotate.1/[**timew-annotate**(1)]::
     Add annotation to intervals
 
-link:../../reference/timew-cancel.1[**timew-cancel**(1)]::
+link:../../reference/timew-cancel.1/[**timew-cancel**(1)]::
     Cancel time tracking
 
-link:../../reference/timew-config.1[**timew-config**(1)]::
+link:../../reference/timew-config.1/[**timew-config**(1)]::
     Get and set Timewarrior configuration
 
-link:../../reference/timew-continue.1[**timew-continue**(1)]::
+link:../../reference/timew-continue.1/[**timew-continue**(1)]::
     Resume tracking of existing interval
 
-link:../../reference/timew-delete.1[**timew-delete**(1)]::
+link:../../reference/timew-delete.1/[**timew-delete**(1)]::
     Delete intervals
 
-link:../../reference/timew-diagnostics.1[**timew-diagnostics**(1)]::
+link:../../reference/timew-diagnostics.1/[**timew-diagnostics**(1)]::
     Show diagnostic information
 
-link:../../reference/timew-export.1[**timew-export**(1)]::
+link:../../reference/timew-export.1/[**timew-export**(1)]::
     Export tracked time in JSON
 
-link:../../reference/timew-extensions.1[**timew-extensions**(1)]::
+link:../../reference/timew-extensions.1/[**timew-extensions**(1)]::
     List available extensions
 
-link:../../reference/timew-get.1[**timew-get**(1)]::
+link:../../reference/timew-get.1/[**timew-get**(1)]::
     Display DOM values
 
-link:../../reference/timew-help.1[**timew-help**(1)]::
+link:../../reference/timew-help.1/[**timew-help**(1)]::
     Display help
 
-link:../../reference/timew-join.1[**timew-join**(1)]::
+link:../../reference/timew-join.1/[**timew-join**(1)]::
     Join intervals
 
-link:../../reference/timew-lengthen.1[**timew-lengthen**(1)]::
+link:../../reference/timew-lengthen.1/[**timew-lengthen**(1)]::
     Lengthen intervals
 
-link:../../reference/timew-modify.1[**timew-modify**(1)]::
+link:../../reference/timew-modify.1/[**timew-modify**(1)]::
     Change start or end time of an interval
 
-link:../../reference/timew-move.1[**timew-move**(1)]::
+link:../../reference/timew-move.1/[**timew-move**(1)]::
     Change interval start-time
 
-link:../../reference/timew-report.1[**timew-report**(1)]::
+link:../../reference/timew-report.1/[**timew-report**(1)]::
     Run an extension report
 
-link:../../reference/timew-resize.1[**timew-resize**(1)]::
+link:../../reference/timew-resize.1/[**timew-resize**(1)]::
     Set interval duration
 
-link:../../reference/timew-retag.1[**timew-retag**(1)]::
+link:../../reference/timew-retag.1/[**timew-retag**(1)]::
     Replace tags in intervals
 
-link:../../reference/timew-shorten.1[**timew-shorten**(1)]::
+link:../../reference/timew-shorten.1/[**timew-shorten**(1)]::
     Shorten intervals
 
-link:../../reference/timew-show.1[**timew-show**(1)]::
+link:../../reference/timew-show.1/[**timew-show**(1)]::
     Display configuration
 
-link:../../reference/timew-split.1[**timew-split**(1)]::
+link:../../reference/timew-split.1/[**timew-split**(1)]::
     Split intervals
 
-link:../../reference/timew-start.1[**timew-start**(1)]::
+link:../../reference/timew-start.1/[**timew-start**(1)]::
     Start time tracking
 
-link:../../reference/timew-stop.1[**timew-stop**(1)]::
+link:../../reference/timew-stop.1/[**timew-stop**(1)]::
     Stop time tracking
 
-link:../../reference/timew-summary.1[**timew-summary**(1)]::
+link:../../reference/timew-summary.1/[**timew-summary**(1)]::
     Display a time-tracking summary
 
-link:../../reference/timew-tag.1[**timew-tag**(1)]::
+link:../../reference/timew-tag.1/[**timew-tag**(1)]::
     Add tags to intervals
 
-link:../../reference/timew-tags.1[**timew-tags**(1)]::
+link:../../reference/timew-tags.1/[**timew-tags**(1)]::
     Display a list of tags
 
-link:../../reference/timew-track.1[**timew-track**(1)]::
+link:../../reference/timew-track.1/[**timew-track**(1)]::
     Add intervals to the database
 
-link:../../reference/timew-undo.1[**timew-undo**(1)]::
+link:../../reference/timew-undo.1/[**timew-undo**(1)]::
     Undo Timewarrior commands
 
-link:../../reference/timew-untag.1[**timew-untag**(1)]::
+link:../../reference/timew-untag.1/[**timew-untag**(1)]::
     Remove tags from intervals
 
 == MORE EXAMPLES
@@ -145,7 +145,7 @@ ${XDG_DATA_HOME:-$HOME/.local/share}/timewarrior/data/YYYY-MM.data::
 == pass:[CREDITS & COPYRIGHT]
 Copyright (C) 2015 - 2018 T. Lauf, P. Beckingham, F. Hernandez. +
 Timewarrior is distributed under the MIT license.
-See https://www.opensource.org/licenses/mit-license.php for more information.
+See https://www.opensource.org/license/mit for more information.
 
 == FURTHER DOCUMENTATION
 For more information regarding Timewarrior, see the following:
@@ -160,9 +160,9 @@ You can contact the project by emailing support@gothenburgbitfactory.org
 Bugs in Timewarrior may be reported to the issue-tracker at https://github.com/GothenburgBitFactory/timewarrior/issues
 
 == SEE ALSO
-link:../../reference/timew-config.7[**timew-config**(7)],
-link:../../reference/timew-dates.7[**timew-dates**(7)],
-link:../../reference/timew-dom.7[**timew-dom**(7)],
-link:../../reference/timew-durations.7[**timew-durations**(7)],
-link:../../reference/timew-hints.7[**timew-hints**(7)],
-link:../../reference/timew-ranges.7[**timew-ranges**(7)]
+link:../../reference/timew-config.7/[**timew-config**(7)],
+link:../../reference/timew-dates.7/[**timew-dates**(7)],
+link:../../reference/timew-dom.7/[**timew-dom**(7)],
+link:../../reference/timew-durations.7/[**timew-durations**(7)],
+link:../../reference/timew-hints.7/[**timew-hints**(7)],
+link:../../reference/timew-ranges.7/[**timew-ranges**(7)]

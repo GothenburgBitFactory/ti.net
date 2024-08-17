@@ -62,7 +62,7 @@ Default value is 'yes'.
 **reports.**__<type>__**.range**::
 For reports that show a range of data, this setting will override the default value.
 The value should be a range hint, see
-link:../../reference/timew-hints.7[**timew-hints**(7)].
+link:../../reference/timew-hints.7/[**timew-hints**(7)].
 
 **reports.**__<type>__**.spacing**::
 Specifies how many spaces are inserted between the hours in the <type> report exclusions.
@@ -110,4 +110,4 @@ Charts accept date ranges and tags for filtering, or shortcut hints:
     $ timew day :week
 
 == SEE ALSO
-link:../../reference/timew-summary.1[**timew-summary**(1)]
+link:../../reference/timew-summary.1/[**timew-summary**(1)]
