@@ -283,7 +283,7 @@
       "aibor"
     ],
     "rating": 0,
-    "updated": "2024-07-16",
+    "updated": "2024-08-21",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -890,7 +890,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 56,
+    "rating": 57,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1597,6 +1597,22 @@
     "rating": 0,
     "updated": "2021-04-28",
     "url": "https://github.com/tom-doerr/timewarrior_beeminder_times"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_tag_minus_tag",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 0,
+    "updated": "2024-08-21",
+    "url": "https://github.com/tom-doerr/timewarrior_tag_minus_tag"
   },
   {
     "archived": false,
