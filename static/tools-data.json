@@ -1435,7 +1435,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-08-22",
+    "updated": "2024-08-23",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -1473,7 +1473,7 @@
   {
     "archived": false,
     "description": "zsh plugin for timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
