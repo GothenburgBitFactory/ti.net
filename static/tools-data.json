@@ -122,7 +122,7 @@
     "owner": [
       "KlingelDev"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-07-13",
     "url": "https://github.com/KlingelDev/Combatant"
   },
@@ -283,7 +283,7 @@
       "aibor"
     ],
     "rating": 0,
-    "updated": "2024-08-21",
+    "updated": "2024-08-26",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -618,7 +618,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-09-05",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
@@ -1002,7 +1002,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-07-03",
     "url": "https://github.com/mkluge/telegram_bot_timewarrior"
   },
@@ -1434,7 +1434,7 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-08-23",
     "url": "https://github.com/smemsh/taskwtools"
   },
@@ -1482,7 +1482,7 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
@@ -1546,7 +1546,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2024-08-05",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -1562,7 +1562,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2024-08-15",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
