@@ -18,5 +18,4 @@ features = ["documentation", ""]
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "monokai"
     tabWidth = 4

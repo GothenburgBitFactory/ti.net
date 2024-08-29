@@ -20,7 +20,7 @@
         <p class="lead">
           <a href="{{ $currentRelease.url }}">{{ $currentRelease.name }}</a>
           <br>
-          <small>SHA256: {{ $currentRelease.sha256 }}</small>
+          <small class="text-break">SHA256: {{ $currentRelease.sha256 }}</small>
         </p>
       </section>
     </div>
@@ -35,7 +35,7 @@
         <p class="lead">
           <a href="{{ $release.url }}">{{ $release.name }}</a>
           <br />
-          <small>SHA256: {{ $release.sha256 }}</small>
+          <small class="text-break">SHA256: {{ $release.sha256 }}</small>
         </p>
       </section>
       {{ end }}
