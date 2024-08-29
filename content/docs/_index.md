@@ -38,7 +38,7 @@ layout: single
  * [timew](../reference/timew.1/)
  * [help](../reference/timew-help.1/)
  * [config](../reference/timew-config.1/)
- * [show](../reference/timew-show.1/)/
+ * [show](../reference/timew-show.1/)
 
 ### Basic Commands
 
