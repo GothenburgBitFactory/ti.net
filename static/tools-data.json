@@ -1312,7 +1312,7 @@
   },
   {
     "archived": false,
-    "description": "possibly useful timewarrior extension and GUI bits",
+    "description": "timew indicator GUI and report extensions for timew-report",
     "dormant": false,
     "language": [
       "Python"
@@ -1323,7 +1323,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2024-08-27",
+    "updated": "2024-08-29",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
