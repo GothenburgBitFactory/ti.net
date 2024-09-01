@@ -277,13 +277,13 @@
     "language": [
       "Go"
     ],
-    "license": "MIT License",
+    "license": "GNU General Public License v3.0",
     "name": "timewarrior-extensions",
     "owner": [
       "aibor"
     ],
     "rating": 0,
-    "updated": "2024-08-26",
+    "updated": "2024-08-31",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1325,6 +1325,22 @@
     "rating": 1,
     "updated": "2024-08-29",
     "url": "https://github.com/sarnold/timew-addons"
+  },
+  {
+    "archived": false,
+    "description": "Software User Manual for Timew-Addons in reStructuredText",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timew-addons-sum",
+    "owner": [
+      "sarnold"
+    ],
+    "rating": 1,
+    "updated": "2024-08-31",
+    "url": "https://github.com/sarnold/timew-addons-sum"
   },
   {
     "archived": false,
