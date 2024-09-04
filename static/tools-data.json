@@ -195,6 +195,22 @@
     "description": null,
     "dormant": false,
     "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TimeWarriorV2",
+    "owner": [
+      "ThePhoneBeLinging"
+    ],
+    "rating": 0,
+    "updated": "2024-09-03",
+    "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV2"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
       "Java"
     ],
     "license": "GNU General Public License v3.0",
@@ -525,6 +541,22 @@
     "rating": 0,
     "updated": "2023-12-13",
     "url": "https://github.com/crossbone-magister/earliest-start-timew-extension"
+  },
+  {
+    "archived": false,
+    "description": "Timewarrior extension to calculate total hours per day",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "hours-day",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2024-09-03",
+    "url": "https://github.com/crossbone-magister/hours-day"
   },
   {
     "archived": false,
@@ -1323,7 +1355,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2024-09-02",
+    "updated": "2024-09-03",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
