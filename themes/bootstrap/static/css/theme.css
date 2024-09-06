@@ -102,6 +102,10 @@ footer {
   line-height: 20px;
 }
 
+.container .text-muted {
+  margin: 20px 0;
+}
+
 .banner {
   color: inherit;
   margin-bottom: 0;
@@ -214,7 +218,7 @@ footer {
   font-size: 14px;
 }
 
-/** 
+/**
  * Bootsrap 5 has table styles as opt-in by adding the class .table to <table>.
  * However Hugo converts Markdown tables to HTML directly, and there are
  * currently no Hugo render hooks for tables. As a workaround, we copy the
