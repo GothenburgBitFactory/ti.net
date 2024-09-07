@@ -1594,7 +1594,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2024-08-05",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -1610,7 +1610,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 40,
+    "rating": 41,
     "updated": "2024-09-05",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
