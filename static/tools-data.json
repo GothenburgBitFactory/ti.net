@@ -203,7 +203,7 @@
       "ThePhoneBeLinging"
     ],
     "rating": 1,
-    "updated": "2024-09-20",
+    "updated": "2024-09-23",
     "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV2"
   },
   {
@@ -1176,11 +1176,11 @@
     "license": "GNU General Public License v3.0",
     "name": "Timewarrior-Pomodoro",
     "owner": [
-      "omarmohamedkh"
+      "omar-mohamed-kh"
     ],
     "rating": 4,
     "updated": "2023-03-03",
-    "url": "https://github.com/omarmohamedkh/Timewarrior-Pomodoro"
+    "url": "https://github.com/omar-mohamed-kh/Timewarrior-Pomodoro"
   },
   {
     "archived": false,
@@ -1537,7 +1537,7 @@
   {
     "archived": false,
     "description": "A Timewarrior report extension for generating invoices in LaTeX",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
