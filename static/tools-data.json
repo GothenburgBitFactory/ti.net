@@ -256,6 +256,22 @@
   },
   {
     "archived": false,
+    "description": "Create Solidinvoice invoices from Timewarrior exports",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-to-solidinvoice",
+    "owner": [
+      "ablyler"
+    ],
+    "rating": 0,
+    "updated": "2024-09-25",
+    "url": "https://github.com/ablyler/timewarrior-to-solidinvoice"
+  },
+  {
+    "archived": false,
     "description": null,
     "dormant": true,
     "language": [
