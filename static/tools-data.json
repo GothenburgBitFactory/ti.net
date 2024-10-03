@@ -250,7 +250,7 @@
     "owner": [
       "ViliamV"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2020-06-29",
     "url": "https://github.com/ViliamV/timewarrior-extensions"
   },
@@ -912,6 +912,22 @@
   },
   {
     "archived": false,
+    "description": "TimeWarrior-Pandas: A Python package that loads TimeWarrior data and converts it into a Pandas DataFrame.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior-pandas",
+    "owner": [
+      "juan-esteban-berger"
+    ],
+    "rating": 0,
+    "updated": "2024-10-03",
+    "url": "https://github.com/juan-esteban-berger/timewarrior-pandas"
+  },
+  {
+    "archived": false,
     "description": "Bash completion for Timewarrior",
     "dormant": false,
     "language": [
@@ -1546,7 +1562,7 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 53,
+    "rating": 52,
     "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
