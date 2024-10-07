@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2024-09-30",
+    "updated": "2024-10-06",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -912,22 +912,6 @@
   },
   {
     "archived": false,
-    "description": "TimeWarrior-Pandas: A Python package that loads TimeWarrior data and converts it into a Pandas DataFrame.",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "timewarrior-pandas",
-    "owner": [
-      "juan-esteban-berger"
-    ],
-    "rating": 0,
-    "updated": "2024-10-03",
-    "url": "https://github.com/juan-esteban-berger/timewarrior-pandas"
-  },
-  {
-    "archived": false,
     "description": "Bash completion for Timewarrior",
     "dormant": false,
     "language": [
@@ -954,7 +938,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 57,
+    "rating": 58,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1627,7 +1611,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 22,
-    "updated": "2024-09-11",
+    "updated": "2024-10-06",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
