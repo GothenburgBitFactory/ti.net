@@ -1152,22 +1152,6 @@
   },
   {
     "archived": false,
-    "description": "Small scripts around timewarrior that are not extensions",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "timew-extras",
-    "owner": [
-      "oivvio"
-    ],
-    "rating": 1,
-    "updated": "2023-09-30",
-    "url": "https://github.com/oivvio/timew-extras"
-  },
-  {
-    "archived": false,
     "description": "A timewarrior extension to list and restart recently tracked intervals with the help of fzf",
     "dormant": false,
     "language": [
