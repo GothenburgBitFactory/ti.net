@@ -785,7 +785,7 @@
   {
     "archived": false,
     "description": "Extend the functionality of timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1483,7 +1483,7 @@
       "smemsh"
     ],
     "rating": 1,
-    "updated": "2024-10-28",
+    "updated": "2024-10-29",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
