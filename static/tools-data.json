@@ -480,6 +480,22 @@
   },
   {
     "archived": false,
+    "description": "Generate markdown reports for timewarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_report_markdown",
+    "owner": [
+      "cedricwider"
+    ],
+    "rating": 0,
+    "updated": "2024-11-01",
+    "url": "https://github.com/cedricwider/timewarrior_report_markdown"
+  },
+  {
+    "archived": false,
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
     "dormant": true,
     "language": [
@@ -1483,7 +1499,7 @@
       "smemsh"
     ],
     "rating": 1,
-    "updated": "2024-10-30",
+    "updated": "2024-11-01",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -1611,7 +1627,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 41,
-    "updated": "2024-10-04",
+    "updated": "2024-11-01",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
