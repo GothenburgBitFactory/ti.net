@@ -816,6 +816,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior plugin for neovim",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "Other",
+    "name": "timewarrior.nvim",
+    "owner": [
+      "gallois"
+    ],
+    "rating": 0,
+    "updated": "2024-11-20",
+    "url": "https://github.com/gallois/timewarrior.nvim"
+  },
+  {
+    "archived": false,
     "description": "Extend the functionality of timewarrior",
     "dormant": true,
     "language": [
