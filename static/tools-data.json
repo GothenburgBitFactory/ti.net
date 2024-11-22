@@ -667,7 +667,7 @@
       "crossbone-magister"
     ],
     "rating": 1,
-    "updated": "2024-03-09",
+    "updated": "2024-11-21",
     "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
@@ -826,7 +826,7 @@
     "owner": [
       "gallois"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-11-20",
     "url": "https://github.com/gallois/timewarrior.nvim"
   },
