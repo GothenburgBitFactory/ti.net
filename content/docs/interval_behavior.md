@@ -10,7 +10,7 @@ hide_toc: true
 Timewarrior stores intervals, most of which are closed, and only one which may be open.
 These intervals (inclusions) interact with exclusions (holidays etc.) and the result is complex.
 
-As an example, support that Saturday and Sunday are defined as exclusions, and an open interval is created tracking work on a Friday afternoon.
+As an example, suppose that Saturday and Sunday are defined as exclusions, and an open interval is created tracking work on a Friday afternoon.
 
 Until that interval is closed (`$ timew stop`), it remains open.
 On the following Monday there is still one open interval stored, but if a report is run, that real interval is now represented by two separate intervals:
