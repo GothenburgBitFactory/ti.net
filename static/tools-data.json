@@ -219,7 +219,7 @@
       "ThePhoneBeLinging"
     ],
     "rating": 0,
-    "updated": "2024-11-07",
+    "updated": "2024-11-25",
     "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV3"
   },
   {
@@ -331,7 +331,7 @@
       "aibor"
     ],
     "rating": 0,
-    "updated": "2024-11-19",
+    "updated": "2024-11-25",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1677,6 +1677,22 @@
     "rating": 8,
     "updated": "2021-10-15",
     "url": "https://github.com/tom-doerr/timew_distribution"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_analytics",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 0,
+    "updated": "2024-11-26",
+    "url": "https://github.com/tom-doerr/timewarrior_analytics"
   },
   {
     "archived": false,
