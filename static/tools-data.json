@@ -608,6 +608,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior extension to calculate percentage of a particular tag on the day",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "tag-percentage",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2024-12-03",
+    "url": "https://github.com/crossbone-magister/tag-percentage"
+  },
+  {
+    "archived": false,
     "description": "A Timewarrior extension to calculate total time spent on each tag.",
     "dormant": false,
     "language": [
@@ -651,7 +667,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2023-11-24",
+    "updated": "2024-12-03",
     "url": "https://github.com/crossbone-magister/timewarrior-extensions"
   },
   {
