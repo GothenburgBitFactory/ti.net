@@ -400,6 +400,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-timesheet",
+    "owner": [
+      "artnim"
+    ],
+    "rating": 0,
+    "updated": "2024-12-04",
+    "url": "https://github.com/artnim/timewarrior-timesheet"
+  },
+  {
+    "archived": false,
     "description": "Script to synchronize timewarrior data with JIRA tempo",
     "dormant": false,
     "language": [
