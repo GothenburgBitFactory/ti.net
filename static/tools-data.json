@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2024-11-22",
+    "updated": "2024-12-09",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1674,7 +1674,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2024-12-02",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -1690,7 +1690,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2024-11-14",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
