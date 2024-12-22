@@ -1747,15 +1747,15 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
     "name": "timewarrior_tag_minus_tag",
     "owner": [
       "tom-doerr"
     ],
-    "rating": 0,
-    "updated": "2024-08-21",
+    "rating": 1,
+    "updated": "2024-12-21",
     "url": "https://github.com/tom-doerr/timewarrior_tag_minus_tag"
   },
   {
