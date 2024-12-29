@@ -93,6 +93,10 @@ footer {
   line-height: 20px;
 }
 
+.container .text-muted {
+  margin: 20px 0;
+}
+
 .banner {
   color: inherit;
   margin-bottom: 0;

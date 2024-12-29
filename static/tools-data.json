@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2024-08-17",
+    "updated": "2024-12-10",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -202,9 +202,25 @@
     "owner": [
       "ThePhoneBeLinging"
     ],
-    "rating": 0,
-    "updated": "2024-09-03",
+    "rating": 1,
+    "updated": "2024-09-23",
     "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV2"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TimeWarriorV3",
+    "owner": [
+      "ThePhoneBeLinging"
+    ],
+    "rating": 0,
+    "updated": "2024-11-28",
+    "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV3"
   },
   {
     "archived": false,
@@ -250,9 +266,25 @@
     "owner": [
       "ViliamV"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2020-06-29",
     "url": "https://github.com/ViliamV/timewarrior-extensions"
+  },
+  {
+    "archived": false,
+    "description": "Create Solidinvoice invoices from Timewarrior exports",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-to-solidinvoice",
+    "owner": [
+      "ablyler"
+    ],
+    "rating": 0,
+    "updated": "2024-09-26",
+    "url": "https://github.com/ablyler/timewarrior-to-solidinvoice"
   },
   {
     "archived": false,
@@ -299,7 +331,7 @@
       "aibor"
     ],
     "rating": 0,
-    "updated": "2024-08-31",
+    "updated": "2024-11-25",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -314,7 +346,7 @@
     "owner": [
       "alexlyttle"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-07-16",
     "url": "https://github.com/alexlyttle/timewarrior-dataframe"
   },
@@ -368,6 +400,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-timesheet",
+    "owner": [
+      "artnim"
+    ],
+    "rating": 0,
+    "updated": "2024-12-20",
+    "url": "https://github.com/artnim/timewarrior-timesheet"
+  },
+  {
+    "archived": false,
     "description": "Script to synchronize timewarrior data with JIRA tempo",
     "dormant": false,
     "language": [
@@ -378,7 +426,7 @@
     "owner": [
       "aubincleme"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2022-12-10",
     "url": "https://github.com/aubincleme/timewarrior-tempo"
   },
@@ -464,6 +512,22 @@
   },
   {
     "archived": false,
+    "description": "Generate markdown reports for timewarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_report_markdown",
+    "owner": [
+      "cedricwider"
+    ],
+    "rating": 1,
+    "updated": "2024-11-01",
+    "url": "https://github.com/cedricwider/timewarrior_report_markdown"
+  },
+  {
+    "archived": false,
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
     "dormant": true,
     "language": [
@@ -474,7 +538,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 53,
+    "rating": 52,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -560,6 +624,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior extension to calculate percentage of a particular tag on the day",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "tag-percentage",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2024-12-03",
+    "url": "https://github.com/crossbone-magister/tag-percentage"
+  },
+  {
+    "archived": false,
     "description": "A Timewarrior extension to calculate total time spent on each tag.",
     "dormant": false,
     "language": [
@@ -586,7 +666,7 @@
     "owner": [
       "crossbone-magister"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-01-26",
     "url": "https://github.com/crossbone-magister/tag-tree"
   },
@@ -603,7 +683,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2023-11-24",
+    "updated": "2024-12-03",
     "url": "https://github.com/crossbone-magister/timewarrior-extensions"
   },
   {
@@ -619,7 +699,7 @@
       "crossbone-magister"
     ],
     "rating": 1,
-    "updated": "2024-03-09",
+    "updated": "2024-11-21",
     "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
@@ -650,8 +730,8 @@
     "owner": [
       "danteu"
     ],
-    "rating": 4,
-    "updated": "2023-09-05",
+    "rating": 5,
+    "updated": "2024-11-11",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
   {
@@ -714,7 +794,7 @@
     "owner": [
       "eliasCVII"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-02-21",
     "url": "https://github.com/eliasCVII/timew.nvim"
   },
@@ -746,7 +826,7 @@
     "owner": [
       "fradeve"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2021-02-20",
     "url": "https://github.com/fradeve/twtools"
   },
@@ -768,8 +848,24 @@
   },
   {
     "archived": false,
-    "description": "Extend the functionality of timewarrior",
+    "description": "Timewarrior plugin for neovim",
     "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "Other",
+    "name": "timewarrior.nvim",
+    "owner": [
+      "gallois"
+    ],
+    "rating": 1,
+    "updated": "2024-11-20",
+    "url": "https://github.com/gallois/timewarrior.nvim"
+  },
+  {
+    "archived": false,
+    "description": "Extend the functionality of timewarrior",
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -794,7 +890,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 23,
+    "rating": 26,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -906,7 +1002,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 26,
+    "rating": 28,
     "updated": "2024-05-29",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
@@ -922,7 +1018,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 57,
+    "rating": 59,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1035,7 +1131,7 @@
       "mkluge"
     ],
     "rating": 1,
-    "updated": "2024-07-03",
+    "updated": "2024-12-17",
     "url": "https://github.com/mkluge/telegram_bot_timewarrior"
   },
   {
@@ -1066,7 +1162,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 68,
+    "rating": 73,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
   },
@@ -1083,7 +1179,7 @@
       "n4tht4n"
     ],
     "rating": 0,
-    "updated": "2024-08-14",
+    "updated": "2024-10-28",
     "url": "https://github.com/n4tht4n/tw-overtime"
   },
   {
@@ -1136,22 +1232,6 @@
   },
   {
     "archived": false,
-    "description": "Small scripts around timewarrior that are not extensions",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "timew-extras",
-    "owner": [
-      "oivvio"
-    ],
-    "rating": 1,
-    "updated": "2023-09-30",
-    "url": "https://github.com/oivvio/timew-extras"
-  },
-  {
-    "archived": false,
     "description": "A timewarrior extension to list and restart recently tracked intervals with the help of fzf",
     "dormant": false,
     "language": [
@@ -1176,11 +1256,11 @@
     "license": "GNU General Public License v3.0",
     "name": "Timewarrior-Pomodoro",
     "owner": [
-      "omarmohamedkh"
+      "omar-mohamed-khallaf"
     ],
     "rating": 4,
     "updated": "2023-03-03",
-    "url": "https://github.com/omarmohamedkh/Timewarrior-Pomodoro"
+    "url": "https://github.com/omar-mohamed-khallaf/Timewarrior-Pomodoro"
   },
   {
     "archived": false,
@@ -1290,14 +1370,14 @@
     "owner": [
       "rameshg87"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-04-04",
     "url": "https://github.com/rameshg87/timewarrior-aggregate"
   },
   {
     "archived": true,
     "description": "Timewarrior extensions.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1313,7 +1393,7 @@
   {
     "archived": true,
     "description": "Get Timewarrior's total time per tag per week through a web API and page.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1355,7 +1435,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2024-09-03",
+    "updated": "2024-11-23",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
@@ -1371,7 +1451,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2024-09-02",
+    "updated": "2024-10-14",
     "url": "https://github.com/sarnold/timew-addons-sum"
   },
   {
@@ -1467,7 +1547,7 @@
       "smemsh"
     ],
     "rating": 1,
-    "updated": "2024-01-21",
+    "updated": "2024-10-30",
     "url": "https://github.com/smemsh/python-timew"
   },
   {
@@ -1482,8 +1562,8 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 1,
-    "updated": "2024-08-23",
+    "rating": 2,
+    "updated": "2024-11-01",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -1514,7 +1594,7 @@
     "owner": [
       "suidroot"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-02-11",
     "url": "https://github.com/suidroot/TimeWarriorGUI"
   },
@@ -1530,14 +1610,14 @@
     "owner": [
       "svenXY"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2021-08-23",
     "url": "https://github.com/svenXY/timewarrior"
   },
   {
     "archived": false,
     "description": "A Timewarrior report extension for generating invoices in LaTeX",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1546,7 +1626,7 @@
     "owner": [
       "sw00"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
   },
@@ -1562,7 +1642,7 @@
     "owner": [
       "tassos"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2024-07-19",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
@@ -1594,8 +1674,8 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 22,
-    "updated": "2024-08-05",
+    "rating": 23,
+    "updated": "2024-12-02",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -1610,14 +1690,14 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 41,
-    "updated": "2024-09-05",
+    "rating": 44,
+    "updated": "2024-12-22",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
     "archived": false,
     "description": "This plugin plots the time you spent on a tag as a histogram.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1629,6 +1709,22 @@
     "rating": 8,
     "updated": "2021-10-15",
     "url": "https://github.com/tom-doerr/timew_distribution"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior_analytics",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 0,
+    "updated": "2024-11-26",
+    "url": "https://github.com/tom-doerr/timewarrior_analytics"
   },
   {
     "archived": false,
@@ -1651,15 +1747,15 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
     "name": "timewarrior_tag_minus_tag",
     "owner": [
       "tom-doerr"
     ],
-    "rating": 0,
-    "updated": "2024-08-21",
+    "rating": 1,
+    "updated": "2024-12-21",
     "url": "https://github.com/tom-doerr/timewarrior_tag_minus_tag"
   },
   {
@@ -1674,7 +1770,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
