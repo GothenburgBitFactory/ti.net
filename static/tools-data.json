@@ -960,6 +960,22 @@
   },
   {
     "archived": false,
+    "description": "Program to automatically upload timewarrior time entries to Celoxis API",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timew-celoxis",
+    "owner": [
+      "jackhale98"
+    ],
+    "rating": 0,
+    "updated": "2025-01-04",
+    "url": "https://github.com/jackhale98/timew-celoxis"
+  },
+  {
+    "archived": false,
     "description": "A flextime extension to be used with timewarrior",
     "dormant": false,
     "language": [
