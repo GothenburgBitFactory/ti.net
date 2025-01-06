@@ -731,7 +731,7 @@
       "danteu"
     ],
     "rating": 6,
-    "updated": "2024-11-11",
+    "updated": "2025-01-05",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
   {
@@ -1089,7 +1089,7 @@
   {
     "archived": false,
     "description": "A timewarriror provider for german holidays from https://ipty.de/feiertag/",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
