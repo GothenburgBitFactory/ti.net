@@ -1201,7 +1201,7 @@
   {
     "archived": false,
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -1707,7 +1707,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 44,
-    "updated": "2024-12-22",
+    "updated": "2025-01-08",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
