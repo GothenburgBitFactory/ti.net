@@ -960,6 +960,22 @@
   },
   {
     "archived": false,
+    "description": "Just a helper timew script to facilitate my job",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-script",
+    "owner": [
+      "icaoberg"
+    ],
+    "rating": 0,
+    "updated": "2025-01-09",
+    "url": "https://github.com/icaoberg/timew-script"
+  },
+  {
+    "archived": false,
     "description": "Program to automatically upload timewarrior time entries to Celoxis API",
     "dormant": false,
     "language": [
