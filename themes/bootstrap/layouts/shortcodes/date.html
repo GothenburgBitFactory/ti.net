@@ -1,0 +1,6 @@
+{{- $deltaYear := .Get "dy" | default "0" | int -}}
+{{- $deltaMonth := .Get "dm" | default "0" | int -}}
+{{- $deltaDay := .Get "dd" | default "0" | int -}}
+{{- $format := .Get "fmt" | default "2006-01-02" -}}
+{{- $currentDate := now.AddDate $deltaYear $deltaMonth $deltaDay -}}
+{{- $currentDate.Format $format -}}

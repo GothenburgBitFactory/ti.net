@@ -12,7 +12,7 @@ layout: single
   * [What is Timewarrior?](what/)
   * [How to install Timewarrior](install/) (Normal user)
   * [How to install the development snapshot](install-dev/) (Developers)
-  * [File Layout](files/)
+  * [First light!](first_light/)
   * [Tutorial](tutorial/)
 
 ## Basic Usage
@@ -107,6 +107,7 @@ layout: single
 
 ## Developers
 
+ * [File Layout](files/)
  * [Interval behaviour](interval_behavior/)
  * [Submit a bug](https://github.com/GothenburgBitFactory/timewarrior/issues)
  * [Provide feedback](mailto:support@gothenburgbitfactory.org)
