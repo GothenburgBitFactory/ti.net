@@ -6,39 +6,22 @@ viewport: 'width=device-width, initial-scale=1'
 
 ## What does Timewarrior do?
 
-Timewarrior tracks and reports time.
+{{< lead >}}Timewarrior tracks and reports time from the command line.{{< /lead >}}
 
 Timewarrior is a command line time tracking application, which allows you to record time spent on activities.
-You may be tracking your time for curiosity, or because your work requires it.
-At its simplest, you tell it to start and stop tracking time:
-
-```console
-$ timew start
-...
-$ timew stop
-```
-
-That's the simple stopwatch capability.
+You may be tracking your time because your work requires it, or simply for curiosity.
 
 ## Why do I need Timewarrior?
 
-We're not trying to convince you to track your time.
+We are not trying to convince you to track your time.
 But if you already do, or want to begin, then Timewarrior aims to be your preferred choice.
-You will be able to track your time intelligently, then generate useful visual or tabular reports of that time.
-An extension API lets you do anything you want with your data.
 
-Suppose you start the clock at noon on a Friday, then you stop the clock at noon on Tuesday.
-Did you really just spend 96 hours on a task?
-More likely you only spent 16 hours, or perhaps 8 hours if Monday was a national holiday.
+Timewarrior allows you to track your time from any shell you have at hand, no need for a permanent running application.
+It tracks your time and then gets out of your way.
 
-This is why you need Timewarrior.
+You will be able to track your time intelligently, and then later generate useful visual or tabular reports of that time.
+Built-in reports, as well as an extension API allowing to process your data with any programming language will give you plenty of options.
 
-## How does Timewarrior work?
+So if you are looking for a simple, yet powerful time tracking solution, Timewarrior is for you.
 
-Timewarrior records time, and associates blocks of time with tags.
-The recorded data can be exposed as JSON for any app to consume.
-
-Built-in reports, as well as a set of extension reports will give you plenty of options, in addition to customizing your time reporting using any programming language.
-There will be a collection of reports and extensions to download and use.
-
-A Taskwarrior hook script provides integration with the matching `start` and `stop` commands, thereby enabling proper time tracking for Taskwarrior users.
+Give Timewarrior a try (see [How to install Timewarrior](../install/)) and see if it fits your needs.
