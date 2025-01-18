@@ -1,0 +1,5 @@
+$ timew untag @5 HOME
+Removed HOME from @5
+$ timew untag @4 PREPARATION
+Removed PREPARATION from @4
+$ ▒

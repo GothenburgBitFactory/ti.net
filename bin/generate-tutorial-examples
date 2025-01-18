@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+REPO_ROOT="$( git rev-parse --show-toplevel )"
+OUTPUT_DIR="${REPO_ROOT}/static/tutorial"
+RECORD_FILE="timew-tutorial-record"
+
+mkdir -p "${OUTPUT_DIR}"
+
+docker rm -f my-docker-container && docker build -t my-docker-image . >/dev/null
+
+script -q "${RECORD_FILE}" docker run --name my-docker-container -it my-docker-image:latest >/dev/null
+tr -d '\r' < "${RECORD_FILE}" > temp_file && mv temp_file "${RECORD_FILE}"
+
+MARKER_COUNT=$( grep -c -- '--8<--' "${RECORD_FILE}" )
+
+csplit -ks -f 'tutorial-' "${RECORD_FILE}" '/--8<--/' "{${MARKER_COUNT}}" || true
+
+rm -rf "${RECORD_FILE}"
+
+for file in tutorial-?? ; do
+  FIRST_LINE=$( head -n 1 "${file}" )
+
+  if [[ "${FIRST_LINE}" = "--8<--"* ]] ; then
+     TARGET="${FIRST_LINE##*--8<--}"
+     TARGET="${TARGET%$'\r'}"
+
+    if [[ "${TARGET}" != "IGNORE" ]] ; then
+       tail -n +2 "${file}" | sed -e 's|\x1b\[|\^\[\[|g' > "${OUTPUT_DIR}/${TARGET}"
+    fi
+  fi
+
+  rm -rf "${file}"
+done

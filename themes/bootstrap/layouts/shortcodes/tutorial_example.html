@@ -1,0 +1,4 @@
+{{- $file := printf "static/tutorial/%s" (.Get 0) -}}
+{{- $content := readFile $file -}}
+{{- $adaptedContent := replaceRE "(\r\n|\r|\n)$" "" $content -}}
+{{- $adaptedContent | safeHTML -}}

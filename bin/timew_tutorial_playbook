@@ -1,0 +1,289 @@
+#!/usr/bin/env bash
+
+#DATE="$( date +%Y-%m-%d )"
+DATE="2025-02-23"
+
+echo ""
+##################################################
+## Tutorial - first light -
+echo '--8<--IGNORE'
+# Initialize Timewarrior
+echo '$ timew'
+faketime -f "@${DATE} 08:00:00" timew <<< "yes"
+echo '$ ▒'
+##################################################
+## Tutorial - simple -
+echo '--8<--simple-start-first'
+# Start tracking time
+echo '$ timew start'
+faketime -f "@${DATE} 08:05:21" timew start
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--simple-check'
+# Check the current status
+echo '$ timew'
+faketime -f "@${DATE} 08:06:34" timew
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--simple-start-again'
+# Execute 'start' with active time tracking
+echo '$ timew start'
+faketime -f "@${DATE} 08:17:52" timew start
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--simple-stop-first'
+# Stop tracking time
+echo '$ timew stop'
+faketime -f "@${DATE} 08:22:56" timew stop
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--simple-stop-again'
+# Execute 'stop' without active time tracking
+echo '$ timew stop'
+faketime -f "@${DATE} 08:23:12" timew stop
+echo '$ ▒'
+##################################################
+## Tutorial - summary -
+echo '--8<--IGNORE'
+# Generate 2 more intervals
+faketime -f "@${DATE} 08:31:07" timew start
+echo '$ timew stop'
+faketime -f "@${DATE} 09:20:02" timew stop
+echo '$ timew start'
+faketime -f "@${DATE} 09:23:00" timew start
+echo '$ timew stop'
+faketime -f "@${DATE} 09:54:28" timew stop
+## -----------------------------------------------
+echo '--8<--summary-display'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 09:55:11" timew summary :ids
+echo '$ ▒'
+##################################################
+## Tutorial - enhanced -
+echo '--8<--enhanced-start-tag'
+# Start tracking time with a tag
+echo '$ timew start CLIENT'
+faketime -f "@${DATE} 11:02:13" timew start CLIENT
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--enhanced-start-different-tag-set'
+# Start tracking another tag
+echo '$ timew start PHONE CLIENT'
+faketime -f "@${DATE} 11:14:56" timew start PHONE CLIENT
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--enhanced-stop-tag'
+# Stop tracking a tag
+echo '$ timew stop PHONE'
+faketime -f "@${DATE} 11:19:22" timew stop PHONE
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--enhanced-stop-all'
+# Stop all time tracking
+echo '$ timew stop'
+faketime -f "@${DATE} 11:34:07" timew stop
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--enhanced-summary'
+# Review the summary
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:34:26" timew summary :ids
+echo '$ ▒'
+##################################################
+## Tutorial - metadata -
+echo '--8<--metadata-summary-before'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:34:58" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--metadata-tag'
+# Tag an interval
+echo '$ timew tag @4 @5 @6 PREPARATION HOME'
+faketime -f "@${DATE} 11:36:12" timew tag @4 @5 @6 PREPARATION HOME
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--metadata-summary-tag'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:36:20" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--metadata-untag'
+# Untag an interval
+echo '$ timew untag @5 HOME'
+faketime -f "@${DATE} 11:36:58" timew untag @5 HOME
+echo '$ timew untag @4 PREPARATION'
+faketime -f "@${DATE} 11:36:58" timew untag @4 PREPARATION
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--metadata-summary-untag'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:37:03" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--metadata-retag'
+# Retag an interval
+echo '$ timew retag @6 SPORT'
+faketime -f "@${DATE} 11:39:16" timew retag @6 SPORT
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--metadata-summary-after'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:40:16" timew summary :ids
+echo '$ ▒'
+##################################################
+## Tutorial - precise -
+echo '--8<--precise-summary-before'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:43:15" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--precise-track'
+# Enter a complete interval into the database
+echo '$ timew track 10:00 - 10:48 ERRANDS'
+faketime -f "@${DATE} 11:45:00" timew track 10:00 - 10:48 ERRANDS
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--precise-summary-track'
+# Review the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 11:45:20" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--precise-start'
+# Start time tracking at a given time
+echo '$ timew start 11:39 SPORT'
+faketime -f "@${DATE} 11:46:00" timew start 11:39 SPORT
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--precise-stop'
+# Stop time tracking at a given time
+echo '$ timew stop 12:00'
+faketime -f "@${DATE} 12:00:23" timew stop 12:00
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--precise-erroneous'
+# Start erroneous time tracking
+echo '$ timew start HOMEWORK 13:00'
+faketime -f "@${DATE} 13:02:14" timew start HOMEWORK 13:00
+echo '$ ▒'
+##################################################
+## Tutorial - undo -
+echo '--8<--undo-summary-before'
+# Review the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:05:23" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--undo-cancel'
+# Cancel the active time tracking
+echo '$ timew cancel'
+faketime -f "@${DATE} 13:05:23" timew cancel
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--undo-cancel-again'
+# Cancel without active time tracking
+echo '$ timew cancel'
+faketime -f "@${DATE} 13:05:35" timew cancel
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--IGNORE'
+# Start erroneous time tracking
+echo '$ timew start HOMEWORK 13:00'
+faketime -f "@${DATE} 13:02:14" timew start HOMEWORK 13:00
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--undo-undo'
+# Undo the last action
+echo '$ timew undo'
+faketime -f "@${DATE} 13:05:23" timew undo
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--IGNORE'
+# Start erroneous time tracking
+echo '$ timew start HOMEWORK 13:00'
+faketime -f "@${DATE} 13:02:14" timew start HOMEWORK 13:00
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--undo-delete'
+# Delete the latest interval
+echo '$ timew delete @1'
+faketime -f "@${DATE} 13:05:23" timew delete @1
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--undo-summary-after'
+# Review the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:06:15" timew summary :ids
+echo '$ ▒'
+##################################################
+## Tutorial - corrections -
+echo '--8<--corrections-summary-before'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:15:00" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-move'
+# Move an interval
+echo '$ timew move @8 08:00'
+faketime -f "@${DATE} 13:15:00" timew move @8 08:00
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-summary-move'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:15:05" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-lengthen'
+# Lengthen an interval
+echo '$ timew lengthen @8 5mins'
+faketime -f "@${DATE} 13:15:10" timew lengthen @8 5mins
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-shorten'
+# Shorten an interval
+echo '$ timew shorten @6 88s'
+faketime -f "@${DATE} 13:15:15" timew shorten @6 88s
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-summary-lengthen-shorten'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:15:20" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-resize'
+# Resize an interval
+echo '$ timew resize @8 20min'
+faketime -f "@${DATE} 13:15:25" timew resize @8 20min
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-summary-resize'
+# Display the tracked time
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:15:30" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-modify-start-end'
+# Modify the start time
+echo '$ timew modify start @6 09:21'
+faketime -f "@${DATE} 13:15:35" timew modify start @6 09:21
+# Modify the end time
+echo '$ timew modify end @6 09:51'
+faketime -f "@${DATE} 13:15:40" timew modify end @6 09:51
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--corrections-summary-after'
+# Review the summary
+echo '$ timew summary :ids'
+faketime -f "@${DATE} 13:15:45" timew summary :ids
+echo '$ ▒'
+## -----------------------------------------------
+echo '--8<--IGNORE'

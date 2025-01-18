@@ -16,11 +16,8 @@ $ timew
 Create new config in ~/.config/timewarrior?
 Create new database in ~/.local/share/timewarrior? (yes/no) ▒
 ```
-Timewarrior adheres to the XDG Base Directory Specification.
-This means by default it stores its data in `${XDG_DATA_HOME}/timewarrior` and its configuration in `${XDG_CONFIG_HOME}/timewarrior`.
-See [File Layout](../files/) for more information.
 
-Answer `yes` or simply `y` to this dialog and you are ready to go:
+Answer `yes` or (simply `y`) to this dialog and you are ready to go:
 
 ```console
 $ timew 
@@ -39,4 +36,17 @@ There is a fully-detailed man page:
 $ ▒
 ```
 
-Take a look at the [Tutorial](../tutorial/) to get started on how to track your time with Timewarrior.
+From then on when you call the `timew` command without any arguments, it will give you a short report of the current status of your time tracking:
+
+```console
+$ timew
+There is no active time tracking.
+$ ▒
+```
+
+As you have not done any tracking yet, this is expected.
+Move on to the [next section](../simple/) now and start some simple time tracking.
+
+If you are interested where your data is stored, you can read [File Layout](../../docs/files/) for more information.
+
+Or you return to the [Tutorial](..) section and pick another topic of interest.

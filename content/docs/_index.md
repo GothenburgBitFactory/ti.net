@@ -12,8 +12,7 @@ layout: single
   * [What is Timewarrior?](what/)
   * [How to install Timewarrior](install/) (Normal user)
   * [How to install the development snapshot](install-dev/) (Developers)
-  * [First light!](first_light/)
-  * [Tutorial](tutorial/)
+  * [Tutorial](../tutorial/)
 
 ## Basic Usage
 

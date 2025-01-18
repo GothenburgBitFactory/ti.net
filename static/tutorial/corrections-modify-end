@@ -1,0 +1,3 @@
+$ timew modify end @4 09:48
+Cannot modify interval @4 where start is after end.
+$ ▒
