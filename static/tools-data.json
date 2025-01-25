@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2025-01-20",
+    "updated": "2025-01-24",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1802,7 +1802,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 10,
+    "rating": 9,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
