@@ -1249,7 +1249,7 @@
   {
     "archived": false,
     "description": "A timewarrior extension to produce reports that collate durations for intervals with the same tags",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1658,7 +1658,7 @@
     "owner": [
       "sw00"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
   },
