@@ -545,7 +545,7 @@
   {
     "archived": false,
     "description": "\u23f3 A Bash wrapper around the Timewarrior CLI that aims to improve its usability.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
