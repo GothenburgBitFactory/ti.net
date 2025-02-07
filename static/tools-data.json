@@ -522,7 +522,7 @@
     "owner": [
       "cedricwider"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2024-11-01",
     "url": "https://github.com/cedricwider/timewarrior_report_markdown"
   },
@@ -1707,7 +1707,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 23,
-    "updated": "2025-01-30",
+    "updated": "2025-02-06",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -1723,7 +1723,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 44,
-    "updated": "2025-01-10",
+    "updated": "2025-02-06",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
