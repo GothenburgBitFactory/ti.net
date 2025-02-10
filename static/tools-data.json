@@ -992,6 +992,22 @@
   },
   {
     "archived": false,
+    "description": "A timewarrior extension for exporting activities to iCalendar files",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-icalendar-export",
+    "owner": [
+      "jbytes1027"
+    ],
+    "rating": 0,
+    "updated": "2025-02-09",
+    "url": "https://github.com/jbytes1027/timewarrior-icalendar-export"
+  },
+  {
+    "archived": false,
     "description": "A flextime extension to be used with timewarrior",
     "dormant": false,
     "language": [
