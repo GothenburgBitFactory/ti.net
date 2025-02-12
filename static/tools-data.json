@@ -59,7 +59,7 @@
       "AnWeber"
     ],
     "rating": 1,
-    "updated": "2024-06-23",
+    "updated": "2025-02-11",
     "url": "https://github.com/AnWeber/vscode-timewarrior"
   },
   {
@@ -1633,7 +1633,7 @@
   {
     "archived": false,
     "description": "A PySimpleGUI based GUI for timewarrior for quick time entry",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
