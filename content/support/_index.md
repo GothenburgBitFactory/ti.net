@@ -14,9 +14,7 @@ Insight into a reported problem?
 Want to request a feature or improvement?
 
 ## Discord
-You can ask for help at [our Discord channel](https://discord.com/invite/536GAvdS2Q).
-We request that you first look around at the [full online documentation](../docs/), and perhaps answer your own question.
-Remember, there is only a small group of volunteers reading these.
+If you want to get in touch with the community, use the [Discord Server](https://discord.com/invite/536GAvdS2Q) and hit the [#help-wanted](https://discord.com/channels/796949983734661191/796988698813923398) channel.
 
 ## Join us
 We are an inclusive community, and we welcome your feedback.
