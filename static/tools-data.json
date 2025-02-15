@@ -59,7 +59,7 @@
       "AnWeber"
     ],
     "rating": 1,
-    "updated": "2025-02-11",
+    "updated": "2025-02-14",
     "url": "https://github.com/AnWeber/vscode-timewarrior"
   },
   {
@@ -189,38 +189,6 @@
     "rating": 1,
     "updated": "2023-12-10",
     "url": "https://github.com/Spreadcat/ansible-role-timewarrior"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "TimeWarriorV2",
-    "owner": [
-      "ThePhoneBeLinging"
-    ],
-    "rating": 1,
-    "updated": "2024-09-23",
-    "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV2"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "TimeWarriorV3",
-    "owner": [
-      "ThePhoneBeLinging"
-    ],
-    "rating": 0,
-    "updated": "2024-11-28",
-    "url": "https://github.com/ThePhoneBeLinging/TimeWarriorV3"
   },
   {
     "archived": false,
@@ -1611,7 +1579,7 @@
       "smemsh"
     ],
     "rating": 2,
-    "updated": "2025-02-13",
+    "updated": "2025-02-14",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -1757,22 +1725,6 @@
     "rating": 8,
     "updated": "2021-10-15",
     "url": "https://github.com/tom-doerr/timew_distribution"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "timewarrior_analytics",
-    "owner": [
-      "tom-doerr"
-    ],
-    "rating": 0,
-    "updated": "2024-11-26",
-    "url": "https://github.com/tom-doerr/timewarrior_analytics"
   },
   {
     "archived": false,
