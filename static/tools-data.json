@@ -768,6 +768,22 @@
   },
   {
     "archived": false,
+    "description": "This is GothenburgBitFactory script that syncs task and timewarrior so that you have much easier timekeeping.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "on-modify.timewarrior",
+    "owner": [
+      "f1redf0x"
+    ],
+    "rating": 0,
+    "updated": "2025-02-17",
+    "url": "https://github.com/f1redf0x/on-modify.timewarrior"
+  },
+  {
+    "archived": false,
     "description": "Jira formatter (and sync) for TimeWarrior",
     "dormant": false,
     "language": [
