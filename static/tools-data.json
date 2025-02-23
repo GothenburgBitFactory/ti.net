@@ -299,7 +299,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-02-16",
+    "updated": "2025-02-22",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -321,7 +321,7 @@
   {
     "archived": false,
     "description": "Simple Timewarrior interface running on top of Xfce4's Genmon",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
