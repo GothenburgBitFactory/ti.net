@@ -176,6 +176,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "C#"
+    ],
+    "license": null,
+    "name": "MYST_TimeWarrior",
+    "owner": [
+      "RobertCarleton"
+    ],
+    "rating": 0,
+    "updated": "2025-02-27",
+    "url": "https://github.com/RobertCarleton/MYST_TimeWarrior"
+  },
+  {
+    "archived": false,
     "description": "Ansible role managing timewarrior installations on a machine.",
     "dormant": false,
     "language": [
@@ -1661,6 +1677,22 @@
     "rating": 31,
     "updated": "2021-09-23",
     "url": "https://github.com/sw00/billwarrior"
+  },
+  {
+    "archived": false,
+    "description": "The timewarrior synchronization server timewarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "timew-sync-server",
+    "owner": [
+      "tangibleshe"
+    ],
+    "rating": 0,
+    "updated": "2025-02-27",
+    "url": "https://github.com/tangibleshe/timew-sync-server"
   },
   {
     "archived": false,
