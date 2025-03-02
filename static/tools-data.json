@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2025-02-24",
+    "updated": "2025-03-01",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -315,7 +315,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-02-24",
+    "updated": "2025-03-01",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1739,8 +1739,24 @@
       "timewarrior-synchronize"
     ],
     "rating": 44,
-    "updated": "2025-02-28",
+    "updated": "2025-03-01",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
+  },
+  {
+    "archived": false,
+    "description": "This plugin plots the time you spent on a tag as a histogram.",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timew_distribution",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 8,
+    "updated": "2021-10-15",
+    "url": "https://github.com/tom-doerr/timew_distribution"
   },
   {
     "archived": false,
