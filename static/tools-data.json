@@ -315,7 +315,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-03-01",
+    "updated": "2025-03-02",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -362,7 +362,7 @@
     "owner": [
       "amiroslaw"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2023-07-03",
     "url": "https://github.com/amiroslaw/TimeFX"
   },
@@ -714,7 +714,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2025-02-03",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
@@ -1050,7 +1050,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2024-05-29",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
@@ -1066,7 +1066,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1594,7 +1594,7 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-01-01",
     "url": "https://github.com/smemsh/python-timew"
   },
@@ -1610,7 +1610,7 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-02-16",
     "url": "https://github.com/smemsh/taskwtools"
   },
@@ -1723,7 +1723,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 23,
-    "updated": "2025-02-06",
+    "updated": "2025-03-03",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -1739,7 +1739,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 44,
-    "updated": "2025-03-01",
+    "updated": "2025-03-02",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
