@@ -160,22 +160,6 @@
   },
   {
     "archived": false,
-    "description": "Simple bash script to display the active task in timewarrior.",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "activetask",
-    "owner": [
-      "NEO97online"
-    ],
-    "rating": 1,
-    "updated": "2021-05-20",
-    "url": "https://github.com/NEO97online/activetask"
-  },
-  {
-    "archived": false,
     "description": null,
     "dormant": false,
     "language": [
