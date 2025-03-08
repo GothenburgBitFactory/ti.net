@@ -55,4 +55,4 @@ $ sudo make install
 ```
 
 Timewarrior is now ready to use.
-For your first steps your might want to read the [tutorial](../tutorial/) or try the [`help`](../../reference/timew-help.1/) command.
+For your first steps your might want to read the [tutorial](../../tutorial/) or try the [`help`](../../reference/timew-help.1/) command.
