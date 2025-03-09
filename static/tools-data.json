@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2025-03-01",
+    "updated": "2025-03-08",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -269,6 +269,22 @@
     "rating": 3,
     "updated": "2021-01-30",
     "url": "https://github.com/addcninblue/Timewarrior-icalendar"
+  },
+  {
+    "archived": false,
+    "description": "first app - time management project",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "Apache License 2.0",
+    "name": "timewarrior",
+    "owner": [
+      "advadigitalsolutions"
+    ],
+    "rating": 0,
+    "updated": "2025-03-08",
+    "url": "https://github.com/advadigitalsolutions/timewarrior"
   },
   {
     "archived": false,
@@ -554,7 +570,7 @@
     "owner": [
       "codehivetx"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-08-01",
     "url": "https://github.com/codehivetx/goosebay"
   },
@@ -1707,7 +1723,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 23,
-    "updated": "2025-03-03",
+    "updated": "2025-03-08",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
