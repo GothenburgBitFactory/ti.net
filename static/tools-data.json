@@ -315,7 +315,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-03-15",
+    "updated": "2025-03-16",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -685,6 +685,22 @@
     "rating": 1,
     "updated": "2024-11-21",
     "url": "https://github.com/crossbone-magister/timewlib"
+  },
+  {
+    "archived": false,
+    "description": "Timewarrior extension to calculate the time spent in a work package (given a \"WP X..YZ ...\" in the first tag)",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "workpackage_tracker",
+    "owner": [
+      "d3vv3"
+    ],
+    "rating": 0,
+    "updated": "2025-03-16",
+    "url": "https://github.com/d3vv3/workpackage_tracker"
   },
   {
     "archived": false,
@@ -1210,7 +1226,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
   },
