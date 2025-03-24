@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2025-03-17",
+    "updated": "2025-03-23",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1360,6 +1360,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "Other",
+    "name": "timew-budget",
+    "owner": [
+      "push-eax"
+    ],
+    "rating": 0,
+    "updated": "2025-03-22",
+    "url": "https://github.com/push-eax/timew-budget"
+  },
+  {
+    "archived": false,
     "description": "Helper scripts for TimeWarrior",
     "dormant": true,
     "language": [
@@ -1499,7 +1515,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2025-03-23",
+    "updated": "2025-03-24",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
@@ -1627,7 +1643,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-03-03",
+    "updated": "2025-03-24",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
