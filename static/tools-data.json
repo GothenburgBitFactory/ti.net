@@ -315,7 +315,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-03-17",
+    "updated": "2025-03-31",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1229,6 +1229,22 @@
     "rating": 77,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timew-sawayo",
+    "owner": [
+      "mo-krauti"
+    ],
+    "rating": 0,
+    "updated": "2025-03-31",
+    "url": "https://github.com/mo-krauti/timew-sawayo"
   },
   {
     "archived": false,
