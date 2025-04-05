@@ -1457,7 +1457,7 @@
   {
     "archived": false,
     "description": "timewarrior-aggregate is an extension for timewarrior which helps to plan a day and/or a week in advance and monitor the progress of the plan during the course of the duration.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
