@@ -1441,7 +1441,7 @@
   {
     "archived": false,
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
