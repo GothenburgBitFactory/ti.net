@@ -864,6 +864,22 @@
   },
   {
     "archived": false,
+    "description": " Uses data from taskwarrior and timewarrior to indicate which task should be done next ",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "scheduler",
+    "owner": [
+      "ftapajos"
+    ],
+    "rating": 0,
+    "updated": "2025-04-14",
+    "url": "https://github.com/ftapajos/scheduler"
+  },
+  {
+    "archived": false,
     "description": "Sync worklogs between multiple time trackers, invoicing, and bookkeeping software.",
     "dormant": false,
     "language": [
@@ -1530,7 +1546,7 @@
     "owner": [
       "remorsefulex"
     ],
-    "rating": 18,
+    "rating": 32,
     "updated": "2025-04-10",
     "url": "https://github.com/remorsefulex/minutes"
   },
