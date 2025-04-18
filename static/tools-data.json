@@ -543,7 +543,7 @@
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "\u23f3 A Bash wrapper around the Timewarrior CLI that aims to improve its usability.",
     "dormant": true,
     "language": [
@@ -1793,7 +1793,7 @@
   {
     "archived": false,
     "description": "Timewarrior TypeScript bindings for Node",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "TypeScript"
     ],
