@@ -528,6 +528,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior Extension for Raycast",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "MIT License",
+    "name": "timewcast",
+    "owner": [
+      "cedricwider"
+    ],
+    "rating": 0,
+    "updated": "2025-04-18",
+    "url": "https://github.com/cedricwider/timewcast"
+  },
+  {
+    "archived": false,
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
     "dormant": true,
     "language": [
@@ -1546,7 +1562,7 @@
     "owner": [
       "remorsefulex"
     ],
-    "rating": 64,
+    "rating": 63,
     "updated": "2025-04-10",
     "url": "https://github.com/remorsefulex/minutes"
   },
