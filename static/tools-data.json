@@ -1552,22 +1552,6 @@
   },
   {
     "archived": false,
-    "description": "Sync worklogs between multiple time trackers, invoicing, and bookkeeping software. cli, clockify, harvest, tempo, time-sync, timewarrior, toggl, worklog",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "minutes",
-    "owner": [
-      "remorsefulex"
-    ],
-    "rating": 63,
-    "updated": "2025-04-10",
-    "url": "https://github.com/remorsefulex/minutes"
-  },
-  {
-    "archived": false,
     "description": null,
     "dormant": false,
     "language": [
@@ -1851,7 +1835,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 47,
-    "updated": "2025-04-16",
+    "updated": "2025-04-19",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
