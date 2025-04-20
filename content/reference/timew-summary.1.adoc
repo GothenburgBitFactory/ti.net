@@ -83,9 +83,12 @@ Assigns a specific foreground and background color to a tag.
 Examples of valid colors include 'white', 'gray8', 'black on yellow', and 'rgb345'.
 
 == SEE ALSO
+link:../../reference/timew-day.1/[**timew-day**(1)],
 link:../../reference/timew-hints.7/[**timew-hints**(7)],
 link:../../reference/timew-lengthen.1/[**timew-lengthen**(1)],
 link:../../reference/timew-modify.1/[**timew-modify**(1)],
+link:../../reference/timew-month.1/[**timew-month**(1)],
 link:../../reference/timew-shorten.1/[**timew-shorten**(1)],
 link:../../reference/timew-tag.1/[**timew-tag**(1)],
 link:../../reference/timew-untag.1/[**timew-untag**(1)],
+link:../../reference/timew-week.1/[**timew-week**(1)]
