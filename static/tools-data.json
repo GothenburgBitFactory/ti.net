@@ -1130,7 +1130,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1579,7 +1579,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2025-03-24",
+    "updated": "2025-04-21",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
@@ -1835,7 +1835,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 47,
-    "updated": "2025-04-19",
+    "updated": "2025-04-21",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
