@@ -21,7 +21,7 @@ SYNOPSIS
 DESCRIPTION
     Review current blacklist and new tools that have been added since last review.
 
-    When called without arguments, the blacklist at 'bin/blacklist.json' in the ti.net repository is loaded.
+    When called without arguments, the blacklist at 'bin/blacklist.json' in the repository is loaded.
     If not empty, the script queries whether one wants to review the current blacklist entries (default 'no').
     Next, it determines the new entries in 'static/tools-data.json' by examining its Git history since the last review.
     The timestamp of the last review is retrieved from '.review-timestamp' at the repository root.
@@ -87,7 +87,7 @@ function review_blacklist_entries()
     response=$( curl -s -o /dev/null -w "%{http_code}" -L "${url}" )
     if [[ "${response}" -eq 404 ]] ; then
       echo "Repository '${url}' does no longer exist, purging..."
-      unset TOOLS_BLACKLIST["${url}"]
+      unset "TOOLS_BLACKLIST[${url}]"
       continue
     elif [[ "${response}" -ne 200 ]] ; then
         echo "Unhandled status code '${response}' for ${url}!"
@@ -99,7 +99,7 @@ function review_blacklist_entries()
     read -r -p "Keep ${url} in blacklist? (Y/n/u): " confirm
 
     if [[ "${confirm:-"y"}" =~ [nN] ]] ; then
-    unset TOOLS_BLACKLIST["${url}"]
+      unset "TOOLS_BLACKLIST[${url}]"
     elif [[ "${confirm:-"y"}" =~ [uU] ]] ; then
       read -r -p "Update reason: because it ... " reason
       TOOLS_BLACKLIST["${url}"]="${reason}"
