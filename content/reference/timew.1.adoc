@@ -46,7 +46,7 @@ link:../../reference/timew-config.1/[*timew-config*(1)]::
 link:../../reference/timew-continue.1/[*timew-continue*(1)]::
     Resume tracking of existing interval
 
-link:../../reference/timew-day.1/[*timew-day*(1)]::
+link:../../reference/timew-chart.1/[*timew-day*(1)]::
     Display day chart
 
 link:../../reference/timew-delete.1/[*timew-delete*(1)]::
@@ -76,7 +76,7 @@ link:../../reference/timew-lengthen.1/[*timew-lengthen*(1)]::
 link:../../reference/timew-modify.1/[*timew-modify*(1)]::
     Change start or end time of an interval
 
-link:../../reference/timew-month.1/[*timew-month*(1)]::
+link:../../reference/timew-chart.1/[*timew-month*(1)]::
     Display month chart
 
 link:../../reference/timew-move.1/[*timew-move*(1)]::
@@ -124,7 +124,7 @@ link:../../reference/timew-undo.1/[*timew-undo*(1)]::
 link:../../reference/timew-untag.1/[*timew-untag*(1)]::
     Remove tags from intervals
 
-link:../../reference/timew-week.1/[*timew-week*(1)]::
+link:../../reference/timew-chart.1/[*timew-week*(1)]::
     Display week chart
 
 == MORE EXAMPLES
