@@ -288,22 +288,6 @@
   },
   {
     "archived": false,
-    "description": "first app - time management project",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "Apache License 2.0",
-    "name": "timewarrior",
-    "owner": [
-      "advadigitalsolutions"
-    ],
-    "rating": 0,
-    "updated": "2025-03-08",
-    "url": "https://github.com/advadigitalsolutions/timewarrior"
-  },
-  {
-    "archived": false,
     "description": "My helper scripts for use with timewarrior ",
     "dormant": false,
     "language": [
@@ -445,22 +429,6 @@
     "rating": 0,
     "updated": "2024-07-21",
     "url": "https://github.com/azagoskin/ktpush"
-  },
-  {
-    "archived": false,
-    "description": "TimeWarrior extension for Yandex Tracker",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "trpush",
-    "owner": [
-      "azagoskin"
-    ],
-    "rating": 0,
-    "updated": "2025-03-14",
-    "url": "https://github.com/azagoskin/trpush"
   },
   {
     "archived": false,
