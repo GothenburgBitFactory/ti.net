@@ -107,7 +107,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 5,
-    "updated": "2025-04-28",
+    "updated": "2025-04-29",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -173,6 +173,22 @@
     "rating": 3,
     "updated": "2020-01-06",
     "url": "https://github.com/MFreeze/powerline-timewarrior"
+  },
+  {
+    "archived": false,
+    "description": "MCP Server for interacting with TimeWarrior",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-mcp",
+    "owner": [
+      "MicroMichaelIE"
+    ],
+    "rating": 0,
+    "updated": "2025-04-29",
+    "url": "https://github.com/MicroMichaelIE/timewarrior-mcp"
   },
   {
     "archived": false,
@@ -858,7 +874,7 @@
     "owner": [
       "ftapajos"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-04-24",
     "url": "https://github.com/ftapajos/scheduler"
   },
@@ -1787,7 +1803,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 24,
-    "updated": "2025-03-20",
+    "updated": "2025-04-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -1866,7 +1882,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
