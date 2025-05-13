@@ -480,6 +480,22 @@
   },
   {
     "archived": false,
+    "description": "An inofficial Android companion for TimeWarrior",
+    "dormant": false,
+    "language": [
+      "Kotlin"
+    ],
+    "license": null,
+    "name": "timewdroid",
+    "owner": [
+      "bzundel"
+    ],
+    "rating": 0,
+    "updated": "2025-05-13",
+    "url": "https://github.com/bzundel/timewdroid"
+  },
+  {
+    "archived": false,
     "description": "An extension for https://timewarrior.net/ that helps summarizing work hours/minutes spend on specific tags",
     "dormant": false,
     "language": [
@@ -1002,7 +1018,7 @@
     "owner": [
       "ianmkenney"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2024-07-03",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
@@ -1563,7 +1579,7 @@
       "sarnold"
     ],
     "rating": 1,
-    "updated": "2025-04-21",
+    "updated": "2025-05-12",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
