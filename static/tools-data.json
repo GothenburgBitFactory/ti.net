@@ -59,7 +59,7 @@
       "AnWeber"
     ],
     "rating": 1,
-    "updated": "2025-02-14",
+    "updated": "2025-05-16",
     "url": "https://github.com/AnWeber/vscode-timewarrior"
   },
   {
@@ -891,7 +891,7 @@
       "ftapajos"
     ],
     "rating": 2,
-    "updated": "2025-05-15",
+    "updated": "2025-05-16",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -1293,6 +1293,22 @@
     "rating": 0,
     "updated": "2025-03-31",
     "url": "https://github.com/mo-krauti/timew-sawayo"
+  },
+  {
+    "archived": false,
+    "description": "fish-completions for timewarrior / timew",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-fish-completions",
+    "owner": [
+      "moiSentineL"
+    ],
+    "rating": 0,
+    "updated": "2025-05-16",
+    "url": "https://github.com/moiSentineL/timew-fish-completions"
   },
   {
     "archived": false,
