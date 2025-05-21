@@ -225,7 +225,7 @@
   {
     "archived": false,
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
