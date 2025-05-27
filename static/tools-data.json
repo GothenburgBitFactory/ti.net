@@ -59,7 +59,7 @@
       "AnWeber"
     ],
     "rating": 1,
-    "updated": "2025-05-16",
+    "updated": "2025-05-26",
     "url": "https://github.com/AnWeber/vscode-timewarrior"
   },
   {
@@ -762,7 +762,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-02-03",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
@@ -1018,8 +1018,8 @@
     "owner": [
       "ianmkenney"
     ],
-    "rating": 5,
-    "updated": "2024-07-03",
+    "rating": 6,
+    "updated": "2025-05-26",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
   {
@@ -1114,7 +1114,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2024-05-29",
     "url": "https://github.com/lauft/timew-bashcompletion"
   },
