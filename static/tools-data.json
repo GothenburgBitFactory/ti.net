@@ -890,7 +890,7 @@
     "owner": [
       "ftapajos"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-05-16",
     "url": "https://github.com/ftapajos/scheduler"
   },
@@ -1242,7 +1242,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-03-19",
     "url": "https://github.com/mkluge/telegram_bot_timewarrior"
   },
@@ -1853,6 +1853,22 @@
     "rating": 47,
     "updated": "2025-05-08",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
+  },
+  {
+    "archived": false,
+    "description": "Categorize activities in ActivityWatch and export to Timewarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "aw-export-timewarrior",
+    "owner": [
+      "tobixen"
+    ],
+    "rating": 0,
+    "updated": "2025-05-27",
+    "url": "https://github.com/tobixen/aw-export-timewarrior"
   },
   {
     "archived": false,
