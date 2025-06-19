@@ -682,7 +682,7 @@
     "owner": [
       "crossbone-magister"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-01-26",
     "url": "https://github.com/crossbone-magister/tag-tree"
   },
@@ -1530,7 +1530,7 @@
     "owner": [
       "radarsymphony"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2022-07-03",
     "url": "https://github.com/radarsymphony/timew-csv"
   },
@@ -1610,7 +1610,7 @@
     "owner": [
       "sarnold"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-06-17",
     "url": "https://github.com/sarnold/timew-addons"
   },
@@ -1851,7 +1851,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 24,
-    "updated": "2025-06-10",
+    "updated": "2025-06-19",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
@@ -1866,7 +1866,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2025-06-15",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
