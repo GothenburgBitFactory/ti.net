@@ -64,6 +64,22 @@
   },
   {
     "archived": false,
+    "description": "A basic web visualization tool for Timewarrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timew-viewer",
+    "owner": [
+      "DenisKadyrov"
+    ],
+    "rating": 0,
+    "updated": "2025-06-20",
+    "url": "https://github.com/DenisKadyrov/timew-viewer"
+  },
+  {
+    "archived": false,
     "description": "Extension for Timewarrior.",
     "dormant": true,
     "language": [
@@ -1290,7 +1306,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 81,
+    "rating": 82,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
   },
