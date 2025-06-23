@@ -1136,6 +1136,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior extension for power users, including an interactive TUI and a Go package for writing your own extensions.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "twe",
+    "owner": [
+      "kgoettler"
+    ],
+    "rating": 0,
+    "updated": "2025-06-23",
+    "url": "https://github.com/kgoettler/twe"
+  },
+  {
+    "archived": false,
     "description": "Bash completion for Timewarrior",
     "dormant": false,
     "language": [
@@ -1867,7 +1883,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 24,
-    "updated": "2025-06-19",
+    "updated": "2025-06-22",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
