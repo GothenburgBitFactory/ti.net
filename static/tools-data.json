@@ -1809,7 +1809,7 @@
   {
     "archived": false,
     "description": "zsh plugin for timewarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Shell"
     ],
@@ -1819,7 +1819,7 @@
       "svenXY"
     ],
     "rating": 56,
-    "updated": "2021-08-23",
+    "updated": "2025-06-24",
     "url": "https://github.com/svenXY/timewarrior"
   },
   {
