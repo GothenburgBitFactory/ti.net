@@ -58,7 +58,7 @@
     "owner": [
       "AnWeber"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-05-26",
     "url": "https://github.com/AnWeber/vscode-timewarrior"
   },
@@ -522,7 +522,7 @@
     "owner": [
       "cbe"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-02-03",
     "url": "https://github.com/cbe/timewarrior-recap"
   },
@@ -842,7 +842,7 @@
     "owner": [
       "eliasCVII"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-02-21",
     "url": "https://github.com/eliasCVII/timew.nvim"
   },
@@ -907,7 +907,7 @@
       "ftapajos"
     ],
     "rating": 3,
-    "updated": "2025-06-27",
+    "updated": "2025-06-30",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -1178,7 +1178,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
