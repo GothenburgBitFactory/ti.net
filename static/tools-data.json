@@ -1504,6 +1504,22 @@
   },
   {
     "archived": false,
+    "description": "A timewarrior report to show a summary of hours for each day in a monthly calendar form.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior-boxcalendar",
+    "owner": [
+      "pweaver2019"
+    ],
+    "rating": 0,
+    "updated": "2025-07-03",
+    "url": "https://github.com/pweaver2019/timewarrior-boxcalendar"
+  },
+  {
+    "archived": false,
     "description": "Helper scripts for TimeWarrior",
     "dormant": true,
     "language": [
@@ -1553,7 +1569,7 @@
   {
     "archived": false,
     "description": "Bash extension for Timewarrior to create csv with entry duration and a total",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -1850,7 +1866,7 @@
     "owner": [
       "tassos"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2024-07-19",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
@@ -1898,7 +1914,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2025-06-21",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
