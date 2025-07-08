@@ -1584,6 +1584,22 @@
   },
   {
     "archived": false,
+    "description": "Clickable timewarrior integration for i3blocks with automatic pause/resume on system suspend and idle notifications",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "i3blocks-timewarrior",
+    "owner": [
+      "raicem"
+    ],
+    "rating": 0,
+    "updated": "2025-07-07",
+    "url": "https://github.com/raicem/i3blocks-timewarrior"
+  },
+  {
+    "archived": false,
     "description": "timewarrior-aggregate is an extension for timewarrior which helps to plan a day and/or a week in advance and monitor the progress of the plan during the course of the duration.",
     "dormant": true,
     "language": [
