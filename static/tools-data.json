@@ -922,7 +922,7 @@
     "owner": [
       "gabor-boros"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2024-06-14",
     "url": "https://github.com/gabor-boros/minutes"
   },
@@ -1514,7 +1514,7 @@
     "owner": [
       "pweaver2019"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-07-09",
     "url": "https://github.com/pweaver2019/timewarrior-boxcalendar"
   },
@@ -1595,7 +1595,7 @@
       "raicem"
     ],
     "rating": 0,
-    "updated": "2025-07-07",
+    "updated": "2025-07-11",
     "url": "https://github.com/raicem/i3blocks-timewarrior"
   },
   {
@@ -1776,6 +1776,22 @@
   },
   {
     "archived": false,
+    "description": "shell history sqlite db, query tools, timewarrior joins via duckdb",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "cmdhist",
+    "owner": [
+      "smemsh"
+    ],
+    "rating": 0,
+    "updated": "2025-07-11",
+    "url": "https://github.com/smemsh/cmdhist"
+  },
+  {
+    "archived": false,
     "description": "python api for timewarrior, continued from original by @tjaartvdwalt",
     "dormant": false,
     "language": [
@@ -1803,7 +1819,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-07-10",
+    "updated": "2025-07-11",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
