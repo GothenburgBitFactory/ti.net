@@ -23,7 +23,13 @@
     "hook": "/usr/lib64/timew/ext/on-modify.timewarrior"
   },
   {
-    "name": "macOS",
+    "name": "macOS (MacPorts)",
+    "url": "https://ports.macports.org/port/timewarrior/",
+    "cmd": "port install timewarrior",
+    "hook": "/opt/local/share/doc/timew/ext/on-modify.timewarrior"
+  },
+  {
+    "name": "macOS (Homebrew)",
     "url": "https://formulae.brew.sh/formula/timewarrior",
     "cmd": "brew install timewarrior",
     "hook": "/opt/homebrew/share/doc/timew/ext/on-modify.timewarrior"
