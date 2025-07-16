@@ -1056,6 +1056,22 @@
   },
   {
     "archived": false,
+    "description": "Neovim plugin inpired on the tasks obsidian plugin with integration to taskwarrior and timewarrior",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tasks.nvim",
+    "owner": [
+      "iurobpn"
+    ],
+    "rating": 0,
+    "updated": "2025-06-09",
+    "url": "https://github.com/iurobpn/tasks.nvim"
+  },
+  {
+    "archived": false,
     "description": "Program to automatically upload timewarrior time entries to Celoxis API",
     "dormant": false,
     "language": [
