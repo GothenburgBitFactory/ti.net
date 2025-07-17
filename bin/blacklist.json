@@ -2,6 +2,7 @@
     "https://github.com/00dani/dot-task": "is just a collection of dotfiles",
     "https://github.com/AnotherKamila/tasksched": "is mainly focused on Taskwarrior",
     "https://github.com/CNTRUN/Termux-command": "is an empty repository",
+    "https://github.com/DenisKadyrov/timew-viewer": "is still an empty project",
     "https://github.com/GothenburgBitFactory/ti.net": "is the Github repository of timewarrior.net",
     "https://github.com/GothenburgBitFactory/timewarrior": "is the Timewarrior repository",
     "https://github.com/HiveMinds/tw-install": "is not (yet) supporting Timewarrior",
@@ -29,11 +30,11 @@
     "https://github.com/mrcook/time_warrior": "is another time tracking tool with no relation to Timewarrior",
     "https://github.com/pgierz/timewarrior_shortcuts": "is an empty repository with just a README",
     "https://github.com/pschmitt/timewarrior-container": "is a repo with just a Dockerfile and no README",
-    "https://github.com/remorsefulex/minutes": "does no longer exist",
     "https://github.com/rizel/timewarrior-southamerica-holidays": "uses illicit scraping according to https://publicholidays.global/terms-conditions/",
     "https://github.com/salahdin-ahmed/dotfiles": "is just a collection of dotfiles",
     "https://github.com/salastro/dotfiles": "is just a collection of dotfiles",
     "https://github.com/simmel/timewarrior-early-morning-are-you-working": "is an empty project",
+    "https://github.com/smemsh/cmdhist": "is an empty repository",
     "https://github.com/solus-packages/timewarrior": "is a Solus package, not a tool",
     "https://github.com/tom-doerr/timewarrior_analytics": "is an empty repository"
 }
