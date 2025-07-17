@@ -192,6 +192,27 @@ function require_tool()
   fi
 }
 
+function commit_changes() {
+  local tools_blacklist_file="${1?"Path to blacklist is missing!"}"
+
+  if ! git diff --quiet "${tools_blacklist_file}"; then
+    read -r -p "Commit changes to ${tools_blacklist_file}? (Y/n)" confirm
+
+    if [[ "${confirm:-"y"}" =~ [yY] ]] ; then
+      create_commit "${tools_blacklist_file}"
+    fi
+  else
+    echo "No changes to ${tools_blacklist_file}, nothing to commit!"
+  fi
+}
+
+function create_commit() {
+  local tools_blacklist_file="${1?"Path to blacklist is missing!"}"
+
+  git add "${tools_blacklist_file}"
+  git commit -m "Update ${tools_blacklist_file##*/}"
+}
+
 require_tool "jq"
 
 until [[ -z "${1-}" ]] ; do
@@ -222,3 +243,4 @@ review_blacklist
 find_new_tools_since_last_review
 review_new_tools
 update_blacklist "${TOOLS_BLACKLIST_FILE-"${REPO_ROOT}/bin/blacklist.json"}"
+commit_changes "${TOOLS_BLACKLIST_FILE-"${REPO_ROOT}/bin/blacklist.json"}"
