@@ -2,6 +2,24 @@
 
 This repository contains the content of [timewarrior.net](https://timewarrior.net), the website for the [Timewarrior](https://github.com/GothenburgBitFactory/timewarrior) project.
 
+## Contributing
+
+To clone this repository, run
+```shell
+git clone https://github.com/GothenburgBitFactory/ti.net
+```
+
+For minor changes, it is perfectly fine to simply change the relevant Markdown files and make a pull request.
+
+To test complex changes, here is how you can run the site locally:
+1. Install [Hugo](https://gohugo.io/installation/).
+2. Run
+   ```shell
+   hugo server -D -w
+   ```
+   This defaults to running a web server on `http://localhost:1313`.
+3. Open the site in your browser and verify the changes
+
 ## Tools page
 
 Thanks to the community, there are many add-ons available for Timewarrior, listed on the [tools page](https://timewarrior.net/tools).
