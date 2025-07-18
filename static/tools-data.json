@@ -64,22 +64,6 @@
   },
   {
     "archived": false,
-    "description": "A basic web visualization tool for Timewarrior.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "timew-viewer",
-    "owner": [
-      "DenisKadyrov"
-    ],
-    "rating": 0,
-    "updated": "2025-06-20",
-    "url": "https://github.com/DenisKadyrov/timew-viewer"
-  },
-  {
-    "archived": false,
     "description": "Extension for Timewarrior.",
     "dormant": true,
     "language": [
@@ -1194,7 +1178,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 63,
+    "rating": 64,
     "updated": "2023-12-11",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1789,22 +1773,6 @@
     "rating": 0,
     "updated": "2021-05-31",
     "url": "https://github.com/simmel/timewarrior-report-timedutty"
-  },
-  {
-    "archived": false,
-    "description": "shell history sqlite db, query tools, timewarrior joins via duckdb",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "cmdhist",
-    "owner": [
-      "smemsh"
-    ],
-    "rating": 0,
-    "updated": "2025-07-11",
-    "url": "https://github.com/smemsh/cmdhist"
   },
   {
     "archived": false,
