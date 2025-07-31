@@ -1664,6 +1664,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior -> Tempo (Jira) worklog uploader",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tempoit",
+    "owner": [
+      "samuelallan72"
+    ],
+    "rating": 0,
+    "updated": "2025-07-22",
+    "url": "https://github.com/samuelallan72/tempoit"
+  },
+  {
+    "archived": false,
     "description": "timew appindicator GUI and report extensions for timew-report",
     "dormant": false,
     "language": [
@@ -1931,7 +1947,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 50,
-    "updated": "2025-07-24",
+    "updated": "2025-07-30",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
