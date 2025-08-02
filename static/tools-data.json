@@ -849,7 +849,7 @@
   {
     "archived": false,
     "description": "Jira formatter (and sync) for TimeWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
