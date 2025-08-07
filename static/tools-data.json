@@ -1120,6 +1120,22 @@
   },
   {
     "archived": false,
+    "description": "invoice generation system that converts timewarrior cli data to LaTeX PDF invoices",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior-invoice",
+    "owner": [
+      "johnmatter"
+    ],
+    "rating": 0,
+    "updated": "2025-08-06",
+    "url": "https://github.com/johnmatter/timewarrior-invoice"
+  },
+  {
+    "archived": false,
     "description": "A self-tracking and task logging tool built in Bash for neurodivergent minds. Mensura helps you structure your day, track emotional rhythms, and gain insight into focus, mood, and energy \u2013 all in plain text and full local control.",
     "dormant": false,
     "language": [
@@ -1691,7 +1707,7 @@
       "sarnold"
     ],
     "rating": 2,
-    "updated": "2025-07-19",
+    "updated": "2025-08-06",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
