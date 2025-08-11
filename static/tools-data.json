@@ -1248,6 +1248,22 @@
   },
   {
     "archived": false,
+    "description": "Neovim plugin for automatic time tracking with timewarrior.",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "autotrack.nvim",
+    "owner": [
+      "luisfer-cli"
+    ],
+    "rating": 0,
+    "updated": "2025-08-10",
+    "url": "https://github.com/luisfer-cli/autotrack.nvim"
+  },
+  {
+    "archived": false,
     "description": "A timewarriror provider for german holidays from https://ipty.de/feiertag/",
     "dormant": true,
     "language": [
@@ -1835,7 +1851,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-07-17",
+    "updated": "2025-08-11",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
