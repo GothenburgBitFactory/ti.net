@@ -1019,7 +1019,7 @@
       "ianmkenney"
     ],
     "rating": 6,
-    "updated": "2025-08-03",
+    "updated": "2025-08-11",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
   {
@@ -1258,7 +1258,7 @@
     "owner": [
       "luisfer-cli"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-08-10",
     "url": "https://github.com/luisfer-cli/autotrack.nvim"
   },
@@ -1517,22 +1517,6 @@
     "rating": 4,
     "updated": "2025-06-09",
     "url": "https://github.com/pfmephisto/timew-fishcompletion"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "Other",
-    "name": "timew-budget",
-    "owner": [
-      "push-eax"
-    ],
-    "rating": 0,
-    "updated": "2025-03-29",
-    "url": "https://github.com/push-eax/timew-budget"
   },
   {
     "archived": false,
@@ -1979,7 +1963,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 50,
-    "updated": "2025-07-30",
+    "updated": "2025-08-12",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
