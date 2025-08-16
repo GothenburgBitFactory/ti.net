@@ -33,5 +33,5 @@ If no arguments are provided, all configuration settings are shown:
     ...
 
 == SEE ALSO
-link:../../reference/timew-hints.7/[**timew-hints**(7)],
-link:../../reference/timew-show.1/[**timew-show**(1)]
+link:../../reference/timew-hints.7/[*timew-hints*(7)],
+link:../../reference/timew-show.1/[*timew-show*(1)]

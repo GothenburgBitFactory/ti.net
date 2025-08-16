@@ -10,13 +10,13 @@ timew-summary - display a time-tracking summary
 
 == DESCRIPTION
 Displays a table summarizing tracked time, by default for the current day.
-Accepts date ranges (or range hints) and tags, or ids for filtering.
+Accepts date ranges (or range hints) and tags, or IDs for filtering.
 
-When ids are given, date ranges are ignored.
-Specifying both, tags and ids, is an error.
+When IDs are given, date ranges are ignored.
+Specifying both, tags and IDs, is an error.
 
 == HINTS
-Apart from range hints (see link:../../reference/timew-hints.7/[**timew-hints**(7)]), the summary report adheres to the following hints:
+Apart from range hints (see link:../../reference/timew-hints.7/[*timew-hints*(7)]), the summary report adheres to the following hints:
 
 **:annotations**::
 **:no-annotations**::
@@ -33,7 +33,7 @@ Can be used on the command line to override the configured setting.
 
 **:ids**::
 **:no-ids**::
-Toggle the display of ids in the summary report.
+Toggle the display of IDs in the summary report.
 Can be used on the command line to override the configured setting.
 The ':ids' hint adds an 'ID' column to the summary table.
 Those ids can be used for interval modification.
@@ -67,7 +67,7 @@ Default value is 'yes'.
 
 **reports.summary.range**::
 Set the date range for the summary report.
-The value has to correspond to a range hint, see timew-hints(7).
+The value has to correspond to a range hint, see link:../../reference/timew-hints.7/[*timew-hints*(7)].
 Default value is 'day'
 
 **reports.summary.weekdays**::
@@ -83,12 +83,12 @@ Assigns a specific foreground and background color to a tag.
 Examples of valid colors include 'white', 'gray8', 'black on yellow', and 'rgb345'.
 
 == SEE ALSO
-link:../../reference/timew-chart.1/[**timew-day**(1)],
-link:../../reference/timew-hints.7/[**timew-hints**(7)],
-link:../../reference/timew-lengthen.1/[**timew-lengthen**(1)],
-link:../../reference/timew-modify.1/[**timew-modify**(1)],
-link:../../reference/timew-chart.1/[**timew-month**(1)],
-link:../../reference/timew-shorten.1/[**timew-shorten**(1)],
-link:../../reference/timew-tag.1/[**timew-tag**(1)],
-link:../../reference/timew-untag.1/[**timew-untag**(1)],
-link:../../reference/timew-chart.1/[**timew-week**(1)]
+link:../../reference/timew-chart.1/[*timew-day*(1)],
+link:../../reference/timew-hints.7/[*timew-hints*(7)],
+link:../../reference/timew-lengthen.1/[*timew-lengthen*(1)],
+link:../../reference/timew-modify.1/[*timew-modify*(1)],
+link:../../reference/timew-chart.1/[*timew-month*(1)],
+link:../../reference/timew-shorten.1/[*timew-shorten*(1)],
+link:../../reference/timew-tag.1/[*timew-tag*(1)],
+link:../../reference/timew-untag.1/[*timew-untag*(1)],
+link:../../reference/timew-chart.1/[*timew-week*(1)]

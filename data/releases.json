@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.9.0",
+    "date": "2025-08-16",
+    "name": "timew-1.9.0",
+    "tarball": "timew-1.9.0.tar.gz",
+    "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.9.0/timew-1.9.0.tar.gz",
+    "sha256": "24365dc1537aa7b0b8c33877df9933a5b8b86e86a25858a5126b1eb4f3bc0b08"
+  },
+  {
     "version": "1.8.0",
     "date": "2025-04-20",
     "name": "timew-1.8.0",

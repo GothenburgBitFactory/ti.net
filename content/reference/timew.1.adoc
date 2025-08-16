@@ -169,9 +169,9 @@ You can contact the project by emailing support@gothenburgbitfactory.org
 Bugs in Timewarrior may be reported to the issue-tracker at https://github.com/GothenburgBitFactory/timewarrior/issues
 
 == SEE ALSO
-link:../../reference/timew-config.7/[**timew-config**(7)],
-link:../../reference/timew-dates.7/[**timew-dates**(7)],
-link:../../reference/timew-dom.7/[**timew-dom**(7)],
-link:../../reference/timew-durations.7/[**timew-durations**(7)],
-link:../../reference/timew-hints.7/[**timew-hints**(7)],
-link:../../reference/timew-ranges.7/[**timew-ranges**(7)]
+link:../../reference/timew-config.7/[*timew-config*(7)],
+link:../../reference/timew-dates.7/[*timew-dates*(7)],
+link:../../reference/timew-dom.7/[*timew-dom*(7)],
+link:../../reference/timew-durations.7/[*timew-durations*(7)],
+link:../../reference/timew-hints.7/[*timew-hints*(7)],
+link:../../reference/timew-ranges.7/[*timew-ranges*(7)]
