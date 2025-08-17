@@ -8,7 +8,7 @@ layout: single
 {{< lead >}}Welcome to the Timewarrior tutorials.{{< /lead >}}
 
 The tutorial assumes you have installed Timewarrior.
-If not, follow these [download and build instructions](../docs/install/).
+If not, follow these [instructions](../docs/install/).
 
 # Beginners Tutorial
 
@@ -17,7 +17,7 @@ This tutorial will give you a good basic understanding of how to use Timewarrior
 It is divided into several sections, each covering a different aspect of Timewarrior.
 They kind of build upon each other, so it is recommended to follow them in order.
 
-All examples in this tutorial were made with Timewarrior version `1.7.1`.
+All examples in this tutorial were made with Timewarrior version `1.9.0`.
 If you are using a different version, the output might differ.
 
  * [Running Timewarrior for the very first time](first_light/)
