@@ -483,7 +483,7 @@
     "description": "A CRM for TaskWarrior-TimeWarrior integration",
     "dormant": false,
     "language": [
-      "Shell"
+      "Python"
     ],
     "license": null,
     "name": "cocli",
@@ -491,7 +491,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-08-15",
+    "updated": "2025-08-16",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
