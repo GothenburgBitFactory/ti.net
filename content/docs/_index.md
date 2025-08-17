@@ -50,6 +50,7 @@ layout: single
 ### Modifying Intervals
 
  * [delete](../reference/timew-delete.1/)
+ * [fill](../reference/timew-fill.1/)
  * [move](../reference/timew-move.1/)
  * [lengthen](../reference/timew-lengthen.1/)
  * [shorten](../reference/timew-shorten.1/)
@@ -78,6 +79,7 @@ layout: single
 
 ### Advanced Commands
 
+ * [import](../reference/timew-import.1/)
  * [get](../reference/timew-get.1/)
  * [gaps](../reference/timew-gaps.1/)
 

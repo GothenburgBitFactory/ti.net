@@ -1,0 +1,59 @@
+= timew-fill(1)
+
+== NAME
+timew-fill - adjust intervals to fill in surrounding gaps
+
+== SYNOPSIS
+[verse]
+*timew fill* _<id>_
+
+== DESCRIPTION
+The 'fill' command is used to adjust any interval to fill in surrounding gaps.
+
+Filling the first or latest interval will result only in a forward-fill or backward-fill respectively, i.e. the fill command will not create an open interval.
+
+The same effect can be achieved with the 'modify range' command in combination with the ':fill' hint.
+
+== EXAMPLES
+For example, assuming the following intervals:
+
+[source]
+----
+$ timew summary
+
+Wk  Date       Day ID Tags    Start      End    Time   Total
+--- ---------- --- -- ---- -------- -------- ------- -------
+W32 2025-08-10 Sun @3 FOO   8:00:00  9:00:00 1:00:00
+                   @2 BAR  10:00:00 11:00:00 1:00:00
+                   @1 BAZ  12:00:00 13:00:00 1:00:00 3:00:00
+                                                     -------
+                                                     3:00:00
+----
+
+Then having selected '@2' as the interval you wish to fill:
+
+[source]
+----
+$ timew fill @2
+Backfilled @2 to 2025-08-10T09:00:00
+Filled @2 to 2025-08-10T12:00:00
+----
+
+This will extend the start and end of the selected interval to the adjacent ones:
+
+[source]
+----
+$ timew summary
+
+Wk  Date       Day ID Tags    Start      End    Time   Total
+--- ---------- --- -- ---- -------- -------- ------- -------
+W32 2025-08-10 Sun @3 FOO   8:00:00  9:00:00 1:00:00
+                   @2 BAR   9:00:00 12:00:00 3:00:00
+                   @1 BAZ  12:00:00 13:00:00 1:00:00 5:00:00
+                                                     -------
+                                                     5:00:00
+----
+
+== SEE ALSO
+link:../../reference/timew-modify.1/[*timew-modify*(1)],
+link:../../reference/timew-hints.7/[*timew-hints*(7)]
