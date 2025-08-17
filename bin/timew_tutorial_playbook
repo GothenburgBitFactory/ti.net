@@ -11,6 +11,9 @@ echo '--8<--IGNORE'
 echo '$ timew'
 faketime -f "@${DATE} 08:00:00" timew <<< "yes"
 echo '$ ▒'
+echo '$ timew --version'
+faketime -f "@${DATE} 08:00:00" timew --version
+echo '$ ▒'
 ##################################################
 ## Tutorial - simple -
 echo '--8<--simple-start-first'
