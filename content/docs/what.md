@@ -2,26 +2,34 @@
 lang: en
 title: 'Timewarrior - What is it?'
 viewport: 'width=device-width, initial-scale=1'
+hide_toc: true
 ---
 
-## What does Timewarrior do?
+## What is Timewarrior?
 
-{{< lead >}}Timewarrior tracks and reports time from the command line.{{< /lead >}}
+Timewarrior is a fast, scriptable time tracking tool designed for the terminal.
+It lets you track time on tasks with simple commands like `timew start` and `timew stop`.
 
-Timewarrior is a command line time tracking application, which allows you to record time spent on activities.
-You may be tracking your time because your work requires it, or simply for curiosity.
+Whether for work, billing, or personal productivity, it helps you understand how you spend your time – without GUI overhead.
 
-## Why do I need Timewarrior?
+## Why use Timewarrior?
 
-We are not trying to convince you to track your time.
-But if you already do, or want to begin, then Timewarrior aims to be your preferred choice.
+If you live in the terminal, Timewarrior fits naturally into your workflow.
 
-Timewarrior allows you to track your time from any shell you have at hand, no need for a permanent running application.
-It tracks your time and then gets out of your way.
+- **No background processes**: Runs on-demand, then exits – light on resources.
+- **Full control**: Start, stop, and adjust time intervals anytime.
+- **Flexible data management**: Add tags, edit intervals, and correct mistakes retroactively.
+- **Rich reporting**: Generate summaries, filter by tag or date, and visualize time usage.
+- **Extensible**: Export data, integrate with scripts, and build custom reports.
 
-You will be able to track your time intelligently, and then later generate useful visual or tabular reports of that time.
-Built-in reports, as well as an extension API allowing to process your data with any programming language will give you plenty of options.
+It’s simple to start, yet powerful enough for complex tracking needs.
 
-So if you are looking for a simple, yet powerful time tracking solution, Timewarrior is for you.
+## Beyond the basics
 
-Give Timewarrior a try (see [How to install Timewarrior](../install/)) and see if it fits your needs.
+Timewarrior grows with you:
+- Extend functionality via scripts.
+- Customize behavior through configuration.
+- Support for holidays, exclusions, and multi-day reports.
+
+Ready to take control of your time?  
+👉 [Install Timewarrior](../install/) and get started in seconds.
