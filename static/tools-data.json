@@ -331,7 +331,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-05-09",
+    "updated": "2025-08-18",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1997,6 +1997,22 @@
     "rating": 0,
     "updated": "2025-08-17",
     "url": "https://github.com/tobixen/aw-export-timewarrior"
+  },
+  {
+    "archived": false,
+    "description": "Various scripts and stuff",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-tools",
+    "owner": [
+      "tobixen"
+    ],
+    "rating": 0,
+    "updated": "2025-08-18",
+    "url": "https://github.com/tobixen/timewarrior-tools"
   },
   {
     "archived": false,
