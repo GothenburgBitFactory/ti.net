@@ -1962,7 +1962,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2025-08-19",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -1978,7 +1978,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2025-08-14",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
