@@ -1105,7 +1105,7 @@
   {
     "archived": false,
     "description": "A flextime extension to be used with timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1979,7 +1979,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 51,
-    "updated": "2025-08-14",
+    "updated": "2025-08-23",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
