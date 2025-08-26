@@ -331,7 +331,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-08-22",
+    "updated": "2025-08-26",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1211,7 +1211,7 @@
       "lauft"
     ],
     "rating": 64,
-    "updated": "2023-12-11",
+    "updated": "2025-08-25",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -1627,7 +1627,7 @@
       "raicem"
     ],
     "rating": 0,
-    "updated": "2025-07-11",
+    "updated": "2025-08-25",
     "url": "https://github.com/raicem/i3blocks-timewarrior"
   },
   {
@@ -1677,6 +1677,22 @@
     "rating": 4,
     "updated": "2021-12-12",
     "url": "https://github.com/rc2dev/timew-web-report"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "timewarrior-extensions",
+    "owner": [
+      "rswrz"
+    ],
+    "rating": 0,
+    "updated": "2025-07-02",
+    "url": "https://github.com/rswrz/timewarrior-extensions"
   },
   {
     "archived": false,
