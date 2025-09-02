@@ -11,7 +11,7 @@ timew-import - import time-tracking data from files
 Import tracked time from `file`.
 If no files are specified, the command will read from standard input.
 
-The data to import has to be in JSON format, as exported by *link:../../reference/timew-export*.1/[link:../../reference/timew-export*.1/[link:../../reference/timew-export*.1/[link:../../reference/timew-export*.1/[link:../../reference/timew-export*.1/[*timew-export**(1)]]]]], i.e. a single array with interval objects.
+The data to import has to be in JSON format, as exported by link:../../reference/timew-export.1/[*timew-export*(1)], i.e. a single array with interval objects.
 
 When importing, the intervals are checked for overlaps with existing intervals.
 If an overlap is found, the import will abort at the first overlap and no more intervals are imported, unless the `:adjust` hint is specified.
