@@ -1887,7 +1887,7 @@
     "url": "https://github.com/sruffell/timewarrior-timesheet-report"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "A PySimpleGUI based GUI for timewarrior for quick time entry",
     "dormant": true,
     "language": [
