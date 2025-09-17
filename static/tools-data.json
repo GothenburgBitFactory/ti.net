@@ -48,6 +48,22 @@
   },
   {
     "archived": false,
+    "description": "TimSum is a python script that allows users to see their timewarrior's summary more beautifully",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timsum",
+    "owner": [
+      "Adnan-Malik-26"
+    ],
+    "rating": 0,
+    "updated": "2025-09-16",
+    "url": "https://github.com/Adnan-Malik-26/timsum"
+  },
+  {
+    "archived": false,
     "description": null,
     "dormant": false,
     "language": [
