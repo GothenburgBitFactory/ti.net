@@ -1402,7 +1402,7 @@
     "owner": [
       "moiSentineL"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-05-16",
     "url": "https://github.com/moiSentineL/timew-fish-completions"
   },
@@ -1530,7 +1530,7 @@
     "owner": [
       "pfmephisto"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2025-09-04",
     "url": "https://github.com/pfmephisto/timew-fishcompletion"
   },
@@ -1995,7 +1995,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 52,
-    "updated": "2025-09-22",
+    "updated": "2025-09-27",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
@@ -2090,7 +2090,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
