@@ -507,7 +507,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-10-28",
+    "updated": "2025-10-29",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -765,6 +765,22 @@
     "rating": 0,
     "updated": "2025-03-16",
     "url": "https://github.com/d3vv3/workpackage_tracker"
+  },
+  {
+    "archived": false,
+    "description": "Quickshell Timewarrior integration",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "qs-timew",
+    "owner": [
+      "dabstractor"
+    ],
+    "rating": 0,
+    "updated": "2025-10-29",
+    "url": "https://github.com/dabstractor/qs-timew"
   },
   {
     "archived": false,
@@ -1946,7 +1962,7 @@
     "owner": [
       "tassos"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2024-07-19",
     "url": "https://github.com/tassos/timewarrior-indicator"
   },
