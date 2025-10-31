@@ -80,6 +80,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-system-with-holidays",
+    "owner": [
+      "Bastika07"
+    ],
+    "rating": 0,
+    "updated": "2025-10-30",
+    "url": "https://github.com/Bastika07/timewarrior-system-with-holidays"
+  },
+  {
+    "archived": false,
     "description": "Extension for Timewarrior.",
     "dormant": true,
     "language": [
