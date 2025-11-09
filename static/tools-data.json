@@ -1009,7 +1009,7 @@
   {
     "archived": false,
     "description": "This extension create a link between taskwarrior and timewarrior that allows you to keep track of time spend on tasks. The time will be displayed in a new column in taskwarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
