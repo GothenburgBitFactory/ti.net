@@ -363,7 +363,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-11-10",
+    "updated": "2025-11-11",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -827,7 +827,7 @@
       "danteu"
     ],
     "rating": 12,
-    "updated": "2025-11-10",
+    "updated": "2025-11-11",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
   {
@@ -1018,14 +1018,14 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
   {
     "archived": false,
     "description": "Alfred workflow for timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "TypeScript"
     ],
@@ -2043,7 +2043,7 @@
       "tobixen"
     ],
     "rating": 0,
-    "updated": "2025-08-19",
+    "updated": "2025-11-11",
     "url": "https://github.com/tobixen/aw-export-timewarrior"
   },
   {
