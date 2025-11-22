@@ -427,7 +427,7 @@
       "artnim"
     ],
     "rating": 0,
-    "updated": "2024-12-20",
+    "updated": "2025-11-21",
     "url": "https://github.com/artnim/timewarrior-timesheet"
   },
   {
@@ -1280,6 +1280,22 @@
   },
   {
     "archived": false,
+    "description": "A Timewarrior-based time tracker for mpv.",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "mediaw",
+    "owner": [
+      "linguisticmind"
+    ],
+    "rating": 0,
+    "updated": "2025-11-21",
+    "url": "https://github.com/linguisticmind/mediaw"
+  },
+  {
+    "archived": false,
     "description": "Timewarrior extension for management of working hours",
     "dormant": false,
     "language": [
@@ -1771,7 +1787,7 @@
       "sarnold"
     ],
     "rating": 2,
-    "updated": "2025-11-10",
+    "updated": "2025-11-21",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
