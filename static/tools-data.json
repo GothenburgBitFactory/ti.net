@@ -672,6 +672,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior extension to record time spent to gitlab",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "gitlab-spend",
+    "owner": [
+      "crossbone-magister"
+    ],
+    "rating": 0,
+    "updated": "2025-11-25",
+    "url": "https://github.com/crossbone-magister/gitlab-spend"
+  },
+  {
+    "archived": false,
     "description": "Timewarrior extension to calculate total hours per day",
     "dormant": false,
     "language": [
@@ -763,7 +779,7 @@
       "crossbone-magister"
     ],
     "rating": 1,
-    "updated": "2025-11-24",
+    "updated": "2025-11-25",
     "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
