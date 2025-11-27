@@ -139,7 +139,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2025-11-24",
+    "updated": "2025-11-26",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -493,6 +493,22 @@
     "rating": 0,
     "updated": "2024-07-21",
     "url": "https://github.com/azagoskin/ytpush"
+  },
+  {
+    "archived": false,
+    "description": "Wrapper of timewarrior that makes it more human",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "timew-clock",
+    "owner": [
+      "bcamp1"
+    ],
+    "rating": 0,
+    "updated": "2025-11-27",
+    "url": "https://github.com/bcamp1/timew-clock"
   },
   {
     "archived": false,
@@ -1259,7 +1275,7 @@
       "lauft"
     ],
     "rating": 66,
-    "updated": "2025-11-24",
+    "updated": "2025-11-26",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -1517,6 +1533,22 @@
     "rating": 5,
     "updated": "2019-02-17",
     "url": "https://github.com/nicovillanueva/timew-to-sheets"
+  },
+  {
+    "archived": false,
+    "description": "A thin wrapper around timewarrior to manage time from the terminal",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "ttyme-tracker",
+    "owner": [
+      "noahsc0tt"
+    ],
+    "rating": 0,
+    "updated": "2025-11-27",
+    "url": "https://github.com/noahsc0tt/ttyme-tracker"
   },
   {
     "archived": false,
