@@ -363,7 +363,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2025-11-24",
+    "updated": "2025-11-27",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -499,7 +499,7 @@
     "description": "Wrapper of timewarrior that makes it more human",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": null,
     "name": "timew-clock",
@@ -1536,7 +1536,7 @@
   },
   {
     "archived": false,
-    "description": "A thin wrapper around timewarrior to manage time from the terminal",
+    "description": "A timewarrior wrapper to track time from the terminal",
     "dormant": false,
     "language": [
       "Shell"
