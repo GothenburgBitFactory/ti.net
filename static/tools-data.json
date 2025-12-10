@@ -433,7 +433,7 @@
   {
     "archived": false,
     "description": "Script to synchronize timewarrior data with JIRA tempo",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -522,7 +522,7 @@
     "owner": [
       "bimlas"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2024-02-04",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
   },
@@ -539,7 +539,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-12-07",
+    "updated": "2025-12-10",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
