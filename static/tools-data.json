@@ -224,22 +224,6 @@
   },
   {
     "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
-      "C#"
-    ],
-    "license": null,
-    "name": "MYST_TimeWarrior",
-    "owner": [
-      "RobertCarleton"
-    ],
-    "rating": 0,
-    "updated": "2025-02-27",
-    "url": "https://github.com/RobertCarleton/MYST_TimeWarrior"
-  },
-  {
-    "archived": false,
     "description": "Ansible role managing timewarrior installations on a machine.",
     "dormant": false,
     "language": [
@@ -528,22 +512,6 @@
   },
   {
     "archived": false,
-    "description": "A CRM for TaskWarrior-TimeWarrior integration",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "cocli",
-    "owner": [
-      "bizkite-co"
-    ],
-    "rating": 0,
-    "updated": "2025-12-22",
-    "url": "https://github.com/bizkite-co/cocli"
-  },
-  {
-    "archived": false,
     "description": "An inofficial Android companion for TimeWarrior",
     "dormant": false,
     "language": [
@@ -816,22 +784,6 @@
   },
   {
     "archived": false,
-    "description": "Quickshell Timewarrior integration",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "qs-timew",
-    "owner": [
-      "dabstractor"
-    ],
-    "rating": 0,
-    "updated": "2025-10-29",
-    "url": "https://github.com/dabstractor/qs-timew"
-  },
-  {
-    "archived": false,
     "description": "A TimeWarrior report to automate hours claiming",
     "dormant": true,
     "language": [
@@ -925,22 +877,6 @@
     "rating": 4,
     "updated": "2024-02-21",
     "url": "https://github.com/eliasCVII/timew.nvim"
-  },
-  {
-    "archived": false,
-    "description": "This is GothenburgBitFactory script that syncs task and timewarrior so that you have much easier timekeeping.",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "on-modify.timewarrior",
-    "owner": [
-      "f1redf0x"
-    ],
-    "rating": 0,
-    "updated": "2025-02-17",
-    "url": "https://github.com/f1redf0x/on-modify.timewarrior"
   },
   {
     "archived": false,
@@ -1488,22 +1424,6 @@
   },
   {
     "archived": false,
-    "description": "A Timewarrior extension to track your overtime on a weekly basis.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tw-overtime",
-    "owner": [
-      "n4tht4n"
-    ],
-    "rating": 0,
-    "updated": "2024-10-28",
-    "url": "https://github.com/n4tht4n/tw-overtime"
-  },
-  {
-    "archived": false,
     "description": null,
     "dormant": true,
     "language": [
@@ -1837,22 +1757,6 @@
     "rating": 2,
     "updated": "2025-12-15",
     "url": "https://github.com/sarnold/timew-addons"
-  },
-  {
-    "archived": false,
-    "description": "Software User Manual for Timew-Addons in reStructuredText",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "timew-addons-sum",
-    "owner": [
-      "sarnold"
-    ],
-    "rating": 1,
-    "updated": "2025-07-05",
-    "url": "https://github.com/sarnold/timew-addons-sum"
   },
   {
     "archived": false,
