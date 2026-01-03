@@ -2090,7 +2090,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
@@ -2113,7 +2113,7 @@
   {
     "archived": false,
     "description": "Timewarrior extension to report total time per week",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -2123,7 +2123,7 @@
       "wshanks"
     ],
     "rating": 0,
-    "updated": "2020-06-27",
+    "updated": "2026-01-02",
     "url": "https://github.com/wshanks/timewarrior-weekly"
   }
 ]
