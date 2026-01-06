@@ -810,7 +810,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-11-11",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
@@ -986,7 +986,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -1178,7 +1178,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-06-29",
     "url": "https://github.com/kgoettler/twe"
   },
@@ -1210,7 +1210,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2025-11-26",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1601,7 +1601,7 @@
   {
     "archived": false,
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -1611,7 +1611,7 @@
       "radarsymphony"
     ],
     "rating": 1,
-    "updated": "2022-04-11",
+    "updated": "2026-01-05",
     "url": "https://github.com/radarsymphony/taskwarrior-hooks"
   },
   {
