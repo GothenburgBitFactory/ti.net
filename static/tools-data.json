@@ -1050,7 +1050,7 @@
     "owner": [
       "ianmkenney"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2025-10-08",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
@@ -1755,7 +1755,7 @@
       "sarnold"
     ],
     "rating": 2,
-    "updated": "2026-01-06",
+    "updated": "2026-01-12",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
@@ -2011,7 +2011,7 @@
       "tobixen"
     ],
     "rating": 0,
-    "updated": "2026-01-11",
+    "updated": "2026-01-12",
     "url": "https://github.com/tobixen/aw-export-timewarrior"
   },
   {
