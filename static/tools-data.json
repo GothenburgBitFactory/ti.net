@@ -1377,7 +1377,7 @@
   {
     "archived": false,
     "description": "Timewarrior Cheat Sheet",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "TeX"
     ],
