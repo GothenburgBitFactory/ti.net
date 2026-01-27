@@ -218,7 +218,7 @@
     "owner": [
       "MicroMichaelIE"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-04-29",
     "url": "https://github.com/MicroMichaelIE/timewarrior-mcp"
   },
@@ -2011,7 +2011,7 @@
       "tobixen"
     ],
     "rating": 0,
-    "updated": "2026-01-12",
+    "updated": "2026-01-27",
     "url": "https://github.com/tobixen/aw-export-timewarrior"
   },
   {
@@ -2027,7 +2027,7 @@
       "tobixen"
     ],
     "rating": 0,
-    "updated": "2026-01-10",
+    "updated": "2026-01-26",
     "url": "https://github.com/tobixen/timewarrior-tools"
   },
   {
