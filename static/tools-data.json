@@ -1521,7 +1521,7 @@
   {
     "archived": false,
     "description": "Taskwarrior and timewarrior widget for awesome",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Lua"
     ],
