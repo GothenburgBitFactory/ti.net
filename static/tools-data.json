@@ -1386,7 +1386,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
   },
@@ -1517,6 +1517,22 @@
     "rating": 4,
     "updated": "2023-03-03",
     "url": "https://github.com/omar-mohamed-khallaf/Timewarrior-Pomodoro"
+  },
+  {
+    "archived": false,
+    "description": "Timewarrior extension to get monthly overview in a tabbed format.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "The Unlicense",
+    "name": "timew-monthly-tabbed-extension",
+    "owner": [
+      "peterdb"
+    ],
+    "rating": 0,
+    "updated": "2026-01-30",
+    "url": "https://github.com/peterdb/timew-monthly-tabbed-extension"
   },
   {
     "archived": false,
