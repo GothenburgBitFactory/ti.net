@@ -250,7 +250,7 @@
     "owner": [
       "Spreadcat"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-10-16",
     "url": "https://github.com/Spreadcat/ansible-role-timewarrior"
   },
@@ -561,7 +561,7 @@
   {
     "archived": false,
     "description": "An extension for https://timewarrior.net/ that helps summarizing work hours/minutes spend on specific tags",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -970,7 +970,7 @@
     "owner": [
       "gabor-boros"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2024-06-14",
     "url": "https://github.com/gabor-boros/minutes"
   },
@@ -1114,7 +1114,7 @@
     "owner": [
       "iurobpn"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-08-20",
     "url": "https://github.com/iurobpn/tasks.nvim"
   },
@@ -1210,7 +1210,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2025-06-29",
     "url": "https://github.com/kgoettler/twe"
   },
@@ -1322,7 +1322,7 @@
     "owner": [
       "luisfer-cli"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-08-10",
     "url": "https://github.com/luisfer-cli/autotrack.nvim"
   },
@@ -1787,7 +1787,7 @@
       "samuelallan72"
     ],
     "rating": 0,
-    "updated": "2025-07-22",
+    "updated": "2026-02-03",
     "url": "https://github.com/samuelallan72/tempoit"
   },
   {
@@ -2027,7 +2027,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 28,
-    "updated": "2026-02-02",
+    "updated": "2026-02-03",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
