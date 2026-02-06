@@ -1552,6 +1552,22 @@
   },
   {
     "archived": false,
+    "description": "fish plugin with timewarrior completions and functions",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "timew-fish-plugin",
+    "owner": [
+      "peterdb"
+    ],
+    "rating": 0,
+    "updated": "2026-02-05",
+    "url": "https://github.com/peterdb/timew-fish-plugin"
+  },
+  {
+    "archived": false,
     "description": "Timewarrior extension to get monthly overview in a tabbed format.",
     "dormant": false,
     "language": [
