@@ -107,7 +107,7 @@
       "BuilderMoose"
     ],
     "rating": 0,
-    "updated": "2026-02-19",
+    "updated": "2026-02-20",
     "url": "https://github.com/BuilderMoose/timewarrior-projected-vs-actual"
   },
   {
@@ -155,7 +155,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-02-16",
+    "updated": "2026-02-19",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1949,6 +1949,22 @@
     "rating": 3,
     "updated": "2026-01-28",
     "url": "https://github.com/smemsh/taskwtools"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "timewarrior-exporter",
+    "owner": [
+      "somethim"
+    ],
+    "rating": 0,
+    "updated": "2026-02-19",
+    "url": "https://github.com/somethim/timewarrior-exporter"
   },
   {
     "archived": false,
