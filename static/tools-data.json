@@ -208,22 +208,6 @@
   },
   {
     "archived": false,
-    "description": null,
-    "dormant": true,
-    "language": [
-      "C#"
-    ],
-    "license": null,
-    "name": "TimeWarrior",
-    "owner": [
-      "Lvl3Mage"
-    ],
-    "rating": 1,
-    "updated": "2023-02-09",
-    "url": "https://github.com/Lvl3Mage/TimeWarrior"
-  },
-  {
-    "archived": false,
     "description": "An set of segments for powerline to display activities tracked by timewarrior",
     "dormant": true,
     "language": [
@@ -829,6 +813,22 @@
     "rating": 0,
     "updated": "2025-03-16",
     "url": "https://github.com/d3vv3/workpackage_tracker"
+  },
+  {
+    "archived": false,
+    "description": "Quickshell Timewarrior integration",
+    "dormant": false,
+    "language": [
+      "QML"
+    ],
+    "license": "MIT License",
+    "name": "qs-timew",
+    "owner": [
+      "dabstractor"
+    ],
+    "rating": 0,
+    "updated": "2026-01-08",
+    "url": "https://github.com/dabstractor/qs-timew"
   },
   {
     "archived": false,
