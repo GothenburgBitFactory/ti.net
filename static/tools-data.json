@@ -192,19 +192,19 @@
   },
   {
     "archived": false,
-    "description": "Bash scripts and .NET program for automating TaskWarrior and TimeWarrior tasks creation and exporting process",
+    "description": "A COSMIC panel applet that lets you keep easy track of Timewarrior and Taskwarrior. Be sure to \u2b50 the repo. ",
     "dormant": false,
     "language": [
-      "N/A"
+      "Rust"
     ],
     "license": null,
-    "name": "DailyPlanner",
+    "name": "cosmic-applet-timewarrior",
     "owner": [
-      "KsenoxCr"
+      "Laeborg"
     ],
-    "rating": 0,
-    "updated": "2025-04-05",
-    "url": "https://github.com/KsenoxCr/DailyPlanner"
+    "rating": 1,
+    "updated": "2026-02-26",
+    "url": "https://github.com/Laeborg/cosmic-applet-timewarrior"
   },
   {
     "archived": false,
