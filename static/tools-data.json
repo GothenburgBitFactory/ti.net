@@ -129,7 +129,7 @@
   {
     "archived": false,
     "description": "Read-only mirror of https://gitlab.com/FoxAmes/timewarrior-jirapush",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -1835,7 +1835,7 @@
       "sarnold"
     ],
     "rating": 2,
-    "updated": "2026-01-12",
+    "updated": "2026-02-27",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
