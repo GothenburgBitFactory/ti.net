@@ -435,6 +435,22 @@
     "description": null,
     "dormant": false,
     "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "timewarrior.nvim",
+    "owner": [
+      "aquaherd"
+    ],
+    "rating": 0,
+    "updated": "2026-02-28",
+    "url": "https://github.com/aquaherd/timewarrior.nvim"
+  },
+  {
+    "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
       "Python"
     ],
     "license": "MIT License",
@@ -1227,7 +1243,7 @@
       "kgoettler"
     ],
     "rating": 8,
-    "updated": "2025-06-29",
+    "updated": "2026-02-28",
     "url": "https://github.com/kgoettler/twe"
   },
   {
