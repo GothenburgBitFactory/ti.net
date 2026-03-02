@@ -560,6 +560,22 @@
   },
   {
     "archived": false,
+    "description": "Taskwarrior backend bridge \u2014 unified sync and hooks for multiple task management platforms",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "tw-bridge",
+    "owner": [
+      "bretwardjames"
+    ],
+    "rating": 0,
+    "updated": "2026-03-02",
+    "url": "https://github.com/bretwardjames/tw-bridge"
+  },
+  {
+    "archived": false,
     "description": "An inofficial Android companion for TimeWarrior",
     "dormant": false,
     "language": [
@@ -1114,7 +1130,7 @@
     "owner": [
       "ianmkenney"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-10-08",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
