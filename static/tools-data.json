@@ -379,7 +379,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2026-02-25",
+    "updated": "2026-03-02",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -443,7 +443,7 @@
       "aquaherd"
     ],
     "rating": 0,
-    "updated": "2026-02-28",
+    "updated": "2026-03-02",
     "url": "https://github.com/aquaherd/timewarrior.nvim"
   },
   {
@@ -1034,7 +1034,7 @@
     "owner": [
       "gallois"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-01-01",
     "url": "https://github.com/gallois/timewarrior.nvim"
   },
@@ -1259,7 +1259,7 @@
       "kgoettler"
     ],
     "rating": 8,
-    "updated": "2026-02-28",
+    "updated": "2026-03-02",
     "url": "https://github.com/kgoettler/twe"
   },
   {
