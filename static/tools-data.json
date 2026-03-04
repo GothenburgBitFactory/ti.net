@@ -379,7 +379,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2026-03-02",
+    "updated": "2026-03-03",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -443,7 +443,7 @@
       "aquaherd"
     ],
     "rating": 0,
-    "updated": "2026-03-02",
+    "updated": "2026-03-03",
     "url": "https://github.com/aquaherd/timewarrior.nvim"
   },
   {
@@ -1258,7 +1258,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2026-03-02",
     "url": "https://github.com/kgoettler/twe"
   },
@@ -1585,7 +1585,7 @@
   {
     "archived": false,
     "description": "A pomodoro timer interface for timewarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C++"
     ],
