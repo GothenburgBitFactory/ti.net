@@ -1552,6 +1552,22 @@
   },
   {
     "archived": false,
+    "description": "Timewarrior is Free and Open Source Software that tracks time from the command line.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior-snap",
+    "owner": [
+      "nqnz"
+    ],
+    "rating": 0,
+    "updated": "2026-03-05",
+    "url": "https://github.com/nqnz/timewarrior-snap"
+  },
+  {
+    "archived": false,
     "description": "A timewarrior extension to produce reports that collate durations for intervals with the same tags",
     "dormant": true,
     "language": [
