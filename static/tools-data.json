@@ -459,7 +459,7 @@
       "aquaherd"
     ],
     "rating": 0,
-    "updated": "2026-03-07",
+    "updated": "2026-03-08",
     "url": "https://github.com/aquaherd/timewarrior.nvim"
   },
   {
@@ -2139,7 +2139,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 28,
-    "updated": "2026-02-03",
+    "updated": "2026-03-09",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
