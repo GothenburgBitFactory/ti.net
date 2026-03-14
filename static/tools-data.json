@@ -576,22 +576,6 @@
   },
   {
     "archived": false,
-    "description": "Taskwarrior backend bridge \u2014 unified sync and hooks for multiple task management platforms",
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "tw-bridge",
-    "owner": [
-      "bretwardjames"
-    ],
-    "rating": 0,
-    "updated": "2026-03-02",
-    "url": "https://github.com/bretwardjames/tw-bridge"
-  },
-  {
-    "archived": false,
     "description": "An inofficial Android companion for TimeWarrior",
     "dormant": false,
     "language": [
@@ -1565,22 +1549,6 @@
     "rating": 0,
     "updated": "2025-12-01",
     "url": "https://github.com/noahsc0tt/ttyme-tracker"
-  },
-  {
-    "archived": false,
-    "description": "Timewarrior is Free and Open Source Software that tracks time from the command line.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "timewarrior-snap",
-    "owner": [
-      "nqnz"
-    ],
-    "rating": 0,
-    "updated": "2026-03-05",
-    "url": "https://github.com/nqnz/timewarrior-snap"
   },
   {
     "archived": false,
