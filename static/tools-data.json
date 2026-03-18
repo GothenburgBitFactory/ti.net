@@ -1264,6 +1264,22 @@
   },
   {
     "archived": false,
+    "description": "Tock is a powerful time tracking tool for the command line.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tock",
+    "owner": [
+      "kriuchkov"
+    ],
+    "rating": 379,
+    "updated": "2026-03-18",
+    "url": "https://github.com/kriuchkov/tock"
+  },
+  {
+    "archived": false,
     "description": "Bash completion for Timewarrior",
     "dormant": false,
     "language": [
