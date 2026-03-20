@@ -1248,6 +1248,22 @@
   },
   {
     "archived": false,
+    "description": "Desktop overlay for Timewarrior showing tracking status, day totals, and start/stop controls",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "timew-overlay",
+    "owner": [
+      "kasimon"
+    ],
+    "rating": 0,
+    "updated": "2026-03-19",
+    "url": "https://github.com/kasimon/timew-overlay"
+  },
+  {
+    "archived": false,
     "description": "Timewarrior extension for power users, including an interactive TUI and a Go package for writing your own extensions.",
     "dormant": false,
     "language": [
