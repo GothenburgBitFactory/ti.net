@@ -352,6 +352,22 @@
   },
   {
     "archived": false,
+    "description": "Use timewarrior annotations as JSON stores.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "tjann",
+    "owner": [
+      "aburg"
+    ],
+    "rating": 0,
+    "updated": "2026-03-20",
+    "url": "https://github.com/aburg/tjann"
+  },
+  {
+    "archived": false,
     "description": null,
     "dormant": true,
     "language": [
@@ -1258,7 +1274,7 @@
     "owner": [
       "kasimon"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2026-03-19",
     "url": "https://github.com/kasimon/timew-overlay"
   },
@@ -1290,8 +1306,8 @@
     "owner": [
       "kriuchkov"
     ],
-    "rating": 379,
-    "updated": "2026-03-18",
+    "rating": 380,
+    "updated": "2026-03-20",
     "url": "https://github.com/kriuchkov/tock"
   },
   {
@@ -2155,7 +2171,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 55,
-    "updated": "2026-03-16",
+    "updated": "2026-03-20",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
