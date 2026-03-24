@@ -411,7 +411,7 @@
       "aibor"
     ],
     "rating": 1,
-    "updated": "2026-03-03",
+    "updated": "2026-03-23",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -475,7 +475,7 @@
       "aquaherd"
     ],
     "rating": 0,
-    "updated": "2026-03-08",
+    "updated": "2026-03-23",
     "url": "https://github.com/aquaherd/timewarrior.nvim"
   },
   {
@@ -1306,7 +1306,7 @@
     "owner": [
       "kriuchkov"
     ],
-    "rating": 382,
+    "rating": 383,
     "updated": "2026-03-20",
     "url": "https://github.com/kriuchkov/tock"
   },
@@ -2154,7 +2154,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2026-03-16",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
@@ -2170,7 +2170,7 @@
     "owner": [
       "timewarrior-synchronize"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2026-03-20",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
