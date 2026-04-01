@@ -747,7 +747,7 @@
       "crossbone-magister"
     ],
     "rating": 0,
-    "updated": "2025-11-25",
+    "updated": "2026-03-31",
     "url": "https://github.com/crossbone-magister/gitlab-spend"
   },
   {
@@ -843,7 +843,7 @@
       "crossbone-magister"
     ],
     "rating": 1,
-    "updated": "2025-11-25",
+    "updated": "2026-03-31",
     "url": "https://github.com/crossbone-magister/timewlib"
   },
   {
@@ -1306,8 +1306,8 @@
     "owner": [
       "kriuchkov"
     ],
-    "rating": 386,
-    "updated": "2026-03-20",
+    "rating": 387,
+    "updated": "2026-04-01",
     "url": "https://github.com/kriuchkov/tock"
   },
   {
