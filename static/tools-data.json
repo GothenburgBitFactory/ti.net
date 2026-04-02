@@ -1008,6 +1008,22 @@
   },
   {
     "archived": false,
+    "description": "Minimal always-on-top desktop time tracker that logs to Google Sheets",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "timewarrior",
+    "owner": [
+      "fshardlow37"
+    ],
+    "rating": 0,
+    "updated": "2026-04-01",
+    "url": "https://github.com/fshardlow37/timewarrior"
+  },
+  {
+    "archived": false,
     "description": " Uses data from taskwarrior and timewarrior to indicate which task should be done next ",
     "dormant": false,
     "language": [
@@ -1306,7 +1322,7 @@
     "owner": [
       "kriuchkov"
     ],
-    "rating": 387,
+    "rating": 388,
     "updated": "2026-04-01",
     "url": "https://github.com/kriuchkov/tock"
   },
