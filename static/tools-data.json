@@ -1306,7 +1306,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2026-03-10",
     "url": "https://github.com/kgoettler/twe"
   },
@@ -1322,8 +1322,8 @@
     "owner": [
       "kriuchkov"
     ],
-    "rating": 391,
-    "updated": "2026-04-06",
+    "rating": 393,
+    "updated": "2026-04-08",
     "url": "https://github.com/kriuchkov/tock"
   },
   {
@@ -2043,7 +2043,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2026-04-06",
+    "updated": "2026-04-07",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -2171,7 +2171,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 30,
-    "updated": "2026-04-07",
+    "updated": "2026-04-08",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-client"
   },
   {
