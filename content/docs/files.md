@@ -7,7 +7,7 @@ hide_toc: true
 
 # File Layout
 
-Since version `1.5.0` Timewarrior adheres to the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+Since version `1.5.0` Timewarrior adheres to the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir/latest/).
 This means it stores its data in `${XDG_DATA_HOME}/timewarrior` and its configuration `${XDG_CONFIG_HOME}/timewarrior`.
 Usually, these environment variables default to `~/.local/share` and `~/.config`, respectively.
 
