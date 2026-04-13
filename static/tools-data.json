@@ -1008,22 +1008,6 @@
   },
   {
     "archived": false,
-    "description": "Minimal always-on-top desktop time tracker that logs to Google Sheets",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "timewarrior",
-    "owner": [
-      "fshardlow37"
-    ],
-    "rating": 0,
-    "updated": "2026-04-01",
-    "url": "https://github.com/fshardlow37/timewarrior"
-  },
-  {
-    "archived": false,
     "description": " Uses data from taskwarrior and timewarrior to indicate which task should be done next ",
     "dormant": false,
     "language": [
@@ -1309,22 +1293,6 @@
     "rating": 10,
     "updated": "2026-03-10",
     "url": "https://github.com/kgoettler/twe"
-  },
-  {
-    "archived": false,
-    "description": "Tock is a powerful time tracking tool for the command line.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "tock",
-    "owner": [
-      "kriuchkov"
-    ],
-    "rating": 395,
-    "updated": "2026-04-08",
-    "url": "https://github.com/kriuchkov/tock"
   },
   {
     "archived": false,
@@ -2043,7 +2011,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2026-04-07",
+    "updated": "2026-04-12",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
