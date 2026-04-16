@@ -426,7 +426,7 @@
     "owner": [
       "aibor"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2026-04-09",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
@@ -1306,7 +1306,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2026-03-10",
     "url": "https://github.com/kgoettler/twe"
   },
@@ -2266,7 +2266,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
