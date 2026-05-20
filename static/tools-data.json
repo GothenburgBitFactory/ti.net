@@ -362,7 +362,7 @@
     "owner": [
       "abuhamza"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2026-03-12",
     "url": "https://github.com/abuhamza/time-warriors"
   },
@@ -945,7 +945,7 @@
   {
     "archived": false,
     "description": "Very simple report app to push timewarrior intervals to Jira Tempo",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -1306,8 +1306,8 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 15,
-    "updated": "2026-03-10",
+    "rating": 16,
+    "updated": "2026-05-19",
     "url": "https://github.com/kgoettler/twe"
   },
   {
@@ -1514,7 +1514,7 @@
     "owner": [
       "mkluge"
     ],
-    "rating": 88,
+    "rating": 87,
     "updated": "2023-01-23",
     "url": "https://github.com/mkluge/timewcs"
   },
@@ -2203,7 +2203,7 @@
       "tobixen"
     ],
     "rating": 0,
-    "updated": "2026-01-27",
+    "updated": "2026-05-19",
     "url": "https://github.com/tobixen/aw-export-timewarrior"
   },
   {
