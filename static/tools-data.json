@@ -289,6 +289,22 @@
   {
     "archived": false,
     "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "Inventario",
+    "owner": [
+      "TimeWarrior-pixel"
+    ],
+    "rating": 0,
+    "updated": "2026-05-25",
+    "url": "https://github.com/TimeWarrior-pixel/Inventario"
+  },
+  {
+    "archived": false,
+    "description": null,
     "dormant": true,
     "language": [
       "Java"
