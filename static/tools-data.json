@@ -1083,7 +1083,7 @@
       "gallois"
     ],
     "rating": 2,
-    "updated": "2025-01-01",
+    "updated": "2026-05-26",
     "url": "https://github.com/gallois/timewarrior.nvim"
   },
   {
@@ -1437,6 +1437,22 @@
     "rating": 3,
     "updated": "2025-08-10",
     "url": "https://github.com/luisfer-cli/autotrack.nvim"
+  },
+  {
+    "archived": false,
+    "description": "Terminal UI for timewarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timewarrior-tui",
+    "owner": [
+      "luizferw"
+    ],
+    "rating": 1,
+    "updated": "2026-05-26",
+    "url": "https://github.com/luizferw/timewarrior-tui"
   },
   {
     "archived": false,
