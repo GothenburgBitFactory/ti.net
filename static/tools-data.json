@@ -2127,7 +2127,7 @@
     "url": "https://github.com/svenXY/timewarrior"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "A Timewarrior report extension for generating invoices in LaTeX",
     "dormant": true,
     "language": [
