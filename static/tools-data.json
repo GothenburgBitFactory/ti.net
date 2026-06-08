@@ -883,15 +883,15 @@
     "description": "A TUI for TimeWarrior",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "timetui",
     "owner": [
       "cultlead3r"
     ],
-    "rating": 0,
-    "updated": "2026-06-06",
+    "rating": 1,
+    "updated": "2026-06-07",
     "url": "https://github.com/cultlead3r/timetui"
   },
   {
