@@ -171,7 +171,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-05-26",
+    "updated": "2026-06-22",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -443,7 +443,7 @@
       "aibor"
     ],
     "rating": 2,
-    "updated": "2026-06-14",
+    "updated": "2026-06-22",
     "url": "https://github.com/aibor/timewarrior-extensions"
   },
   {
@@ -1040,6 +1040,22 @@
   },
   {
     "archived": false,
+    "description": "A small focused time tracker based on Tock.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "toki",
+    "owner": [
+      "finchett"
+    ],
+    "rating": 1,
+    "updated": "2026-06-22",
+    "url": "https://github.com/finchett/toki"
+  },
+  {
+    "archived": false,
     "description": "A command line tool to enhance TimeWarrior's functionalities.",
     "dormant": true,
     "language": [
@@ -1371,7 +1387,7 @@
       "lauft"
     ],
     "rating": 68,
-    "updated": "2026-03-15",
+    "updated": "2026-06-22",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -1963,7 +1979,7 @@
       "sarnold"
     ],
     "rating": 2,
-    "updated": "2026-06-19",
+    "updated": "2026-06-22",
     "url": "https://github.com/sarnold/timew-addons"
   },
   {
@@ -2219,7 +2235,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 59,
-    "updated": "2026-06-19",
+    "updated": "2026-06-22",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
