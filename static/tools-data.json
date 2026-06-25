@@ -1488,6 +1488,22 @@
   },
   {
     "archived": false,
+    "description": "GUI for timewarrior ",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior-web",
+    "owner": [
+      "m4us1ne"
+    ],
+    "rating": 0,
+    "updated": "2026-06-24",
+    "url": "https://github.com/m4us1ne/timewarrior-web"
+  },
+  {
+    "archived": false,
     "description": "A timewarriror provider for german holidays from https://ipty.de/feiertag/",
     "dormant": true,
     "language": [
