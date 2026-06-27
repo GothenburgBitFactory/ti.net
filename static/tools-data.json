@@ -32,6 +32,22 @@
   },
   {
     "archived": false,
+    "description": "A timewarrior extension that ranks the time spent on different tasks and generates a report.",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-extension-rank",
+    "owner": [
+      "APN-Pucky"
+    ],
+    "rating": 0,
+    "updated": "2026-06-26",
+    "url": "https://github.com/APN-Pucky/timew-extension-rank"
+  },
+  {
+    "archived": false,
     "description": "Task/time management using TimeWarrior and friends with browser extensions for JIRA.",
     "dormant": true,
     "language": [
