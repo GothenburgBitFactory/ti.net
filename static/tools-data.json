@@ -497,7 +497,7 @@
   {
     "archived": false,
     "description": "GUI application for presenting Timewarrior data on charts.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
@@ -1021,6 +1021,22 @@
     "rating": 0,
     "updated": "2023-08-08",
     "url": "https://github.com/dev-cyprium/timewarrior-sync-utilities"
+  },
+  {
+    "archived": false,
+    "description": "Docker Compose for Taskwarrior and Timewarrior",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "flexible-finch",
+    "owner": [
+      "dwsmithson"
+    ],
+    "rating": 0,
+    "updated": "2026-07-03",
+    "url": "https://github.com/dwsmithson/flexible-finch"
   },
   {
     "archived": false,
