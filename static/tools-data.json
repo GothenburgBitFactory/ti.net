@@ -42,7 +42,7 @@
     "owner": [
       "APN-Pucky"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2026-06-26",
     "url": "https://github.com/APN-Pucky/timew-extension-rank"
   },
@@ -1035,7 +1035,7 @@
       "dwsmithson"
     ],
     "rating": 0,
-    "updated": "2026-07-03",
+    "updated": "2026-07-04",
     "url": "https://github.com/dwsmithson/flexible-finch"
   },
   {
@@ -1083,7 +1083,7 @@
       "finchett"
     ],
     "rating": 1,
-    "updated": "2026-06-25",
+    "updated": "2026-07-04",
     "url": "https://github.com/finchett/toki"
   },
   {
@@ -1514,7 +1514,7 @@
     "owner": [
       "luizferw"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2026-05-26",
     "url": "https://github.com/luizferw/timewarrior-tui"
   },
@@ -2010,7 +2010,7 @@
     "owner": [
       "samuelallan72"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2026-02-03",
     "url": "https://github.com/samuelallan72/tempoit"
   },
