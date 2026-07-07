@@ -187,7 +187,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-06-22",
+    "updated": "2026-07-06",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1242,7 +1242,7 @@
     "owner": [
       "ianmkenney"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2025-10-08",
     "url": "https://github.com/ianmkenney/timewarrior_zsh_completion"
   },
