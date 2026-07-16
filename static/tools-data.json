@@ -907,7 +907,7 @@
       "cultlead3r"
     ],
     "rating": 2,
-    "updated": "2026-07-10",
+    "updated": "2026-07-15",
     "url": "https://github.com/cultlead3r/timetui"
   },
   {
@@ -1736,11 +1736,11 @@
     "license": "GNU General Public License v3.0",
     "name": "Timewarrior-Pomodoro",
     "owner": [
-      "omar-mohamed-khallaf"
+      "omar-khallaf"
     ],
     "rating": 4,
     "updated": "2023-03-03",
-    "url": "https://github.com/omar-mohamed-khallaf/Timewarrior-Pomodoro"
+    "url": "https://github.com/omar-khallaf/Timewarrior-Pomodoro"
   },
   {
     "archived": false,
@@ -1963,7 +1963,7 @@
       "relegate-to"
     ],
     "rating": 1,
-    "updated": "2026-07-14",
+    "updated": "2026-07-15",
     "url": "https://github.com/relegate-to/tokify"
   },
   {
