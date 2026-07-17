@@ -634,7 +634,7 @@
     "owner": [
       "bimlas"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2024-02-04",
     "url": "https://github.com/bimlas/xfce4-timewarrior"
   },
@@ -1402,7 +1402,7 @@
     "owner": [
       "lauft"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2026-06-22",
     "url": "https://github.com/lauft/timew-report"
   },
@@ -1963,7 +1963,7 @@
       "relegate-to"
     ],
     "rating": 1,
-    "updated": "2026-07-15",
+    "updated": "2026-07-16",
     "url": "https://github.com/relegate-to/tokify"
   },
   {
@@ -2283,7 +2283,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 59,
-    "updated": "2026-07-13",
+    "updated": "2026-07-16",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
