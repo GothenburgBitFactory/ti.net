@@ -1504,6 +1504,22 @@
   },
   {
     "archived": false,
+    "description": "My own attempt on recreating my version of timewarrior and taskwarrior integrated in one binary. It will have a tui aswell as a cli",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "go-warrior",
+    "owner": [
+      "m4kl31n"
+    ],
+    "rating": 0,
+    "updated": "2026-07-17",
+    "url": "https://github.com/m4kl31n/go-warrior"
+  },
+  {
+    "archived": false,
     "description": "GUI for timewarrior ",
     "dormant": false,
     "language": [
@@ -2283,7 +2299,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 59,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
