@@ -187,7 +187,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-07-06",
+    "updated": "2026-07-18",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -301,22 +301,6 @@
     "rating": 0,
     "updated": "2026-02-02",
     "url": "https://github.com/Springdale-Robotics/timew-extensions"
-  },
-  {
-    "archived": false,
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "Inventario",
-    "owner": [
-      "TimeWarrior-pixel"
-    ],
-    "rating": 0,
-    "updated": "2026-05-25",
-    "url": "https://github.com/TimeWarrior-pixel/Inventario"
   },
   {
     "archived": false,
@@ -1403,7 +1387,7 @@
       "lauft"
     ],
     "rating": 69,
-    "updated": "2026-06-22",
+    "updated": "2026-07-18",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -1501,22 +1485,6 @@
     "rating": 2,
     "updated": "2026-05-26",
     "url": "https://github.com/luizferw/timewarrior-tui"
-  },
-  {
-    "archived": false,
-    "description": "My own attempt on recreating my version of timewarrior and taskwarrior integrated in one binary. It will have a tui aswell as a cli",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "go-warrior",
-    "owner": [
-      "m4kl31n"
-    ],
-    "rating": 0,
-    "updated": "2026-07-17",
-    "url": "https://github.com/m4kl31n/go-warrior"
   },
   {
     "archived": false,
@@ -1979,7 +1947,7 @@
       "relegate-to"
     ],
     "rating": 1,
-    "updated": "2026-07-16",
+    "updated": "2026-07-18",
     "url": "https://github.com/relegate-to/tokify"
   },
   {
@@ -2299,7 +2267,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 59,
-    "updated": "2026-07-17",
+    "updated": "2026-07-18",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
