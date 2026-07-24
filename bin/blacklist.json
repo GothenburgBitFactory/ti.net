@@ -22,6 +22,7 @@
     "https://github.com/ansible-roles-group/ansible-role-taskwarrior": "is an Ansible role for Taskwarrior only",
     "https://github.com/azagoskin/trpush": "is an empty project",
     "https://github.com/beautifulife/timeWarrior": "is a project with no relation to Timewarrior",
+    "https://github.com/bitfieldz/timew-spirotot": "is just a Snap file",
     "https://github.com/bizkite-co/cocli": "has not a clear relation to Timewarrior",
     "https://github.com/bretwardjames/tw-bridge": "does not seem to use Timewarrior",
     "https://github.com/cazou/timewarrior-rs": "is a reimplementation of Timewarrior",
