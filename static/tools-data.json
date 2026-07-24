@@ -736,6 +736,22 @@
   },
   {
     "archived": false,
+    "description": "Pomodoro session runner with pomw + Taskwarrior + Timewarrior integration",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "pomtimer",
+    "owner": [
+      "christianmorales-hue"
+    ],
+    "rating": 0,
+    "updated": "2026-07-23",
+    "url": "https://github.com/christianmorales-hue/pomtimer"
+  },
+  {
+    "archived": false,
     "description": "Docker environment for taskwarrior/timewarrior/etc.",
     "dormant": false,
     "language": [
@@ -1403,7 +1419,7 @@
       "lauft"
     ],
     "rating": 69,
-    "updated": "2026-07-20",
+    "updated": "2026-07-23",
     "url": "https://github.com/lauft/timew-report"
   },
   {
@@ -1963,7 +1979,7 @@
       "relegate-to"
     ],
     "rating": 1,
-    "updated": "2026-07-19",
+    "updated": "2026-07-23",
     "url": "https://github.com/relegate-to/tokify"
   },
   {
