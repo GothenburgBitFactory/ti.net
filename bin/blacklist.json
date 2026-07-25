@@ -29,7 +29,6 @@
     "https://github.com/davidbgonz/timewarrior": "has no apparent relation to Timewarrior (yet)",
     "https://github.com/drcoccodrillus/snap-timewarrior": "is just a Snap file for Timewarrior",
     "https://github.com/f1redf0x/on-modify.timewarrior": "just a copy of the on-modify.timewarrior hook",
-    "https://github.com/fshardlow37/timewarrior": "is a project with no relation to Timewarrior",
     "https://github.com/gari/timewarrior-extensions": "is a copy of the Timewarrior extensions",
     "https://github.com/jblawatt/gott": "is another time tracking utility",
     "https://github.com/kriuchkov/tock": "does not use the Timewarrior API",
@@ -45,7 +44,7 @@
     "https://github.com/salastro/dotfiles": "is just a collection of dotfiles",
     "https://github.com/sarnold/timew-addons-sum": "is just the software user manual for github.com/sarnold/timew-addons",
     "https://github.com/simmel/timewarrior-early-morning-are-you-working": "is an empty project",
-    "https://github.com/smemsh/cmdhist": "is an empty repository",
+    "https://github.com/smemsh/cmdhist": "is already tracked with taskwtools",
     "https://github.com/solus-packages/timewarrior": "is a Solus package, not a tool",
     "https://github.com/tom-doerr/timewarrior_analytics": "is an empty repository"
 }
