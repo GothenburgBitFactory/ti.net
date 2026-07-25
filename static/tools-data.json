@@ -624,22 +624,6 @@
   },
   {
     "archived": false,
-    "description": "TimeWarrior snap",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "timew-spirotot",
-    "owner": [
-      "bitfieldz"
-    ],
-    "rating": 0,
-    "updated": "2018-03-19",
-    "url": "https://github.com/bitfieldz/timew-spirotot"
-  },
-  {
-    "archived": false,
     "description": "An inofficial Android companion for TimeWarrior",
     "dormant": false,
     "language": [
