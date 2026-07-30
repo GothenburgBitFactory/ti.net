@@ -187,7 +187,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-07-27",
+    "updated": "2026-07-29",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -301,6 +301,22 @@
     "rating": 0,
     "updated": "2026-02-02",
     "url": "https://github.com/Springdale-Robotics/timew-extensions"
+  },
+  {
+    "archived": false,
+    "description": "Timesheet reporting using timewarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "timewarrior-timesheet",
+    "owner": [
+      "Thaza-Kun"
+    ],
+    "rating": 0,
+    "updated": "2026-07-29",
+    "url": "https://github.com/Thaza-Kun/timewarrior-timesheet"
   },
   {
     "archived": false,
@@ -2283,7 +2299,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 59,
-    "updated": "2026-07-18",
+    "updated": "2026-07-29",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
