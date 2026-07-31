@@ -112,6 +112,22 @@
   },
   {
     "archived": false,
+    "description": "Render charts for your Time Warrior tag distribution",
+    "dormant": false,
+    "language": [
+      "Swift"
+    ],
+    "license": null,
+    "name": "TimeWarriorCharts",
+    "owner": [
+      "Blackjacx"
+    ],
+    "rating": 0,
+    "updated": "2026-07-30",
+    "url": "https://github.com/Blackjacx/TimeWarriorCharts"
+  },
+  {
+    "archived": false,
     "description": "A Python-based extension for Timewarrior that tracks actual time spent against defined monthly project allocations. It automatically calculates your monthly capacity based on your schedule, monitors progress via fixed hours or percentages, and ensures no time falls through the cracks.",
     "dormant": false,
     "language": [
@@ -1979,7 +1995,7 @@
       "relegate-to"
     ],
     "rating": 1,
-    "updated": "2026-07-23",
+    "updated": "2026-07-30",
     "url": "https://github.com/relegate-to/tokify"
   },
   {
