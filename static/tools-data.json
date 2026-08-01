@@ -785,7 +785,7 @@
   {
     "archived": false,
     "description": "bridge from Timewarrior to QuickBooks Time Tracking. Pre-alpha.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -2315,7 +2315,7 @@
       "timewarrior-synchronize"
     ],
     "rating": 59,
-    "updated": "2026-07-29",
+    "updated": "2026-07-31",
     "url": "https://github.com/timewarrior-synchronize/timew-sync-server"
   },
   {
