@@ -1,5 +1,5 @@
 ---
-lang: en
+language: en
 title: 'Timewarrior - What is it?'
 viewport: 'width=device-width, initial-scale=1'
 hide_toc: true

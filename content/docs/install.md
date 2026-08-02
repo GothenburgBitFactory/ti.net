@@ -1,5 +1,5 @@
 ---
-lang: en
+language: en
 title: 'How To Install Timewarrior'
 viewport: 'width=device-width, initial-scale=1'
 ---
@@ -14,6 +14,7 @@ The Gothenburg Bit Factory does not maintain any packages, but thanks to the com
 
 {{< distribution_table >}}
 
+You can find more packages on [repology.org](https://repology.org/project/timew/versions).
 Note that packages are the responsibility of the respective maintainers.
 Please contact them in case of outdated or missing packages.
 

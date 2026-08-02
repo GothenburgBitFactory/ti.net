@@ -1,5 +1,5 @@
 ---
-lang: en
+language: en
 title: 'Timewarrior - Tutorial'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
@@ -17,7 +17,7 @@ This tutorial will give you a good basic understanding of how to use Timewarrior
 It is divided into several sections, each covering a different aspect of Timewarrior.
 They kind of build upon each other, so it is recommended to follow them in order.
 
-All examples in this tutorial were made with Timewarrior version `1.9.0`.
+All examples in this tutorial were made with Timewarrior version `{{< current_release version >}}`.
 If you are using a different version, the output might differ.
 
  * [Running Timewarrior for the very first time](first_light/)

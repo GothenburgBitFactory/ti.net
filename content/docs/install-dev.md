@@ -1,5 +1,5 @@
 ---
-lang: en
+language: en
 title: 'How to Install the Development Snapshot'
 viewport: 'width=device-width, initial-scale=1'
 ---

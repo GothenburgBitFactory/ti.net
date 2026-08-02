@@ -1,5 +1,5 @@
 ---
-lang: en
+language: en
 title: 'Timewarrior - Corrections'
 viewport: 'width=device-width, initial-scale=1'
 ---
