@@ -203,7 +203,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-07-29",
+    "updated": "2026-08-03",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -795,7 +795,7 @@
       "codehivetx"
     ],
     "rating": 3,
-    "updated": "2026-08-01",
+    "updated": "2026-08-03",
     "url": "https://github.com/codehivetx/goosebay"
   },
   {
@@ -966,13 +966,13 @@
       "QML"
     ],
     "license": "MIT License",
-    "name": "qs-timew",
+    "name": "quickshell-timew",
     "owner": [
       "dabstractor"
     ],
     "rating": 0,
-    "updated": "2026-01-08",
-    "url": "https://github.com/dabstractor/qs-timew"
+    "updated": "2026-08-04",
+    "url": "https://github.com/dabstractor/quickshell-timew"
   },
   {
     "archived": false,
