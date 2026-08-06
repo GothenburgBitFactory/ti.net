@@ -28,7 +28,6 @@ When called without any further arguments, the `summary` output table will alway
 Therefore, the number at the very bottom of the '`Total`' is identical to the total time of the day.
 
 Timewarrior also assigns a unique ID to each interval, as you can see in the `ID` column.
-The ID column shows up when the `summary` command is called with the `:ids` hint as an argument.
 This ID is useful when you want to refer to a specific interval in other commands.
 
 Timewarrior assigns the ID always in the order of the intervals, starting at the latest interval (which therefore always has the ID `@1`).
