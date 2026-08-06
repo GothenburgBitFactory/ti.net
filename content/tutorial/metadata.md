@@ -9,7 +9,7 @@ hide_toc: true
 
 {{< lead >}}Adding extra information to your tracked time.{{< /lead >}}
 
-In the [previous section](../enhanced/) you added enhanced your time tracking with tags to categorize your intervals.
+In the [previous section](../enhanced/) you enhanced your time tracking with tags to categorize your intervals.
 
 However, you already have tracked some time before without tags (those with IDs `@4`, `@5`, and `@6`):
 
@@ -65,6 +65,6 @@ When you now review your tracked time, all intervals have tags:
 Now that your tracked time has more information, you now notice that there is a gap between the intervals with ID `@3` and `@4`, where you forgot to track time.
 Is there a way to correct this?
 
-In the [next section](../precise/), you will see how you can use time information to fix this – and how use them for more precise time tracking.
+In the [next section](../precise/), you will see how you can use time information to fix this – and how to use them for more precise time tracking.
 
 Or you return to the [Tutorial](..) section and pick another topic of interest.
