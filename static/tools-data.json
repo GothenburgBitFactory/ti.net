@@ -203,7 +203,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2026-08-03",
+    "updated": "2026-08-08",
     "url": "https://github.com/GothenburgBitFactory/task-timewarrior-hook"
   },
   {
@@ -1041,7 +1041,7 @@
   {
     "archived": false,
     "description": "A timewarrior extension focusing on data sync by using a FTP server and Rust",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
