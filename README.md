@@ -23,15 +23,15 @@ To test complex changes, here is how you can run the site locally:
 ## Tools page
 
 Thanks to the community, there are many add-ons available for Timewarrior, listed on the [tools page](https://timewarrior.net/tools).
-The content for this page is generated automatically by a GitHub action which runs once a day.
+The content for this page is generated automatically by a GitHub Action which runs once a day.
 Read below how to get your project listed there.
 
 ### Your project is on GitHub?
 
-The GitHub action queries the GitHub API for repositories with the keyword `timewarrior` as _topic_.
+The GitHub Action queries the GitHub API for repositories with the keyword `timewarrior` as _topic_.
 
 If you want your tool to be listed, just add the topic `timewarrior` to its GitHub repository.
-The GitHub action should then pick it up on the next run.
+The GitHub Action should then pick it up on the next run.
 
 ### Your project is not on GitHub?
 
