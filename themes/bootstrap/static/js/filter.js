@@ -86,7 +86,7 @@ function populateCategories(sortedTools) {
 
 
 /**
- * Populate all of the tools in the given sortedTools with keywords.
+ * Populate all the tools in the given sortedTools with keywords.
  * sortedTools[i].keywords is an array of each of the strings in the tool's:
  * - description
  * - license
@@ -152,9 +152,11 @@ function fillToolsTable(tools, selectedLanguages, selectedOwners) {
 }
 
 
-/** If searchTerm is in keywords (even as a partial match), return true. */
-function searchMatch(searchTerm, keywords) {
-  return searchTerm.every(t => keywords.has(t));
+/** If every searchTerm is a substring of some keyword, return true. */
+function searchMatch(searchTerms, keywords) {
+  return searchTerms.every(t =>
+    [...keywords].some(k => k.includes(t))
+  );
 }
 
 
