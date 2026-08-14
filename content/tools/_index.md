@@ -1,6 +1,5 @@
 ---
 title: "Tools"
-layout: tools
 ---
 
 {{< lead >}}The Timewarrior distribution contains the essential core components.

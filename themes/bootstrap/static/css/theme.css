@@ -140,6 +140,12 @@ footer {
 }
 
 /* Tools page */
+.tools-sidebar {
+  position: sticky;
+  top: 76px;
+  align-self: start;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;

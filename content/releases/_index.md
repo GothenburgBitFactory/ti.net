@@ -1,6 +1,5 @@
 ---
 title: "Releases"
-layout: releases
 ---
 {{< lead >}}Here are the Timewarrior releases.{{< /lead >}}
 
