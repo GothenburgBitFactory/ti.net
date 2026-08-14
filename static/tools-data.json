@@ -1002,7 +1002,7 @@
     "owner": [
       "danteu"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2025-11-11",
     "url": "https://github.com/danteu/timewarrior-tagsum"
   },
@@ -1312,6 +1312,22 @@
   },
   {
     "archived": false,
+    "description": "macOS menu bar applet for [TimeWarrior](https://timewarrior.net/)",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timebar",
+    "owner": [
+      "janfrode"
+    ],
+    "rating": 0,
+    "updated": "2026-08-13",
+    "url": "https://github.com/janfrode/timebar"
+  },
+  {
+    "archived": false,
     "description": "A timewarrior extension for exporting activities to iCalendar files",
     "dormant": false,
     "language": [
@@ -1562,7 +1578,7 @@
     "owner": [
       "madonius"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-01-05",
     "url": "https://github.com/madonius/timewarrior-german-holidays"
   },
@@ -1995,7 +2011,7 @@
       "relegate-to"
     ],
     "rating": 1,
-    "updated": "2026-07-30",
+    "updated": "2026-08-13",
     "url": "https://github.com/relegate-to/tokify"
   },
   {
