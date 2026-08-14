@@ -20,7 +20,7 @@ The name of the program is left-most matched, so that this extension:
 ~/.timewarrior/extensions/my_report.py
 ```
 
-can be run using all of the following commands, depending on the uniqueness of the name:
+can be run using one of the following command lines, depending on the uniqueness of the name:
 
 ```
 $ timew report my_report.py

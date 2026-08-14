@@ -235,4 +235,4 @@ See also how the [holidays](../holidays/) are shown, in this case with 2016-05-3
 The day is marked as an exclusion, and the date grayed out.
 
 Many of the elements of the `day` report are customizable.
-For a complete set of all configuration settings, use the `man timew` command for all supoprted overrides.
+For a complete set of all configuration settings, use the `man timew` command for all supported overrides.

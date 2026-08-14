@@ -47,7 +47,7 @@ $ timew summary saturday
 Timewarrior is very flexible about specifying intervals.
 See the [interval syntax](../interval/) page for full details.
 
-In addition there are hints that correspond to preset data ranges for added convenience.
+In addition, there are hints that correspond to preset data ranges for added convenience.
 Here are some of them used in this context, but not matching the 'today' example above:
 
 ```console

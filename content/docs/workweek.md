@@ -8,7 +8,7 @@ hide_toc: true
 # Work Week
 
 Timewarrior can do more for you if it knows your work patterns.
-Currently this means your daily work schedule.
+Currently, this means your daily work schedule.
 An example will make this clear.
 
 Suppose it is Monday at \~3pm.
