@@ -608,6 +608,22 @@
   },
   {
     "archived": false,
+    "description": "TimeWarrior TUI",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timewarrior-tui",
+    "owner": [
+      "azagoskin"
+    ],
+    "rating": 0,
+    "updated": "2026-08-14",
+    "url": "https://github.com/azagoskin/timewarrior-tui"
+  },
+  {
+    "archived": false,
     "description": "TimeWarrior extension for uploading timelog to YouTrack",
     "dormant": false,
     "language": [
@@ -1312,19 +1328,19 @@
   },
   {
     "archived": false,
-    "description": "macOS menu bar applet for [TimeWarrior](https://timewarrior.net/)",
+    "description": "macOS menu bar applet for TimeWarrior",
     "dormant": false,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
-    "name": "timebar",
+    "name": "TimeBar",
     "owner": [
       "janfrode"
     ],
-    "rating": 0,
-    "updated": "2026-08-13",
-    "url": "https://github.com/janfrode/timebar"
+    "rating": 1,
+    "updated": "2026-08-14",
+    "url": "https://github.com/janfrode/TimeBar"
   },
   {
     "archived": false,
