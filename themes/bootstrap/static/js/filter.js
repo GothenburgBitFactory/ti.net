@@ -23,7 +23,7 @@ let useCategories;
 
 
 /** Load the tools that are not archived. */
-fetch('../tools-data.json')
+fetch('https://raw.githubusercontent.com/GothenburgBitFactory/gbf-tools-listing/refs/heads/main/timew/tools-data.json')
   .then(response => response.json())
   .then(toolsData => {
     sortedTools = sortTools(toolsData);
