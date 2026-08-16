@@ -30,7 +30,7 @@ fetch('https://raw.githubusercontent.com/GothenburgBitFactory/gbf-tools-listing/
     languages = populateLanguages(sortedTools);
     owners = populateOwners(sortedTools);
 
-    useCategories = sortedTools[0].category !== undefined;
+    useCategories = false; //sortedTools[0].category !== undefined;
     if (useCategories) {
       categories = populateCategories(sortedTools)
       selectedCategories = new Set(categories);
