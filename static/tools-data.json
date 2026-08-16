@@ -811,7 +811,7 @@
       "codehivetx"
     ],
     "rating": 3,
-    "updated": "2026-08-03",
+    "updated": "2026-08-15",
     "url": "https://github.com/codehivetx/goosebay"
   },
   {
@@ -1328,19 +1328,19 @@
   },
   {
     "archived": false,
-    "description": "macOS menu bar applet for TimeWarrior",
+    "description": "Arete \u2014 Time Tracker, TimeWarrior for your macOS menu bar",
     "dormant": false,
     "language": [
       "Python"
     ],
     "license": "GNU General Public License v3.0",
-    "name": "TimeBar",
+    "name": "Arete",
     "owner": [
       "janfrode"
     ],
     "rating": 1,
-    "updated": "2026-08-14",
-    "url": "https://github.com/janfrode/TimeBar"
+    "updated": "2026-08-15",
+    "url": "https://github.com/janfrode/Arete"
   },
   {
     "archived": false,
@@ -1357,6 +1357,22 @@
     "rating": 0,
     "updated": "2025-02-09",
     "url": "https://github.com/jbytes1027/timewarrior-icalendar-export"
+  },
+  {
+    "archived": false,
+    "description": "\u3010\u5df2\u5f52\u6863\u00b7\u91cd\u590d\u4ed3\u3011\u6b63\u8eab\u5728 jiadazhangment-cell/Timewarrior(\u672c\u5730 origin \u6240\u6307)\u3002\u672c\u4ed3\u4e3a 2026-08-09 \u8bef\u5efa\u7684\u540c\u5185\u5bb9\u5907\u4efd,\u5f52\u6863\u7559\u5b58\u3002",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TimeWarrior-Game",
+    "owner": [
+      "jiadazhangment-cell"
+    ],
+    "rating": 0,
+    "updated": "2026-08-09",
+    "url": "https://github.com/jiadazhangment-cell/TimeWarrior-Game"
   },
   {
     "archived": false,
